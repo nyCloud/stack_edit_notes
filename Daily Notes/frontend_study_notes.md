@@ -40,8 +40,10 @@ body: visible content
 ```
 #### 2.4 Image
 ```html
-<img src='/images/log.png' width=
+<img src='/images/log.png' width='100' height='100' />
 ```
+
+### 2.5 
 
 
 ## CSS  
@@ -52,6 +54,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTgyMTY2NiwxMzMzNjA1MjAwLDM0NT
-Q1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbOTY3NjQzMTQ1LDEzMzM2MDUyMDAsMzQ1ND
+U5NDc5LDE5NDcxNjU0MjhdfQ==
 -->
