@@ -24,6 +24,11 @@ body: visible content
 
 
 ### 1.1 Elements in Head
+```html
+<head>
+	<link  rel="stylesheet"  type="text/css"  href="mystyle.css">
+</head>
+```
 
 ### 2.  HTML Elements
 
@@ -70,7 +75,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0MDIxMTUwLDExMDY3OTkxOSw3MDc3NT
+eyJoaXN0b3J5IjpbNDA1MjYxNjA2LDExMDY3OTkxOSw3MDc3NT
 U0ODIsMTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NTQyOF19
 
 -->
