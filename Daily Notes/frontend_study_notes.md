@@ -22,6 +22,9 @@ html: basic root element
 head: meta data
 body: visible content
 
+
+### 1.1 Elements in Head
+
 ### 2.  HTML Elements
 
 #### 2.1 Heading
@@ -67,6 +70,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNj
-A1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbODg0MDIxMTUwLDExMDY3OTkxOSw3MDc3NT
+U0ODIsMTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NTQyOF19
+
 -->
