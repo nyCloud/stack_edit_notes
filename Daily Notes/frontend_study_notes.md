@@ -24,9 +24,19 @@ body: visible content
 
 ### 2.  HTML Elements
 
-#### 2.1 Heading
+- Heading
 ```html
 <h1> Heading is labeled from h1 to h6 </h1>
+```
+
+#### 2.2 Paragraph
+```html
+<p> This is a paragraph </p>
+```
+
+#### 2.3 Link
+```html
+<a href='http://www.google.com'> this is a link </a>
 ```
 
 
@@ -38,6 +48,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTQ3MjM0MCwxMzMzNjA1MjAwLDM0NT
-Q1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbLTE2Mzg5Mzk0NjQsMTMzMzYwNTIwMCwzND
+U0NTk0NzksMTk0NzE2NTQyOF19
 -->
