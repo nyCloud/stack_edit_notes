@@ -32,7 +32,7 @@ body: visible content
 #### 2.2 Paragraph
 ```html
 <p> This is a paragraph </p>
-<p> <b>This is a paragraph </p>
+<p> <b>bold</b> <i>italic</i> </p>
 ```
 
 #### 2.3 Link
@@ -62,6 +62,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjE2Mzg2NCwxMzMzNjA1MjAwLDM0NT
-Q1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbNzA3NzU1NDgyLDEzMzM2MDUyMDAsMzQ1ND
+U5NDc5LDE5NDcxNjU0MjhdfQ==
 -->
