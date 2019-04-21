@@ -22,6 +22,8 @@ html: basic root element
 head: meta data
 body: visible content
 
+### 2. 
+
 ## CSS  
   
 ## Java Script  
@@ -30,5 +32,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbMTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0Nz
+E2NTQyOF19
 -->
