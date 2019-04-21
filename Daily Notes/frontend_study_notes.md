@@ -48,10 +48,10 @@ body: visible content
 <br> <!--change line-->
 ```
 ### 3. HTML Attributes
-* class: 
-* id:
-* style:
-* title:
+* class: class name for html element
+* id: unique id for html element
+* style: assign inline style
+
 ## CSS  
   
 ## Java Script  
@@ -60,6 +60,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDcyODc2NSwxMzMzNjA1MjAwLDM0NT
-Q1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbNjU3NzYzMjczLDEzMzM2MDUyMDAsMzQ1ND
+U5NDc5LDE5NDcxNjU0MjhdfQ==
 -->
