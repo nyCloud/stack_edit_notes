@@ -24,7 +24,7 @@ body: visible content
 
 ### 2.  HTML Elements
 
-- Heading
+#### 2.1 Heading
 ```html
 <h1> Heading is labeled from h1 to h6 </h1>
 ```
@@ -38,6 +38,10 @@ body: visible content
 ```html
 <a href='http://www.google.com'> this is a link </a>
 ```
+#### 2.4 Image
+```html
+<img src='/images/log.png' width=
+```
 
 
 ## CSS  
@@ -48,6 +52,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg5Mzk0NjQsMTMzMzYwNTIwMCwzND
-U0NTk0NzksMTk0NzE2NTQyOF19
+eyJoaXN0b3J5IjpbLTY0NTgyMTY2NiwxMzMzNjA1MjAwLDM0NT
+Q1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
