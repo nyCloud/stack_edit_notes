@@ -32,12 +32,17 @@ body: visible content
 #### 2.2 Paragraph
 ```html
 <p> This is a paragraph </p>
+
+<!-- >
 <p> <b>bold</b> <i>italic</i> </p>
 ```
 
 #### 2.3 Link
 ```html
 <a href='http://www.google.com'> this is a link </a>
+
+<!-- open in a new window -->
+<a href='http://www.google.com' target='_blank'> this is a link </a>
 ```
 #### 2.4 Image
 ```html
@@ -62,6 +67,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NzU1NDgyLDEzMzM2MDUyMDAsMzQ1ND
-U5NDc5LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbMTgzMjg4OTA2LDcwNzc1NTQ4MiwxMzMzNj
+A1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
