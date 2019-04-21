@@ -33,7 +33,7 @@ body: visible content
 ```html
 <p> This is a paragraph </p>
 
-<!-- >
+<!-- bold & italic -->
 <p> <b>bold</b> <i>italic</i> </p>
 ```
 
@@ -67,6 +67,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjg4OTA2LDcwNzc1NTQ4MiwxMzMzNj
+eyJoaXN0b3J5IjpbMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNj
 A1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
