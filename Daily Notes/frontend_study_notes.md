@@ -45,7 +45,8 @@ body: visible content
 
 #### 2.5 Others
 ```html
-<br> <!--change line-->
+<br> <!-- change line -->
+<hr> <!-- split line -->
 ```
 ### 3. HTML Attributes
 * class: class name for html element
@@ -60,6 +61,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3NzYzMjczLDEzMzM2MDUyMDAsMzQ1ND
-U5NDc5LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbMTQxNjQ4NjcwMiwxMzMzNjA1MjAwLDM0NT
+Q1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
