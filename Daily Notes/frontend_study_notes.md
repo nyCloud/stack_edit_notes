@@ -19,7 +19,8 @@ Nan Yu | April 2019
 </html>
 ```
 html: basic root element
-head: meta
+head: meta data
+body: visible content
 
 ## CSS  
   
@@ -29,5 +30,5 @@ head: meta
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ3NDUwNTgsMTk0NzE2NTQyOF19
+eyJoaXN0b3J5IjpbMzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
 -->
