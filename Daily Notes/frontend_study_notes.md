@@ -2,11 +2,11 @@
 Nan Yu | April 2019   
   
 ## HTML  
-### 1. Beief Introduction
+### 1. Brief Introduction
 ```html
 <!DOCTYPE  html>  
 <html>  
-	<head>  
+	<head> 
 		<meta  charset="utf-8">  
 		<title>HTML Introduction</title>  
 	</head>
@@ -18,6 +18,9 @@ Nan Yu | April 2019
 
 </html>
 ```
+html: basic root element
+head: meta
+
 ## CSS  
   
 ## Java Script  
@@ -26,5 +29,5 @@ Nan Yu | April 2019
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTgxMjk0MSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbLTE5NzQ3NDUwNTgsMTk0NzE2NTQyOF19
 -->
