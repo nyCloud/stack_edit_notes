@@ -22,7 +22,13 @@ html: basic root element
 head: meta data
 body: visible content
 
-### 2. 
+### 2.  HTML Elements
+
+#### 2.1 Heading
+```html
+<h1> Heading is labeled from h1 to h6 </h1>
+```
+
 
 ## CSS  
   
@@ -32,6 +38,6 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0Nz
-E2NTQyOF19
+eyJoaXN0b3J5IjpbLTY2NTQ3MjM0MCwxMzMzNjA1MjAwLDM0NT
+Q1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
