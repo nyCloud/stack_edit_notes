@@ -27,6 +27,8 @@ body: visible content
 ```html
 <head>
 	<link  rel="stylesheet"  type="text/css"  href="mystyle.css">
+	<style  type="text/css"> body {background-color:yellow} p {color:blue}  </style>
+	<script> ... </script>
 </head>
 ```
 
@@ -75,7 +77,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1MjYxNjA2LDExMDY3OTkxOSw3MDc3NT
-U0ODIsMTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NTQyOF19
-
+eyJoaXN0b3J5IjpbLTUwNzI5MjM1OSwxMTA2Nzk5MTksNzA3Nz
+U1NDgyLDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNjU0Mjhd
+fQ==
 -->
