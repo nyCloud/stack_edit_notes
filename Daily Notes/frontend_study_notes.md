@@ -136,7 +136,17 @@ D</div>
 ```
 
 #### 2.8 Form
-
+<form method="get">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
 #### 2.X Others
 ```html
 <br> <!-- change line -->
@@ -155,8 +165,9 @@ D</div>
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTYyNzAyMiwyNTEzMDkxNTYsLTE2MD
-g4MTE3ODAsODA0ODMzNzgwLDE3MzAzODAwNjYsMTk2Njc3MTE2
-MiwtNTA3MjkyMzU5LDExMDY3OTkxOSw3MDc3NTU0ODIsMTMzMz
-YwNTIwMCwzNDU0NTk0NzksMTk0NzE2NTQyOF19
+eyJoaXN0b3J5IjpbMTEwNjMxMjAyNSwtNDMxNjI3MDIyLDI1MT
+MwOTE1NiwtMTYwODgxMTc4MCw4MDQ4MzM3ODAsMTczMDM4MDA2
+NiwxOTY2NzcxMTYyLC01MDcyOTIzNTksMTEwNjc5OTE5LDcwNz
+c1NTQ4MiwxMzMzNjA1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4
+XX0=
 -->
