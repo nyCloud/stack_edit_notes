@@ -35,7 +35,7 @@ body: visible content
 		p {color:blue}  
 	</style>
 	
-	<!-- javasc>
+	<!-- javascripts -->
 	<script> ... </script>
 </head>
 ```
@@ -68,6 +68,11 @@ body: visible content
 #### 2.4 Image
 ```html
 <img src='/images/log.png' width='100' height='100' />
+
+<!-- alternative source or fail prompt -->
+<img src='/logo.png' alt='/fail.png'>
+
+
 ```
 
 #### 2.5 Others
@@ -88,7 +93,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU0Njg1ODUsLTUwNzI5MjM1OSwxMT
-A2Nzk5MTksNzA3NzU1NDgyLDEzMzM2MDUyMDAsMzQ1NDU5NDc5
-LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbMTk2Njc3MTE2MiwtNTA3MjkyMzU5LDExMD
+Y3OTkxOSw3MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NTk0Nzks
+MTk0NzE2NTQyOF19
 -->
