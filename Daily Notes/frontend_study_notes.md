@@ -26,8 +26,16 @@ body: visible content
 ### 1.1 Elements in Head
 ```html
 <head>
+	<!-- link css file -->
 	<link  rel="stylesheet"  type="text/css"  href="mystyle.css">
-	<style  type="text/css"> body {background-color:yellow} p {color:blue}  </style>
+	
+	<!-- inner css format -->
+	<style  type="text/css"> 
+		body {background-color:yellow} 
+		p {color:blue}  
+	</style>
+	
+	<!-- javasc>
 	<script> ... </script>
 </head>
 ```
@@ -80,7 +88,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjEwOTEzNSwtNTA3MjkyMzU5LDExMD
-Y3OTkxOSw3MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NTk0Nzks
-MTk0NzE2NTQyOF19
+eyJoaXN0b3J5IjpbLTE1MzU0Njg1ODUsLTUwNzI5MjM1OSwxMT
+A2Nzk5MTksNzA3NzU1NDgyLDEzMzM2MDUyMDAsMzQ1NDU5NDc5
+LDE5NDcxNjU0MjhdfQ==
 -->
