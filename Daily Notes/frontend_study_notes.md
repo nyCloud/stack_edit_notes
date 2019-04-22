@@ -119,9 +119,20 @@ body: visible content
 
 #### 2.7 Div
 ```html
-<div>
-	...
+<div id="menu1" style="background-color:#FFD700;height:100px;width:10%;float:left;margin:auto;">
+B1
 </div>
+
+<div id="menu2" style="background-color:#FFD700;height:100px;width:10%;float:right;margin:auto;">
+B2
+</div>
+	
+<div id="content" style="background-color:#EEEEEE;height:100px;width:80%;float:left;margin:auto;">
+C</div>
+
+<div id="footer" style="background-color:#0099CC;clear:both;text-align:center;">
+D</div>
+
 ```
 
 #### 2.X Others
@@ -142,8 +153,8 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDg4MTE3ODAsODA0ODMzNzgwLDE3Mz
-AzODAwNjYsMTk2Njc3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkx
-OSw3MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0Nz
-E2NTQyOF19
+eyJoaXN0b3J5IjpbMjUxMzA5MTU2LC0xNjA4ODExNzgwLDgwND
+gzMzc4MCwxNzMwMzgwMDY2LDE5NjY3NzExNjIsLTUwNzI5MjM1
+OSwxMTA2Nzk5MTksNzA3NzU1NDgyLDEzMzM2MDUyMDAsMzQ1ND
+U5NDc5LDE5NDcxNjU0MjhdfQ==
 -->
