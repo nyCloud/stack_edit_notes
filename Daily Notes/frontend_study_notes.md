@@ -117,9 +117,11 @@ body: visible content
 <dl>
 ```
 
-#### 2.7 Div & Span
+#### 2.7 Div
 ```html
-
+<div>
+	...
+</div>
 ```
 
 #### 2.X Others
@@ -140,8 +142,8 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODgxNDIwNyw4MDQ4MzM3ODAsMTczMD
-M4MDA2NiwxOTY2NzcxMTYyLC01MDcyOTIzNTksMTEwNjc5OTE5
-LDcwNzc1NTQ4MiwxMzMzNjA1MjAwLDM0NTQ1OTQ3OSwxOTQ3MT
-Y1NDI4XX0=
+eyJoaXN0b3J5IjpbLTE2MDg4MTE3ODAsODA0ODMzNzgwLDE3Mz
+AzODAwNjYsMTk2Njc3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkx
+OSw3MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0Nz
+E2NTQyOF19
 -->
