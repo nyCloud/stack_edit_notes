@@ -78,14 +78,16 @@ body: visible content
 #### 2.5 Table
 ```html
 <table  border="1">  
-<tr>  
-<th>Header 1</th>  
-<th>Header 2</th>  
-</tr>
+	<tr>  
+		<th>Header 1</th>  
+		<th>Header 2</th>  
+	</tr>
+	
 	<tr>  
 		<td>row 1, cell 1</td>  
 		<td>row 1, cell 2</td>  
 	</tr>  
+	
 	<tr>  
 		<td>row 2, cell 1</td>  
 		<td>row 2, cell 2</td>  
@@ -112,7 +114,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0OTQ3NTcwLDE5NjY3NzExNjIsLTUwNz
-I5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgyLDEzMzM2MDUyMDAs
-MzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbMTczMDM4MDA2NiwxOTY2NzcxMTYyLC01MD
+cyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNjA1MjAw
+LDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
