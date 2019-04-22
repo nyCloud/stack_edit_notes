@@ -98,11 +98,19 @@ body: visible content
 #### 2.6 List
 ```html
 <!-- unordered -->
-<>
+<ul>
+	<li>Apple</li>
+	<li>Banana</li>
+</ul>
 
 <!-- ordered -->
+<ol>
+	<li>Apple</li>
+	<li>Banana</li>
+</ol>
 
 <!-- self defined -->
+
 ```
 
 #### 2.X Others
@@ -123,7 +131,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ4MTIxMzIsMTczMDM4MDA2NiwxOT
-Y2NzcxMTYyLC01MDcyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4
-MiwxMzMzNjA1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbLTIzMTczMDQ5OCwxNzMwMzgwMDY2LDE5Nj
+Y3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgy
+LDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
 -->
