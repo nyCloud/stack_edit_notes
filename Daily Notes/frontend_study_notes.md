@@ -96,6 +96,15 @@ body: visible content
 ```
 
 #### 2.6 List
+```html
+<!-- unordered -->
+<>
+
+<!-- ordered -->
+
+<!-- self defined -->
+```
+
 #### 2.X Others
 ```html
 <br> <!-- change line -->
@@ -114,7 +123,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDM4MDA2NiwxOTY2NzcxMTYyLC01MD
-cyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNjA1MjAw
-LDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbLTE3NjQ4MTIxMzIsMTczMDM4MDA2NiwxOT
+Y2NzcxMTYyLC01MDcyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4
+MiwxMzMzNjA1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
