@@ -46,7 +46,8 @@ body: visible content
 <!-- bold & italic -->
 <p> <b>bold</b> <i>italic</i> </p>
 
-<
+<!-- css -->
+<p style='color:blue;'> blue text </p>
 ```
 
 #### 2.3 Link
@@ -79,7 +80,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDkxNjY4MDMsLTUwNzI5MjM1OSwxMT
-A2Nzk5MTksNzA3NzU1NDgyLDEzMzM2MDUyMDAsMzQ1NDU5NDc5
-LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbLTkyNjEwOTEzNSwtNTA3MjkyMzU5LDExMD
+Y3OTkxOSw3MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NTk0Nzks
+MTk0NzE2NTQyOF19
 -->
