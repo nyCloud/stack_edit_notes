@@ -136,6 +136,7 @@ D</div>
 ```
 
 #### 2.8 Form
+```html
 <form method="get">
   <input list="browsers" name="browser">
   <datalist id="browsers">
@@ -147,6 +148,8 @@ D</div>
   </datalist>
   <input type="submit">
 </form>
+```
+
 #### 2.X Others
 ```html
 <br> <!-- change line -->
@@ -165,9 +168,9 @@ D</div>
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjMxMjAyNSwtNDMxNjI3MDIyLDI1MT
-MwOTE1NiwtMTYwODgxMTc4MCw4MDQ4MzM3ODAsMTczMDM4MDA2
-NiwxOTY2NzcxMTYyLC01MDcyOTIzNTksMTEwNjc5OTE5LDcwNz
-c1NTQ4MiwxMzMzNjA1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4
-XX0=
+eyJoaXN0b3J5IjpbMzE0NTQ0ODA4LC00MzE2MjcwMjIsMjUxMz
+A5MTU2LC0xNjA4ODExNzgwLDgwNDgzMzc4MCwxNzMwMzgwMDY2
+LDE5NjY3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTksNzA3Nz
+U1NDgyLDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNjU0Mjhd
+fQ==
 -->
