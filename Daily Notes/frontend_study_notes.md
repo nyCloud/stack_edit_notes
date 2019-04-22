@@ -75,7 +75,9 @@ body: visible content
 
 ```
 
-#### 2.5 Others
+#### 2.5 Table
+#### 2.6 List
+#### 2.X Others
 ```html
 <br> <!-- change line -->
 <hr> <!-- split line -->
@@ -93,7 +95,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Njc3MTE2MiwtNTA3MjkyMzU5LDExMD
-Y3OTkxOSw3MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NTk0Nzks
-MTk0NzE2NTQyOF19
+eyJoaXN0b3J5IjpbMTgzMjYyMjA5NCwxOTY2NzcxMTYyLC01MD
+cyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNjA1MjAw
+LDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
