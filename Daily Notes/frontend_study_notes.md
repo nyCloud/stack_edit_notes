@@ -110,6 +110,11 @@ body: visible content
 </ol>
 
 <!-- self defined -->
+<dl>
+	<dt>Apple</dt>
+		<dd>-Sweet</dd>
+		<dd>-Sour</dd>
+<dl>
 
 ```
 
@@ -131,7 +136,7 @@ body: visible content
   
 ## Flask
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTczMDQ5OCwxNzMwMzgwMDY2LDE5Nj
-Y3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgy
-LDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbODA0ODMzNzgwLDE3MzAzODAwNjYsMTk2Nj
+c3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkxOSw3MDc3NTU0ODIs
+MTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NTQyOF19
 -->
