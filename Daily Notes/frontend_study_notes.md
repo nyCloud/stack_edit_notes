@@ -351,11 +351,79 @@ read_cookie.html
 ```
 
 #### 3.2. Session
+```python
+import os  
+import time  
+from flask import Flask, session, url_for, request, redirect  
+  
+app = Flask(__name__)  
+app_key = str(os.urandom(32))  
+app.secret_key = app_key  
+  
+@app.route('/')  
+def index():  
+    print 'Current Sessions = {}'.format(session)  
+  
+    if 'username' in session:  
+        valid_until = session['valid_until']  
+        if time.time() < valid_until:  
+            return 'Logged in as {} !'.format(session['username'])  
+        else:  
+            print 'Last Session Expired!'  
+  session.pop('username', None)  
+            session.pop('valid_until', None)  
+  
+    return redirect(url_for('static', filename='login.html'))  
+  
+@app.route('/success/<name>')  
+def success(name):  
+    return redirect(url_for('index'))  
+  
+@app.route('/login', methods=['POST', 'GET'])  
+def login():  
+  
+    if request.method == 'POST':  
+        user = request.form['name']  
+        pwd = request.form['password']  
+    elif request.method == 'GET':  
+        user = request.args.get('name')  
+        pwd = request.args.get('password')  
+    else:  
+        return redirect(url_for('static', filename='login.html'))  
+  
+    session['username'] = user  
+    session['valid_until'] = time.time() + 10  
+  
+  print 'User name = {}\n Password = {}'.format(user, pwd)  
+    return redirect(url_for('success', name=user))  
+  
+if __name__ == '__main__':  
+    app.run()
+```
+login.html
+```html
+<html>  
+	<head>  
+		 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
+		 <title>Flask HTTP Methods</title>  
+	</head>  
+	<body> 
+	<form action = "http://localhost:5000/login" method = 'post'>  
+	<p>name:</p>  
+	<p><input type = "text" name = "name" value=""/></p>  
+	<p>password:</p>  
+	<p><input type = "text" name = "password" value=""/></p>  
+	<p><input type = "submit" value = "submit" /></p>  
+	</form> 
+	</body>
+ </html>
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjcyMzc4MSwxNzIzNjU5MjQ2LC02ND
-gwNjUxMDksLTYyNjA0MjE0LC0zMjY4MDcwODYsMzAyMTMyMDY0
-LDMxNDU0NDgwOCwtNDMxNjI3MDIyLDI1MTMwOTE1NiwtMTYwOD
-gxMTc4MCw4MDQ4MzM3ODAsMTczMDM4MDA2NiwxOTY2NzcxMTYy
-LC01MDcyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNj
-A1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbMTg3NzU3MjMzNywxNDUyNzIzNzgxLDE3Mj
+M2NTkyNDYsLTY0ODA2NTEwOSwtNjI2MDQyMTQsLTMyNjgwNzA4
+NiwzMDIxMzIwNjQsMzE0NTQ0ODA4LC00MzE2MjcwMjIsMjUxMz
+A5MTU2LC0xNjA4ODExNzgwLDgwNDgzMzc4MCwxNzMwMzgwMDY2
+LDE5NjY3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTksNzA3Nz
+U1NDgyLDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNjU0Mjhd
+fQ==
 -->
