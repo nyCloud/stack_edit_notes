@@ -71,8 +71,6 @@ body: visible content
 
 <!-- alternative source or fail prompt -->
 <img src='/logo.png' alt='/fail.png'>
-
-
 ```
 
 #### 2.5 Table
@@ -298,12 +296,16 @@ Html
 	</body>
 </html>
 ```
-
+### 3. Cookies & Sessions
+#### 3.1. Cookies
+```python
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODA2NTEwOSwtNjI2MDQyMTQsLTMyNj
-gwNzA4NiwzMDIxMzIwNjQsMzE0NTQ0ODA4LC00MzE2MjcwMjIs
-MjUxMzA5MTU2LC0xNjA4ODExNzgwLDgwNDgzMzc4MCwxNzMwMz
-gwMDY2LDE5NjY3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTks
-NzA3NzU1NDgyLDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNj
-U0MjhdfQ==
+eyJoaXN0b3J5IjpbMTE2NDg4OTA5NiwtNjQ4MDY1MTA5LC02Mj
+YwNDIxNCwtMzI2ODA3MDg2LDMwMjEzMjA2NCwzMTQ1NDQ4MDgs
+LTQzMTYyNzAyMiwyNTEzMDkxNTYsLTE2MDg4MTE3ODAsODA0OD
+MzNzgwLDE3MzAzODAwNjYsMTk2Njc3MTE2MiwtNTA3MjkyMzU5
+LDExMDY3OTkxOSw3MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NT
+k0NzksMTk0NzE2NTQyOF19
 -->
