@@ -32,9 +32,11 @@ document.getElementById('test').innerHTML = 'test_msg'
 console.log(...)
 ```
 
+### 3. Variables
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjA4OTU5MDAsLTkyMDAwMjg5MCwxMz
+eyJoaXN0b3J5IjpbLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMz
 kyOTEzNjU3LC0xODIyODE3Mzg1XX0=
 -->
