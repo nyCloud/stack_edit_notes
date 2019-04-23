@@ -230,15 +230,16 @@ if __name__ == '__main__':
         print url_for('add_nums', val_a=1, val_b=2)  
     app.run()
 ```
-
 You'll get result as:
 ```
-
+/
+/add_one/1
+/add_nums/1_2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg4OTU1NTcsLTMyNjgwNzA4NiwzMD
-IxMzIwNjQsMzE0NTQ0ODA4LC00MzE2MjcwMjIsMjUxMzA5MTU2
-LC0xNjA4ODExNzgwLDgwNDgzMzc4MCwxNzMwMzgwMDY2LDE5Nj
-Y3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgy
-LDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbLTYyNjA0MjE0LC0zMjY4MDcwODYsMzAyMT
+MyMDY0LDMxNDU0NDgwOCwtNDMxNjI3MDIyLDI1MTMwOTE1Niwt
+MTYwODgxMTc4MCw4MDQ4MzM3ODAsMTczMDM4MDA2NiwxOTY2Nz
+cxMTYyLC01MDcyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4Miwx
+MzMzNjA1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
