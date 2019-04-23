@@ -408,18 +408,18 @@ login.html
 		 <title>Flask HTTP Methods</title>  
 	</head>  
 	<body> 
-	<form action = "http://localhost:5000/login" method = 'post'>  
-	<p>name:</p>  
-	<p><input type = "text" name = "name" value=""/></p>  
-	<p>password:</p>  
-	<p><input type = "text" name = "password" value=""/></p>  
-	<p><input type = "submit" value = "submit" /></p>  
-	</form> 
+		<form action = "http://localhost:5000/login" method = 'post'>  
+		<p>name:</p>  
+		<p><input type = "text" name = "name" value=""/></p>  
+		<p>password:</p>  
+		<p><input type = "text" name = "password" value=""/></p>  
+		<p><input type = "submit" value = "submit" /></p>  
+		</form> 
 	</body>
  </html>
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzU3MjMzNywxNDUyNzIzNzgxLDE3Mj
+eyJoaXN0b3J5IjpbLTM1ODM3MjQzOSwxNDUyNzIzNzgxLDE3Mj
 M2NTkyNDYsLTY0ODA2NTEwOSwtNjI2MDQyMTQsLTMyNjgwNzA4
 NiwzMDIxMzIwNjQsMzE0NTQ0ODA4LC00MzE2MjcwMjIsMjUxMz
 A5MTU2LC0xNjA4ODExNzgwLDgwNDgzMzc4MCwxNzMwMzgwMDY2
