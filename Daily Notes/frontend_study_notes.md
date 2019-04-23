@@ -212,11 +212,15 @@ if __name__ == '__main__':
     app.run()
 ```
 
-Then you can try to visit
+Then you can try to visit urls like following in your browser: 
+- Run: [http://127.0.0.1:5000/add_nums/1_2](http://127.0.0.1:5000/add_nums/1_2)
+- Return: Add nums result = 3
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDA4MTI4OCwtMzI2ODA3MDg2LDMwMj
-EzMjA2NCwzMTQ1NDQ4MDgsLTQzMTYyNzAyMiwyNTEzMDkxNTYs
-LTE2MDg4MTE3ODAsODA0ODMzNzgwLDE3MzAzODAwNjYsMTk2Nj
-c3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkxOSw3MDc3NTU0ODIs
-MTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NTQyOF19
+eyJoaXN0b3J5IjpbLTE4MTI3MjkwMzcsLTMyNjgwNzA4NiwzMD
+IxMzIwNjQsMzE0NTQ0ODA4LC00MzE2MjcwMjIsMjUxMzA5MTU2
+LC0xNjA4ODExNzgwLDgwNDgzMzc4MCwxNzMwMzgwMDY2LDE5Nj
+Y3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgy
+LDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
 -->
