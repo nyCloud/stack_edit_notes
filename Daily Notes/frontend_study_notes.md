@@ -1,4 +1,4 @@
-# Frontend Study Notes  
+# Frontend Study Notes - HTML  
 Nan Yu | April 2019   
   
 ## HTML  
@@ -164,6 +164,7 @@ Radio buttons & checkboxes
 #### 2.9 Button
 ```html
 <button type='button' onclick='js_func()'>
+<button type='button' onclick='/flask_func'>
 ```
 
 #### 2.X Others
@@ -176,14 +177,13 @@ Radio buttons & checkboxes
 * id: unique id for html element
 * style: assign inline style
 
-## CSS  
+
   
 ## Java Script  
   
 ## Vue  
 
 
-## MongoDB
   
 ## Flask
 
@@ -483,12 +483,16 @@ upload.html
 </html>
 ```
 
+
+## MongoDB
+
+## CSS  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA0ODkyOTIsOTExMjg5NjMyLC0xOD
-A4MjIxOTI2LC0xNzU3MzQ5MDkwLDQwODI3ODUzMiwtMzU4Mzcy
-NDM5LDE0NTI3MjM3ODEsMTcyMzY1OTI0NiwtNjQ4MDY1MTA5LC
-02MjYwNDIxNCwtMzI2ODA3MDg2LDMwMjEzMjA2NCwzMTQ1NDQ4
-MDgsLTQzMTYyNzAyMiwyNTEzMDkxNTYsLTE2MDg4MTE3ODAsOD
-A0ODMzNzgwLDE3MzAzODAwNjYsMTk2Njc3MTE2MiwtNTA3Mjky
-MzU5XX0=
+eyJoaXN0b3J5IjpbMTkyNTY1MDUzMiw5MTEyODk2MzIsLTE4MD
+gyMjE5MjYsLTE3NTczNDkwOTAsNDA4Mjc4NTMyLC0zNTgzNzI0
+MzksMTQ1MjcyMzc4MSwxNzIzNjU5MjQ2LC02NDgwNjUxMDksLT
+YyNjA0MjE0LC0zMjY4MDcwODYsMzAyMTMyMDY0LDMxNDU0NDgw
+OCwtNDMxNjI3MDIyLDI1MTMwOTE1NiwtMTYwODgxMTc4MCw4MD
+Q4MzM3ODAsMTczMDM4MDA2NiwxOTY2NzcxMTYyLC01MDcyOTIz
+NTldfQ==
 -->
