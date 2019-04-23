@@ -199,16 +199,16 @@ def index_page():
 
 @app.route('/add_one/<int:val>')
 def add_one(val):
-	return str(val + 1)
+	return 'Add one result = {}'.format(val + 1)
 
 @app.route('/add_nums/<int:val_a>_<int:val_b>)
 def add_nums(a, b)：
-	return ''
+	return 'Add nums result = {}'.format(a + b)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg1NTc2OTMsMzAyMTMyMDY0LDMxND
-U0NDgwOCwtNDMxNjI3MDIyLDI1MTMwOTE1NiwtMTYwODgxMTc4
-MCw4MDQ4MzM3ODAsMTczMDM4MDA2NiwxOTY2NzcxMTYyLC01MD
-cyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNjA1MjAw
-LDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbLTMyNjgwNzA4NiwzMDIxMzIwNjQsMzE0NT
+Q0ODA4LC00MzE2MjcwMjIsMjUxMzA5MTU2LC0xNjA4ODExNzgw
+LDgwNDgzMzc4MCwxNzMwMzgwMDY2LDE5NjY3NzExNjIsLTUwNz
+I5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgyLDEzMzM2MDUyMDAs
+MzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
 -->
