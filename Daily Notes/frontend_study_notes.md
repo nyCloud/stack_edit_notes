@@ -192,6 +192,7 @@ app.run(host, port, debug)
 ```
 
 ### 2. Flask Route
+#### 2.1 Basic Usage
 ```python
 from flask import Flask  
 app = Flask(__name__)  
@@ -221,6 +222,7 @@ Converters:
 - float: float value
 - path: path value (include '/')
 
+#### 2.2 Url For
 Also, flask provides method to generate URL for specific function:
 ```python
 if __name__ == '__main__':  
@@ -236,10 +238,57 @@ You'll get result as:
 /add_one/1
 /add_nums/1_2
 ```
+
+#### 2.3 HTTP Methods
+Python
+```python
+from collections import deque  
+from flask import Flask, url_for, request, redirect  
+app = Flask(__name__)  
+  
+visit_history = deque(maxlen=3)  
+  
+@app.route('/')  
+def index():  
+    return '<h1>index page</h1>'  
+  
+  
+@app.route('/success/<name>')  
+def success(name):  
+    return 'welcome {}\n History = {}'.format(name, visit_history)  
+  
+  
+@app.route('/login', methods=['POST', 'GET'])  
+def login():  
+    print 'URL = {}'.format(request.path)  
+    print 'Request method = {}'.format(request.method)  
+  
+    if request.method == 'POST':  
+        user = request.form['name']  
+        pwd = request.form['password']  
+    else:  
+        user = request.args.get('name')  
+        pwd = request.args.get('password')  
+  
+    visit_history.append((user, pwd))  
+    print 'User name = {}\n Password = {}'.format(user, pwd)  
+    return redirect(url_for('success', name=user))  
+  
+  
+if __name__ == '__main__':  
+    app.run()
+```
+
+Html
+```html
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjA0MjE0LC0zMjY4MDcwODYsMzAyMT
-MyMDY0LDMxNDU0NDgwOCwtNDMxNjI3MDIyLDI1MTMwOTE1Niwt
-MTYwODgxMTc4MCw4MDQ4MzM3ODAsMTczMDM4MDA2NiwxOTY2Nz
-cxMTYyLC01MDcyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4Miwx
-MzMzNjA1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
+eyJoaXN0b3J5IjpbMTIxMzM3OTg0LC02MjYwNDIxNCwtMzI2OD
+A3MDg2LDMwMjEzMjA2NCwzMTQ1NDQ4MDgsLTQzMTYyNzAyMiwy
+NTEzMDkxNTYsLTE2MDg4MTE3ODAsODA0ODMzNzgwLDE3MzAzOD
+AwNjYsMTk2Njc3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkxOSw3
+MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NT
+QyOF19
 -->
