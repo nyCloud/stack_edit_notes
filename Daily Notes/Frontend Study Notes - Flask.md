@@ -1,4 +1,4 @@
-# Frontend Study Notes - HTML  
+# Frontend Study Notes - Flask
 Nan Yu | April 2019   
 
 ## Flask
@@ -299,5 +299,5 @@ upload.html
 </html>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzk2NTc1MV19
+eyJoaXN0b3J5IjpbMTQ5MzE4Mjc5MSwxODM3OTY1NzUxXX0=
 -->
