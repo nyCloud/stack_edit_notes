@@ -148,6 +148,7 @@ To create a form with some options
   <input type="submit">
 </form>
 ```
+
 Radio buttons & checkboxes
 ```html
 <form>  
@@ -160,7 +161,10 @@ Radio buttons & checkboxes
 	<input type="checkbox" name="vehicle" value="Car">I have a car  
 </form>
 ```
-
+#### 2.9 Button
+```html
+<button type='button' onclick='js_func()'>
+```
 
 #### 2.X Others
 ```html
@@ -480,11 +484,11 @@ upload.html
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExMjg5NjMyLC0xODA4MjIxOTI2LC0xNz
-U3MzQ5MDkwLDQwODI3ODUzMiwtMzU4MzcyNDM5LDE0NTI3MjM3
-ODEsMTcyMzY1OTI0NiwtNjQ4MDY1MTA5LC02MjYwNDIxNCwtMz
-I2ODA3MDg2LDMwMjEzMjA2NCwzMTQ1NDQ4MDgsLTQzMTYyNzAy
-MiwyNTEzMDkxNTYsLTE2MDg4MTE3ODAsODA0ODMzNzgwLDE3Mz
-AzODAwNjYsMTk2Njc3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkx
-OV19
+eyJoaXN0b3J5IjpbLTEyMjA0ODkyOTIsOTExMjg5NjMyLC0xOD
+A4MjIxOTI2LC0xNzU3MzQ5MDkwLDQwODI3ODUzMiwtMzU4Mzcy
+NDM5LDE0NTI3MjM3ODEsMTcyMzY1OTI0NiwtNjQ4MDY1MTA5LC
+02MjYwNDIxNCwtMzI2ODA3MDg2LDMwMjEzMjA2NCwzMTQ1NDQ4
+MDgsLTQzMTYyNzAyMiwyNTEzMDkxNTYsLTE2MDg4MTE3ODAsOD
+A0ODMzNzgwLDE3MzAzODAwNjYsMTk2Njc3MTE2MiwtNTA3Mjky
+MzU5XX0=
 -->
