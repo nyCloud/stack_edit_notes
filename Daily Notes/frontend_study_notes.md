@@ -134,6 +134,7 @@ D</div>
 ```
 
 #### 2.8 Form
+To create a form with some options
 ```html
 <form method="get">
   <input list="browsers" name="browser">
@@ -147,6 +148,7 @@ D</div>
   <input type="submit">
 </form>
 ```
+
 
 #### 2.X Others
 ```html
@@ -466,7 +468,7 @@ upload.html
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkxODg2OTIsLTE3NTczNDkwOTAsND
+eyJoaXN0b3J5IjpbLTE4MDgyMjE5MjYsLTE3NTczNDkwOTAsND
 A4Mjc4NTMyLC0zNTgzNzI0MzksMTQ1MjcyMzc4MSwxNzIzNjU5
 MjQ2LC02NDgwNjUxMDksLTYyNjA0MjE0LC0zMjY4MDcwODYsMz
 AyMTMyMDY0LDMxNDU0NDgwOCwtNDMxNjI3MDIyLDI1MTMwOTE1
