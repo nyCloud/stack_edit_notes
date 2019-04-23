@@ -2,8 +2,19 @@
 Nan Yu | April 2019   
   
 ## JavaScript
-### Usage
+### 1. Usage
+
+```html
+<!-- script tag -->
+<script> 
+	alert("Hello JavaScript!")
+</script>
+
+
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjkxMzY1NywtMTgyMjgxNzM4NV19
+eyJoaXN0b3J5IjpbLTYwNzczNjkyOSwxMzkyOTEzNjU3LC0xOD
+IyODE3Mzg1XX0=
 -->
