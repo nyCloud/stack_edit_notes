@@ -22,10 +22,13 @@ Nan Yu | April 2019
 ### 2. JavaScript Message
 
 ```html
-
+<!-- alert window -->
+window.alert(...)
+<!-- write in html -->
+document.write
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjYwMjg5OSwxMzkyOTEzNjU3LC0xOD
-IyODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbMjUzNjM4OTkzLDEzOTI5MTM2NTcsLTE4Mj
+I4MTczODVdfQ==
 -->
