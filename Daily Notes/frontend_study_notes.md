@@ -173,13 +173,20 @@ D</div>
 ### 1. Flask App
 ```python
 from flask import Flask
+
 # Create flask app
 flask_app = Flask(__name__)
 
-# Debug mod
+# Debug mode
+app.debug = True  # or False
+
+# Run app (usually last function to call)
+app.run(host, port, debug)
+# - host: '127.0.0.1' local ho
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODk4MTgzOSwzMDIxMzIwNjQsMzE0NT
+eyJoaXN0b3J5IjpbMTMxMDQwNTAxMiwzMDIxMzIwNjQsMzE0NT
 Q0ODA4LC00MzE2MjcwMjIsMjUxMzA5MTU2LC0xNjA4ODExNzgw
 LDgwNDgzMzc4MCwxNzMwMzgwMDY2LDE5NjY3NzExNjIsLTUwNz
 I5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgyLDEzMzM2MDUyMDAs
