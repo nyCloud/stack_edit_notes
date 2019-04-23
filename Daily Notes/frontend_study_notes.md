@@ -194,12 +194,19 @@ app.run(host, port, debug)
 ### 2. Flask Route
 ```python
 @app.route('/')
-def index
+def index_page():
+	return '<h1>Hello Flask</h1>'
 
 @app.route('/add_one/<int:val>')
+def add_one(val):
+	return str(val + 1)
+
+@app.route('/add_nums/<int:val_a>_<int:val_b>)
+def add_nums(a, b)：
+	return ''
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM0NTU5MjMsMzAyMTMyMDY0LDMxND
+eyJoaXN0b3J5IjpbLTExOTg1NTc2OTMsMzAyMTMyMDY0LDMxND
 U0NDgwOCwtNDMxNjI3MDIyLDI1MTMwOTE1NiwtMTYwODgxMTc4
 MCw4MDQ4MzM3ODAsMTczMDM4MDA2NiwxOTY2NzcxMTYyLC01MD
 cyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNjA1MjAw
