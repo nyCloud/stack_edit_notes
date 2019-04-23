@@ -221,11 +221,14 @@ Converters:
 - float: float value
 - path: path value (include '/')
 
-Also, flask provides
+Also, flask provides method to generate URL for specific function:
+```python
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTgwMzg4MzYsLTMyNjgwNzA4NiwzMD
-IxMzIwNjQsMzE0NTQ0ODA4LC00MzE2MjcwMjIsMjUxMzA5MTU2
-LC0xNjA4ODExNzgwLDgwNDgzMzc4MCwxNzMwMzgwMDY2LDE5Nj
-Y3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgy
-LDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbMTUxMDcwNzY3MywtMzI2ODA3MDg2LDMwMj
+EzMjA2NCwzMTQ1NDQ4MDgsLTQzMTYyNzAyMiwyNTEzMDkxNTYs
+LTE2MDg4MTE3ODAsODA0ODMzNzgwLDE3MzAzODAwNjYsMTk2Nj
+c3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkxOSw3MDc3NTU0ODIs
+MTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NTQyOF19
 -->
