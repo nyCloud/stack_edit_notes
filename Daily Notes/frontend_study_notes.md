@@ -420,12 +420,55 @@ login.html
  ```
 
 ### 4. File
-```p
+```python
+import os  
+from werkzeug import secure_filename  
+from flask import Flask, render_template, request, url_for, redirect  
+app = Flask(__name__)  
+  
+# print os.path.dirname()  
+  
+base_path = os.path.join(os.path.dirname(__file__), 'upload')  
+print base_path  
+  
+@app.route('/')  
+def index():  
+    return redirect(url_for('static', filename='upload.html'))  
+  
+@app.route('/upload', methods=['GET', 'POST'])  
+def upload_file():  
+    if request.method == 'POST':  
+        f = request.files['file']  
+        f.save(os.path.join(base_path, secure_filename(f.filename)))  
+        return 'file uploaded successfully'  
+  else:  
+        return render_template('upload.html')  
+  
+if __name__ == '__main__':  
+    app.run(debug=True)
+```
+upload.html
+```html
+<html>  
+	<head>  
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+		<title>Flask Test</title>  
+	</head>  
+	
+	<body>  
+		<form action = "http://localhost:5000/upload" method = "POST"  
+		 enctype = "multipart/form-data">  
+		<input type = "file" name = "file" />  
+		<input type = "submit" value="sibmit"/>  
+		</form>  
+	</body>
+</html>
+```
 
 ### 5. Ajax
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU1MjI1NDAsNDA4Mjc4NTMyLC0zNT
+eyJoaXN0b3J5IjpbLTE3NTczNDkwOTAsNDA4Mjc4NTMyLC0zNT
 gzNzI0MzksMTQ1MjcyMzc4MSwxNzIzNjU5MjQ2LC02NDgwNjUx
 MDksLTYyNjA0MjE0LC0zMjY4MDcwODYsMzAyMTMyMDY0LDMxND
 U0NDgwOCwtNDMxNjI3MDIyLDI1MTMwOTE1NiwtMTYwODgxMTc4
