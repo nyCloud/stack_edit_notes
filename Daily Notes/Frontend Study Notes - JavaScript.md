@@ -6,15 +6,19 @@ Nan Yu | April 2019
 
 ```html
 <!-- script tag -->
-<script> 
-	alert("Hello JavaScript!")
-</script>
+<head>
+	<script> 
+		alert("Hello JavaScript!")
+	</script>
+	...
+</head>
 
-
+<!-- external -->
+<script src='test_script.js'>
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzczNjkyOSwxMzkyOTEzNjU3LC0xOD
-IyODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbNjQwNDY3MDEzLDEzOTI5MTM2NTcsLTE4Mj
+I4MTczODVdfQ==
 -->
