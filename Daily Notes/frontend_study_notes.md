@@ -193,22 +193,30 @@ app.run(host, port, debug)
 
 ### 2. Flask Route
 ```python
-@app.route('/')
-def index_page():
-	return '<h1>Hello Flask</h1>'
-
-@app.route('/add_one/<int:val>')
-def add_one(val):
-	return 'Add one result = {}'.format(val + 1)
-
-@app.route('/add_nums/<int:val_a>_<int:val_b>)
-def add_nums(a, b)：
-	return 'Add nums result = {}'.format(a + b)
+from flask import Flask  
+app = Flask(__name__)  
+  
+@app.route('/')  
+def index_page():  
+    return '<h1>Hello Flask</h1>'  
+  
+@app.route('/add_one/<int:val>')  
+def add_one(val):  
+    return 'Add one result = {}'.format(val + 1)  
+  
+@app.route('/add_nums/<int:val_a>_<int:val_b>')  
+def add_nums(val_a, val_b):  
+    return 'Add nums result = {}'.format(val_a + val_b)  
+  
+if __name__ == '__main__':  
+    app.run()
 ```
+
+Then you can try to visit
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjgwNzA4NiwzMDIxMzIwNjQsMzE0NT
-Q0ODA4LC00MzE2MjcwMjIsMjUxMzA5MTU2LC0xNjA4ODExNzgw
-LDgwNDgzMzc4MCwxNzMwMzgwMDY2LDE5NjY3NzExNjIsLTUwNz
-I5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgyLDEzMzM2MDUyMDAs
-MzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbLTI4MDA4MTI4OCwtMzI2ODA3MDg2LDMwMj
+EzMjA2NCwzMTQ1NDQ4MDgsLTQzMTYyNzAyMiwyNTEzMDkxNTYs
+LTE2MDg4MTE3ODAsODA0ODMzNzgwLDE3MzAzODAwNjYsMTk2Nj
+c3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkxOSw3MDc3NTU0ODIs
+MTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NTQyOF19
 -->
