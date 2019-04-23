@@ -2,8 +2,8 @@
 Nan Yu | April 2019   
   
 ## JavaScript
+### Usage
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDIyMzE4MDMsLTE4MjI4MTczODVdfQ
-==
+eyJoaXN0b3J5IjpbMTM5MjkxMzY1NywtMTgyMjgxNzM4NV19
 -->
