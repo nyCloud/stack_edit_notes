@@ -223,12 +223,22 @@ Converters:
 
 Also, flask provides method to generate URL for specific function:
 ```python
+if __name__ == '__main__':  
+    with app.test_request_context():  
+        print url_for('index_page')  
+        print url_for('add_one', val=1)  
+        print url_for('add_nums', val_a=1, val_b=2)  
+    app.run()
+```
+
+You'll get result as:
+```
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDcwNzY3MywtMzI2ODA3MDg2LDMwMj
-EzMjA2NCwzMTQ1NDQ4MDgsLTQzMTYyNzAyMiwyNTEzMDkxNTYs
-LTE2MDg4MTE3ODAsODA0ODMzNzgwLDE3MzAzODAwNjYsMTk2Nj
-c3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkxOSw3MDc3NTU0ODIs
-MTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NTQyOF19
+eyJoaXN0b3J5IjpbLTE0NTg4OTU1NTcsLTMyNjgwNzA4NiwzMD
+IxMzIwNjQsMzE0NTQ0ODA4LC00MzE2MjcwMjIsMjUxMzA5MTU2
+LC0xNjA4ODExNzgwLDgwNDgzMzc4MCwxNzMwMzgwMDY2LDE5Nj
+Y3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgy
+LDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
 -->
