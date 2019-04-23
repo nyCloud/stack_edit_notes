@@ -337,9 +337,9 @@ index.html
 	
 	<body>
 		<form action = "/set_cookie" method = "POST">  
-		<p><h3>Enter userID</h3></p>  
-		<p><input type = 'text' name = 'name'/></p>  
-		<p><input type = 'submit' value = 'login'/></p>  
+			<p><h3>Enter userID</h3></p>  
+			<p><input type = 'text' name = 'name'/></p>  
+			<p><input type = 'submit' value = 'login'/></p>  
 		</form>  
 	</body>
 </html>
@@ -349,11 +349,13 @@ read_cookie.html
 <p1> Cookie for You !</p1>  
 <a href='/get_cookie'> Get Cookie </a>>
 ```
+
+#### 3.2. Session
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzY1OTI0NiwtNjQ4MDY1MTA5LC02Mj
-YwNDIxNCwtMzI2ODA3MDg2LDMwMjEzMjA2NCwzMTQ1NDQ4MDgs
-LTQzMTYyNzAyMiwyNTEzMDkxNTYsLTE2MDg4MTE3ODAsODA0OD
-MzNzgwLDE3MzAzODAwNjYsMTk2Njc3MTE2MiwtNTA3MjkyMzU5
-LDExMDY3OTkxOSw3MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NT
-k0NzksMTk0NzE2NTQyOF19
+eyJoaXN0b3J5IjpbMTQ1MjcyMzc4MSwxNzIzNjU5MjQ2LC02ND
+gwNjUxMDksLTYyNjA0MjE0LC0zMjY4MDcwODYsMzAyMTMyMDY0
+LDMxNDU0NDgwOCwtNDMxNjI3MDIyLDI1MTMwOTE1NiwtMTYwOD
+gxMTc4MCw4MDQ4MzM3ODAsMTczMDM4MDA2NiwxOTY2NzcxMTYy
+LC01MDcyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNj
+A1MjAwLDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
