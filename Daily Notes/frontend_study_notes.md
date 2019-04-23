@@ -170,6 +170,7 @@ D</div>
 ## MongoDB
   
 ## Flask
+
 ### 1. Flask App
 ```python
 from flask import Flask
@@ -182,13 +183,19 @@ app.debug = True  # or False
 
 # Run app (usually last function to call)
 app.run(host, port, debug)
-# - host: '127.0.0.1' local ho
-
+'''
+	- host: '127.0.0.1' local host(default)
+			'0.0.0.0' external visible
+	- port: port to run flask app
+	- debug: debug mode
+'''
 ```
+
+### 2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDQwNTAxMiwzMDIxMzIwNjQsMzE0NT
-Q0ODA4LC00MzE2MjcwMjIsMjUxMzA5MTU2LC0xNjA4ODExNzgw
-LDgwNDgzMzc4MCwxNzMwMzgwMDY2LDE5NjY3NzExNjIsLTUwNz
-I5MjM1OSwxMTA2Nzk5MTksNzA3NzU1NDgyLDEzMzM2MDUyMDAs
-MzQ1NDU5NDc5LDE5NDcxNjU0MjhdfQ==
+eyJoaXN0b3J5IjpbLTIwMDAzNDUyMjUsMzAyMTMyMDY0LDMxND
+U0NDgwOCwtNDMxNjI3MDIyLDI1MTMwOTE1NiwtMTYwODgxMTc4
+MCw4MDQ4MzM3ODAsMTczMDM4MDA2NiwxOTY2NzcxMTYyLC01MD
+cyOTIzNTksMTEwNjc5OTE5LDcwNzc1NTQ4MiwxMzMzNjA1MjAw
+LDM0NTQ1OTQ3OSwxOTQ3MTY1NDI4XX0=
 -->
