@@ -299,10 +299,58 @@ Html
 ### 3. Cookies & Sessions
 #### 3.1. Cookies
 ```python
+from flask import Flask, render_template, request, make_response, redirect, url_for  
+app = Flask(__name__, template_folder='templates')  
+  
+  
+@app.route('/')  
+def index():  
+    return redirect(url_for('static', filename='index.html'))  
+  
+  
+@app.route('/set_cookie', methods=['POST', 'GET'])  
+def set_cookie():  
+    if request.method == 'POST':  
+        user = request.form['name']  
+        resp = make_response(render_template('read_cookie.html'))  
+        resp.set_cookie('userID', user)  
+        return resp  
+  
+  
+@app.route('/get_cookie')  
+def get_cookie():  
+    name = request.cookies.get('userID')  
+    return '<h1>welcome, '+name+'</h1>'  
+  
+  
+if __name__ == '__main__':  
+    app.run(debug=True)
 ```
+
+index.html
+```html
+<html>  
+	<head>  
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+		<title>Flask Cookies</title>  
+	</head>  
+	
+	<body>
+		<form action = "/set_cookie" method = "POST">  
+		<p><h3>Enter userID</h3></p>  
+		<p><input type = 'text' name = 'name'/></p>  
+		<p><input type = 'submit' value = 'login'/></p>  
+		</form>  
+	</body>
+</html>
+```
+read_cookie.html
+```html
+<p1> Cookie for You !</p1>  
+<a href='/get_cookie'> Get Cookie </a>>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDg4OTA5NiwtNjQ4MDY1MTA5LC02Mj
+eyJoaXN0b3J5IjpbMTcyMzY1OTI0NiwtNjQ4MDY1MTA5LC02Mj
 YwNDIxNCwtMzI2ODA3MDg2LDMwMjEzMjA2NCwzMTQ1NDQ4MDgs
 LTQzMTYyNzAyMiwyNTEzMDkxNTYsLTE2MDg4MTE3ODAsODA0OD
 MzNzgwLDE3MzAzODAwNjYsMTk2Njc3MTE2MiwtNTA3MjkyMzU5
