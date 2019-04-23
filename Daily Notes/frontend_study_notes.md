@@ -281,14 +281,29 @@ if __name__ == '__main__':
 
 Html
 ```html
-
+<html>  
+	<head>  
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
+		<title>Flask HTTP Methods</title>  
+	</head>  
+	
+	<body>
+		<form action = "http://localhost:5000/login" method = "get"> <!-- or post -->  
+			<p>name:</p>  
+			<p><input type = "text" name = "name" value=""/></p>  
+			<p>password:</p>  
+			<p><input type = "text" name = "password" value=""/></p>  
+			<p><input type = "submit" value = "submit" /></p>  
+		</form> 
+	</body>
+</html>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzM3OTg0LC02MjYwNDIxNCwtMzI2OD
-A3MDg2LDMwMjEzMjA2NCwzMTQ1NDQ4MDgsLTQzMTYyNzAyMiwy
-NTEzMDkxNTYsLTE2MDg4MTE3ODAsODA0ODMzNzgwLDE3MzAzOD
-AwNjYsMTk2Njc3MTE2MiwtNTA3MjkyMzU5LDExMDY3OTkxOSw3
-MDc3NTU0ODIsMTMzMzYwNTIwMCwzNDU0NTk0NzksMTk0NzE2NT
-QyOF19
+eyJoaXN0b3J5IjpbLTY0ODA2NTEwOSwtNjI2MDQyMTQsLTMyNj
+gwNzA4NiwzMDIxMzIwNjQsMzE0NTQ0ODA4LC00MzE2MjcwMjIs
+MjUxMzA5MTU2LC0xNjA4ODExNzgwLDgwNDgzMzc4MCwxNzMwMz
+gwMDY2LDE5NjY3NzExNjIsLTUwNzI5MjM1OSwxMTA2Nzk5MTks
+NzA3NzU1NDgyLDEzMzM2MDUyMDAsMzQ1NDU5NDc5LDE5NDcxNj
+U0MjhdfQ==
 -->
