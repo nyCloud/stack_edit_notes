@@ -111,7 +111,8 @@ console.log(re_num.test('1234a')
 console.log(re_num.exec('1234')
 console.log(re_num.exec('1234a')
 
-re_whitespace = /
+re_whitespace = /\s+/
+console.log('a aa aaa'.split(re_whitespace))
 ```
 
 
@@ -186,7 +187,7 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTYzNDY1MywtNTM1OTMwNzYxLC0yMD
+eyJoaXN0b3J5IjpbMTg1Nzg3NTMwMCwtNTM1OTMwNzYxLC0yMD
 k5MjEyMzcyLDk2MDc5NDMxNiwyODkzNTE2MjYsLTg5OTQwMzM5
 OSw3OTM2NTI2MjAsMTQ2MzAzMzQ3MywtNDM4MTM4NjQ3LC04MT
 kxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIxNDk5LDc3NTU1NTM1
