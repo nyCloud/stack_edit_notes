@@ -33,8 +33,9 @@ Nan Yu | April 2019
 </html>
 ```
 
-### 2. VUE Value Bi
+### 2. Data Binding
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MzMzNTM5LDQ2MTM5OTM0LC0xNzI5MD
-gyMjIsLTcxMDE1ODMyNl19
+eyJoaXN0b3J5IjpbLTMyOTE0MjQxNCw0NjEzOTkzNCwtMTcyOT
+A4MjIyLC03MTAxNTgzMjZdfQ==
 -->
