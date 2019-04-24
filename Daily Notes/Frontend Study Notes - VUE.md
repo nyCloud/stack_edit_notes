@@ -205,14 +205,13 @@ To iterate a JavaScript object
 
 ### 7. Event Reaction
 #### 7.1. Event Binding (v-on) 
-v-on
 
 ```html
 <div id = "app">
 	<p>counter = {{ counter }}</p>
 	<button v-on:click = "counter++">click?</button>
 </div>
-<script type = "text/javascript">
+<script>
 	var vm = new Vue({
 		el: '#app',
 		data: {
@@ -233,10 +232,10 @@ v-on
     alert('计数器值的变化 :' + oval + ' 变为 ' + nval + '!');
  });
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5Njg4MDIwLDE1MjI0MzI0OTksLTMwOD
-U2MjgzNCwtMTU1Nzc2OTY0MiwtODgxOTkxOTQ1LDY4MDU5NjY4
-NSw3MTI0MzE3ODUsLTE1MjkyNzIzMzMsLTkxODk3MzA2NSwtMT
-k3ODY1MzI4NCw2OTk5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMx
-NywxNzQ5MDE5ODUsLTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0Nj
-EzOTkzNCwtMTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbMTUwMjk4Mzg5NCwxNTIyNDMyNDk5LC0zMD
+g1NjI4MzQsLTE1NTc3Njk2NDIsLTg4MTk5MTk0NSw2ODA1OTY2
+ODUsNzEyNDMxNzg1LC0xNTI5MjcyMzMzLC05MTg5NzMwNjUsLT
+E5Nzg2NTMyODQsNjk5OTAwNTg0LDE1NDY5MDMwLC05OTI4MDYz
+MTcsMTc0OTAxOTg1LC0xNTIyMTU5MDU2LDIwNDgwNzc0OTMsND
+YxMzk5MzQsLTE3MjkwODIyMiwtNzEwMTU4MzI2XX0=
 -->
