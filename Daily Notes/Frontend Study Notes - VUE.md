@@ -7,34 +7,51 @@ Nan Yu | April 2019
 ```html
 <!DOCTYPE html>
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Vue Test</title>
-		<script src="https://unpkg.com/vue/dist/vue.js"></script>
-	</head>
-	<body>
+...
+<div id="app">
+	<p>{{ message }}</p>
+	<p>{{ value }}</p>
+</div>
+
+<script>
+	new Vue({
+		el: '#app',
+		data: function () {
+			return {
+				message: 'hello world!',
+				value: 42
+			}
+		}
+	})
+</script>
+```
+
+Then content inside {{ ... }} is still a JavaScript expression.
+```html
+<!DOCTYPE html>
+
 		<div id="app">
-			<p>{{ message }}</p>
-			<p>{{ value }}</p>
+			{{5 + 5}}<br>
+			{{ ok ? 'YES' : 'NO' }}<br>
+			{{ message.split('').reverse().join('') }}
+			<div v-bind:id="'list-' + id">Tutorial</div>
 		</div>
 
 		<script>
 			new Vue({
 				el: '#app',
-				data: function () {
+				data: function() {
 					return {
-						message: 'hello world!',
-						value: 42
+						ok: true,
+						message: 'RUNOOB',
+						id : 1
 					}
 				}
 			})
 		</script>
-	</body>
-</html>
+
 ```
 
-Then content inside {{ ... }} is con
 #### 1.2. Html Binding
 ```html
 <!DOCTYPE html>
@@ -100,39 +117,9 @@ Then content inside {{ ... }} is con
 ```
 
 #### 1.4. Expression Binding
-```html
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Vue Test</title>
-		<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
-	</head>
-	<body>
-		<div id="app">
-			{{5 + 5}}<br>
-			{{ ok ? 'YES' : 'NO' }}<br>
-			{{ message.split('').reverse().join('') }}
-			<div v-bind:id="'list-' + id">Tutorial</div>
-		</div>
 
-		<script>
-			new Vue({
-				el: '#app',
-				data: function() {
-					return {
-						ok: true,
-						message: 'RUNOOB',
-						id : 1
-					}
-				}
-			})
-		</script>
-	</body>
-</html>
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzIzMDk1NzYsMTU0NjkwMzAsLTk5Mj
-gwNjMxNywxNzQ5MDE5ODUsLTE1MjIxNTkwNTYsMjA0ODA3NzQ5
-Myw0NjEzOTkzNCwtMTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbNDcwMzE1OTczLDE1NDY5MDMwLC05OTI4MD
+YzMTcsMTc0OTAxOTg1LC0xNTIyMTU5MDU2LDIwNDgwNzc0OTMs
+NDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMTU4MzI2XX0=
 -->
