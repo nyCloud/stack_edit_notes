@@ -74,12 +74,15 @@ cond_b = false
 str_a = 'Too Young'
 str_b = "Too Simple"
 console.log(str_a[0]) // You will get 'T'
+console.log(a.concat(b))  // not in-place
 
 // get length
 str_a.length
 ```
-REs are also supported in JavaScript
 
+REs are also supported in JavaScript
+-- format '/body/modifier(optional)'
+-- asd
 
 - Array
 ```JavaScript
@@ -152,9 +155,9 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTQwMzM5OSw3OTM2NTI2MjAsMTQ2Mz
-AzMzQ3MywtNDM4MTM4NjQ3LC04MTkxNTE1NjcsMTc5MzE2NzEz
-NywxMTYzNjIxNDk5LDc3NTU1NTM1NCwtNjUxNjI4MjI4LDE3MT
-g2NDQ0MTUsLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMzkyOTEz
-NjU3LC0xODIyODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbLTI4MDQ2NDAyOCwtODk5NDAzMzk5LDc5Mz
+Y1MjYyMCwxNDYzMDMzNDczLC00MzgxMzg2NDcsLTgxOTE1MTU2
+NywxNzkzMTY3MTM3LDExNjM2MjE0OTksNzc1NTU1MzU0LC02NT
+E2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3OSwtOTIwMDAy
+ODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ==
 -->
