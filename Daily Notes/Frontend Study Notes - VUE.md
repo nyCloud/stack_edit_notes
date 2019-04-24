@@ -130,7 +130,7 @@ CSSStyleDeclaration
 ```
 v-else is available for the case where the condition doesn't met.
 
-#### v-model
+#### 1.5 v-model
 ```html
 ...
 <div id="app">
@@ -148,9 +148,9 @@ v-else is available for the case where the condition doesn't met.
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNTk2Njg1LDcxMjQzMTc4NSwtMTUyOT
-I3MjMzMywtOTE4OTczMDY1LC0xOTc4NjUzMjg0LDY5OTkwMDU4
-NCwxNTQ2OTAzMCwtOTkyODA2MzE3LDE3NDkwMTk4NSwtMTUyMj
-E1OTA1NiwyMDQ4MDc3NDkzLDQ2MTM5OTM0LC0xNzI5MDgyMjIs
-LTcxMDE1ODMyNl19
+eyJoaXN0b3J5IjpbMTE0NTA4MDkzMyw2ODA1OTY2ODUsNzEyND
+MxNzg1LC0xNTI5MjcyMzMzLC05MTg5NzMwNjUsLTE5Nzg2NTMy
+ODQsNjk5OTAwNTg0LDE1NDY5MDMwLC05OTI4MDYzMTcsMTc0OT
+AxOTg1LC0xNTIyMTU5MDU2LDIwNDgwNzc0OTMsNDYxMzk5MzQs
+LTE3MjkwODIyMiwtNzEwMTU4MzI2XX0=
 -->
