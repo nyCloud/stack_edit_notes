@@ -86,7 +86,10 @@ REs are also supported in JavaScript
 ```
 [abc]: character
 [0-9]: number
-(x|y): 
+(x|y): x & y split by |
+\d: number
+\s: includes ' ', '\t', '\n'
+\b: space between words
 ```
 
 - Array
@@ -160,7 +163,7 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzQwNzg2LC04OTk0MDMzOTksNzkzNj
+eyJoaXN0b3J5IjpbMjg5MzUxNjI2LC04OTk0MDMzOTksNzkzNj
 UyNjIwLDE0NjMwMzM0NzMsLTQzODEzODY0NywtODE5MTUxNTY3
 LDE3OTMxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLTY1MT
 YyODIyOCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAwMDI4
