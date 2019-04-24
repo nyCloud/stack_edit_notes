@@ -80,8 +80,9 @@ console.log(a.concat(b))  // not in-place
 str_a.length
 ```
 
+#### 3.2.4.1 RE
 REs are also supported in JavaScript
--- format '/body/modifier(optional)'
+-- format '/^body$/modifier(optional)'
 -- body
 
 		[abc]: character
@@ -100,7 +101,10 @@ REs are also supported in JavaScript
 		g: global matching
 		m: multiline matching
 
+```JavaScript
+//Some tests
 
+```
 
 
 ####  3.2.5 Array
@@ -174,10 +178,10 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkyMTIzNzIsOTYwNzk0MzE2LDI4OT
-M1MTYyNiwtODk5NDAzMzk5LDc5MzY1MjYyMCwxNDYzMDMzNDcz
-LC00MzgxMzg2NDcsLTgxOTE1MTU2NywxNzkzMTY3MTM3LDExNj
-M2MjE0OTksNzc1NTU1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQx
-NSwtMTk3ODA5MjA3OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLT
-E4MjI4MTczODVdfQ==
+eyJoaXN0b3J5IjpbLTExNjUwMzUzLC0yMDk5MjEyMzcyLDk2MD
+c5NDMxNiwyODkzNTE2MjYsLTg5OTQwMzM5OSw3OTM2NTI2MjAs
+MTQ2MzAzMzQ3MywtNDM4MTM4NjQ3LC04MTkxNTE1NjcsMTc5Mz
+E2NzEzNywxMTYzNjIxNDk5LDc3NTU1NTM1NCwtNjUxNjI4MjI4
+LDE3MTg2NDQ0MTUsLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMz
+kyOTEzNjU3LC0xODIyODE3Mzg1XX0=
 -->
