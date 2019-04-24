@@ -3,7 +3,7 @@ Nan Yu | April 2019
   
 ## VUE
 ### 1.  Data Binding
-#### 1.1.  Text Binding
+#### 1.1.  Text & Expression Binding
 ```html
 <!DOCTYPE html>
 <!DOCTYPE html>
@@ -34,6 +34,7 @@ Nan Yu | April 2019
 </html>
 ```
 
+Then content inside {{ ... }} is con
 #### 1.2. Html Binding
 ```html
 <!DOCTYPE html>
@@ -131,7 +132,7 @@ Nan Yu | April 2019
 </html>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgyOTIzODgsMTU0NjkwMzAsLTk5Mj
+eyJoaXN0b3J5IjpbLTE3MzIzMDk1NzYsMTU0NjkwMzAsLTk5Mj
 gwNjMxNywxNzQ5MDE5ODUsLTE1MjIxNTkwNTYsMjA0ODA3NzQ5
 Myw0NjEzOTkzNCwtMTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
 -->
