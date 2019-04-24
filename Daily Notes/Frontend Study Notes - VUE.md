@@ -82,7 +82,7 @@ Then content inside {{ ... }} is still a JavaScript expression.
 
 <body>
 	<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
-
+CSSStyleDeclaration
 	<div id="app">
 		<label for="r1">change color</label>
 		<input type="checkbox" v-model="use" id="r1">
@@ -108,8 +108,8 @@ Then content inside {{ ... }} is still a JavaScript expression.
 #### 1.4. Expression Binding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg2NTMyODQsNjk5OTAwNTg0LDE1ND
-Y5MDMwLC05OTI4MDYzMTcsMTc0OTAxOTg1LC0xNTIyMTU5MDU2
-LDIwNDgwNzc0OTMsNDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMT
-U4MzI2XX0=
+eyJoaXN0b3J5IjpbMTU5MTk2OTIwOCwtMTk3ODY1MzI4NCw2OT
+k5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUs
+LTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOT
+A4MjIyLC03MTAxNTgzMjZdfQ==
 -->
