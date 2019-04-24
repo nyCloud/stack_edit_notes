@@ -230,12 +230,13 @@ Abbr for v-on
 ```
 
 #### 7.2  Watch 
-
+```JavaScript
  vm.$watch('counter', function(nval, oval) {
-    alert('计数器值的变化 :' + oval + ' 变为 ' + nval + '!');
+    alert('Counter val changed from ' + oval + ' to ' + nval + '!');
  });
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY5NTcwMjEsMTUyMjQzMjQ5OSwtMz
+eyJoaXN0b3J5IjpbLTE4MjMxMzIyNzcsMTUyMjQzMjQ5OSwtMz
 A4NTYyODM0LC0xNTU3NzY5NjQyLC04ODE5OTE5NDUsNjgwNTk2
 Njg1LDcxMjQzMTc4NSwtMTUyOTI3MjMzMywtOTE4OTczMDY1LC
 0xOTc4NjUzMjg0LDY5OTkwMDU4NCwxNTQ2OTAzMCwtOTkyODA2
