@@ -36,12 +36,12 @@ console.log(...)
 There are multiple ways to declare variables in JavaScript
 ```javascript
 a = 1
-// a is global, and can be removed
+// a is global
 var b = 2
-// if var variable is decleared inside function, it is a local variable within fuction, if not it is a global variable
+// if declared inside a function var can be accessible anywhere in function. Or it is a global variable
 
 let c = 3
-// c is only valid within block
+// let and const can only be   accessible inside the block where they are declared
 const d = 4
 // d is only valid within block, can not be changed
 ```
@@ -50,7 +50,7 @@ Types suppore
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOT
-c4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgyMjgx
-NzM4NV19
+eyJoaXN0b3J5IjpbLTYyOTEwMDE0MiwtNjUxNjI4MjI4LDE3MT
+g2NDQ0MTUsLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMzkyOTEz
+NjU3LC0xODIyODE3Mzg1XX0=
 -->
