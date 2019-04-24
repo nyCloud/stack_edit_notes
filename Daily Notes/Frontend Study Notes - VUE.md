@@ -204,7 +204,7 @@ To iterate a JavaScript object
 ```
 
 ### 7. Event Reaction
-#### 
+#### 7.1. Event Binding (v-on) 
 v-on
 ```html
 <!-- origin -->
@@ -213,7 +213,7 @@ v-on
 <a @click="doSomething"></a>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzU4MDMzMSwtMzA4NTYyODM0LC0xNT
+eyJoaXN0b3J5IjpbMTUyMjQzMjQ5OSwtMzA4NTYyODM0LC0xNT
 U3NzY5NjQyLC04ODE5OTE5NDUsNjgwNTk2Njg1LDcxMjQzMTc4
 NSwtMTUyOTI3MjMzMywtOTE4OTczMDY1LC0xOTc4NjUzMjg0LD
 Y5OTkwMDU4NCwxNTQ2OTAzMCwtOTkyODA2MzE3LDE3NDkwMTk4
