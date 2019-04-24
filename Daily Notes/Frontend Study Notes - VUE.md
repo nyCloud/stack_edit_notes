@@ -205,7 +205,6 @@ To iterate a JavaScript object
 
 ### 7. Event Reaction
 #### 7.1. Event Binding (v-on) 
-
 ```html
 <div id = "app">
 	<p>counter = {{ counter }}</p>
@@ -214,12 +213,15 @@ To iterate a JavaScript object
 <script>
 	var vm = new Vue({
 		el: '#app',
-		data: {
-			counter: 1
+		data: function () {
+			return {
+				counter: 1
+			}
 		}
 	});
 </script>
 ```
+Abbr for v-on
 ```html
 <!-- origin -->
 <a  v-on:click="doSomething"></a> 
@@ -227,15 +229,16 @@ To iterate a JavaScript object
 <a @click="doSomething"></a>
 ```
 
+#### 7.2  Watch 
 
  vm.$watch('counter', function(nval, oval) {
     alert('计数器值的变化 :' + oval + ' 变为 ' + nval + '!');
  });
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjk4Mzg5NCwxNTIyNDMyNDk5LC0zMD
-g1NjI4MzQsLTE1NTc3Njk2NDIsLTg4MTk5MTk0NSw2ODA1OTY2
-ODUsNzEyNDMxNzg1LC0xNTI5MjcyMzMzLC05MTg5NzMwNjUsLT
-E5Nzg2NTMyODQsNjk5OTAwNTg0LDE1NDY5MDMwLC05OTI4MDYz
-MTcsMTc0OTAxOTg1LC0xNTIyMTU5MDU2LDIwNDgwNzc0OTMsND
-YxMzk5MzQsLTE3MjkwODIyMiwtNzEwMTU4MzI2XX0=
+eyJoaXN0b3J5IjpbLTEwMTY5NTcwMjEsMTUyMjQzMjQ5OSwtMz
+A4NTYyODM0LC0xNTU3NzY5NjQyLC04ODE5OTE5NDUsNjgwNTk2
+Njg1LDcxMjQzMTc4NSwtMTUyOTI3MjMzMywtOTE4OTczMDY1LC
+0xOTc4NjUzMjg0LDY5OTkwMDU4NCwxNTQ2OTAzMCwtOTkyODA2
+MzE3LDE3NDkwMTk4NSwtMTUyMjE1OTA1NiwyMDQ4MDc3NDkzLD
+Q2MTM5OTM0LC0xNzI5MDgyMjIsLTcxMDE1ODMyNl19
 -->
