@@ -59,11 +59,8 @@ Nan Yu | April 2019
 	</body>
 </html>
 ```
-#### 1.3. Variable Binding
-```html
 
-```
-#### 1.4. Element Attribute Binding
+#### 1.3. Element Attribute Binding
 ```html
 <!DOCTYPE html>
 <html>
@@ -72,7 +69,7 @@ Nan Yu | April 2019
 		<title>Vue Test</title>
 	</head>
 	<style>
-		.class1{
+		.class1 {
 			background: #444;
 			color: #eee;
 		}
@@ -100,8 +97,13 @@ Nan Yu | April 2019
 		</script>
 	</body>
 ```
+
+#### 1.4. Expression Binding
+```html
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MD
-E5ODUsLTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwt
-MTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbLTc0ODYyMDg5MiwxNTQ2OTAzMCwtOTkyOD
+A2MzE3LDE3NDkwMTk4NSwtMTUyMjE1OTA1NiwyMDQ4MDc3NDkz
+LDQ2MTM5OTM0LC0xNzI5MDgyMjIsLTcxMDE1ODMyNl19
 -->
