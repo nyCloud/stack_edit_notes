@@ -32,7 +32,9 @@ Nan Yu | April 2019
 	</body>
 </html>
 ```
+
+### 2. VUE Value Bi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMT
-U4MzI2XX0=
+eyJoaXN0b3J5IjpbNTg4MzMzNTM5LDQ2MTM5OTM0LC0xNzI5MD
+gyMjIsLTcxMDE1ODMyNl19
 -->
