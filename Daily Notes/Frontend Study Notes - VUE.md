@@ -150,6 +150,7 @@ v-else is available for the case where the condition doesn't met.
 ```
 
 #### 1.6 v-for
+To iterate a JavaScript array
 ```html
 <div id="app">
 	<ul>
@@ -171,10 +172,15 @@ v-else is available for the case where the condition doesn't met.
 	})
 </script>
 ```
+
+To iterate a JavaScript object
+```html
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTc3Njk2NDIsLTg4MTk5MTk0NSw2OD
-A1OTY2ODUsNzEyNDMxNzg1LC0xNTI5MjcyMzMzLC05MTg5NzMw
-NjUsLTE5Nzg2NTMyODQsNjk5OTAwNTg0LDE1NDY5MDMwLC05OT
-I4MDYzMTcsMTc0OTAxOTg1LC0xNTIyMTU5MDU2LDIwNDgwNzc0
-OTMsNDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMTU4MzI2XX0=
+eyJoaXN0b3J5IjpbLTE0MDM1NDA3MTEsLTE1NTc3Njk2NDIsLT
+g4MTk5MTk0NSw2ODA1OTY2ODUsNzEyNDMxNzg1LC0xNTI5Mjcy
+MzMzLC05MTg5NzMwNjUsLTE5Nzg2NTMyODQsNjk5OTAwNTg0LD
+E1NDY5MDMwLC05OTI4MDYzMTcsMTc0OTAxOTg1LC0xNTIyMTU5
+MDU2LDIwNDgwNzc0OTMsNDYxMzk5MzQsLTE3MjkwODIyMiwtNz
+EwMTU4MzI2XX0=
 -->
