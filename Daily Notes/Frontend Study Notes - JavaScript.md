@@ -34,11 +34,16 @@ console.log(...)
 
 ### 3. Variables
 ```javascript
-// a is global,
+a = 1
+// a is global, and can be removed
+var b = 2
+// b is valid within function, can not be removed
+let c = 3
+// c is only  
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDg3MTUyMzQsLTE5NzgwOTIwNzksLT
-kyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbMTcxODY0NDQxNSwtMTk3ODA5MjA3OSwtOT
+IwMDAyODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ==
 -->
