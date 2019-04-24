@@ -52,7 +52,7 @@ Nan Yu | April 2019
 			new Vue({
 				el: '#app',
 				data: {
-					message: '<h1>html bind</h1>'
+					message: '<h1>html binding</h1>'
 				}
 			})
 		</script>
@@ -60,6 +60,6 @@ Nan Yu | April 2019
 </html>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYyNDQyMTIsMjA0ODA3NzQ5Myw0Nj
+eyJoaXN0b3J5IjpbLTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0Nj
 EzOTkzNCwtMTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
 -->
