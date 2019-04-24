@@ -77,7 +77,9 @@ console.log(str_a[0]) // You will get 'T'
 console.log(a.concat(b))  // not in-place
 
 str_c = '  naive     '
-cons
+console.log(str_c.trim())
+// -> naive
+
 // get length
 str_a.length
 ```
@@ -121,7 +123,6 @@ console.log('4/24/2019 - 4/27/2019'.search(re_date))
 // -> 0
 
 ```
-
 
 ####  3.2.5 Array
 ```JavaScript
@@ -194,11 +195,11 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjYxMzUxODgsLTIwNjcyMjE2MDcsLT
-UzNTkzMDc2MSwtMjA5OTIxMjM3Miw5NjA3OTQzMTYsMjg5MzUx
-NjI2LC04OTk0MDMzOTksNzkzNjUyNjIwLDE0NjMwMzM0NzMsLT
-QzODEzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYy
-MTQ5OSw3NzU1NTUzNTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC
-0xOTc4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgy
-MjgxNzM4NV19
+eyJoaXN0b3J5IjpbMTU2MDMyNzA4NSwtMjA2NzIyMTYwNywtNT
+M1OTMwNzYxLC0yMDk5MjEyMzcyLDk2MDc5NDMxNiwyODkzNTE2
+MjYsLTg5OTQwMzM5OSw3OTM2NTI2MjAsMTQ2MzAzMzQ3MywtND
+M4MTM4NjQ3LC04MTkxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIx
+NDk5LDc3NTU1NTM1NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLT
+E5NzgwOTIwNzksLTkyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIy
+ODE3Mzg1XX0=
 -->
