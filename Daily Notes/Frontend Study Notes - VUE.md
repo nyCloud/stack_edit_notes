@@ -61,9 +61,44 @@ Nan Yu | April 2019
 ```
 
 #### 1.3. Element Attribute Binding
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Vue Test</title>
+	</head>
+	<style>
+		.class1{
+			background: #444;
+			color: #eee;
+		}
+	</style>
+	<body>
+		<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
 
+		<div id="app">
+			<label for="r1">change color</label><input type="checkbox" v-model="use" id="r1">
+			<br><br>
+			<div v-bind:class="{'class1': use}">
+				v-bind:class
+			</div>
+		</div>
+
+		<script>
+			new Vue({
+				el: '#app',
+				data: function (){
+					return {
+						use: false
+					}
+				}
+			});
+		</script>
+	</body>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTAxOTg1LC0xNTIyMTU5MDU2LDIwND
-gwNzc0OTMsNDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMTU4MzI2
-XX0=
+eyJoaXN0b3J5IjpbLTk5MjgwNjMxNywxNzQ5MDE5ODUsLTE1Mj
+IxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOTA4MjIy
+LC03MTAxNTgzMjZdfQ==
 -->
