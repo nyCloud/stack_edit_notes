@@ -19,7 +19,7 @@ Nan Yu | April 2019
 <!-- inside html element -->
 <button  type="button"  onclick="test_func()">test </button>
 ```
-### 2. JavaScript Message
+### 2. Print
 JavaScript provides multiple methods to print messages
 ```javascript
 // alert window
@@ -58,6 +58,12 @@ val_b = 2.718
 val_c = 3e8
 ```
 
+- Bool
+```JavaScript
+cond_a = true
+cond_b = false
+```
+
 - String
 ```JavaScript
 str_a = 'Too Young'
@@ -79,7 +85,7 @@ str_b = "Too Simple"
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1NTU1MzU0LC02NTE2MjgyMjgsMTcxOD
-Y0NDQxNSwtMTk3ODA5MjA3OSwtOTIwMDAyODkwLDEzOTI5MTM2
-NTcsLTE4MjI4MTczODVdfQ==
+eyJoaXN0b3J5IjpbMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLTY1MT
+YyODIyOCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAwMDI4
+OTAsMTM5MjkxMzY1NywtMTgyMjgxNzM4NV19
 -->
