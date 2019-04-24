@@ -78,6 +78,8 @@ console.log(str_a[0]) // You will get 'T'
 // get length
 str_a.length
 ```
+REs are also supported in JavaScript
+
 
 - Array
 ```JavaScript
@@ -150,9 +152,9 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzNjUyNjIwLDE0NjMwMzM0NzMsLTQzOD
-EzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYyMTQ5
-OSw3NzU1NTUzNTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOT
-c4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgyMjgx
-NzM4NV19
+eyJoaXN0b3J5IjpbLTg5OTQwMzM5OSw3OTM2NTI2MjAsMTQ2Mz
+AzMzQ3MywtNDM4MTM4NjQ3LC04MTkxNTE1NjcsMTc5MzE2NzEz
+NywxMTYzNjIxNDk5LDc3NTU1NTM1NCwtNjUxNjI4MjI4LDE3MT
+g2NDQ0MTUsLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMzkyOTEz
+NjU3LC0xODIyODE3Mzg1XX0=
 -->
