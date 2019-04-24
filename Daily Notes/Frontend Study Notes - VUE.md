@@ -149,10 +149,32 @@ v-else is available for the case where the condition doesn't met.
 </script>
 ```
 
+#### 1.6 v-for
+```html
+<div id="app">
+	<ul>
+		<li v-for="v in values">
+			{{'i:'+ v + '  j:' + v*v}}
+		</li>
+	</ul>
+</div>
+
+<script>
+	nums = [...Array(10).keys()]
+	new Vue({
+		el: '#app',
+		data: function () {
+			return {
+				values: nums
+			}
+		}
+	})
+</script>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3ODgzODc3LC04ODE5OTE5NDUsNjgwNT
-k2Njg1LDcxMjQzMTc4NSwtMTUyOTI3MjMzMywtOTE4OTczMDY1
-LC0xOTc4NjUzMjg0LDY5OTkwMDU4NCwxNTQ2OTAzMCwtOTkyOD
-A2MzE3LDE3NDkwMTk4NSwtMTUyMjE1OTA1NiwyMDQ4MDc3NDkz
-LDQ2MTM5OTM0LC0xNzI5MDgyMjIsLTcxMDE1ODMyNl19
+eyJoaXN0b3J5IjpbLTE1NTc3Njk2NDIsLTg4MTk5MTk0NSw2OD
+A1OTY2ODUsNzEyNDMxNzg1LC0xNTI5MjcyMzMzLC05MTg5NzMw
+NjUsLTE5Nzg2NTMyODQsNjk5OTAwNTg0LDE1NDY5MDMwLC05OT
+I4MDYzMTcsMTc0OTAxOTg1LC0xNTIyMTU5MDU2LDIwNDgwNzc0
+OTMsNDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMTU4MzI2XX0=
 -->
