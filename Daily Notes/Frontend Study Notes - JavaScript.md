@@ -82,26 +82,36 @@ str_b = "Too Simple"
 
 - Function
 ```JavaScript
+function hello() {
+	console.log('Hello !')
+}
 
+function add_nums(a, b){
+	return a + b
+}
 ```
 
 - Object
 ```JavaScript
-let car = {
-	color: 'blue'
-	type: 'camaro'
-	speed: 0
-	run: function() {
-		
-	}
-	stop: function() {
-
-	}
-}
+let car = {  
+    color: 'blue',  
+    type: 'camaro',  
+    speed: 0,  
+    acc: function() {  
+        this.speed += 10  
+        console.log(this.speed)  
+    },  
+    dec: function() {  
+        this.speed -= 10  
+        console.log(this.speed)  
+    }  
+}  
+car.acc()  
+car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTE1MTU2NywxNzkzMTY3MTM3LDExNj
-M2MjE0OTksNzc1NTU1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQx
-NSwtMTk3ODA5MjA3OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLT
-E4MjI4MTczODVdfQ==
+eyJoaXN0b3J5IjpbLTQzODEzODY0NywtODE5MTUxNTY3LDE3OT
+MxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLTY1MTYyODIy
+OCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAwMDI4OTAsMT
+M5MjkxMzY1NywtMTgyMjgxNzM4NV19
 -->
