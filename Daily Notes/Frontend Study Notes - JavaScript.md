@@ -69,7 +69,7 @@ cond_a = true
 cond_b = false
 ```
 
-- String
+#### 3.2.4 String
 ```JavaScript
 str_a = 'Too Young'
 str_b = "Too Simple"
@@ -79,26 +79,27 @@ console.log(a.concat(b))  // not in-place
 // get length
 str_a.length
 ```
+
 REs are also supported in JavaScript
 -- format '/body/modifier(optional)'
 -- body
-```
-[abc]: character
-[0-9]: number
-(x|y): x & y split by |
-\d: number
-\s: includes ' ', '\t', '\n'
-\b: space between words
-n+: at least one occurance
-n*: at least zero occurance
-n?: zero or one occurance
-```
+
+		[abc]: character
+		[0-9]: number
+		(x|y): x & y split by |
+		\d: number
+		\s: includes ' ', '\t', '\n'
+		\b: space between words
+		n+: at least one occurance
+		n*: at least zero occurance
+		n?: zero or one occurance
+
 --modifiers
-```
-i: ignore capital & small
-g: global matching
-m: multiline matching
-```
+
+		i: ignore capital & small
+		g: global matching
+		m: multiline matching
+
 
 
 
@@ -173,10 +174,10 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTMzMDg1MiwyODkzNTE2MjYsLTg5OT
-QwMzM5OSw3OTM2NTI2MjAsMTQ2MzAzMzQ3MywtNDM4MTM4NjQ3
-LC04MTkxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIxNDk5LDc3NT
-U1NTM1NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5NzgwOTIw
-NzksLTkyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX
-0=
+eyJoaXN0b3J5IjpbOTYwNzk0MzE2LDI4OTM1MTYyNiwtODk5ND
+AzMzk5LDc5MzY1MjYyMCwxNDYzMDMzNDczLC00MzgxMzg2NDcs
+LTgxOTE1MTU2NywxNzkzMTY3MTM3LDExNjM2MjE0OTksNzc1NT
+U1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3
+OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ
+==
 -->
