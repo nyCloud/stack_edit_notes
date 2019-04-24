@@ -82,18 +82,20 @@ str_a.length
 
 #### 3.2.4.1 RE
 REs are also supported in JavaScript
--- format '/^body$/modifier(optional)'
+-- format '/body/modifier(optional)'
 -- body
 
-		[abc]: character
-		[0-9]: number
-		(x|y): x & y split by |
-		\d: number
-		\s: includes ' ', '\t', '\n'
-		\b: space between words
-		n+: at least one occurance
-		n*: at least zero occurance
-		n?: zero or one occurance
+			^: start loc
+			$: end loc
+			[abc]: character
+			[0-9]: number
+			(x|y): x & y split by |
+			\d: number
+			\s: includes ' ', '\t', '\n'
+			\b: space between words
+			n+: at least one occurance
+			n*: at least zero occurance
+			n?: zero or one occurance
 
 --modifiers
 
@@ -108,6 +110,8 @@ console.log(re_num.test('1234')
 console.log(re_num.test('1234a')
 console.log(re_num.exec('1234')
 console.log(re_num.exec('1234a')
+
+re_whitespace = /
 ```
 
 
@@ -182,10 +186,10 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTkzMDc2MSwtMjA5OTIxMjM3Miw5Nj
-A3OTQzMTYsMjg5MzUxNjI2LC04OTk0MDMzOTksNzkzNjUyNjIw
-LDE0NjMwMzM0NzMsLTQzODEzODY0NywtODE5MTUxNTY3LDE3OT
-MxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLTY1MTYyODIy
-OCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAwMDI4OTAsMT
-M5MjkxMzY1NywtMTgyMjgxNzM4NV19
+eyJoaXN0b3J5IjpbLTM1OTYzNDY1MywtNTM1OTMwNzYxLC0yMD
+k5MjEyMzcyLDk2MDc5NDMxNiwyODkzNTE2MjYsLTg5OTQwMzM5
+OSw3OTM2NTI2MjAsMTQ2MzAzMzQ3MywtNDM4MTM4NjQ3LC04MT
+kxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIxNDk5LDc3NTU1NTM1
+NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5NzgwOTIwNzksLT
+kyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX0=
 -->
