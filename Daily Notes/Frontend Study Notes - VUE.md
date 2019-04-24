@@ -2,8 +2,7 @@
 Nan Yu | April 2019   
   
 ## VUE
-### 1.  Data Binding
-#### 1.1.  Text & Expression Binding
+#### 1. Text & Expression Binding
 ```html
 <!DOCTYPE html>
 <!DOCTYPE html>
@@ -51,7 +50,7 @@ Then content inside {{ ... }} is still a JavaScript expression.
 </script>
 ```
 
-#### 1.2. v-html
+#### 2. v-html
 ```html
 <!DOCTYPE html>
 ...
@@ -69,7 +68,7 @@ Then content inside {{ ... }} is still a JavaScript expression.
 </script>
 ```
 
-#### 1.3. v-bind
+#### 3. v-bind
 To bind a JavaScript value or expression to html element attribute
 ```html
 <!DOCTYPE html>
@@ -106,7 +105,7 @@ CSSStyleDeclaration
 </body>
 ```
 
-#### 1.4. v-if
+#### 4. v-if
 ```html
 <div id="app">
 	<p v-if="seen">now you see me!</p>
@@ -130,7 +129,7 @@ CSSStyleDeclaration
 ```
 v-else is available for the case where the condition doesn't met.
 
-#### 1.5 v-model
+#### 5. v-model
 
 ```html
 ...
@@ -149,7 +148,7 @@ v-else is available for the case where the condition doesn't met.
 </script>
 ```
 
-#### 1.6 v-for
+#### 6. v-for
 To iterate a JavaScript array
 ```html
 <div id="app">
@@ -197,10 +196,10 @@ To iterate a JavaScript object
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODU2MjgzNCwtMTU1Nzc2OTY0MiwtOD
-gxOTkxOTQ1LDY4MDU5NjY4NSw3MTI0MzE3ODUsLTE1MjkyNzIz
-MzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OTk5MDA1ODQsMT
-U0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUsLTE1MjIxNTkw
-NTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOTA4MjIyLC03MT
-AxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbODg0MjEwMjksLTMwODU2MjgzNCwtMTU1Nz
+c2OTY0MiwtODgxOTkxOTQ1LDY4MDU5NjY4NSw3MTI0MzE3ODUs
+LTE1MjkyNzIzMzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OT
+k5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUs
+LTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOT
+A4MjIyLC03MTAxNTgzMjZdfQ==
 -->
