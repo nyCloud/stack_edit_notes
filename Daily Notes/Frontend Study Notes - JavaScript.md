@@ -33,24 +33,28 @@ console.log(...)
 ```
 
 ### 3. Variables & Types
+#### 3.1 Variables
 There are multiple ways to declare variables in JavaScript
 ```javascript
 a = 1
 // a is global
+
 var b = 2
 // if declared inside a function var can be accessible anywhere in function. Or it is a global variable
 
 let c = 3
-// let and const can only be   accessible inside the block where they are declared
+// let and const can only be accessible inside the block where they are declared
+
 const d = 4
-// d is only valid within block, can not be changed
+// d can not be changed
 ```
 
-Types suppore
+#### 3.2 Types
+JavaScript Types
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTEwMDE0MiwtNjUxNjI4MjI4LDE3MT
+eyJoaXN0b3J5IjpbMTE3OTI2MDM2NCwtNjUxNjI4MjI4LDE3MT
 g2NDQ0MTUsLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMzkyOTEz
 NjU3LC0xODIyODE3Mzg1XX0=
 -->
