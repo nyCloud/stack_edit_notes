@@ -108,7 +108,7 @@ CSSStyleDeclaration
 Abbr: 
 ```html
 <!-- Origin --> 
- <a  v-bind:href="url"></a>  
+<a  v-bind:href="url"></a>  
 <!-- Abbr -->  
 <a :href="url"></a>
 ```
@@ -202,11 +202,19 @@ To iterate a JavaScript object
 	})
 </script>
 ```
+
+#### 7. v-on
+```html
+<!-- origin -->
+<a  v-on:click="doSomething"></a> 
+<!-- 缩写 --> 
+<a @click="doSomething"></a>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzMxMTQ0OTQsLTMwODU2MjgzNCwtMT
-U1Nzc2OTY0MiwtODgxOTkxOTQ1LDY4MDU5NjY4NSw3MTI0MzE3
-ODUsLTE1MjkyNzIzMzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NC
-w2OTk5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5
-ODUsLTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMT
-cyOTA4MjIyLC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbMTc3NzcwOTI1OCwtMzA4NTYyODM0LC0xNT
+U3NzY5NjQyLC04ODE5OTE5NDUsNjgwNTk2Njg1LDcxMjQzMTc4
+NSwtMTUyOTI3MjMzMywtOTE4OTczMDY1LC0xOTc4NjUzMjg0LD
+Y5OTkwMDU4NCwxNTQ2OTAzMCwtOTkyODA2MzE3LDE3NDkwMTk4
+NSwtMTUyMjE1OTA1NiwyMDQ4MDc3NDkzLDQ2MTM5OTM0LC0xNz
+I5MDgyMjIsLTcxMDE1ODMyNl19
 -->
