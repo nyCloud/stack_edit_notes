@@ -84,8 +84,9 @@ Then content inside {{ ... }} is still a JavaScript expression.
 	<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
 
 	<div id="app">
-		<label for="r1">change color</label><input type="checkbox" v-model="use" id="r1">
-		<br><br>
+		<label for="r1">change color</label>
+		<input type="checkbox" v-model="use" id="r1">
+		<br>
 		<div v-bind:class="{'class1': use}">
 			v-bind:class
 		</div>
@@ -107,7 +108,8 @@ Then content inside {{ ... }} is still a JavaScript expression.
 #### 1.4. Expression Binding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5OTAwNTg0LDE1NDY5MDMwLC05OTI4MD
-YzMTcsMTc0OTAxOTg1LC0xNTIyMTU5MDU2LDIwNDgwNzc0OTMs
-NDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMTU4MzI2XX0=
+eyJoaXN0b3J5IjpbLTE5Nzg2NTMyODQsNjk5OTAwNTg0LDE1ND
+Y5MDMwLC05OTI4MDYzMTcsMTc0OTAxOTg1LC0xNTIyMTU5MDU2
+LDIwNDgwNzc0OTMsNDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMT
+U4MzI2XX0=
 -->
