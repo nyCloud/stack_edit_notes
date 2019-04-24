@@ -14,7 +14,7 @@ Nan Yu | April 2019
 <body>
 	<div id="app">
 	  <p>{{ message }}</p>
-	  <p>{{ va}}
+	  <p>{{ value }}</p>
 	</div>
 
 	<script>
@@ -32,5 +32,5 @@ Nan Yu | April 2019
 </html>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjg3NDQzOSwtNzEwMTU4MzI2XX0=
+eyJoaXN0b3J5IjpbLTE3MjkwODIyMiwtNzEwMTU4MzI2XX0=
 -->
