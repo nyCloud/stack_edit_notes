@@ -128,7 +128,8 @@ CSSStyleDeclaration
 	})
 </script>
 ```
-v-else is also available for the case which the condition doesn't met
+v-else is available for the case where the condition doesn't met.
+
 #### v-model
 ```html
 ...
@@ -147,9 +148,9 @@ v-else is also available for the case which the condition doesn't met
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTEzMDU1NDQsNzEyNDMxNzg1LC0xNT
-I5MjcyMzMzLC05MTg5NzMwNjUsLTE5Nzg2NTMyODQsNjk5OTAw
-NTg0LDE1NDY5MDMwLC05OTI4MDYzMTcsMTc0OTAxOTg1LC0xNT
-IyMTU5MDU2LDIwNDgwNzc0OTMsNDYxMzk5MzQsLTE3MjkwODIy
-MiwtNzEwMTU4MzI2XX0=
+eyJoaXN0b3J5IjpbNjgwNTk2Njg1LDcxMjQzMTc4NSwtMTUyOT
+I3MjMzMywtOTE4OTczMDY1LC0xOTc4NjUzMjg0LDY5OTkwMDU4
+NCwxNTQ2OTAzMCwtOTkyODA2MzE3LDE3NDkwMTk4NSwtMTUyMj
+E1OTA1NiwyMDQ4MDc3NDkzLDQ2MTM5OTM0LC0xNzI5MDgyMjIs
+LTcxMDE1ODMyNl19
 -->
