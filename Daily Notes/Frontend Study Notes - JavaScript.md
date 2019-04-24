@@ -82,7 +82,12 @@ str_a.length
 
 REs are also supported in JavaScript
 -- format '/body/modifier(optional)'
--- asd
+-- body
+```
+[abc]: character
+[0-9]: number
+(x|y): 
+```
 
 - Array
 ```JavaScript
@@ -155,9 +160,9 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDQ2NDAyOCwtODk5NDAzMzk5LDc5Mz
-Y1MjYyMCwxNDYzMDMzNDczLC00MzgxMzg2NDcsLTgxOTE1MTU2
-NywxNzkzMTY3MTM3LDExNjM2MjE0OTksNzc1NTU1MzU0LC02NT
-E2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3OSwtOTIwMDAy
-ODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ==
+eyJoaXN0b3J5IjpbMTM5MzQwNzg2LC04OTk0MDMzOTksNzkzNj
+UyNjIwLDE0NjMwMzM0NzMsLTQzODEzODY0NywtODE5MTUxNTY3
+LDE3OTMxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLTY1MT
+YyODIyOCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAwMDI4
+OTAsMTM5MjkxMzY1NywtMTgyMjgxNzM4NV19
 -->
