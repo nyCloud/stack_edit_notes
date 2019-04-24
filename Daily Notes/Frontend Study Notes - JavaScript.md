@@ -76,7 +76,7 @@ str_b = "Too Simple"
 console.log(str_a[0]) // You will get 'T'
 
 // get length
-str_a
+str_a.length
 ```
 
 - Array
@@ -150,7 +150,7 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyNTczMTA4LDE0NjMwMzM0NzMsLTQzOD
+eyJoaXN0b3J5IjpbNzkzNjUyNjIwLDE0NjMwMzM0NzMsLTQzOD
 EzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYyMTQ5
 OSw3NzU1NTUzNTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOT
 c4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgyMjgx
