@@ -128,12 +128,28 @@ CSSStyleDeclaration
 	})
 </script>
 ```
-
+v-else is also available for the case which the condition doesn't met
 #### v-model
+```html
+...
+<div id="app">
+	<p>{{ message }}</p>
+	<input v-model="message">
+</div>
+
+<script>
+	new Vue({
+		el: '#app',
+		data: {
+			message: 'Runoob!'
+		}
+	})
+</script>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDA2MzQ4OCw3MTI0MzE3ODUsLTE1Mj
-kyNzIzMzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OTk5MDA1
-ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUsLTE1Mj
-IxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOTA4MjIy
-LC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbLTEwNTEzMDU1NDQsNzEyNDMxNzg1LC0xNT
+I5MjcyMzMzLC05MTg5NzMwNjUsLTE5Nzg2NTMyODQsNjk5OTAw
+NTg0LDE1NDY5MDMwLC05OTI4MDYzMTcsMTc0OTAxOTg1LC0xNT
+IyMTU5MDU2LDIwNDgwNzc0OTMsNDYxMzk5MzQsLTE3MjkwODIy
+MiwtNzEwMTU4MzI2XX0=
 -->
