@@ -50,20 +50,20 @@ const d = 4
 ```
 
 #### 3.2 Types
-JavaScript Types
-- Undefined & Null
+#### 3.2.1 Undefined & Null
 ```JavaScript
 cash = null
 future = undefined
 ```
-- Number
+
+#### 3.2.2 Number
 ```JavaScript
 val_a = 123
 val_b = 2.718
 val_c = 3e8
 ```
 
-- Bool
+#### 3.2.3 Bool
 ```JavaScript
 cond_a = true
 cond_b = false
@@ -79,7 +79,6 @@ console.log(a.concat(b))  // not in-place
 // get length
 str_a.length
 ```
-
 REs are also supported in JavaScript
 -- format '/body/modifier(optional)'
 -- body
@@ -96,8 +95,12 @@ n?: zero or one occurance
 ```
 --modifiers
 ```
-i: ignore capital & s
+i: ignore capital & small
+g: global matching
+m: multiline matching
 ```
+
+
 
 - Array
 ```JavaScript
@@ -170,10 +173,10 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkwNDc5MDAyLDI4OTM1MTYyNiwtODk5ND
-AzMzk5LDc5MzY1MjYyMCwxNDYzMDMzNDczLC00MzgxMzg2NDcs
-LTgxOTE1MTU2NywxNzkzMTY3MTM3LDExNjM2MjE0OTksNzc1NT
-U1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3
-OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ
-==
+eyJoaXN0b3J5IjpbMTY3NTMzMDg1MiwyODkzNTE2MjYsLTg5OT
+QwMzM5OSw3OTM2NTI2MjAsMTQ2MzAzMzQ3MywtNDM4MTM4NjQ3
+LC04MTkxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIxNDk5LDc3NT
+U1NTM1NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5NzgwOTIw
+NzksLTkyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX
+0=
 -->
