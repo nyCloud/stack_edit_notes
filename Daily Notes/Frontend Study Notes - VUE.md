@@ -100,10 +100,38 @@ Nan Yu | April 2019
 
 #### 1.4. Expression Binding
 ```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Vue Test</title>
+		<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			{{5 + 5}}<br>
+			{{ ok ? 'YES' : 'NO' }}<br>
+			{{ message.split('').reverse().join('') }}
+			<div v-bind:id="'list-' + id">Tutorial</div>
+		</div>
 
+		<script>
+			new Vue({
+				el: '#app',
+				data: function() {
+					return {
+						ok: true,
+						message: 'RUNOOB',
+						id : 1
+					}
+				}
+			})
+		</script>
+	</body>
+</html>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODYyMDg5MiwxNTQ2OTAzMCwtOTkyOD
-A2MzE3LDE3NDkwMTk4NSwtMTUyMjE1OTA1NiwyMDQ4MDc3NDkz
-LDQ2MTM5OTM0LC0xNzI5MDgyMjIsLTcxMDE1ODMyNl19
+eyJoaXN0b3J5IjpbLTE1ODgyOTIzODgsMTU0NjkwMzAsLTk5Mj
+gwNjMxNywxNzQ5MDE5ODUsLTE1MjIxNTkwNTYsMjA0ODA3NzQ5
+Myw0NjEzOTkzNCwtMTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
 -->
