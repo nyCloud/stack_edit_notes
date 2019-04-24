@@ -21,22 +21,24 @@ Nan Yu | April 2019
 ```
 ### 2. JavaScript Message
 JavaScript provides multiple methods to print messages
-```html
-<!-- alert window -->
+```javascript
+// alert window
 window.alert(...)
-<!-- write in html -->
+// write in html
 document.write(...)
-<!-- write in html element -->
+// write in html element
 document.getElementById('test').innerHTML = 'test_msg'
-<!-- to console -->
+// to console
 console.log(...)
 ```
 
 ### 3. Variables
-
+```javascript
+// a is global,
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMz
-kyOTEzNjU3LC0xODIyODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbLTE4NDg3MTUyMzQsLTE5NzgwOTIwNzksLT
+kyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX0=
 -->
