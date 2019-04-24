@@ -104,7 +104,10 @@ REs are also supported in JavaScript
 ```JavaScript
 //Some tests
 re_num = /^[0-9]+$/
-
+console.log(re_num.test('1234')
+console.log(re_num.test('1234a')
+console.log(re_num.exec('1234')
+console.log(re_num.exec('1234a')
 ```
 
 
@@ -179,10 +182,10 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1MTg2NTk3LC0yMDk5MjEyMzcyLDk2MD
-c5NDMxNiwyODkzNTE2MjYsLTg5OTQwMzM5OSw3OTM2NTI2MjAs
-MTQ2MzAzMzQ3MywtNDM4MTM4NjQ3LC04MTkxNTE1NjcsMTc5Mz
-E2NzEzNywxMTYzNjIxNDk5LDc3NTU1NTM1NCwtNjUxNjI4MjI4
-LDE3MTg2NDQ0MTUsLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMz
-kyOTEzNjU3LC0xODIyODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbLTUzNTkzMDc2MSwtMjA5OTIxMjM3Miw5Nj
+A3OTQzMTYsMjg5MzUxNjI2LC04OTk0MDMzOTksNzkzNjUyNjIw
+LDE0NjMwMzM0NzMsLTQzODEzODY0NywtODE5MTUxNTY3LDE3OT
+MxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLTY1MTYyODIy
+OCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAwMDI4OTAsMT
+M5MjkxMzY1NywtMTgyMjgxNzM4NV19
 -->
