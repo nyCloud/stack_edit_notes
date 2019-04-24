@@ -73,6 +73,10 @@ cond_b = false
 ```JavaScript
 str_a = 'Too Young'
 str_b = "Too Simple"
+console.log(str_a[0]) // You will get 'T'
+
+// get length
+str_a
 ```
 
 - Array
@@ -146,8 +150,9 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzAzMzQ3MywtNDM4MTM4NjQ3LC04MT
-kxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIxNDk5LDc3NTU1NTM1
-NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5NzgwOTIwNzksLT
-kyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbMjgyNTczMTA4LDE0NjMwMzM0NzMsLTQzOD
+EzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYyMTQ5
+OSw3NzU1NTUzNTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOT
+c4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgyMjgx
+NzM4NV19
 -->
