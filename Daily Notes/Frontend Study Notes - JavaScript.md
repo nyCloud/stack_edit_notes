@@ -103,7 +103,7 @@ REs are also supported in JavaScript
 
 
 
-- Array
+####  3.2.5 Array
 ```JavaScript
 let a = [1, 2]  
 let b = ['a', 'b', 'c', 'd', 'e']  
@@ -144,7 +144,7 @@ console.log(e.reverse())
 console.log(e)
 ```
 
-- Function
+#### 3.2.6 Function
 ```JavaScript
 function hello() {
 	console.log('Hello !')
@@ -174,10 +174,10 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwNzk0MzE2LDI4OTM1MTYyNiwtODk5ND
-AzMzk5LDc5MzY1MjYyMCwxNDYzMDMzNDczLC00MzgxMzg2NDcs
-LTgxOTE1MTU2NywxNzkzMTY3MTM3LDExNjM2MjE0OTksNzc1NT
-U1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3
-OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ
-==
+eyJoaXN0b3J5IjpbMTE2NTEyOTM0NSw5NjA3OTQzMTYsMjg5Mz
+UxNjI2LC04OTk0MDMzOTksNzkzNjUyNjIwLDE0NjMwMzM0NzMs
+LTQzODEzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2Mz
+YyMTQ5OSw3NzU1NTUzNTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1
+LC0xOTc4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMT
+gyMjgxNzM4NV19
 -->
