@@ -77,7 +77,7 @@ str_b = "Too Simple"
 
 - Array
 ```JavaScript
-let a = [1, 2, 3]  
+let a = [1, 2]  
 let b = ['a', 'b', 'c', 'd', 'e']  
 let c = [1, 2, 'apple', 4]  
 console.log(a)  
@@ -85,30 +85,28 @@ console.log(b)
 console.log(c)  
 console.log(c[2])  
   
-console.log('push & concat')  
-a.push(4)  
+// Push, pop & concat
+a.push(3)  
 console.log(a)  
-  
-d = a.concat(b)  
-console.log(a)  
-console.log(d)  
-  
+
 console.log('pop')  
 console.log(a.pop())  
 console.log(a.pop())  
-console.log(a.pop())  
-console.log(a.pop())  
-console.log(a.pop())  
-  
-console.log('slice')  
+console.log(a.pop()) 
+
+d = a.concat(b)  
+console.log(a)  
+console.log(d)  
+
+// Slice  
 console.log(b.slice(1, 3))  
 console.log(b)  
   
-console.log('length')  
+// Length
 console.log(b.length)  
-  
-console.log('sort')  
+
 let e = [1, 9, 8, 6, 2, 7, 3, 5, 4]  
+
 // in-place sort  
 console.log(e.sort())  
 console.log(e)  
@@ -148,8 +146,8 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyNjgwODM4LC00MzgxMzg2NDcsLTgxOT
-E1MTU2NywxNzkzMTY3MTM3LDExNjM2MjE0OTksNzc1NTU1MzU0
-LC02NTE2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3OSwtOT
-IwMDAyODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ==
+eyJoaXN0b3J5IjpbMTQ2MzAzMzQ3MywtNDM4MTM4NjQ3LC04MT
+kxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIxNDk5LDc3NTU1NTM1
+NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5NzgwOTIwNzksLT
+kyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX0=
 -->
