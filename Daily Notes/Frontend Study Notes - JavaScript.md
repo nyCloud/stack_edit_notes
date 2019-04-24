@@ -32,18 +32,23 @@ document.getElementById('test').innerHTML = 'test_msg'
 console.log(...)
 ```
 
-### 3. Variables
+### 3. Variables & Types
+There are multiple ways to declare variables in JavaScript
 ```javascript
 a = 1
 // a is global, and can be removed
 var b = 2
 // b is valid within function, can not be removed
 let c = 3
-// c is only  
+// c is only valid within block
+const d = 4
+// d is only valid within block, can not be changed
 ```
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODY0NDQxNSwtMTk3ODA5MjA3OSwtOT
-IwMDAyODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ==
+eyJoaXN0b3J5IjpbMTU2OTI2NDkzOCwxNzE4NjQ0NDE1LC0xOT
+c4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgyMjgx
+NzM4NV19
 -->
