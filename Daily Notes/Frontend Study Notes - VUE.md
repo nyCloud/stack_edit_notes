@@ -3,7 +3,7 @@ Nan Yu | April 2019
   
 ## VUE
 ### 1.  Data Binding
-#### 1.1.  
+#### 1.1.  Text Binding
 ```html
 <!DOCTYPE html>
 <!DOCTYPE html>
@@ -34,8 +34,32 @@ Nan Yu | April 2019
 </html>
 ```
 
-#### 1.2.
+#### 1.2. Html Binding
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Vue Test</title>
+		<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div v-html="message"></div>
+		</div>
+
+		<script>
+			new Vue({
+				el: '#app',
+				data: {
+					message: '<h1>html bind</h1>'
+				}
+			})
+		</script>
+	</body>
+</html>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOT
-A4MjIyLC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbLTEzNDYyNDQyMTIsMjA0ODA3NzQ5Myw0Nj
+EzOTkzNCwtMTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
 -->
