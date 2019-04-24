@@ -51,10 +51,35 @@ const d = 4
 
 #### 3.2 Types
 JavaScript Types
+- Number
+```JavaScript
+val_a = 123
+val_b = 2.718
+val_c = 3e8
+```
 
+- String
+```JavaScript
+
+```
+
+- Array
+```JavaScript
+
+```
+
+- Object
+```JavaScript
+
+```
+
+- Function
+```JavaScript
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTI2MDM2NCwtNjUxNjI4MjI4LDE3MT
+eyJoaXN0b3J5IjpbMjA3NDcyNzYwMywtNjUxNjI4MjI4LDE3MT
 g2NDQ0MTUsLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMzkyOTEz
 NjU3LC0xODIyODE3Mzg1XX0=
 -->
