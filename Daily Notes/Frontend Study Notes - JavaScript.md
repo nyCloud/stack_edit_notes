@@ -60,15 +60,11 @@ val_c = 3e8
 
 - String
 ```JavaScript
-
+str_a = 'Too Young'
+str_b = "Too Simple"
 ```
 
 - Array
-```JavaScript
-
-```
-
-- Object
 ```JavaScript
 
 ```
@@ -78,8 +74,12 @@ val_c = 3e8
 
 ```
 
+- Object
+```JavaScript
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDcyNzYwMywtNjUxNjI4MjI4LDE3MT
-g2NDQ0MTUsLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMzkyOTEz
-NjU3LC0xODIyODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbNzc1NTU1MzU0LC02NTE2MjgyMjgsMTcxOD
+Y0NDQxNSwtMTk3ODA5MjA3OSwtOTIwMDAyODkwLDEzOTI5MTM2
+NTcsLTE4MjI4MTczODVdfQ==
 -->
