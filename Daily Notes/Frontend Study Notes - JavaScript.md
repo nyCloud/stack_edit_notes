@@ -113,6 +113,7 @@ console.log(re_num.exec('1234a')
 
 re_whitespace = /\s+/
 console.log('a aa aaa'.split(re_whitespace))
+// -> ['a', 'aa', 'aaa']
 ```
 
 
@@ -187,10 +188,10 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Nzg3NTMwMCwtNTM1OTMwNzYxLC0yMD
-k5MjEyMzcyLDk2MDc5NDMxNiwyODkzNTE2MjYsLTg5OTQwMzM5
-OSw3OTM2NTI2MjAsMTQ2MzAzMzQ3MywtNDM4MTM4NjQ3LC04MT
-kxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIxNDk5LDc3NTU1NTM1
-NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5NzgwOTIwNzksLT
-kyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbLTIwNjcyMjE2MDcsLTUzNTkzMDc2MSwtMj
+A5OTIxMjM3Miw5NjA3OTQzMTYsMjg5MzUxNjI2LC04OTk0MDMz
+OTksNzkzNjUyNjIwLDE0NjMwMzM0NzMsLTQzODEzODY0NywtOD
+E5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUz
+NTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC
+05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgyMjgxNzM4NV19
 -->
