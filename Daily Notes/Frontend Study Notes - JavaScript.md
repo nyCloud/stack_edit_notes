@@ -88,12 +88,16 @@ str_b = "Too Simple"
 - Object
 ```JavaScript
 let car = {
-	color: '
+	color: 'blue'
+	type: 'camaro'
+	speed: 0
+	run:
+	stop:
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzE2NzEzNywxMTYzNjIxNDk5LDc3NT
-U1NTM1NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5NzgwOTIw
-NzksLTkyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX
-0=
+eyJoaXN0b3J5IjpbMTMzNzI5OTMyOSwxNzkzMTY3MTM3LDExNj
+M2MjE0OTksNzc1NTU1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQx
+NSwtMTk3ODA5MjA3OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLT
+E4MjI4MTczODVdfQ==
 -->
