@@ -106,11 +106,31 @@ CSSStyleDeclaration
 ```
 
 #### 1.4. If Binding (if-bind)
+```html
+<div id="app">
+	<p v-if="seen">now you see me!</p>
+	<template v-if="ok">
+		<h1>title</h1>
+		<p>paragraph</p>
+	</template>
+</div>
 
+<script>
+	new Vue({
+		el: '#app',
+		data: function () {
+			return {
+				seen: true,
+				ok: true
+			}
+		}
+	})
+</script>
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OT
-k5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUs
-LTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOT
-A4MjIyLC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbLTE1MjkyNzIzMzMsLTkxODk3MzA2NSwtMT
+k3ODY1MzI4NCw2OTk5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMx
+NywxNzQ5MDE5ODUsLTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0Nj
+EzOTkzNCwtMTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
 -->
