@@ -51,7 +51,7 @@ Then content inside {{ ... }} is still a JavaScript expression.
 </script>
 ```
 
-#### 1.2. Html Binding
+#### 1.2. Html Binding (v-html)
 ```html
 <!DOCTYPE html>
 ...
@@ -69,7 +69,7 @@ Then content inside {{ ... }} is still a JavaScript expression.
 </script>
 ```
 
-#### 1.3. Element Attribute Binding
+#### 1.3. Element Attribute Binding (v-bind)
 ```html
 <!DOCTYPE html>
 ...
@@ -108,7 +108,7 @@ CSSStyleDeclaration
 #### 1.4. Expression Binding
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTk2OTIwOCwtMTk3ODY1MzI4NCw2OT
+eyJoaXN0b3J5IjpbMTMwOTAwNzY5OCwtMTk3ODY1MzI4NCw2OT
 k5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUs
 LTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOT
 A4MjIyLC03MTAxNTgzMjZdfQ==
