@@ -105,10 +105,11 @@ CSSStyleDeclaration
 </body>
 ```
 
-#### 1.4. Expression Binding
+#### 1.4. If Binding (if-bind)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTAwNzY5OCwtMTk3ODY1MzI4NCw2OT
+eyJoaXN0b3J5IjpbLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OT
 k5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUs
 LTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOT
 A4MjIyLC03MTAxNTgzMjZdfQ==
