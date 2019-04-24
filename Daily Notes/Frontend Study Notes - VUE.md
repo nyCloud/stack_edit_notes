@@ -175,12 +175,32 @@ To iterate a JavaScript array
 
 To iterate a JavaScript object
 ```html
+<div id="app">
+	<ul>
+		<li v-for="(v, k) in object">
+			{{ k }} | {{ v }}
+		</li>
+	</ul>
+</div>
 
+<script>
+	new Vue({
+		el: '#app',
+		data: {
+			object: {
+				bag: '2019-01-02',
+				duration: '100s',
+				length: '300m'
+			}
+		}
+	})
+</script>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDM1NDA3MTEsLTE1NTc3Njk2NDIsLT
-g4MTk5MTk0NSw2ODA1OTY2ODUsNzEyNDMxNzg1LC0xNTI5Mjcy
-MzMzLC05MTg5NzMwNjUsLTE5Nzg2NTMyODQsNjk5OTAwNTg0LD
-E1NDY5MDMwLC05OTI4MDYzMTcsMTc0OTAxOTg1LC0xNTIyMTU5
-MDU2LDIwNDgwNzc0OTMsNDYxMzk5MzQsLTE3MjkwODIyMiwtNz
-EwMTU4MzI2XX0=
+eyJoaXN0b3J5IjpbLTMwODU2MjgzNCwtMTU1Nzc2OTY0MiwtOD
+gxOTkxOTQ1LDY4MDU5NjY4NSw3MTI0MzE3ODUsLTE1MjkyNzIz
+MzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OTk5MDA1ODQsMT
+U0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUsLTE1MjIxNTkw
+NTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOTA4MjIyLC03MT
+AxNTgzMjZdfQ==
 -->
