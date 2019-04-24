@@ -2,7 +2,7 @@
 Nan Yu | April 2019   
   
 ## VUE
-### 1. 
+### 1.  Getting Started
 ```html
 <!DOCTYPE html>
 <html>
@@ -30,5 +30,5 @@ Nan Yu | April 2019
 </html>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTc5NDI0NiwtNzEwMTU4MzI2XX0=
+eyJoaXN0b3J5IjpbLTEzNDg2MTUxMzUsLTcxMDE1ODMyNl19
 -->
