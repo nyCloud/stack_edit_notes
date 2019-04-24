@@ -59,8 +59,11 @@ Nan Yu | April 2019
 	</body>
 </html>
 ```
+#### 1.3. Variable Binding
+```html
 
-#### 1.3. Element Attribute Binding
+```
+#### 1.4. Element Attribute Binding
 ```html
 <!DOCTYPE html>
 <html>
@@ -98,7 +101,7 @@ Nan Yu | April 2019
 	</body>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjgwNjMxNywxNzQ5MDE5ODUsLTE1Mj
-IxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOTA4MjIy
-LC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MD
+E5ODUsLTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwt
+MTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
 -->
