@@ -112,8 +112,9 @@ console.log(re_num.exec('1234')
 console.log(re_num.exec('1234a')
 
 re_whitespace = /\s+/
-re_date = /[]/
+re_date = /[0-9]{1,2}[/][0-9]{1,2}[/][0-9]{4}/
 console.log('a aa aaa'.split(re_whitespace))
+
 // -> ['a', 'aa', 'aaa']
 ```
 
@@ -189,7 +190,7 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIxNDMwMjYsLTIwNjcyMjE2MDcsLT
+eyJoaXN0b3J5IjpbLTE5NzI2OTE1ODIsLTIwNjcyMjE2MDcsLT
 UzNTkzMDc2MSwtMjA5OTIxMjM3Miw5NjA3OTQzMTYsMjg5MzUx
 NjI2LC04OTk0MDMzOTksNzkzNjUyNjIwLDE0NjMwMzM0NzMsLT
 QzODEzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYy
