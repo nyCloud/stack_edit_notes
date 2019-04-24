@@ -2,7 +2,8 @@
 Nan Yu | April 2019   
   
 ## VUE
-### 1.  Getting Started
+### 1.  Data Binding
+#### 1.1.  
 ```html
 <!DOCTYPE html>
 <!DOCTYPE html>
@@ -33,9 +34,8 @@ Nan Yu | April 2019
 </html>
 ```
 
-### 2. Data Binding
-
+#### 1.2.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTE0MjQxNCw0NjEzOTkzNCwtMTcyOT
+eyJoaXN0b3J5IjpbMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOT
 A4MjIyLC03MTAxNTgzMjZdfQ==
 -->
