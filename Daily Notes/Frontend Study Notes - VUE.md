@@ -70,7 +70,7 @@ Then content inside {{ ... }} is still a JavaScript expression.
 ```
 
 #### 1.3. Element Attribute Binding (v-bind)
-
+To bind a JavaScript value or expression to Html element attribute
 ```html
 <!DOCTYPE html>
 ...
@@ -130,9 +130,9 @@ CSSStyleDeclaration
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzgyMTAyNSwtMTUyOTI3MjMzMywtOT
-E4OTczMDY1LC0xOTc4NjUzMjg0LDY5OTkwMDU4NCwxNTQ2OTAz
-MCwtOTkyODA2MzE3LDE3NDkwMTk4NSwtMTUyMjE1OTA1NiwyMD
-Q4MDc3NDkzLDQ2MTM5OTM0LC0xNzI5MDgyMjIsLTcxMDE1ODMy
-Nl19
+eyJoaXN0b3J5IjpbNzEyNDMxNzg1LC0xNTI5MjcyMzMzLC05MT
+g5NzMwNjUsLTE5Nzg2NTMyODQsNjk5OTAwNTg0LDE1NDY5MDMw
+LC05OTI4MDYzMTcsMTc0OTAxOTg1LC0xNTIyMTU5MDU2LDIwND
+gwNzc0OTMsNDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMTU4MzI2
+XX0=
 -->
