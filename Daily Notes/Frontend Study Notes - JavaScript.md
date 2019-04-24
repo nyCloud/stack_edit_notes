@@ -132,8 +132,8 @@ console.log('4/24/2019 - 4/27/2019'.search(re_date))
 let a = [1, 2]  
 let b = ['a', 'b', 'c', 'd', 'e']  
 let c = [1, 2, 'apple', 4]  
+
 console.log(a)  
-console.log(b)  
 console.log(c)  
 console.log(c[2])  
   
@@ -168,7 +168,7 @@ console.log(e.reverse())
 console.log(e)
 ```
 
-#### 3.2.6 Function
+#### 3.2.6- Function
 ```JavaScript
 function hello() {
 	console.log('Hello !')
@@ -179,7 +179,7 @@ function add_nums(a, b){
 }
 ```
 
-#### 3.2.7 Object
+#### 3.2.7- Object
 ```JavaScript
 let car = {  
     color: 'blue',  
@@ -198,11 +198,11 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTQ5MDMxNSwtMjA2NzIyMTYwNywtNT
-M1OTMwNzYxLC0yMDk5MjEyMzcyLDk2MDc5NDMxNiwyODkzNTE2
-MjYsLTg5OTQwMzM5OSw3OTM2NTI2MjAsMTQ2MzAzMzQ3MywtND
-M4MTM4NjQ3LC04MTkxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIx
-NDk5LDc3NTU1NTM1NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLT
-E5NzgwOTIwNzksLTkyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIy
-ODE3Mzg1XX0=
+eyJoaXN0b3J5IjpbLTE1Mzc0NTU0NjEsMTI3OTQ5MDMxNSwtMj
+A2NzIyMTYwNywtNTM1OTMwNzYxLC0yMDk5MjEyMzcyLDk2MDc5
+NDMxNiwyODkzNTE2MjYsLTg5OTQwMzM5OSw3OTM2NTI2MjAsLT
+QzODEzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYy
+MTQ5OSw3NzU1NTUzNTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC
+0xOTc4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgy
+MjgxNzM4NV19
 -->
