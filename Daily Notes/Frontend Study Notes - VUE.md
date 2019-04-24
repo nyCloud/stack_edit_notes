@@ -59,7 +59,11 @@ Nan Yu | April 2019
 	</body>
 </html>
 ```
+
+#### 1.3. Element Attribute Binding
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0Nj
-EzOTkzNCwtMTcyOTA4MjIyLC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbMTc0OTAxOTg1LC0xNTIyMTU5MDU2LDIwND
+gwNzc0OTMsNDYxMzk5MzQsLTE3MjkwODIyMiwtNzEwMTU4MzI2
+XX0=
 -->
