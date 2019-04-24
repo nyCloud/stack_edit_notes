@@ -91,12 +91,16 @@ let car = {
 	color: 'blue'
 	type: 'camaro'
 	speed: 0
-	run:
-	stop:
+	run: function() {
+		
+	}
+	stop: function() {
+
+	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzI5OTMyOSwxNzkzMTY3MTM3LDExNj
+eyJoaXN0b3J5IjpbLTgxOTE1MTU2NywxNzkzMTY3MTM3LDExNj
 M2MjE0OTksNzc1NTU1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQx
 NSwtMTk3ODA5MjA3OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLT
 E4MjI4MTczODVdfQ==
