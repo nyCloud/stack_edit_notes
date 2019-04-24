@@ -93,9 +93,9 @@ REs are also supported in JavaScript
 			\d: number
 			\s: includes ' ', '\t', '\n'
 			\b: space between words
-			n+: at least one occurance
-			n*: at least zero occurance
-			n?: zero or one occurance
+			n+: at least one occurrence
+			n*: at least zero occurrence
+			n?: zero or one occurrence
 
 --modifiers
 
@@ -112,6 +112,7 @@ console.log(re_num.exec('1234')
 console.log(re_num.exec('1234a')
 
 re_whitespace = /\s+/
+re_date = /[]/
 console.log('a aa aaa'.split(re_whitespace))
 // -> ['a', 'aa', 'aaa']
 ```
@@ -188,10 +189,11 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjcyMjE2MDcsLTUzNTkzMDc2MSwtMj
-A5OTIxMjM3Miw5NjA3OTQzMTYsMjg5MzUxNjI2LC04OTk0MDMz
-OTksNzkzNjUyNjIwLDE0NjMwMzM0NzMsLTQzODEzODY0NywtOD
-E5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUz
-NTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC
-05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgyMjgxNzM4NV19
+eyJoaXN0b3J5IjpbLTEyOTIxNDMwMjYsLTIwNjcyMjE2MDcsLT
+UzNTkzMDc2MSwtMjA5OTIxMjM3Miw5NjA3OTQzMTYsMjg5MzUx
+NjI2LC04OTk0MDMzOTksNzkzNjUyNjIwLDE0NjMwMzM0NzMsLT
+QzODEzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYy
+MTQ5OSw3NzU1NTUzNTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC
+0xOTc4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgy
+MjgxNzM4NV19
 -->
