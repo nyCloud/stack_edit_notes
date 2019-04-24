@@ -14,6 +14,7 @@ Nan Yu | April 2019
 <body>
 	<div id="app">
 	  <p>{{ message }}</p>
+	  <p>{{ va}}
 	</div>
 
 	<script>
@@ -22,6 +23,7 @@ Nan Yu | April 2019
 	  data: function() {
 			return {
 				message: 'hello world!'
+				value: 42
 			}
 		}
 	})
@@ -30,5 +32,5 @@ Nan Yu | April 2019
 </html>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDg2MTUxMzUsLTcxMDE1ODMyNl19
+eyJoaXN0b3J5IjpbMTUxNjg3NDQzOSwtNzEwMTU4MzI2XX0=
 -->
