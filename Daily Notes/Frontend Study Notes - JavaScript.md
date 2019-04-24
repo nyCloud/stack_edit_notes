@@ -38,7 +38,8 @@ There are multiple ways to declare variables in JavaScript
 a = 1
 // a is global, and can be removed
 var b = 2
-// b is local variable within function, can not be removed
+// if var variable is decleared inside function, it is a local variable within fuction, if not it is a global variable
+
 let c = 3
 // c is only valid within block
 const d = 4
@@ -49,7 +50,7 @@ Types suppore
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDk4NjQ1NCwxNzE4NjQ0NDE1LC0xOT
+eyJoaXN0b3J5IjpbLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOT
 c4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgyMjgx
 NzM4NV19
 -->
