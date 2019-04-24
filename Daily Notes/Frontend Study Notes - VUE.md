@@ -51,7 +51,7 @@ Then content inside {{ ... }} is still a JavaScript expression.
 </script>
 ```
 
-#### 1.2. Html Binding (v-html)
+#### 1.2. v-html
 ```html
 <!DOCTYPE html>
 ...
@@ -69,8 +69,8 @@ Then content inside {{ ... }} is still a JavaScript expression.
 </script>
 ```
 
-#### 1.3. Element Attribute Binding (v-bind)
-To bind a JavaScript value or expression to Html element attribute
+#### 1.3. v-bind
+To bind a JavaScript value or expression to html element attribute
 ```html
 <!DOCTYPE html>
 ...
@@ -106,7 +106,7 @@ CSSStyleDeclaration
 </body>
 ```
 
-#### 1.4. If Binding (if-bind)
+#### 1.4. v-if
 ```html
 <div id="app">
 	<p v-if="seen">now you see me!</p>
@@ -129,9 +129,9 @@ CSSStyleDeclaration
 </script>
 ```
 
-#### User Input Bind
+#### v-model
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDMwODM2Nyw3MTI0MzE3ODUsLTE1Mj
+eyJoaXN0b3J5IjpbMTcxMDA2MzQ4OCw3MTI0MzE3ODUsLTE1Mj
 kyNzIzMzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OTk5MDA1
 ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUsLTE1Mj
 IxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOTA4MjIy
