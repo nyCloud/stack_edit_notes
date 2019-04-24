@@ -105,6 +105,13 @@ CSSStyleDeclaration
 </body>
 ```
 
+Abbr: 
+```html
+<!-- Origin --> 
+ <a  v-bind:href="url"></a>  
+<!-- Abbr -->  
+<a :href="url"></a>
+```
 #### 4. v-if
 ```html
 <div id="app">
@@ -196,10 +203,10 @@ To iterate a JavaScript object
 </script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0MjEwMjksLTMwODU2MjgzNCwtMTU1Nz
-c2OTY0MiwtODgxOTkxOTQ1LDY4MDU5NjY4NSw3MTI0MzE3ODUs
-LTE1MjkyNzIzMzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OT
-k5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUs
-LTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOT
-A4MjIyLC03MTAxNTgzMjZdfQ==
+eyJoaXN0b3J5IjpbLTE0MzMxMTQ0OTQsLTMwODU2MjgzNCwtMT
+U1Nzc2OTY0MiwtODgxOTkxOTQ1LDY4MDU5NjY4NSw3MTI0MzE3
+ODUsLTE1MjkyNzIzMzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NC
+w2OTk5MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5
+ODUsLTE1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMT
+cyOTA4MjIyLC03MTAxNTgzMjZdfQ==
 -->
