@@ -87,10 +87,12 @@ str_b = "Too Simple"
 
 - Object
 ```JavaScript
-
+let car = {
+	color: '
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDQ2MzQyOSwxMTYzNjIxNDk5LDc3NT
+eyJoaXN0b3J5IjpbMTc5MzE2NzEzNywxMTYzNjIxNDk5LDc3NT
 U1NTM1NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5NzgwOTIw
 NzksLTkyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX
 0=
