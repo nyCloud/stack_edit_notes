@@ -90,6 +90,13 @@ REs are also supported in JavaScript
 \d: number
 \s: includes ' ', '\t', '\n'
 \b: space between words
+n+: at least one occurance
+n*: at least zero occurance
+n?: zero or one occurance
+```
+--modifiers
+```
+i: ignore capital & s
 ```
 
 - Array
@@ -163,9 +170,10 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5MzUxNjI2LC04OTk0MDMzOTksNzkzNj
-UyNjIwLDE0NjMwMzM0NzMsLTQzODEzODY0NywtODE5MTUxNTY3
-LDE3OTMxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLTY1MT
-YyODIyOCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAwMDI4
-OTAsMTM5MjkxMzY1NywtMTgyMjgxNzM4NV19
+eyJoaXN0b3J5IjpbNjkwNDc5MDAyLDI4OTM1MTYyNiwtODk5ND
+AzMzk5LDc5MzY1MjYyMCwxNDYzMDMzNDczLC00MzgxMzg2NDcs
+LTgxOTE1MTU2NywxNzkzMTY3MTM3LDExNjM2MjE0OTksNzc1NT
+U1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3
+OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ
+==
 -->
