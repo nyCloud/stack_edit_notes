@@ -114,8 +114,10 @@ console.log(re_num.exec('1234a')
 re_whitespace = /\s+/
 re_date = /[0-9]{1,2}[/][0-9]{1,2}[/][0-9]{4}/
 console.log('a aa aaa'.split(re_whitespace))
-
 // -> ['a', 'aa', 'aaa']
+console.log('date = 4/24/2019'.search(re_date))
+
+
 ```
 
 
@@ -190,11 +192,11 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI2OTE1ODIsLTIwNjcyMjE2MDcsLT
-UzNTkzMDc2MSwtMjA5OTIxMjM3Miw5NjA3OTQzMTYsMjg5MzUx
-NjI2LC04OTk0MDMzOTksNzkzNjUyNjIwLDE0NjMwMzM0NzMsLT
-QzODEzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYy
-MTQ5OSw3NzU1NTUzNTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC
-0xOTc4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgy
-MjgxNzM4NV19
+eyJoaXN0b3J5IjpbODYzMTQzMTA2LC0yMDY3MjIxNjA3LC01Mz
+U5MzA3NjEsLTIwOTkyMTIzNzIsOTYwNzk0MzE2LDI4OTM1MTYy
+NiwtODk5NDAzMzk5LDc5MzY1MjYyMCwxNDYzMDMzNDczLC00Mz
+gxMzg2NDcsLTgxOTE1MTU2NywxNzkzMTY3MTM3LDExNjM2MjE0
+OTksNzc1NTU1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQxNSwtMT
+k3ODA5MjA3OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLTE4MjI4
+MTczODVdfQ==
 -->
