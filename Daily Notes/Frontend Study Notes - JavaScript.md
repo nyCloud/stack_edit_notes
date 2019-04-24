@@ -51,7 +51,11 @@ const d = 4
 
 #### 3.2 Types
 JavaScript Types
-- 
+- Undefined & Null
+```JavaScript
+cash = null
+future = undefined
+```
 - Number
 ```JavaScript
 val_a = 123
@@ -86,8 +90,8 @@ str_b = "Too Simple"
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4NDQzMzgyLDExNjM2MjE0OTksNzc1NT
-U1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3
-OSwtOTIwMDAyODkwLDEzOTI5MTM2NTcsLTE4MjI4MTczODVdfQ
-==
+eyJoaXN0b3J5IjpbMjE0NDQ2MzQyOSwxMTYzNjIxNDk5LDc3NT
+U1NTM1NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5NzgwOTIw
+NzksLTkyMDAwMjg5MCwxMzkyOTEzNjU3LC0xODIyODE3Mzg1XX
+0=
 -->
