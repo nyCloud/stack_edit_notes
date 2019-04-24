@@ -2,7 +2,7 @@
 Nan Yu | April 2019   
   
 ## VUE
-#### 1. Text & Expression Binding
+### 1. Text & Expression Binding
 ```html
 <!DOCTYPE html>
 <!DOCTYPE html>
@@ -50,7 +50,7 @@ Then content inside {{ ... }} is still a JavaScript expression.
 </script>
 ```
 
-#### 2. v-html
+### 2. v-html
 ```html
 <!DOCTYPE html>
 ...
@@ -68,7 +68,7 @@ Then content inside {{ ... }} is still a JavaScript expression.
 </script>
 ```
 
-#### 3. v-bind
+### 3. v-bind
 To bind a JavaScript value or expression to html element attribute
 ```html
 <!DOCTYPE html>
@@ -112,7 +112,7 @@ Abbr:
 <!-- Abbr -->  
 <a :href="url"></a>
 ```
-#### 4. v-if
+### 4. v-if
 ```html
 <div id="app">
 	<p v-if="seen">now you see me!</p>
@@ -136,7 +136,7 @@ Abbr:
 ```
 v-else is available for the case where the condition doesn't met.
 
-#### 5. v-model
+### 5. v-model
 
 ```html
 ...
@@ -155,7 +155,7 @@ v-else is available for the case where the condition doesn't met.
 </script>
 ```
 
-#### 6. v-for
+### 6. v-for
 To iterate a JavaScript array
 ```html
 <div id="app">
@@ -203,15 +203,17 @@ To iterate a JavaScript object
 </script>
 ```
 
-#### 7. v-on
+### 7. Event Reaction
+#### 
+v-on
 ```html
 <!-- origin -->
 <a  v-on:click="doSomething"></a> 
-<!-- 缩写 --> 
+<!-- abbr --> 
 <a @click="doSomething"></a>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzcwOTI1OCwtMzA4NTYyODM0LC0xNT
+eyJoaXN0b3J5IjpbMjAxNzU4MDMzMSwtMzA4NTYyODM0LC0xNT
 U3NzY5NjQyLC04ODE5OTE5NDUsNjgwNTk2Njg1LDcxMjQzMTc4
 NSwtMTUyOTI3MjMzMywtOTE4OTczMDY1LC0xOTc4NjUzMjg0LD
 Y5OTkwMDU4NCwxNTQ2OTAzMCwtOTkyODA2MzE3LDE3NDkwMTk4
