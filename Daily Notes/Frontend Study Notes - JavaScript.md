@@ -103,6 +103,7 @@ REs are also supported in JavaScript
 
 ```JavaScript
 //Some tests
+re_num = /^[0-9]+$/
 
 ```
 
@@ -178,7 +179,7 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjUwMzUzLC0yMDk5MjEyMzcyLDk2MD
+eyJoaXN0b3J5IjpbNjg1MTg2NTk3LC0yMDk5MjEyMzcyLDk2MD
 c5NDMxNiwyODkzNTE2MjYsLTg5OTQwMzM5OSw3OTM2NTI2MjAs
 MTQ2MzAzMzQ3MywtNDM4MTM4NjQ3LC04MTkxNTE1NjcsMTc5Mz
 E2NzEzNywxMTYzNjIxNDk5LDc3NTU1NTM1NCwtNjUxNjI4MjI4
