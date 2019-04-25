@@ -228,6 +228,36 @@ Abbr for v-on
 <!-- abbr --> 
 <a @click="doSomething"></a>
 ```
+Pass event to to callback function
+```html
+<body>
+	<div id="app">
+		<button @click="greet">Greet</button>
+	</div>
+
+	<script>
+		var app = new Vue({
+			el: '#app',
+			data: {
+				name: 'Vue.js'
+			},
+
+			methods: {
+				greet: function (event) {
+					alert('Hello ' + this.name + '!')
+					if (event) {
+						alert(event.target.tagName)
+					}
+				}
+			}
+		})
+		// You can also call app functions directly
+		app.greet() // -> 'Hello Vue.js!'
+	</script>
+</body>
+```
+
+Pass parameters to callback function
 
 #### 7.2  Watch 
 ```JavaScript
@@ -236,11 +266,11 @@ Abbr for v-on
  });
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTUyODIyMzMsLTE4MjMxMzIyNzcsMT
-UyMjQzMjQ5OSwtMzA4NTYyODM0LC0xNTU3NzY5NjQyLC04ODE5
-OTE5NDUsNjgwNTk2Njg1LDcxMjQzMTc4NSwtMTUyOTI3MjMzMy
-wtOTE4OTczMDY1LC0xOTc4NjUzMjg0LDY5OTkwMDU4NCwxNTQ2
-OTAzMCwtOTkyODA2MzE3LDE3NDkwMTk4NSwtMTUyMjE1OTA1Ni
-wyMDQ4MDc3NDkzLDQ2MTM5OTM0LC0xNzI5MDgyMjIsLTcxMDE1
-ODMyNl19
+eyJoaXN0b3J5IjpbNDA3MjYzNjMwLC0xNzk1MjgyMjMzLC0xOD
+IzMTMyMjc3LDE1MjI0MzI0OTksLTMwODU2MjgzNCwtMTU1Nzc2
+OTY0MiwtODgxOTkxOTQ1LDY4MDU5NjY4NSw3MTI0MzE3ODUsLT
+E1MjkyNzIzMzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OTk5
+MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUsLT
+E1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOTA4
+MjIyXX0=
 -->
