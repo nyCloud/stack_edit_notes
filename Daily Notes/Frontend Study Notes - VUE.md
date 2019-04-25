@@ -258,7 +258,25 @@ Pass event to to callback function
 ```
 
 Pass parameters to callback function
+```html
+<body>
+	<div id="app">
+		<button v-on:click="say('hi')">Say hi</button>
+		<button v-on:click="say('what')">Say what</button>
+	</div>
 
+	<script>
+		new Vue({
+			el: '#app',
+			methods: {
+				say: function (message) {
+					alert(message)
+				}
+			}
+		})
+	</script>
+</body>
+```
 #### 7.2  Watch 
 ```JavaScript
  vm.$watch('counter', function(nval, oval) {
@@ -266,11 +284,11 @@ Pass parameters to callback function
  });
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3MjYzNjMwLC0xNzk1MjgyMjMzLC0xOD
-IzMTMyMjc3LDE1MjI0MzI0OTksLTMwODU2MjgzNCwtMTU1Nzc2
-OTY0MiwtODgxOTkxOTQ1LDY4MDU5NjY4NSw3MTI0MzE3ODUsLT
-E1MjkyNzIzMzMsLTkxODk3MzA2NSwtMTk3ODY1MzI4NCw2OTk5
-MDA1ODQsMTU0NjkwMzAsLTk5MjgwNjMxNywxNzQ5MDE5ODUsLT
-E1MjIxNTkwNTYsMjA0ODA3NzQ5Myw0NjEzOTkzNCwtMTcyOTA4
-MjIyXX0=
+eyJoaXN0b3J5IjpbMjAzNzc0MzA2NiwtMTc5NTI4MjIzMywtMT
+gyMzEzMjI3NywxNTIyNDMyNDk5LC0zMDg1NjI4MzQsLTE1NTc3
+Njk2NDIsLTg4MTk5MTk0NSw2ODA1OTY2ODUsNzEyNDMxNzg1LC
+0xNTI5MjcyMzMzLC05MTg5NzMwNjUsLTE5Nzg2NTMyODQsNjk5
+OTAwNTg0LDE1NDY5MDMwLC05OTI4MDYzMTcsMTc0OTAxOTg1LC
+0xNTIyMTU5MDU2LDIwNDgwNzc0OTMsNDYxMzk5MzQsLTE3Mjkw
+ODIyMl19
 -->
