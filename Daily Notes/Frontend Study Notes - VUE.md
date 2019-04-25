@@ -82,7 +82,7 @@ To bind a JavaScript value or expression to html element attribute
 
 <body>
 	<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
-CSSStyleDeclaration
+
 	<div id="app">
 		<label for="r1">change color</label>
 		<input type="checkbox" v-model="use" id="r1">
@@ -236,10 +236,11 @@ Abbr for v-on
  });
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMxMzIyNzcsMTUyMjQzMjQ5OSwtMz
-A4NTYyODM0LC0xNTU3NzY5NjQyLC04ODE5OTE5NDUsNjgwNTk2
-Njg1LDcxMjQzMTc4NSwtMTUyOTI3MjMzMywtOTE4OTczMDY1LC
-0xOTc4NjUzMjg0LDY5OTkwMDU4NCwxNTQ2OTAzMCwtOTkyODA2
-MzE3LDE3NDkwMTk4NSwtMTUyMjE1OTA1NiwyMDQ4MDc3NDkzLD
-Q2MTM5OTM0LC0xNzI5MDgyMjIsLTcxMDE1ODMyNl19
+eyJoaXN0b3J5IjpbLTE3OTUyODIyMzMsLTE4MjMxMzIyNzcsMT
+UyMjQzMjQ5OSwtMzA4NTYyODM0LC0xNTU3NzY5NjQyLC04ODE5
+OTE5NDUsNjgwNTk2Njg1LDcxMjQzMTc4NSwtMTUyOTI3MjMzMy
+wtOTE4OTczMDY1LC0xOTc4NjUzMjg0LDY5OTkwMDU4NCwxNTQ2
+OTAzMCwtOTkyODA2MzE3LDE3NDkwMTk4NSwtMTUyMjE1OTA1Ni
+wyMDQ4MDc3NDkzLDQ2MTM5OTM0LC0xNzI5MDgyMjIsLTcxMDE1
+ODMyNl19
 -->
