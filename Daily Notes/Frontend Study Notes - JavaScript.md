@@ -2,7 +2,7 @@
 Nan Yu | April 2019   
   
 ## JavaScript
-### 1. Usage
+### 1. Intro
 
 ```html
 <!-- script tag -->
@@ -19,7 +19,7 @@ Nan Yu | April 2019
 <!-- inside html element -->
 <button  type="button"  onclick="test_func()">test </button>
 ```
-### 2. Print
+#### 1.1. Some Tricks for Print
 JavaScript provides multiple methods to print messages
 ```javascript
 // alert window
@@ -32,8 +32,8 @@ document.getElementById('test').innerHTML = 'test_msg'
 console.log(...)
 ```
 
-### 3. Variables & Types
-#### 3.1 Variables
+### 2. Variables & Types
+#### 2.1 Variables
 There are multiple ways to declare variables in JavaScript
 ```javascript
 a = 1
@@ -49,8 +49,8 @@ const d = 4
 // d can not be changed
 ```
 
-#### 3.2 Types
-#### 3.2.1 Undefined & Null
+#### 2.2 Types
+#### 2.2.1 Undefined & Null
 ```JavaScript
 cash = null
 future = undefined
@@ -59,20 +59,20 @@ console.log(null == undefined) // -> true
 console.log(null === undefined) // -> false
 ```
 
-#### 3.2.2 Number
+#### 2.2.2 Number
 ```JavaScript
 val_a = 123
 val_b = 2.718
 val_c = 3e8
 ```
 
-#### 3.2.3 Bool
+#### 2.2.3 Bool
 ```JavaScript
 cond_a = true
 cond_b = false
 ```
 
-#### 3.2.4 String
+#### 2.2.4 String
 ```JavaScript
 str_a = 'Too Young'
 str_b = "Too Simple"
@@ -87,7 +87,7 @@ console.log(str_c.trim())
 str_a.length
 ```
 
-#### 3.2.4.1 RE
+#### 2.2.4.1 RE
 REs are also supported in JavaScript
 -- format '/body/modifier(optional)'
 -- body
@@ -206,11 +206,11 @@ car.dec()
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0MzU3NDIxLDE0MTQxNTc1NTksLTE1Mz
-c0NTU0NjEsMTI3OTQ5MDMxNSwtMjA2NzIyMTYwNywtNTM1OTMw
-NzYxLC0yMDk5MjEyMzcyLDk2MDc5NDMxNiwyODkzNTE2MjYsLT
-g5OTQwMzM5OSw3OTM2NTI2MjAsLTQzODEzODY0NywtODE5MTUx
-NTY3LDE3OTMxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLT
-Y1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAw
-MDI4OTBdfQ==
+eyJoaXN0b3J5IjpbMTU4MzA4MTMxMCwxNDE0MTU3NTU5LC0xNT
+M3NDU1NDYxLDEyNzk0OTAzMTUsLTIwNjcyMjE2MDcsLTUzNTkz
+MDc2MSwtMjA5OTIxMjM3Miw5NjA3OTQzMTYsMjg5MzUxNjI2LC
+04OTk0MDMzOTksNzkzNjUyNjIwLC00MzgxMzg2NDcsLTgxOTE1
+MTU2NywxNzkzMTY3MTM3LDExNjM2MjE0OTksNzc1NTU1MzU0LC
+02NTE2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3OSwtOTIw
+MDAyODkwXX0=
 -->
