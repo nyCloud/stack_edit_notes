@@ -93,6 +93,31 @@ body: visible content
 </table>
 ```
 
+A better one
+```html
+<table class="bag_info">
+<thead>  
+<tr>  
+<th>X</th>  
+<th>ID</th>  
+<th>Bag Name</th>  
+<th>Start Ts</th>  
+<th>End Ts</th>  
+</tr>  
+</thead>  
+ 
+	<tbody>  
+		<tr v-for="(v, i) in roads">  
+			<td><button type="button" @click="callback_rm_button(i)">x</button></td>  
+			<td>{{v['id']}}</td>  
+			<td>{{v['bag_name']}}</td>  
+			<td>{{v['start_ts']}}</td>  
+			<td>{{v['end_ts']}}</td>  
+			 
+		</tr>
+	</tbody>
+</table>
+```
 #### 2.6 List
 ```html
 <!-- unordered -->
@@ -179,5 +204,5 @@ Radio buttons & checkboxes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODcyODYxOSwxOTI1NjUwNTMyXX0=
+eyJoaXN0b3J5IjpbNjMyNzIxNDczLDE5MjU2NTA1MzJdfQ==
 -->
