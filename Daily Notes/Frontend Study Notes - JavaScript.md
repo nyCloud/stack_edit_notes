@@ -215,7 +215,9 @@ if (cond1) {
 } else {
 	console.log('3');
 }
+```
 
+```JavaScript
 // For statement
 // C style
 for (let i=0; i<2; i++) {
@@ -228,14 +230,17 @@ for (let i in list) {
 	console.log(i + '_' + list[i]);
 }
 
-dict = ['a':0, 'b]
+dict = {'a':0, 'b':1, 'c':2}
+for (let k in dict) {
+	console.log(k + '_' + dict[k])
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODUyMzk3NiwtMTU5NTQxNzY5NCwxND
-E0MTU3NTU5LC0xNTM3NDU1NDYxLDEyNzk0OTAzMTUsLTIwNjcy
-MjE2MDcsLTUzNTkzMDc2MSwtMjA5OTIxMjM3Miw5NjA3OTQzMT
-YsMjg5MzUxNjI2LC04OTk0MDMzOTksNzkzNjUyNjIwLC00Mzgx
-Mzg2NDcsLTgxOTE1MTU2NywxNzkzMTY3MTM3LDExNjM2MjE0OT
-ksNzc1NTU1MzU0LC02NTE2MjgyMjgsMTcxODY0NDQxNSwtMTk3
-ODA5MjA3OV19
+eyJoaXN0b3J5IjpbLTE5NTY3Njk3MzYsLTE1OTU0MTc2OTQsMT
+QxNDE1NzU1OSwtMTUzNzQ1NTQ2MSwxMjc5NDkwMzE1LC0yMDY3
+MjIxNjA3LC01MzU5MzA3NjEsLTIwOTkyMTIzNzIsOTYwNzk0Mz
+E2LDI4OTM1MTYyNiwtODk5NDAzMzk5LDc5MzY1MjYyMCwtNDM4
+MTM4NjQ3LC04MTkxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIxND
+k5LDc3NTU1NTM1NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5
+NzgwOTIwNzldfQ==
 -->
