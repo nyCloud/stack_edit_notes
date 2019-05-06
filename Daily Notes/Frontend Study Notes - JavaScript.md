@@ -87,7 +87,7 @@ console.log(str_c.trim())
 str_a.length
 ```
 
-#### 2.2.4.1 RE
+#### 2.2.5 RE
 REs are also supported in JavaScript
 -- format '/body/modifier(optional)'
 -- body
@@ -124,10 +124,9 @@ console.log('a aa aaa'.split(re_whitespace))
 // -> ['a', 'aa', 'aaa']
 console.log('4/24/2019 - 4/27/2019'.search(re_date))
 // -> 0
-
 ```
 
-####  3.2.5 Array
+####  2.2.6 Array
 ```JavaScript
 let a = [1, 2]  
 let b = ['a', 'b', 'c', 'd', 'e']  
@@ -168,25 +167,7 @@ console.log(e.reverse())
 console.log(e)
 ```
 
-#### 3.2.6 Function
-```JavaScript
-function hello() {
-	console.log('Hello !')
-}
-
-function add_nums(a, b){
-	return a + b
-}
-```
-You can also define functions like following
-```JavaScript
-add = function(a, b){
-	return a + b;
-}
-add(1, 2); // you will get 3
-```
-
-#### 3.2.7 Object
+#### 2.2.7 Object
 ```JavaScript
 let car = {  
     color: 'blue',  
@@ -205,12 +186,37 @@ car.acc()
 car.dec()
 ```
 
+#### 2.2.8 Function
+Function is a basic type in JavaScript
+```JavaScript
+function hello() {
+	console.log('Hello !')
+}
+
+function add_nums(a, b){
+	return a + b
+}
+```
+You can also define functions like following
+```JavaScript
+add = function(a, b){
+	return a + b;
+}
+add(1, 2); // you will get 3
+```
+
+### 3. Statements
+```JavaScript
+// if
+
+// 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzA4MTMxMCwxNDE0MTU3NTU5LC0xNT
-M3NDU1NDYxLDEyNzk0OTAzMTUsLTIwNjcyMjE2MDcsLTUzNTkz
-MDc2MSwtMjA5OTIxMjM3Miw5NjA3OTQzMTYsMjg5MzUxNjI2LC
-04OTk0MDMzOTksNzkzNjUyNjIwLC00MzgxMzg2NDcsLTgxOTE1
-MTU2NywxNzkzMTY3MTM3LDExNjM2MjE0OTksNzc1NTU1MzU0LC
-02NTE2MjgyMjgsMTcxODY0NDQxNSwtMTk3ODA5MjA3OSwtOTIw
-MDAyODkwXX0=
+eyJoaXN0b3J5IjpbMTExMTM2OTUxLDE0MTQxNTc1NTksLTE1Mz
+c0NTU0NjEsMTI3OTQ5MDMxNSwtMjA2NzIyMTYwNywtNTM1OTMw
+NzYxLC0yMDk5MjEyMzcyLDk2MDc5NDMxNiwyODkzNTE2MjYsLT
+g5OTQwMzM5OSw3OTM2NTI2MjAsLTQzODEzODY0NywtODE5MTUx
+NTY3LDE3OTMxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLT
+Y1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAw
+MDI4OTBdfQ==
 -->
