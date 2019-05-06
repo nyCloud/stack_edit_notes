@@ -178,7 +178,12 @@ function add_nums(a, b){
 	return a + b
 }
 ```
-
+You can also define functions like following
+```JavaScript
+add = function(a, b){
+	return a + b;
+}
+```
 #### 3.2.7 Object
 ```JavaScript
 let car = {  
@@ -198,13 +203,12 @@ car.acc()
 car.dec()
 ```
 
-### 4. Functions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDE1NzU1OSwtMTUzNzQ1NTQ2MSwxMj
-c5NDkwMzE1LC0yMDY3MjIxNjA3LC01MzU5MzA3NjEsLTIwOTky
-MTIzNzIsOTYwNzk0MzE2LDI4OTM1MTYyNiwtODk5NDAzMzk5LD
-c5MzY1MjYyMCwtNDM4MTM4NjQ3LC04MTkxNTE1NjcsMTc5MzE2
-NzEzNywxMTYzNjIxNDk5LDc3NTU1NTM1NCwtNjUxNjI4MjI4LD
-E3MTg2NDQ0MTUsLTE5NzgwOTIwNzksLTkyMDAwMjg5MCwxMzky
-OTEzNjU3XX0=
+eyJoaXN0b3J5IjpbMTc4NjkyMjk5LDE0MTQxNTc1NTksLTE1Mz
+c0NTU0NjEsMTI3OTQ5MDMxNSwtMjA2NzIyMTYwNywtNTM1OTMw
+NzYxLC0yMDk5MjEyMzcyLDk2MDc5NDMxNiwyODkzNTE2MjYsLT
+g5OTQwMzM5OSw3OTM2NTI2MjAsLTQzODEzODY0NywtODE5MTUx
+NTY3LDE3OTMxNjcxMzcsMTE2MzYyMTQ5OSw3NzU1NTUzNTQsLT
+Y1MTYyODIyOCwxNzE4NjQ0NDE1LC0xOTc4MDkyMDc5LC05MjAw
+MDI4OTBdfQ==
 -->
