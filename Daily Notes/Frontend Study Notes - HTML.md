@@ -93,18 +93,18 @@ body: visible content
 </table>
 ```
 
-A better one
+A better one, with VUE framework
 ```html
 <table class="bag_info">
-<thead>  
-<tr>  
-<th>X</th>  
-<th>ID</th>  
-<th>Bag Name</th>  
-<th>Start Ts</th>  
-<th>End Ts</th>  
-</tr>  
-</thead>  
+	<thead>  
+		<tr>  
+			<th>X</th>  
+			<th>ID</th>  
+			<th>Bag Name</th>  
+			<th>Start Ts</th>  
+			<th>End Ts</th>  
+		</tr>  
+	</thead>  
  
 	<tbody>  
 		<tr v-for="(v, i) in roads">  
@@ -113,7 +113,6 @@ A better one
 			<td>{{v['bag_name']}}</td>  
 			<td>{{v['start_ts']}}</td>  
 			<td>{{v['end_ts']}}</td>  
-			 
 		</tr>
 	</tbody>
 </table>
@@ -204,5 +203,5 @@ Radio buttons & checkboxes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyNzIxNDczLDE5MjU2NTA1MzJdfQ==
+eyJoaXN0b3J5IjpbLTUzNjE5ODEzOSwxOTI1NjUwNTMyXX0=
 -->
