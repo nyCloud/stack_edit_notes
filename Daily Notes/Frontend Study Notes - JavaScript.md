@@ -221,9 +221,17 @@ if (cond1) {
 for (let i=0; i<2; i++) {
 	console.log(i);
 }
+
+// Python style
+list = ['a','b','c'];
+for (let i in list) {
+	console.log(i + '_' + list[i]);
+}
+
+dict = ['a':0, 'b]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Mjc1NzY4OSwtMTU5NTQxNzY5NCwxND
+eyJoaXN0b3J5IjpbMTI3ODUyMzk3NiwtMTU5NTQxNzY5NCwxND
 E0MTU3NTU5LC0xNTM3NDU1NDYxLDEyNzk0OTAzMTUsLTIwNjcy
 MjE2MDcsLTUzNTkzMDc2MSwtMjA5OTIxMjM3Miw5NjA3OTQzMT
 YsMjg5MzUxNjI2LC04OTk0MDMzOTksNzkzNjUyNjIwLC00Mzgx
