@@ -168,7 +168,7 @@ console.log(e.reverse())
 console.log(e)
 ```
 
-#### 3.2.6- Function
+#### 3.2.6 Function
 ```JavaScript
 function hello() {
 	console.log('Hello !')
@@ -179,7 +179,7 @@ function add_nums(a, b){
 }
 ```
 
-#### 3.2.7- Object
+#### 3.2.7 Object
 ```JavaScript
 let car = {  
     color: 'blue',  
@@ -198,11 +198,11 @@ car.acc()
 car.dec()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzc0NTU0NjEsMTI3OTQ5MDMxNSwtMj
-A2NzIyMTYwNywtNTM1OTMwNzYxLC0yMDk5MjEyMzcyLDk2MDc5
-NDMxNiwyODkzNTE2MjYsLTg5OTQwMzM5OSw3OTM2NTI2MjAsLT
-QzODEzODY0NywtODE5MTUxNTY3LDE3OTMxNjcxMzcsMTE2MzYy
-MTQ5OSw3NzU1NTUzNTQsLTY1MTYyODIyOCwxNzE4NjQ0NDE1LC
-0xOTc4MDkyMDc5LC05MjAwMDI4OTAsMTM5MjkxMzY1NywtMTgy
-MjgxNzM4NV19
+eyJoaXN0b3J5IjpbMTY2MzExOTE3LC0xNTM3NDU1NDYxLDEyNz
+k0OTAzMTUsLTIwNjcyMjE2MDcsLTUzNTkzMDc2MSwtMjA5OTIx
+MjM3Miw5NjA3OTQzMTYsMjg5MzUxNjI2LC04OTk0MDMzOTksNz
+kzNjUyNjIwLC00MzgxMzg2NDcsLTgxOTE1MTU2NywxNzkzMTY3
+MTM3LDExNjM2MjE0OTksNzc1NTU1MzU0LC02NTE2MjgyMjgsMT
+cxODY0NDQxNSwtMTk3ODA5MjA3OSwtOTIwMDAyODkwLDEzOTI5
+MTM2NTddfQ==
 -->
