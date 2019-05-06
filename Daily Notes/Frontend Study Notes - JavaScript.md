@@ -206,6 +206,7 @@ add(1, 2); // you will get 3
 ```
 
 ### 3. Statements
+#### 3.1 If Statement
 ```JavaScript
 // If statement
 if (cond1) {
@@ -217,6 +218,7 @@ if (cond1) {
 }
 ```
 
+#### 3.2 For Loop
 ```JavaScript
 // For statement
 // C style
@@ -235,12 +237,22 @@ for (let k in dict) {
 	console.log(k + '_' + dict[k])
 }
 ```
+
+#### 3.3 While Loop
+```JavaScript
+// While loop
+let i = 10;
+while (i > 0) {
+	console.log(--i);
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTY3Njk3MzYsLTE1OTU0MTc2OTQsMT
-QxNDE1NzU1OSwtMTUzNzQ1NTQ2MSwxMjc5NDkwMzE1LC0yMDY3
-MjIxNjA3LC01MzU5MzA3NjEsLTIwOTkyMTIzNzIsOTYwNzk0Mz
-E2LDI4OTM1MTYyNiwtODk5NDAzMzk5LDc5MzY1MjYyMCwtNDM4
-MTM4NjQ3LC04MTkxNTE1NjcsMTc5MzE2NzEzNywxMTYzNjIxND
-k5LDc3NTU1NTM1NCwtNjUxNjI4MjI4LDE3MTg2NDQ0MTUsLTE5
-NzgwOTIwNzldfQ==
+eyJoaXN0b3J5IjpbLTE3MzIzMzg2NjUsLTE5NTY3Njk3MzYsLT
+E1OTU0MTc2OTQsMTQxNDE1NzU1OSwtMTUzNzQ1NTQ2MSwxMjc5
+NDkwMzE1LC0yMDY3MjIxNjA3LC01MzU5MzA3NjEsLTIwOTkyMT
+IzNzIsOTYwNzk0MzE2LDI4OTM1MTYyNiwtODk5NDAzMzk5LDc5
+MzY1MjYyMCwtNDM4MTM4NjQ3LC04MTkxNTE1NjcsMTc5MzE2Nz
+EzNywxMTYzNjIxNDk5LDc3NTU1NTM1NCwtNjUxNjI4MjI4LDE3
+MTg2NDQ0MTVdfQ==
 -->
