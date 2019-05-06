@@ -183,7 +183,9 @@ You can also define functions like following
 add = function(a, b){
 	return a + b;
 }
+add(1, 2); // you will get 3
 ```
+
 #### 3.2.7 Object
 ```JavaScript
 let car = {  
@@ -204,7 +206,7 @@ car.dec()
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjkyMjk5LDE0MTQxNTc1NTksLTE1Mz
+eyJoaXN0b3J5IjpbMzg0MzU3NDIxLDE0MTQxNTc1NTksLTE1Mz
 c0NTU0NjEsMTI3OTQ5MDMxNSwtMjA2NzIyMTYwNywtNTM1OTMw
 NzYxLC0yMDk5MjEyMzcyLDk2MDc5NDMxNiwyODkzNTE2MjYsLT
 g5OTQwMzM5OSw3OTM2NTI2MjAsLTQzODEzODY0NywtODE5MTUx
