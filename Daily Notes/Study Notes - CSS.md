@@ -13,7 +13,12 @@ h1 {color: blue; font-size: 12px;}
 
 ### 2. CSS Selector
 #### 2.1 Type Selector
-
+```css
+p  {  
+color:red;  
+text-align:center;  
+}
+```
 #### 2.2 ID Selector 
 ID selectors apply the CSS style on elements with indicated ID.
 ```css
@@ -26,9 +31,14 @@ ID selectors apply the CSS style on elements with indicated ID.
 
 #### 2.1 Class Selector
 Class selectors apply the style on elements with indicated class name.
-
-
+```css
+.center {text-align:center;}
+```
+Class selector for specific html element.
+```css
+p.center_text  {text-align:center;}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjExNDQ3ODMsLTg0NTI2NzY2MywxND
+eyJoaXN0b3J5IjpbLTE1Mjg3OTczODksLTg0NTI2NzY2MywxND
 E5NDE5OTg5XX0=
 -->
