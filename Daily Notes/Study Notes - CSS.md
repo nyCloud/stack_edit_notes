@@ -12,13 +12,25 @@ h1 {color: blue; font-size: 12px;}
 ```
 **How to use CSS**
 - External Style Sheet
-```css
-<head>  <link  rel="stylesheet"  type="text/css"  href="mystyle.css">  </head>
+```html
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">  
+</head>
 ```
 
 - Internal Style Sheet
 ```css
+<head>
+<style>
+hr { color:sienna; } 
 
+p { margin-left:20px;} 
+
+body{
+	background-image:url("images/back40.gif");
+}
+</style>
+</head>
 ```
 
 - Inner Style
@@ -57,6 +69,6 @@ Class selector for specific html element.
 p.center_text  {text-align:center;}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIwOTA0NjYsLTg0NTI2NzY2MywxND
-E5NDE5OTg5XX0=
+eyJoaXN0b3J5IjpbNDc0NjgxODI4LC04NDUyNjc2NjMsMTQxOT
+QxOTk4OV19
 -->
