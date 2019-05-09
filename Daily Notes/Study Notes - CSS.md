@@ -33,8 +33,10 @@ h1 {color: blue; font-size: 12px;}
 <p style="color:sienna;margin-left:20px">...</p>
 ```
 
-### 1.2 Mul
-
+### 1.2 Multi CSS and Priorities
+ ```python
+ Inline style > Internal style sheet > External style sheet > Default
+```
 ### 2. CSS Selector
 #### 2.1 Type Selector
 ```css
@@ -64,6 +66,6 @@ Class selector for specific html element.
 p.center_text  {text-align:center;}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDM3MTEzMywtODQ1MjY3NjYzLDE0MT
-k0MTk5ODldfQ==
+eyJoaXN0b3J5IjpbLTE1Mzg4MzQyNTUsLTg0NTI2NzY2MywxND
+E5NDE5OTg5XX0=
 -->
