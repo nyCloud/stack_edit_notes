@@ -10,7 +10,7 @@ A CSS rule is usually consisted by a selection and several css statements.
 /* selector {stmt1; stmt2}*/
 h1 {color: blue; font-size: 12px;}
 ```
-### 1.1 How to use CSS
+#### 1.1 How to use CSS
 - External Style Sheet
 ```html
 <head>
@@ -33,8 +33,8 @@ h1 {color: blue; font-size: 12px;}
 <p style="color:sienna;margin-left:20px">...</p>
 ```
 
-### 1.2 Multi CSS and Priorities
-
+#### 1.2 Multi CSS and Priorities
+Style sheets from different layers will be automatically combined together. The non-overlapped attributes will be simply added together. And for overlapped ones, they will be combined follow the priority rules:
  ```python
  Inline Style > Internal Style Sheet > External Style Sheet > Default
 ```
@@ -68,6 +68,6 @@ Class selector for specific html element.
 p.center_text  {text-align:center;}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc0MzM4MTEsLTg0NTI2NzY2MywxND
-E5NDE5OTg5XX0=
+eyJoaXN0b3J5IjpbMTQzOTE4Njg5MSwtODQ1MjY3NjYzLDE0MT
+k0MTk5ODldfQ==
 -->
