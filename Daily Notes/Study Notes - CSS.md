@@ -12,7 +12,14 @@ h1 {color: blue; font-size: 12px;}
 ```
 
 **CSS Selector**
-
+ID Selector 
+```css
+/* This style will apply to  */
+#para1 {
+	text-align: center;
+	color: red;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxMTY5NjM2LDE0MTk0MTk5ODldfQ==
+eyJoaXN0b3J5IjpbMTYzNDU1OTg4MSwxNDE5NDE5OTg5XX0=
 -->
