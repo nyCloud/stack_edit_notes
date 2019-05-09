@@ -10,7 +10,7 @@ A CSS rule is usually consisted by a selection and several css statements.
 /* selector {stmt1; stmt2}*/
 h1 {color: blue; font-size: 12px;}
 ```
-**How to use CSS**
+### 1.1 How to use CSS
 - External Style Sheet
 ```html
 <head>
@@ -19,26 +19,21 @@ h1 {color: blue; font-size: 12px;}
 ```
 
 - Internal Style Sheet
-```css
+```html
 <head>
-<style>
-hr { color:sienna; } 
-
-p { margin-left:20px;} 
-
-body{
-	background-image:url("images/back40.gif");
-}
-</style>
+	<style>
+		hr {color:sienna;} 
+		p {margin-left:20px;} 
+	</style>
 </head>
 ```
 
 - Inner Style
-```css
-
+```html
+<p style="color:sienna;margin-left:20px">...</p>
 ```
 
-
+### 1.2 Mul
 
 ### 2. CSS Selector
 #### 2.1 Type Selector
@@ -69,6 +64,6 @@ Class selector for specific html element.
 p.center_text  {text-align:center;}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0NjgxODI4LC04NDUyNjc2NjMsMTQxOT
-QxOTk4OV19
+eyJoaXN0b3J5IjpbMTM0NDM3MTEzMywtODQ1MjY3NjYzLDE0MT
+k0MTk5ODldfQ==
 -->
