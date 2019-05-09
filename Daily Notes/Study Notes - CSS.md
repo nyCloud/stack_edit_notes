@@ -10,8 +10,21 @@ A CSS rule is usually consisted by a selection and several css statements.
 /* selector {stmt1; stmt2}*/
 h1 {color: blue; font-size: 12px;}
 ```
+**How to use CSS**
+- External Style Sheet
+```css
+<head>  <link  rel="stylesheet"  type="text/css"  href="mystyle.css">  </head>
+```
 
-** How to use CSS **
+- Internal Style Sheet
+```css
+
+```
+
+- Inner Style
+```css
+
+```
 
 
 
@@ -44,6 +57,6 @@ Class selector for specific html element.
 p.center_text  {text-align:center;}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5NjkxNzA4LC04NDUyNjc2NjMsMTQxOT
-QxOTk4OV19
+eyJoaXN0b3J5IjpbLTExMDIwOTA0NjYsLTg0NTI2NzY2MywxND
+E5NDE5OTg5XX0=
 -->
