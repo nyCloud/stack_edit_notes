@@ -4,11 +4,19 @@
 ## 1. NDArray
 ```python
 # Create consecutive integers
-x = mx.nd.arange(10)
-# Get shape  &
+x = mx.nd.arange(12)
+
+# Get shape  & size
+print(x.shape)
+print(x.size)
+
+# Reshape
+#
+x.reshape((3,4))
+x.reshape((3,-1)) 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwOTA2MjY3LC0xMDI0MzkzNDcwXX0=
+eyJoaXN0b3J5IjpbMTYwMTQ4MTQzNCwtMTAyNDM5MzQ3MF19
 -->
