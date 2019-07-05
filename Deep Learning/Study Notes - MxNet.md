@@ -22,13 +22,21 @@ x = mx.nd.ones((3, 3))
 
 # Matrix operations
 
-#
+# Element-wise
 # + - * / **
 # e^x => x.exp()
- 
+
+# Transpose 
+x = x.T
+
+# Matmul
+mul = mx.nd.dot(x, y)
+
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTc4MTMzMSwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTIwODA4Njk1MDUsLTEwMjQzOTM0NzBdfQ
+==
 -->
