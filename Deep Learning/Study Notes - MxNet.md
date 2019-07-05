@@ -11,12 +11,14 @@ print(x.shape)
 print(x.size)
 
 # Reshape
-#
 x.reshape((3,4))
+# Support auto infer
 x.reshape((3,-1)) 
+
+#
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTQ4MTQzNCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTM0NjEyOTU2MSwtMTAyNDM5MzQ3MF19
 -->
