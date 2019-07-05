@@ -37,11 +37,13 @@ s = x.sum()
 n = x.norm().asscalar()
 
 # Concat
+# Vertical
 mx.nd.concat(x, x, x, dim = 0)
-
+# Hori
+mx.nd.concat(x, x, dim = 1)
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTIxNDU5MiwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTc4OTc4ODAxNiwtMTAyNDM5MzQ3MF19
 -->
