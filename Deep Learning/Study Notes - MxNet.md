@@ -15,10 +15,12 @@ x.reshape((3,4))
 # Support auto infer
 x.reshape((3,-1)) 
 
-#
+# Ones, zeros, eye
+x = mx.nd.eye(3)
+x = mx.nd.zeros((3,3)
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjEyOTU2MSwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTk2Mzg0NDM1NSwtMTAyNDM5MzQ3MF19
 -->
