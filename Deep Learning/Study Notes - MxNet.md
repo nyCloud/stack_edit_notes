@@ -43,9 +43,12 @@ n = x.norm().asscalar()
 mx.nd.concat(x, x, x, dim = 0)
 # Hori
 mx.nd.concat(x, x, dim = 1)
+
+# Inplace operation
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTI3MDA1NiwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
 -->
