@@ -20,13 +20,15 @@ x = mx.nd.eye(3)
 x = mx.nd.zeros((3, 3))
 x = mx.nd.ones((3, 3))
 
-# Element-wise operations
-# + - * / **
-# .exp()
+# Matrix operations
 
+#
+# + - * / **
+# e^x => x.exp()
+ 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTU2NDY4OCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTg1NTc4MTMzMSwtMTAyNDM5MzQ3MF19
 -->
