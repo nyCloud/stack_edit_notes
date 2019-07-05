@@ -3,7 +3,9 @@
 
 ## 1. NDArray
 ```python
-# Create consecutive integers
+## Create NDArray
+
+# consecutive integers
 x = mx.nd.arange(12)
 
 # Get shape  & size
@@ -20,7 +22,7 @@ x = mx.nd.eye(3)
 x = mx.nd.zeros((3, 3))
 x = mx.nd.ones((3, 3))
 
-# Matrix operations
+## Matrix operations
 
 # Element-wise
 # + - * / **
@@ -45,5 +47,5 @@ mx.nd.concat(x, x, dim = 1)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTc4ODAxNiwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTI2OTI3MDA1NiwtMTAyNDM5MzQ3MF19
 -->
