@@ -32,11 +32,16 @@ x = x.T
 # Matmul
 mul = mx.nd.dot(x, y)
 
+# Sum & norm
+s = x.sum()
+n = x.norm().asscalar()
+
+# Concat
+mx.nd.concat(x, x, x, dim = 0)
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA4Njk1MDUsLTEwMjQzOTM0NzBdfQ
-==
+eyJoaXN0b3J5IjpbLTE2NTIxNDU5MiwtMTAyNDM5MzQ3MF19
 -->
