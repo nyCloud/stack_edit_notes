@@ -66,12 +66,13 @@ x.attach_grad()
 with autograd.record():
 	y = nd.dot(x, x)
 y.backwardx()
-print(x.grad == 4 * x
+print(x.grad)
+# result = [0, 2, 4, 6]
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzMzg3MzAzLDE1MzM1Mjg0NjYsMTI1MD
-YzMjU5OCwxNDE3ODQxNTUxLC0xNDIzMTk3MjgxLDEyMDE3MDk0
-OTAsLTEwMjQzOTM0NzBdfQ==
+eyJoaXN0b3J5IjpbLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMj
+UwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcw
+OTQ5MCwtMTAyNDM5MzQ3MF19
 -->
