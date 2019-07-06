@@ -79,12 +79,15 @@ Please note that when y is not a scalar, MxNet will sum the elements in y to get
 
 #### Internal Variables
 
-#### Head Grad
+#### Head Gradients
 
+#### Python Control Flow
+
+#### Training Mode and Prediction Mode
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3NTUyOTgzLC0xMTIwNDEzNjMzLDE1Mz
+eyJoaXN0b3J5IjpbMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1Mz
 M1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0xNDIzMTk3
 MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0NzBdfQ==
 -->
