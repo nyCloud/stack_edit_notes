@@ -56,8 +56,12 @@ numpy_array = mx_array.asnumpy()
 
 ```
 
+### 1.2. Automatic Differentiaion
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0xND
-IzMTk3MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0NzBdfQ==
+eyJoaXN0b3J5IjpbMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MT
+c4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5
+MzQ3MF19
 -->
