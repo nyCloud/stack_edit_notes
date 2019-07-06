@@ -58,12 +58,11 @@ numpy_array = mx_array.asnumpy()
 
 ### 1.2. Automatic Differentiaion
 
+#### Basic Example
 Here is a simple example to compute gradient to a column vector.
 
 $$ y = x x^T$$
-$$
-\frac{\partial y}{\partial x} = \frac{\partial s}{\partial t}
-$$
+$$ \frac{\partial y}{\partial x} = 2x $$
 
 ```python
 x = mx.nd.arange(4)
@@ -76,10 +75,16 @@ print(x.grad)
 ```
 Please note that when y is not a scalar, MxNet will sum the elements in y to get a new variable y by default, and then find analytical gradient of the new y wrt x.
 
+#### Detach Computations
+
+#### Internal Variables
+
+#### Head Grad
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTk1OTg4OSwtMTEyMDQxMzYzMywxNT
-MzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5
-NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
+eyJoaXN0b3J5IjpbNDE3NTUyOTgzLC0xMTIwNDEzNjMzLDE1Mz
+M1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0xNDIzMTk3
+MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0NzBdfQ==
 -->
