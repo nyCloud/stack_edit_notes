@@ -2,6 +2,7 @@
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
 ## 1. NDArray
+### 1.1 Basic Operations
 ```python
 ## Create NDArray
 
@@ -57,6 +58,6 @@ numpy_array = mx_array.asnumpy()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMj
-AxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
+eyJoaXN0b3J5IjpbMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0xND
+IzMTk3MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0NzBdfQ==
 -->
