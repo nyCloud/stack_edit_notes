@@ -34,9 +34,10 @@ x = x.T
 # Matmul
 mul = mx.nd.dot(x, y)
 
-# Sum & norm
+# Sum & norm * mean
 s = x.sum()
 n = x.norm().asscalar()
+m = x.mean().asscalar()
 
 # Concat
 # Vertical
@@ -56,6 +57,6 @@ numpy_array = mx_array.asnumpy()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMT
-AyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMj
+AxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
 -->
