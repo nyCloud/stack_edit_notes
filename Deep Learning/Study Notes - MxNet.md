@@ -60,6 +60,11 @@ numpy_array = mx_array.asnumpy()
 
 Here is a simple example to compute gradient to a column vector.
 
+$$ y = x x^T$$
+$$
+\frac{\partial y}{\partial x} = \frac{\partial s}{\partial t}
+$$
+
 ```python
 x = mx.nd.arange(4)
 x.attach_grad()
@@ -74,7 +79,7 @@ Please note that when y is not a scalar, MxNet will sum the elements in y to get
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA4OTY5NzAsLTExMjA0MTM2MzMsMT
-UzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMx
-OTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbMTA0NTk1OTg4OSwtMTEyMDQxMzYzMywxNT
+MzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5
+NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
 -->
