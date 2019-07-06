@@ -69,10 +69,12 @@ y.backwardx()
 print(x.grad)
 # result = [0, 2, 4, 6]
 ```
+Please note that when y is not a scalar, MxNet will sum the elements in y to get a new variable y by default, and then find analytical gradient of the new y wrt x.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMj
-UwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcw
-OTQ5MCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTE2MzA4OTY5NzAsLTExMjA0MTM2MzMsMT
+UzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMx
+OTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
 -->
