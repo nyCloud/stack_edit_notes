@@ -46,10 +46,16 @@ mx.nd.concat(x, x, dim = 1)
 
 # Inplace operation
 x[:] = x + y
+
+# npArray <=> NDArray
+numpy_array = np.ones((3, 3))
+mx_array = mx.nd.array(numpy_array)
+numpy_array = mx_array.asnumpy()
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mjg0MTkwMywxMjAxNzA5NDkwLC0xMD
-I0MzkzNDcwXX0=
+eyJoaXN0b3J5IjpbLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMT
+AyNDM5MzQ3MF19
 -->
