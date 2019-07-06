@@ -65,12 +65,13 @@ x = mx.nd.arange(4)
 x.attach_grad()
 with autograd.record():
 	y = nd.dot(x, x)
-y.
+y.backwardx()
+print(x.grad == 4 * x
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3OTE0MjMyLDE1MzM1Mjg0NjYsMTI1MD
+eyJoaXN0b3J5IjpbMzYzMzg3MzAzLDE1MzM1Mjg0NjYsMTI1MD
 YzMjU5OCwxNDE3ODQxNTUxLC0xNDIzMTk3MjgxLDEyMDE3MDk0
 OTAsLTEwMjQzOTM0NzBdfQ==
 -->
