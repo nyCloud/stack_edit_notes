@@ -58,10 +58,19 @@ numpy_array = mx_array.asnumpy()
 
 ### 1.2. Automatic Differentiaion
 
+Here is a simple example to compute gradient to a column vector.
+
+```python
+x = mx.nd.arange(4)
+x.attach_grad()
+with autograd.record():
+	y = nd.dot(x, x)
+y.
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MT
-c4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5
-MzQ3MF19
+eyJoaXN0b3J5IjpbODY3OTE0MjMyLDE1MzM1Mjg0NjYsMTI1MD
+YzMjU5OCwxNDE3ODQxNTUxLC0xNDIzMTk3MjgxLDEyMDE3MDk0
+OTAsLTEwMjQzOTM0NzBdfQ==
 -->
