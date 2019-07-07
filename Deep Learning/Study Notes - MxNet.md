@@ -184,12 +184,14 @@ for epoch in range(1, num_epochs + 1):
 #### Linear Classification
 
 Softmax Function
-$$ \hat{y} = softmax$$
+$$ \hat{y} = softmax(o) $$
+where
+$$\hat{y}_i = \frac{exp(o_i)}{\sum_j exp(o_j)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3NDM4NTY0LDEzODkzMTM2MzgsMTEyNj
-I3Mzk5NiwtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMz
-LC0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNj
-A1MjU5NzIsMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0
-NjYsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0xNDIzMTk3MjgxLD
-EyMDE3MDk0OTAsLTEwMjQzOTM0NzBdfQ==
+eyJoaXN0b3J5IjpbMTgyOTA4MDk2NSwxMzg5MzEzNjM4LDExMj
+YyNzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIz
+MywtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMj
+YwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4
+NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MS
+wxMjAxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
 -->
