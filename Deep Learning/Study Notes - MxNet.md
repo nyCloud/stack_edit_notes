@@ -112,10 +112,11 @@ print(x.grad, u.grad, y.grad)
 
 when executing inside autograd.record() mode, autograd.is_training() will return True, else False.
 
-### 1.3 Probability A
+### 1.3 Probability and Statistics
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDM4NDI4OCwtNzIwMDk5OTgsMTkxND
-E3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYz
-MywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMT
-QyMzE5NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
+eyJoaXN0b3J5IjpbLTEwODQyNTY5MDcsLTcyMDA5OTk4LDE5MT
+QxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0MTM2
+MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1NTEsLT
+E0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
 -->
