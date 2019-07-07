@@ -99,6 +99,15 @@ print(x.grad)
 ```
 
 
+```python
+y = nd.ones(4) * 2 
+y.attach_grad() 
+with autograd.record():
+	u = x * y u.attach_grad() 
+	z = u + x z.backward()
+print(x.grad, u.grad, y.grad)
+```
+
 #### Internal Variables
 
 #### Head Gradients
@@ -109,8 +118,8 @@ print(x.grad)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzMzA3NDg3LC0yNjA1MjU5NzIsMzUzND
-Y1MTIxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5
-OCwxNDE3ODQxNTUxLC0xNDIzMTk3MjgxLDEyMDE3MDk0OTAsLT
-EwMjQzOTM0NzBdfQ==
+eyJoaXN0b3J5IjpbLTI1NTM5MjgwNCwtMjYwNTI1OTcyLDM1Mz
+Q2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1
+OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC
+0xMDI0MzkzNDcwXX0=
 -->
