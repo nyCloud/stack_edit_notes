@@ -114,11 +114,14 @@ when executing inside autograd.record() mode, autograd.is_training() will return
 
 ### 1.3 Linear Neural Networks
 
+An example of simple data iterator:
+```python
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNz
-IwMDk5OTgsMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEy
-MSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMT
-QxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC0xMDI0
-MzkzNDcwXX0=
+eyJoaXN0b3J5IjpbNDc2MjcyNTU5LC00NjYwMDUyMzMsLTEwOD
+QyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3
+MiwzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMj
+UwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcw
+OTQ5MCwtMTAyNDM5MzQ3MF19
 -->
