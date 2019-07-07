@@ -296,12 +296,13 @@ class Animator(object):
 		d2l.use_svg_display() 
 		self.fig, self.axes = d2l.plt.subplots(nrows, ncols, figsize=figsize) 
 		if nrows * ncols == 1: self.axes = [self.axes,]
-			self.config_axes = lambda : d2l.set_axes( self.axes[0], xlabel, ylabel, xlim, ylim, xscale, yscale, legend) 
-			self.X, self.Y, self.fmts = None, None, fmts 
+		self.config_axes = lambda : d2l.set_axes(self.axes[0], xlabel, ylabel, xlim, ylim, xscale, yscale, legend) 
+		self.X, self.Y, self.fmts = None, None, fmts 
 
 	def add(self, x, y):
 		"""Add multiple data points into the figure.""" 
-		if not hasattr(y, "__len__"):y = [y] n = len(y) 
+		if not hasattr(y, "__len__"):y = [y] 
+		n = len(y) 
 		if not hasattr(x, "__len__"): x = [x] * n 
 		if not self.X: self.X = [[] for _ in range(n)] 
 		if not self.Y: self.Y = [[] for _ in range(n)] 
@@ -320,11 +321,11 @@ class Animator(object):
 		display.clear_output(wait=True)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzNTUxMzEzLDEzODc0NjA3NSwtOTg0ND
-Q2NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2
-NjIsLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC
-04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQy
-NTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3Mi
-wzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMjUw
-NjMyNTk4XX0=
+eyJoaXN0b3J5IjpbLTEyNTg0MjczMSwxMzg3NDYwNzUsLTk4ND
+Q0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3
+NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Ni
+wtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0
+MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1MjU5Nz
+IsMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1
+MDYzMjU5OF19
 -->
