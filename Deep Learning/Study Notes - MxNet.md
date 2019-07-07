@@ -98,13 +98,15 @@ print(x.grad)
 # dz/dx = u = x^2 = [0. 1. 4. 9.]
 ```
 
-
+Besides, when calling function u.attach_grad(), u = u.detach() will be implicitly called. 
 ```python
 y = nd.ones(4) * 2 
 y.attach_grad() 
 with autograd.record():
-	u = x * y u.attach_grad() 
-	z = u + x z.backward()
+	u = x * y 
+	u.attach_grad() 
+	z = u + x 
+z.backward()
 print(x.grad, u.grad, y.grad)
 ```
 
@@ -118,7 +120,7 @@ print(x.grad, u.grad, y.grad)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTM5MjgwNCwtMjYwNTI1OTcyLDM1Mz
+eyJoaXN0b3J5IjpbMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1Mz
 Q2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1
 OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC
 0xMDI0MzkzNDcwXX0=
