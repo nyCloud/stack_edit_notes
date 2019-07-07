@@ -144,19 +144,25 @@ data_iter = load_array((features, labels), batch_size)
 #### Example for Linear Regression
  
 ```python
+from mxnet import init
 from mxnet.gluon import nn
+
+# Create sequential network
 net =nn.Sequential()
 
 # Add single dense layer with single output
 # In MxNet, input size will be automatically infered
-net.add(nn.Dense(1)) # one output
+net.add(nn.Dense(1))
+
+# Initialize layer
+net.initialize(init.Normal(sigma=0.01, ))
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY0NTgwODgsLTg0MzA3NTc0NywzNj
-IwNDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIwMDk5
-OTgsMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMT
-EyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0
-MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzND
-cwXX0=
+eyJoaXN0b3J5IjpbMTYxNzQzNjU1MCwtODQzMDc1NzQ3LDM2Mj
+A0NzcwMSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5
+OCwxOTE0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMT
+IwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQx
+NTUxLC0xNDIzMTk3MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0Nz
+BdfQ==
 -->
