@@ -173,7 +173,7 @@ for epoch in range(num_epochs):
 		l.backward()
 		sgd([w, b], lr, batch_size) 
 ```
-- Note: in MxNet 
+- Note: in MxNet autograd,Please note that when y is not a scalar, MxNet will sum the elements in y to get a new variable y by default, and then find analytical gradient of the new y wrt x.
 
 Linear Regression in MxNet style
  
@@ -270,11 +270,11 @@ def cross_entropy(y_hat, y):
 	return - nd.pick(y_hat, y).log()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDA0MDIxMywtOTg0NDQ2NDk0LC0xNz
-Y4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0
-NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3ND
-csMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcy
-MDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMj
-EsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0
-MTc4NDE1NTFdfQ==
+eyJoaXN0b3J5IjpbLTc5OTY5ODc1LC05ODQ0NDY0OTQsLTE3Nj
+g0MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0
+NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NTc0Ny
+wzNjIwNDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIw
+MDk5OTgsMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMS
+wtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQx
+Nzg0MTU1MV19
 -->
