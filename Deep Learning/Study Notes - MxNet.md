@@ -272,21 +272,24 @@ def cross_entropy(y_hat, y):
 
 The training process
 ```python
-def train_epoch_ch3(net, train_iter, loss, updater): 
-metric = Accumulator(3) 
+def train_epoch(net, train_iter, loss, updater): 
+	metric = Accumulator(3) 
 
-if isinstance(updater, gluon.Trainer): 
-	updater = updater.step 
+	if isinstance(updater, gluon.Trainer): 
+		updater = updater.step 
+	
 	for X, y in train_iter:
 		with autograd.record(): 
 			y_hat = net(X) 
 			l = loss(y_hat, y) 
 		l.backward() 
 		updater(X.shape[0]) 
-		metric.add(l.sum().asscalar(), accuracy(y_hat, y), y.size) # Return training loss and training accuracy return metric[0]/metric[2], metric[1]/metric[2]
+		metric.add(l.sum().asscalar(), accuracy(y_hat, y), y.size)
+		
+	return metric[0]/metric[2], metric[1]/metric[2]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODQ3NDM3NywxMzg3NDYwNzUsLTk4ND
+eyJoaXN0b3J5IjpbMTg5NzIxNTEzNCwxMzg3NDYwNzUsLTk4ND
 Q0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3
 NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Ni
 wtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0
