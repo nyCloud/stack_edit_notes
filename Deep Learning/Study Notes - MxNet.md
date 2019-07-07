@@ -164,12 +164,25 @@ l = loss.L2Loss()
 # Indicate Optimizer
 t_coef = {'learning_rate': 0.03}
 trainer = gluon.Trainer(net.collect_params(), 'sgd', t_coef)
+
+# Train the Model
+num_epochs = 3 
+for epoch in range(1, num_epochs + 1): 
+	
+	for X, y in data_iter: 
+		with autograd.record(): 
+			l = loss(net(X), y) 
+		l.backward() 
+		trainer.step(batch_size) 
+	
+	l = loss(net(features), labels) 
+	print('epoch %d, loss: %f' % (epoch, l.mean().asnumpy()))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjI3Mzk5NiwtODQzMDc1NzQ3LDM2Mj
-A0NzcwMSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5
-OCwxOTE0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMT
-IwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQx
-NTUxLC0xNDIzMTk3MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0Nz
-BdfQ==
+eyJoaXN0b3J5IjpbMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04ND
+MwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5
+MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNT
+M0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMy
+NTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MC
+wtMTAyNDM5MzQ3MF19
 -->
