@@ -114,6 +114,7 @@ when executing inside autograd.record() mode, autograd.is_training() will return
 
 ### 1.3 Linear Neural Networks
 
+#### Start with Data Loaders
 An example of simple data iterator:
 ```python
 def data_iter(batch_size, features, labels):
@@ -130,9 +131,9 @@ def data_iter(batch_size, features, labels):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwOD
-QyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3
-MiwzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMj
-UwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcw
-OTQ5MCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2Nj
+AwNTIzMywtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3
+NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNT
+MzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5
+NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
 -->
