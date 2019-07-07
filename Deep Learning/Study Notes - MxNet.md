@@ -232,14 +232,17 @@ def softmax(X):
 
 def net(X): 
 	return softmax(nd.dot(X.reshape((-1, num_inputs)), W) + b)
-def cross_entropy(y_hat, y): return - nd.pick(y_hat, y).log()
+	
+def cross_entropy(y_hat, y): 
+	# np.pick picks value from y_hat wrt one hot vec y
+	return - nd.pick(y_hat, y).log()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTcwMTA2MzcsLTE3Njg0MDAzNzIsLT
-ExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5
-MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MD
-EsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkx
-NDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMz
-YzMywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwt
-MTQyMzE5NzI4MV19
+eyJoaXN0b3J5IjpbLTk4NDQ0NjQ5NCwtMTc2ODQwMDM3MiwtMT
+ExMjkyMjU1NCwtNDk3MjY3NjYyLC0xOTIyNDQ3OTMyLDEzODkz
+MTM2MzgsMTEyNjI3Mzk5NiwtODQzMDc1NzQ3LDM2MjA0NzcwMS
+wtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOTE0
+MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMTIwNDEzNj
+MzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0x
+NDIzMTk3MjgxXX0=
 -->
