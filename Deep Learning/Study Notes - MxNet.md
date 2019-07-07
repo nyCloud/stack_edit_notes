@@ -182,6 +182,7 @@ for epoch in range(1, num_epochs + 1):
 ```
 
 #### Linear Classification
+
 To define the model of linear classification, we will need Softmax Function:
 $$ \hat{y} = softmax(o) $$
 where
@@ -191,12 +192,14 @@ $$\hat{c}(o)=\underset{i}{\operatorname{argmax}} (\hat{y}_i)$$
 
 And the prediction model is defined as
 $$ \hat{y}_i = softmax(Wx_i + b)$$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NDg2MzQ1LC0xOTIyNDQ3OTMyLDEzOD
-kzMTM2MzgsMTEyNjI3Mzk5NiwtODQzMDc1NzQ3LDM2MjA0Nzcw
-MSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOT
-E0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMTIwNDEz
-NjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC
-0xNDIzMTk3MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0NzBdfQ==
+eyJoaXN0b3J5IjpbMjA4NTg2MTU1OSwtMTkyMjQ0NzkzMiwxMz
+g5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3
+MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIwMDk5OTgsMT
+kxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQx
+MzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MS
+wtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
 
 -->
