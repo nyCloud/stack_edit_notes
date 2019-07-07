@@ -56,7 +56,7 @@ numpy_array = mx_array.asnumpy()
 
 ```
 
-### 1.2. Automatic Differentiaion
+### 1.2. Automatic Differentiation
 
 #### Basic Example
 Here is a simple example to compute gradient to a column vector.
@@ -112,9 +112,10 @@ print(x.grad, u.grad, y.grad)
 
 when executing inside autograd.record() mode, autograd.is_training() will return True, else False.
 
+### 1.3 Probability A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ5ODEyMDEsLTcyMDA5OTk4LDE5MT
-QxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0MTM2
-MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1NTEsLT
-E0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbMTczNDM4NDI4OCwtNzIwMDk5OTgsMTkxND
+E3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYz
+MywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMT
+QyMzE5NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
 -->
