@@ -143,7 +143,7 @@ batch_size = 10
 data_iter = load_array((features, labels), batch_size)
 ```
 
-Linear Regression Scarch
+Linear Regression Scratch
 
 ```python
 w = nd.random.normal(scale=0.01, shape=(2, 1)) 
@@ -173,6 +173,7 @@ for epoch in range(num_epochs):
 		l.backward()
 		sgd([w, b], lr, batch_size) 
 ```
+- Note: in MxNet 
 
 Linear Regression in MxNet style
  
@@ -269,11 +270,11 @@ def cross_entropy(y_hat, y):
 	return - nd.pick(y_hat, y).log()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUyNzc4NDksLTk4NDQ0NjQ5NCwtMT
-c2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3NjYyLC0xOTIy
-NDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5NiwtODQzMDc1Nz
-Q3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03
-MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MT
-IxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwx
-NDE3ODQxNTUxXX0=
+eyJoaXN0b3J5IjpbMTU2MDA0MDIxMywtOTg0NDQ2NDk0LC0xNz
+Y4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0
+NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3ND
+csMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcy
+MDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMj
+EsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0
+MTc4NDE1NTFdfQ==
 -->
