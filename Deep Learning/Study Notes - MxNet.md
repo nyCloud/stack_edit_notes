@@ -291,6 +291,7 @@ def train_epoch(net, train_iter, loss, updater):
 In order to animate the training process, we can use an Animator here.
 ```python
 class Animator(object): 
+
 	def __init__(self, xlabel=None, ylabel=None, legend=[], xlim=None, ylim=None, xscale='linear', yscale='linear', fmts=None, nrows=1, ncols=1, figsize=(3.5, 2.5)): 
 		"""Incrementally plot multiple lines."""
 		d2l.use_svg_display() 
@@ -320,12 +321,24 @@ class Animator(object):
 		display.display(self.fig) 
 		display.clear_output(wait=True)
 ```
+Train 
+```python
+def train(net, train_iter, test_iter, loss, num_epochs, updater): 
+	trains, test_accs = [], [] 
+	animator = Animator(xlabel='epoch', xlim=[1, num_epochs], ylim=[0.3, 0.9], 
+						legend=['train loss', 'train acc', 'test acc']) 
+	
+	for epoch in range(num_epochs): 
+		train_metrics = train_epoch_ch3(net, train_iter, loss, updater) 
+		test_acc = evaluate_accuracy(net, test_iter) 
+		animator.add(epoch+1, train_metrics+(test_acc,))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTg0MjczMSwxMzg3NDYwNzUsLTk4ND
-Q0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3
-NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Ni
-wtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0
-MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1MjU5Nz
-IsMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1
-MDYzMjU5OF19
+eyJoaXN0b3J5IjpbLTEzODEwMDU2NTQsMTM4NzQ2MDc1LC05OD
+Q0NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2
+NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5OT
+YsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMywtMTA4
+NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYwNTI1OT
+cyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEy
+NTA2MzI1OThdfQ==
 -->
