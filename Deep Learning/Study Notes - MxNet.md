@@ -143,6 +143,7 @@ batch_size = 10
 data_iter = load_array((features, labels), batch_size)
 ```
 
+Linear Regression Sc
 Linear Regression in MxNet style
  
 ```python
@@ -238,11 +239,11 @@ def cross_entropy(y_hat, y):
 	return - nd.pick(y_hat, y).log()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDQ0NjQ5NCwtMTc2ODQwMDM3MiwtMT
-ExMjkyMjU1NCwtNDk3MjY3NjYyLC0xOTIyNDQ3OTMyLDEzODkz
-MTM2MzgsMTEyNjI3Mzk5NiwtODQzMDc1NzQ3LDM2MjA0NzcwMS
-wtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOTE0
-MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMTIwNDEzNj
-MzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0x
-NDIzMTk3MjgxXX0=
+eyJoaXN0b3J5IjpbMTg2NjIxODM5NiwtOTg0NDQ2NDk0LC0xNz
+Y4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0
+NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3ND
+csMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcy
+MDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMj
+EsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0
+MTc4NDE1NTFdfQ==
 -->
