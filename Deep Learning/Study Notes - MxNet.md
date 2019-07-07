@@ -187,7 +187,7 @@ __Model__
 To define the model of linear classification, we will need Softmax Function:
 $$ \hat{y} = softmax(o) $$
 where
-$$\hat{y}_i = \frac{exp(o_i)}{\sum_j exp(o_j)}$$
+$$p(y|x)=\hat{y}_i = \frac{exp(o_i)}{\sum_j exp(o_j)}$$
 most likely class
 $$\hat{c}(o)=\underset{i}{\operatorname{argmax}} (\hat{y}_i)$$
 
@@ -197,13 +197,13 @@ $$ \hat{y}_i = softmax(Wx_i + b)$$
 __Loss__
 We define the loss function as:
 $$ l = -log\;p(y|x) = -\sum_jy_jlog(\hat{y}_j)$$
-Note that yj is in one hot representation, thus this term works as a selector for 
+Note that yj is in one hot representation, thus this term works as a selector.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwOTU0NTE4LC00OTcyNjc2NjIsLTE5Mj
-I0NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3
-NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLT
-cyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUx
-MjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LD
-E0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAy
-NDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMT
+kyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3
+NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNy
+wtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2
+NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OT
+gsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC0x
+MDI0MzkzNDcwXX0=
 -->
