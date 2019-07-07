@@ -75,6 +75,27 @@ print(x.grad)
 ```
 Please note that when y is not a scalar, MxNet will sum the elements in y to get a new variable y by default, and then find analytical gradient of the new y wrt x.
 
+#### Detach Function
+```python
+x = nd.arange(4)
+x.attach_grad()
+with autograd.record():
+    y = x * x
+    z = y * x
+z.backward()
+print(x.grad)
+# 3x^2 = [ 0.  3. 12. 27.]
+
+x = nd.arange(4)
+x.attach_grad()
+with autograd.record():
+    y = x * x
+    u = y.detach()
+    z = u * x
+
+z.backward()
+x.grad
+```
 
 #### Internal Variables
 
@@ -86,8 +107,8 @@ Please note that when y is not a scalar, MxNet will sum the elements in y to get
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDUyNTk3MiwzNTM0NjUxMjEsLTExMj
-A0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1
-NTEsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF
-19
+eyJoaXN0b3J5IjpbLTMwNTQ5NjIzOCwtMjYwNTI1OTcyLDM1Mz
+Q2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1
+OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC
+0xMDI0MzkzNDcwXX0=
 -->
