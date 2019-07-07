@@ -112,9 +112,9 @@ print(x.grad, u.grad, y.grad)
 
 when executing inside autograd.record() mode, autograd.is_training() will return True, else False.
 
-## 1.3 Linear Neural Networks
+## 2. Linear Neural Networks
 
-#### 1.3.1 Linear Regression
+### 2.1. Linear Regression
 
 Let's get start with Data Loaders, An example of simple data iterator:
 ```python
@@ -213,7 +213,7 @@ for epoch in range(1, num_epochs + 1):
 	print('epoch %d, loss: %f' % (epoch, l.mean().asnumpy()))
 ```
 
-#### 1.3.2 Linear Classification
+### 2.2. Linear Classification
 
 __Model__
 To define the model of linear classification, we will need Softmax Function:
@@ -334,9 +334,10 @@ def train(net, train_iter, test_iter, loss, num_epochs, updater):
 		animator.add(epoch+1, train_metrics+(test_acc,))
 ```
 
+## 3. Multi-Layer Perceptrons
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Mjk0MjE3NywxMzg3NDYwNzUsLTk4ND
+eyJoaXN0b3J5IjpbLTI5MDMxODUyOCwxMzg3NDYwNzUsLTk4ND
 Q0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3
 NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Ni
 wtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0
