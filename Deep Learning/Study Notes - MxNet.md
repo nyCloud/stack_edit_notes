@@ -229,7 +229,13 @@ $$\hat{c}(o)=\underset{i}{\operatorname{argmax}} (\hat{y}_i)$$
 And the prediction model is defined as
 $$ \hat{y}_i = softmax(Wx_i + b)$$
 
-- in M
+- in MxNet, we can easily use its implementation of softmax
+```python
+from mxnet import nd
+x = nd.array([1,2,3,4])
+y = nd.softmax(x)
+# y = [0.0320586  0.08714432 0.23688284 0.6439143 ]
+```
 
 __Cross Entropy Loss__
 We define the log-likelihood loss function as:
@@ -360,7 +366,7 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ## 4. Multi-Layer Perceptrons
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NDEyNjYzLDMyNTAxMzg4NCwxMjMzOT
+eyJoaXN0b3J5IjpbNDM4NzE0ODE3LDMyNTAxMzg4NCwxMjMzOT
 U3MTk0LDEzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4NDAwMzcy
 LC0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0NDc5MzIsMT
 M4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3
