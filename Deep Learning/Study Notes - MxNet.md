@@ -146,10 +146,11 @@ data_iter = load_array((features, labels), batch_size)
 ```python
 from mxnet.gluon import nn
 net =nn.Sequential()
+net.add(nn.Dense(1)) # one output, no need to indicate input size
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzc3MzUwNywtODQzMDc1NzQ3LDM2Mj
+eyJoaXN0b3J5IjpbLTQxOTUyOTk0MSwtODQzMDc1NzQ3LDM2Mj
 A0NzcwMSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5
 OCwxOTE0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMT
 IwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQx
