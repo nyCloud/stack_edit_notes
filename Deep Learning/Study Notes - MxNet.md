@@ -352,13 +352,13 @@ num_epochs = 10
 train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 
-
+- Due to the limitation of floating numbers, exp and log operation may easily get NaN output. Thus it would be smarter to combine Softmax and Cross Entropy steps durning training process
 
 
 ## 4. Multi-Layer Perceptrons
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5MjgwNTMzLDEyMzM5NTcxOTQsMTM4Nz
+eyJoaXN0b3J5IjpbMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4Nz
 Q2MDc1LC05ODQ0NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1
 NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LD
 ExMjYyNzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAw
