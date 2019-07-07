@@ -157,7 +157,15 @@ def linreg(X, w, b):
 def squared_loss(y_hat, y): 
 	return (y_hat - y.reshape(y_hat.shape)) ** 2 / 2
 
-def sgd(params, lr, batch_size): for param in params: param[:] = param - lr * param.grad / batch_size
+def sgd(params, lr, batch_size): 
+	for param in params: 
+		param[:] = param - lr * param.grad / batch_size
+
+lr = 0.03 
+num_epochs = 3 
+net = linreg 
+loss = squared_loss 
+# 0.5 (y-y')^2 for epoch in range(num_epochs): 
 ```
 
 Linear Regression in MxNet style
@@ -255,7 +263,7 @@ def cross_entropy(y_hat, y):
 	return - nd.pick(y_hat, y).log()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDA5MjUzMSwtOTg0NDQ2NDk0LC0xNz
+eyJoaXN0b3J5IjpbLTczNzE2NzQ5NSwtOTg0NDQ2NDk0LC0xNz
 Y4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0
 NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3ND
 csMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcy
