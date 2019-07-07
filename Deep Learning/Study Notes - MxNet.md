@@ -189,12 +189,13 @@ $$\hat{y}_i = \frac{exp(o_i)}{\sum_j exp(o_j)}$$
 most likely class
 $$\hat{c}(o)=\underset{i}{\operatorname{argmax}} (\hat{y}_i)$$
 
-And the problem is defined as 
+And the problem is defined as
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMT
-I2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUy
-MzMsLTEwODQyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLT
-I2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUy
-ODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyOD
-EsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTIwODAwMzAwOTYsLTE5MjI0NDc5MzIsMT
+M4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3
+NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcyMDA5OTk4LD
+E5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0
+MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1NT
+EsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
+
 -->
