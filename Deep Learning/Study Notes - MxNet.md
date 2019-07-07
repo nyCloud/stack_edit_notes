@@ -113,6 +113,7 @@ print(x.grad, u.grad, y.grad)
 when executing inside autograd.record() mode, autograd.is_training() will return True, else False.
 
 ## 2. Deep Learning Computation
+(d2dl p185-p216)
 
 ## 3. Linear Neural Networks
 
@@ -339,11 +340,11 @@ def train(net, train_iter, test_iter, loss, num_epochs, updater):
 ## 4. Multi-Layer Perceptrons
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY0MzUwODcsMTM4NzQ2MDc1LC05OD
-Q0NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2
-NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5OT
-YsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMywtMTA4
-NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYwNTI1OT
-cyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEy
-NTA2MzI1OThdfQ==
+eyJoaXN0b3J5IjpbMTIzMzk1NzE5NCwxMzg3NDYwNzUsLTk4ND
+Q0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3
+NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Ni
+wtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0
+MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1MjU5Nz
+IsMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1
+MDYzMjU5OF19
 -->
