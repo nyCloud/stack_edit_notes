@@ -195,10 +195,11 @@ And the prediction model is defined as
 $$ \hat{y}_i = softmax(Wx_i + b)$$
 
 __Loss__
-We define the loss function as 
-$$ l = -log\;p(y|x) = -\sum_jy_jlog(\hat{y}_j$$
+We define the loss function as:
+$$ l = -log\;p(y|x) = -\sum_jy_jlog(\hat{y}_j)$$
+Note that yj is in one hot representation, thus this term works as a selector for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNzAyNTM5LC00OTcyNjc2NjIsLTE5Mj
+eyJoaXN0b3J5IjpbODQwOTU0NTE4LC00OTcyNjc2NjIsLTE5Mj
 I0NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3
 NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLT
 cyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUx
