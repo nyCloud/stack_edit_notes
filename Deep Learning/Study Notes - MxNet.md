@@ -108,20 +108,12 @@ with autograd.record():
 	z = u + x 
 z.backward()
 print(x.grad, u.grad, y.grad)
-```
-
-#### Internal Variables
-
-#### Head Gradients
-
-#### Python Control Flow
-
-#### Training Mode and Prediction Mode
+``` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1Mz
-Q2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1
-OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC
-0xMDI0MzkzNDcwXX0=
+eyJoaXN0b3J5IjpbLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MD
+UyNTk3MiwzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2
+NiwxMjUwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyODEsMT
+IwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
 -->
