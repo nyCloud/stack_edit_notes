@@ -165,7 +165,13 @@ lr = 0.03
 num_epochs = 3 
 net = linreg 
 loss = squared_loss 
-# 0.5 (y-y')^2 for epoch in range(num_epochs): 
+
+for epoch in range(num_epochs):
+	for X, y in data_iter(batch_size, features, labels): 
+		with autograd.record(): 
+			l = loss(net(X, w, b), y)
+		l.backward()
+		sgd([w, b], lr, batch_size) 
 ```
 
 Linear Regression in MxNet style
@@ -263,11 +269,11 @@ def cross_entropy(y_hat, y):
 	return - nd.pick(y_hat, y).log()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzE2NzQ5NSwtOTg0NDQ2NDk0LC0xNz
-Y4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0
-NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3ND
-csMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcy
-MDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMj
-EsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0
-MTc4NDE1NTFdfQ==
+eyJoaXN0b3J5IjpbLTE1NzUyNzc4NDksLTk4NDQ0NjQ5NCwtMT
+c2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3NjYyLC0xOTIy
+NDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5NiwtODQzMDc1Nz
+Q3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03
+MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MT
+IxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwx
+NDE3ODQxNTUxXX0=
 -->
