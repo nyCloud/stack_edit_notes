@@ -190,9 +190,9 @@ most likely class
 $$\hat{c}(o)=\underset{i}{\operatorname{argmax}} (\hat{y}_i)$$
 
 And the prediction model is defined as
-$$ o_i = Wx_i + b\; \$$
+$$ \hat{y}_i = softmax(Wx_i + b)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3MTAyODAwLC0xOTIyNDQ3OTMyLDEzOD
+eyJoaXN0b3J5IjpbMjI3NDg2MzQ1LC0xOTIyNDQ3OTMyLDEzOD
 kzMTM2MzgsMTEyNjI3Mzk5NiwtODQzMDc1NzQ3LDM2MjA0Nzcw
 MSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOT
 E0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMTIwNDEz
