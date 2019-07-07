@@ -288,8 +288,10 @@ def train_epoch(net, train_iter, loss, updater):
 		
 	return metric[0]/metric[2], metric[1]/metric[2]
 ```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzIxNTEzNCwxMzg3NDYwNzUsLTk4ND
+eyJoaXN0b3J5IjpbMTAyMDMwODE1NCwxMzg3NDYwNzUsLTk4ND
 Q0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3
 NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Ni
 wtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0
