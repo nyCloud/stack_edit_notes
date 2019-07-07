@@ -132,14 +132,16 @@ def data_iter(batch_size, features, labels):
 Or we can also use the DataLoader provided by MxNet
 ```python
 def load_array(data_arrays, batch_size, is_train=True):
+
 	"""Construct a Gluon data loader""" 
 	dataset = gluon.data.ArrayDataset(*data_arrays) 
 	return gluon.data.DataLoader(dataset, batch_size, shuffle=is_train) 
+
 batch_size = 10 
 data_iter = load_array((features, labels), batch_size)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzE4MDg3NCwtODQzMDc1NzQ3LDM2Mj
+eyJoaXN0b3J5IjpbMjA1NTIwMDY2NiwtODQzMDc1NzQ3LDM2Mj
 A0NzcwMSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5
 OCwxOTE0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMT
 IwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQx
