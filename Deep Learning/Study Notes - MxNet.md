@@ -188,12 +188,12 @@ $$ \hat{y} = softmax(o) $$
 where
 $$\hat{y}_i = \frac{exp(o_i)}{\sum_j exp(o_j)}$$
 most likely class
-$$\hat{c}(o)=argmax(\hat{y}_i)$$
+$$\hat{c}(o)=\underset{i}{\operatorname{argmax}} (\hat{y}_i)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM0MTkzNjAsMTM4OTMxMzYzOCwxMT
-I2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUy
-MzMsLTEwODQyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLT
-I2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUy
-ODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyOD
-EsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbMjA2MzI4MjY3NCwxMzg5MzEzNjM4LDExMj
+YyNzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIz
+MywtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMj
+YwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4
+NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MS
+wxMjAxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
 -->
