@@ -143,15 +143,16 @@ data_iter = load_array((features, labels), batch_size)
 
 #### Example for Linear Regression
  
- ```python
+```python
 from mxnet.gluon import nn
-net =nn.Sequent
+net =nn.Sequential()
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTkzODQ5ODQsLTg0MzA3NTc0NywzNj
-IwNDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIwMDk5
-OTgsMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMT
-EyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0
-MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzND
-cwXX0=
+eyJoaXN0b3J5IjpbLTUzMzc3MzUwNywtODQzMDc1NzQ3LDM2Mj
+A0NzcwMSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5
+OCwxOTE0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMT
+IwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQx
+NTUxLC0xNDIzMTk3MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0Nz
+BdfQ==
 -->
