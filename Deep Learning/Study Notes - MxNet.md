@@ -202,14 +202,14 @@ Note that yj is in one hot representation, thus this term works as a selector.
 Now consider the case where we don’t just observe a single outcome but maybe, an entire distribution over outcomes. We can use the same representation as before for y. The only difference is that rather than a vector containing only binary entries, say (0, 0, 1), we now have a generic probability vector, say (0.1, 0.2, 0.7).
 
 __Information Theory Basis__
-_Entropy_: how many bits of information (or randomness) are contained in data.
+__Entropy__: how many bits of information (or randomness) are contained in data.
 $$H[p] = \sum_j-p(j)log\:p(j)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzUwNzI3NSwtMTExMjkyMjU1NCwtND
-k3MjY3NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3
-Mzk5NiwtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC
-0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1
-MjU5NzIsMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0Nj
-YsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0xNDIzMTk3MjgxLDEy
-MDE3MDk0OTBdfQ==
+eyJoaXN0b3J5IjpbNzcxODM0MzExLC0xMTEyOTIyNTU0LC00OT
+cyNjc2NjIsLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMTI2Mjcz
+OTk2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLT
+EwODQyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUy
+NTk3MiwzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2Ni
+wxMjUwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIw
+MTcwOTQ5MF19
 -->
