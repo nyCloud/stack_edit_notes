@@ -114,8 +114,9 @@ when executing inside autograd.record() mode, autograd.is_training() will return
 
 ### 1.3 Linear Neural Networks
 
-#### Start with Data Loaders
-An example of simple data iterator:
+#### Linear Regression
+
+Let's get start with Data Loaders, An example of simple data iterator:
 ```python
 def data_iter(batch_size, features, labels):
 	
@@ -129,6 +130,7 @@ def data_iter(batch_size, features, labels):
 		# The “take” function will then return the corresponding element 
 		# based on the indices
 ```
+
 Or we can also use the DataLoader provided by MxNet
 ```python
 def load_array(data_arrays, batch_size, is_train=True):
@@ -141,7 +143,7 @@ batch_size = 10
 data_iter = load_array((features, labels), batch_size)
 ```
 
-#### Example for Linear Regression
+Use mx
  
 ```python
 from mxnet import init
@@ -179,10 +181,10 @@ for epoch in range(1, num_epochs + 1):
 	print('epoch %d, loss: %f' % (epoch, l.mean().asnumpy()))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04ND
-MwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5
-MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNT
-M0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMy
-NTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MC
-wtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTIwMTE5NTQxODYsMTM4OTMxMzYzOCwxMT
+I2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUy
+MzMsLTEwODQyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLT
+I2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUy
+ODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyOD
+EsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
 -->
