@@ -205,8 +205,9 @@ __@ Information Theory Basis__
 - Entropy: how many bits of information (or randomness) are contained in data.
 $$H[p] = \sum_j-p(j)log\:p(j)$$
 - KL Divergence: one way to measure the difference between two distributions.
+$$ D(p||q) = -\sum_jp(j)log\:q(j) - H[p] = \sum_jlog\frac{}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDMwMjM3MSwtMTExMjkyMjU1NCwtND
+eyJoaXN0b3J5IjpbLTQxNTc5NDE2NiwtMTExMjkyMjU1NCwtND
 k3MjY3NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3
 Mzk5NiwtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC
 0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1
