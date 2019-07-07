@@ -143,7 +143,7 @@ batch_size = 10
 data_iter = load_array((features, labels), batch_size)
 ```
 
-Use mx
+Linear Regression in MxNet style
  
 ```python
 from mxnet import init
@@ -180,8 +180,11 @@ for epoch in range(1, num_epochs + 1):
 	l = loss(net(features), labels) 
 	print('epoch %d, loss: %f' % (epoch, l.mean().asnumpy()))
 ```
+
+#### Linear Classification
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE5NTQxODYsMTM4OTMxMzYzOCwxMT
+eyJoaXN0b3J5IjpbLTEzNDE3MzQ4MjUsMTM4OTMxMzYzOCwxMT
 I2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUy
 MzMsLTEwODQyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLT
 I2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUy
