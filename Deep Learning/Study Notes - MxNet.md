@@ -195,15 +195,17 @@ And the prediction model is defined as
 $$ \hat{y}_i = softmax(Wx_i + b)$$
 
 __Loss__
-We define the loss function as:
+We define the log-likelihood loss function as:
 $$ l = -log\;p(y|x) = -\sum_jy_jlog(\hat{y}_j)$$
 Note that yj is in one hot representation, thus this term works as a selector.
+
+Now consider the case where we don’t just observe a single outcome but maybe, an entire distribution over outcomes. We can use the same representation as before for y. The only difference is that rather than a vector containing only binary entries, say (0, 0, 1), we now have a generic probability vector, say (0.1, 0.2, 0.7).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMT
-kyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3
-NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNy
-wtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2
-NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OT
-gsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC0x
-MDI0MzkzNDcwXX0=
+eyJoaXN0b3J5IjpbLTEwMTgyMDg2MjEsLTExMTI5MjI1NTQsLT
+Q5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYy
+NzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMy
+wtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYw
+NTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4ND
+Y2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwx
+MjAxNzA5NDkwXX0=
 -->
