@@ -158,13 +158,18 @@ net.add(nn.Dense(1))
 # Initialize layer
 net.initialize(init.Normal(bias=0, sigma=0.01))
 
-# Define loss 
+# Define loss function
+l = loss.L2Loss()
+
+# Indicate Optimizer
+t_coef = {'learning_rate': 0.03}
+trainer = gluon.Trainer(net.collect_params(), 'sgd', t_coef)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc0MDM4OTIsLTg0MzA3NTc0NywzNj
-IwNDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIwMDk5
-OTgsMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMT
-EyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0
-MTU1MSwtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzND
-cwXX0=
+eyJoaXN0b3J5IjpbMTEyNjI3Mzk5NiwtODQzMDc1NzQ3LDM2Mj
+A0NzcwMSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5
+OCwxOTE0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMT
+IwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQx
+NTUxLC0xNDIzMTk3MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0Nz
+BdfQ==
 -->
