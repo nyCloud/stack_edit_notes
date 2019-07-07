@@ -173,7 +173,7 @@ for epoch in range(num_epochs):
 		l.backward()
 		sgd([w, b], lr, batch_size) 
 ```
-- Note: in MxNet autograd,Please note that when y is not a scalar, MxNet will sum the elements in y to get a new variable y by default, and then find analytical gradient of the new y wrt x.
+- Please note that when y is not a scalar, MxNet will sum the elements in y to get a new variable y by default, and then find analytical gradient of the new y wrt x. And that is why during SGD update, gradient need to be divided by batch_size.
 
 Linear Regression in MxNet style
  
@@ -270,7 +270,7 @@ def cross_entropy(y_hat, y):
 	return - nd.pick(y_hat, y).log()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTY5ODc1LC05ODQ0NDY0OTQsLTE3Nj
+eyJoaXN0b3J5IjpbMTM4NzQ2MDc1LC05ODQ0NDY0OTQsLTE3Nj
 g0MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0
 NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NTc0Ny
 wzNjIwNDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIw
