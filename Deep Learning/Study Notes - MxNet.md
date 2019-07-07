@@ -337,14 +337,32 @@ def train(net, train_iter, test_iter, loss, num_epochs, updater):
 		animator.add(epoch+1, train_metrics+(test_acc,))
 ```
 
+__More MxNet Style__
+```python
+import d2l from mxnet import gluon, init from mxnet.gluon import nn
+
+batch_size = 256 
+train_iter, test_iter = d2l.load_data_fashion_mnist(batch_size)
+
+net = nn.Sequential() net.add(nn.Dense(10)) net.initialize(init.Normal(sigma=0.01))
+loss = gluon.loss.SoftmaxCrossEntropyLoss()
+trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': 0.1})
+
+num_epochs = 10 
+train(net, train_iter, test_iter, loss, num_epochs, trainer)
+```
+
+
+
+
 ## 4. Multi-Layer Perceptrons
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzk1NzE5NCwxMzg3NDYwNzUsLTk4ND
-Q0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3
-NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Ni
-wtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0
-MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1MjU5Nz
-IsMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1
-MDYzMjU5OF19
+eyJoaXN0b3J5IjpbOTQ5MjgwNTMzLDEyMzM5NTcxOTQsMTM4Nz
+Q2MDc1LC05ODQ0NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1
+NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LD
+ExMjYyNzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAw
+NTIzMywtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NC
+wtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMz
+NTI4NDY2XX0=
 -->
