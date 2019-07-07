@@ -189,13 +189,14 @@ $$\hat{y}_i = \frac{exp(o_i)}{\sum_j exp(o_j)}$$
 most likely class
 $$\hat{c}(o)=\underset{i}{\operatorname{argmax}} (\hat{y}_i)$$
 
-And the problem is defined as
+And the prediction model is defined as
+$$ o_i = Wx_i + b\; \$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAwMzAwOTYsLTE5MjI0NDc5MzIsMT
-M4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3
-NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcyMDA5OTk4LD
-E5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0
-MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1NT
-EsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbNzQ3MTAyODAwLC0xOTIyNDQ3OTMyLDEzOD
+kzMTM2MzgsMTEyNjI3Mzk5NiwtODQzMDc1NzQ3LDM2MjA0Nzcw
+MSwtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOT
+E0MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMTIwNDEz
+NjMzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC
+0xNDIzMTk3MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0NzBdfQ==
 
 -->
