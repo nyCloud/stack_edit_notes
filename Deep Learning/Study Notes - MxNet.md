@@ -208,12 +208,28 @@ $$H[p] = \sum_j-p(j)log\:p(j)$$
 $$H[p, q] = \sum_j-p(j)log \:q(j)$$
 - KL Divergence: one way to measure the difference between two distributions.
 $$ D(p||q) = -\sum_jp(j)log\:q(j) - H[p] = \sum_jp(j)log\frac{p(j)}{q(j)}$$
+
+Scratch Version
+```python
+import d2l 
+from mxnet import autograd, nd, gluon
+
+batch_size = 256 
+train_iter, test_iter = d2l.load_data_fashion_mnist(batch_size)
+
+num_inputs = 784 
+num_outputs = 10 
+W = nd.random.normal(scale=0.01, shape=(num_inputs, num_outputs)) 
+b = nd.zeros(num_outputs)
+W.attach_grad() 
+b.attach_grad()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg0MDAzNzIsLTExMTI5MjI1NTQsLT
-Q5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYy
-NzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMy
-wtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYw
-NTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4ND
-Y2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwx
-MjAxNzA5NDkwXX0=
+eyJoaXN0b3J5IjpbMTE0NDAxNjc4OSwtMTc2ODQwMDM3MiwtMT
+ExMjkyMjU1NCwtNDk3MjY3NjYyLC0xOTIyNDQ3OTMyLDEzODkz
+MTM2MzgsMTEyNjI3Mzk5NiwtODQzMDc1NzQ3LDM2MjA0NzcwMS
+wtNDY2MDA1MjMzLC0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOTE0
+MTc1Njc0LC0yNjA1MjU5NzIsMzUzNDY1MTIxLC0xMTIwNDEzNj
+MzLDE1MzM1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0x
+NDIzMTk3MjgxXX0=
 -->
