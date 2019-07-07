@@ -241,7 +241,7 @@ $$H[p, q] = \sum_j-p(j)log \:q(j)$$
 - KL Divergence: one way to measure the difference between two distributions.
 $$ D(p||q) = -\sum_jp(j)log\:q(j) - H[p] = \sum_jp(j)log\frac{p(j)}{q(j)}$$
 
-Scratch Version
+__Scratch Version__
 ```python
 import d2l 
 from mxnet import autograd, nd, gluon
@@ -269,12 +269,28 @@ def cross_entropy(y_hat, y):
 	# np.pick picks value from y_hat wrt one hot vec y
 	return - nd.pick(y_hat, y).log()
 ```
+
+The training process
+```python
+def train_epoch_ch3(net, train_iter, loss, updater): 
+metric = Accumulator(3) 
+
+if isinstance(updater, gluon.Trainer): 
+	updater = updater.step 
+	for X, y in train_iter:
+		with autograd.record(): 
+			y_hat = net(X) 
+			l = loss(y_hat, y) 
+		l.backward() 
+		updater(X.shape[0]) 
+		metric.add(l.sum().asscalar(), accuracy(y_hat, y), y.size) # Return training loss and training accuracy return metric[0]/metric[2], metric[1]/metric[2]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzQ2MDc1LC05ODQ0NDY0OTQsLTE3Nj
-g0MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0
-NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NTc0Ny
-wzNjIwNDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIw
-MDk5OTgsMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMS
-wtMTEyMDQxMzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQx
-Nzg0MTU1MV19
+eyJoaXN0b3J5IjpbMTQyODQ3NDM3NywxMzg3NDYwNzUsLTk4ND
+Q0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3
+NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Ni
+wtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMDg0
+MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1MjU5Nz
+IsMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0NjYsMTI1
+MDYzMjU5OF19
 -->
