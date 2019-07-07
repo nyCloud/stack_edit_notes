@@ -75,7 +75,6 @@ print(x.grad)
 ```
 Please note that when y is not a scalar, MxNet will sum the elements in y to get a new variable y by default, and then find analytical gradient of the new y wrt x.
 
-#### Detach Computations
 
 #### Internal Variables
 
@@ -87,7 +86,8 @@ Please note that when y is not a scalar, MxNet will sum the elements in y to get
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1Mz
-M1Mjg0NjYsMTI1MDYzMjU5OCwxNDE3ODQxNTUxLC0xNDIzMTk3
-MjgxLDEyMDE3MDk0OTAsLTEwMjQzOTM0NzBdfQ==
+eyJoaXN0b3J5IjpbLTI2MDUyNTk3MiwzNTM0NjUxMjEsLTExMj
+A0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LDE0MTc4NDE1
+NTEsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAyNDM5MzQ3MF
+19
 -->
