@@ -229,7 +229,8 @@ $$\hat{c}(o)=\underset{i}{\operatorname{argmax}} (\hat{y}_i)$$
 And the prediction model is defined as
 $$ \hat{y}_i = softmax(Wx_i + b)$$
 
-- in MxNet, we can easily use its implementation of softmax
+
+In MxNet, we can easily use its implementation of softmax
 ```python
 from mxnet import nd
 x = nd.array([1,2,3,4])
@@ -360,17 +361,17 @@ num_epochs = 10
 train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 
-- Due to the limitation of floating numbers, exp and log operation may easily get NaN output. Thus it would be smarter to combine Softmax and Cross Entropy steps durning training process
+- Due to the limitation of floating numbers, exp and log operation may easily get NaN output. Thus it would be smarter to combine Softmax and Cross Entropy steps during training process
 
 
 ## 4. Multi-Layer Perceptrons
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4NzE0ODE3LDMyNTAxMzg4NCwxMjMzOT
-U3MTk0LDEzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4NDAwMzcy
-LC0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0NDc5MzIsMT
-M4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3
-NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcyMDA5OTk4LD
-E5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0
-MTM2MzNdfQ==
+eyJoaXN0b3J5IjpbLTEzMDIxOTYwMDAsMzI1MDEzODg0LDEyMz
+M5NTcxOTQsMTM4NzQ2MDc1LC05ODQ0NDY0OTQsLTE3Njg0MDAz
+NzIsLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0NzkzMi
+wxMzg5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NTc0NywzNjIw
+NDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIwMDk5OT
+gsMTkxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMTEy
+MDQxMzYzM119
 -->
