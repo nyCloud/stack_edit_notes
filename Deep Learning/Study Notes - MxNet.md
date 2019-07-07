@@ -195,13 +195,14 @@ And the prediction model is defined as
 $$ \hat{y}_i = softmax(Wx_i + b)$$
 
 __Loss__
-
+We define the loss function as 
+$$ l = -log\;p(y|x) = -\sum_jy_jlog(\hat{y}_j$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMz
-g5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3
-MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywtNzIwMDk5OTgsMT
-kxNDE3NTY3NCwtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQx
-MzYzMywxNTMzNTI4NDY2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MS
-wtMTQyMzE5NzI4MSwxMjAxNzA5NDkwLC0xMDI0MzkzNDcwXX0=
-
+eyJoaXN0b3J5IjpbMTUwNzAyNTM5LC00OTcyNjc2NjIsLTE5Mj
+I0NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3
+NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLT
+cyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUx
+MjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMjUwNjMyNTk4LD
+E0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcwOTQ5MCwtMTAy
+NDM5MzQ3MF19
 -->
