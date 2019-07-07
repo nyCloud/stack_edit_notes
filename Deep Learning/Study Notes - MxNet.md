@@ -295,8 +295,7 @@ class Animator(object):
 		"""Incrementally plot multiple lines."""
 		d2l.use_svg_display() 
 		self.fig, self.axes = d2l.plt.subplots(nrows, ncols, figsize=figsize) 
-		if nrows * ncols == 1: 
-			self.axes = [self.axes,]
+		if nrows * ncols == 1: self.axes = [self.axes,]
 			self.config_axes = lambda : d2l.set_axes( self.axes[0], xlabel, ylabel, xlim, ylim, xscale, yscale, legend) 
 			self.X, self.Y, self.fmts = None, None, fmts 
 
@@ -312,11 +311,16 @@ class Animator(object):
 			if a is not None and b is not None: 
 				self.X[i].append(a) 
 				self.Y[i].append(b) 
-				self.axes[0].cla() for x, y, fmt in zip(self.X, self.Y, self.fmts): self.axes[0].plot(x, y, fmt) self.config_axes() display.display(self.fig) display.clear_output(wait=True)
+		self.axes[0].cla() 
 
+		for x, y, fmt in zip(self.X, self.Y, self.fmts): 
+			self.axes[0].plot(x, y, fmt) 
+		self.config_axes() 
+		display.display(self.fig) 
+		display.clear_output(wait=True)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzY4NjA3LDEzODc0NjA3NSwtOTg0ND
+eyJoaXN0b3J5IjpbNTUzNTUxMzEzLDEzODc0NjA3NSwtOTg0ND
 Q2NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2
 NjIsLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC
 04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQy
