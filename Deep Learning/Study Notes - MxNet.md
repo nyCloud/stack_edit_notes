@@ -205,11 +205,11 @@ __@ Information Theory Basis__
 - Entropy: how many bits of information (or randomness) are contained in data.
 $$H[p] = \sum_j-p(j)log\:p(j)$$
 - Cross Entropy:   the cross entropy between two probability distributions p and q  measures the average number of bits needed to identify an event drawn from the set if a coding scheme used for the set is optimized for an estimated probability distribution q, rather than the true distribution p.
--
+$$H[p, q] = \sum_j-p(j)log \:q(j)$$
 - KL Divergence: one way to measure the difference between two distributions.
 $$ D(p||q) = -\sum_jp(j)log\:q(j) - H[p] = \sum_jp(j)log\frac{p(j)}{q(j)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE3MTQ1NjEsLTExMTI5MjI1NTQsLT
+eyJoaXN0b3J5IjpbLTE3Njg0MDAzNzIsLTExMTI5MjI1NTQsLT
 Q5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYy
 NzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMy
 wtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYw
