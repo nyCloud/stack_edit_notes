@@ -200,12 +200,15 @@ $$ l = -log\;p(y|x) = -\sum_jy_jlog(\hat{y}_j)$$
 Note that yj is in one hot representation, thus this term works as a selector.
 
 Now consider the case where we don’t just observe a single outcome but maybe, an entire distribution over outcomes. We can use the same representation as before for y. The only difference is that rather than a vector containing only binary entries, say (0, 0, 1), we now have a generic probability vector, say (0.1, 0.2, 0.7).
+
+__Information Theory Basis__
+_Entropy_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTgyMDg2MjEsLTExMTI5MjI1NTQsLT
-Q5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYy
-NzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMy
-wtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYw
-NTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4ND
-Y2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwx
-MjAxNzA5NDkwXX0=
+eyJoaXN0b3J5IjpbNTYxMDQ1NzcsLTExMTI5MjI1NTQsLTQ5Nz
+I2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5
+OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMywtMT
+A4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYwNTI1
+OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LD
+EyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMjAx
+NzA5NDkwXX0=
 -->
