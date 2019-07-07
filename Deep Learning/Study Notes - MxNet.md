@@ -218,7 +218,7 @@ for epoch in range(1, num_epochs + 1):
 
 ### 3.2. Linear Classification
 
-__Model__
+__Softmax Function__
 To define the model of linear classification, we will need Softmax Function:
 $$ \hat{y} = softmax(o) $$
 where
@@ -229,7 +229,9 @@ $$\hat{c}(o)=\underset{i}{\operatorname{argmax}} (\hat{y}_i)$$
 And the prediction model is defined as
 $$ \hat{y}_i = softmax(Wx_i + b)$$
 
-__Loss__
+- in M
+
+__Cross Entropy Loss__
 We define the log-likelihood loss function as:
 $$ l = -log\;p(y|x) = -\sum_jy_jlog(\hat{y}_j)$$
 Note that yj is in one hot representation, thus this term works as a selector.
@@ -358,11 +360,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ## 4. Multi-Layer Perceptrons
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4Nz
-Q2MDc1LC05ODQ0NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1
-NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LD
-ExMjYyNzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAw
-NTIzMywtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NC
-wtMjYwNTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMz
-NTI4NDY2XX0=
+eyJoaXN0b3J5IjpbNzA1NDEyNjYzLDMyNTAxMzg4NCwxMjMzOT
+U3MTk0LDEzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4NDAwMzcy
+LC0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0NDc5MzIsMT
+M4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3
+NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcyMDA5OTk4LD
+E5MTQxNzU2NzQsLTI2MDUyNTk3MiwzNTM0NjUxMjEsLTExMjA0
+MTM2MzNdfQ==
 -->
