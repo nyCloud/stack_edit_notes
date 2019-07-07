@@ -204,15 +204,16 @@ Now consider the case where we don’t just observe a single outcome but maybe, 
 __@ Information Theory Basis__
 - Entropy: how many bits of information (or randomness) are contained in data.
 $$H[p] = \sum_j-p(j)log\:p(j)$$
-- Cross Entropy:  
+- Cross Entropy:   the cross entropy between two probability distributions p and q  measures the average number of bits needed to identify an event drawn from the set if a coding scheme used for the set is optimized for an estimated probability distribution q, rather than the true distribution p.
+-
 - KL Divergence: one way to measure the difference between two distributions.
 $$ D(p||q) = -\sum_jp(j)log\:q(j) - H[p] = \sum_jp(j)log\frac{p(j)}{q(j)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3NzY5NCwtMTExMjkyMjU1NCwtNDk3Mj
-Y3NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5
-NiwtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0xMD
-g0MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1MjU5
-NzIsMzUzNDY1MTIxLC0xMTIwNDEzNjMzLDE1MzM1Mjg0NjYsMT
-I1MDYzMjU5OCwxNDE3ODQxNTUxLC0xNDIzMTk3MjgxLDEyMDE3
-MDk0OTBdfQ==
+eyJoaXN0b3J5IjpbLTEwMjE3MTQ1NjEsLTExMTI5MjI1NTQsLT
+Q5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYy
+NzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMy
+wtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYw
+NTI1OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4ND
+Y2LDEyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwx
+MjAxNzA5NDkwXX0=
 -->
