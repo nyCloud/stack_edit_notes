@@ -116,12 +116,19 @@ when executing inside autograd.record() mode, autograd.is_training() will return
 
 An example of simple data iterator:
 ```python
-
+def data_iter(batch_size, features, labels):
+	num_examples = len(features)
+	indices = list(range(num_examples))  
+	random.shuffle(indices) 
+	for i in range(0, num_examples, batch_size):
+		j = nd.array(indices[i: min(i + batch_size, num_examples)]) 
+		yield features.take(j), labels.take(j) 
+	# The “take” function will then return the corresponding element # based on the indices
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2MjcyNTU5LC00NjYwMDUyMzMsLTEwOD
-QyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUyNTk3
-MiwzNTM0NjUxMjEsLTExMjA0MTM2MzMsMTUzMzUyODQ2NiwxMj
-UwNjMyNTk4LDE0MTc4NDE1NTEsLTE0MjMxOTcyODEsMTIwMTcw
-OTQ5MCwtMTAyNDM5MzQ3MF19
+eyJoaXN0b3J5IjpbLTE4NjYxNTkyOTksLTQ2NjAwNTIzMywtMT
+A4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYwNTI1
+OTcyLDM1MzQ2NTEyMSwtMTEyMDQxMzYzMywxNTMzNTI4NDY2LD
+EyNTA2MzI1OTgsMTQxNzg0MTU1MSwtMTQyMzE5NzI4MSwxMjAx
+NzA5NDkwLC0xMDI0MzkzNDcwXX0=
 -->
