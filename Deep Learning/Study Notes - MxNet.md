@@ -143,7 +143,23 @@ batch_size = 10
 data_iter = load_array((features, labels), batch_size)
 ```
 
-Linear Regression Sc
+Linear Regression Scarch
+
+```python
+w = nd.random.normal(scale=0.01, shape=(2, 1)) 
+b = nd.zeros(shape=(1,))
+w.attach_grad() 
+b.attach_grad()
+
+def linreg(X, w, b): 
+	return nd.dot(X, w) + b
+	
+def squared_loss(y_hat, y): 
+	return (y_hat - y.reshape(y_hat.shape)) ** 2 / 2
+
+def sgd(params, lr, batch_size): for param in params: param[:] = param - lr * param.grad / batch_size
+```
+
 Linear Regression in MxNet style
  
 ```python
@@ -239,7 +255,7 @@ def cross_entropy(y_hat, y):
 	return - nd.pick(y_hat, y).log()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjIxODM5NiwtOTg0NDQ2NDk0LC0xNz
+eyJoaXN0b3J5IjpbLTY2NDA5MjUzMSwtOTg0NDQ2NDk0LC0xNz
 Y4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0
 NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3ND
 csMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcy
