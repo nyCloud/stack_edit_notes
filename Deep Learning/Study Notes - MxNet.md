@@ -409,11 +409,16 @@ def net(x):
 	x = x.reshape((-1, num_inputs))
 	h = relu(nd.dot(x, w1) + b1)
 	return nd.dot(h, w2) + b2
-	
+
+loss = gluon.loss.SoftmaxCrossEntropyLoss()
+num_epochs, lr = 10, 0.5 
+train(net, train_iter, test_iter, loss, num_epochs, lambda batch_size: d2l.sgd(params, lr, batch_size))
+# Training
+
 ```
 __simplified version__
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzUxNDc2MiwxNzQxNjA0ODIwLC0xOT
+eyJoaXN0b3J5IjpbLTIwNDMzNDI0MCwxNzQxNjA0ODIwLC0xOT
 Y4OTA5NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMTMwMjE5
 NjAwMCwzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUsLT
 k4NDQ0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3
