@@ -392,25 +392,32 @@ with autograd.record():
 
 __scratch version__
 ```python
-# Ini
+# Initalize Params
 num_inputs, num_outputs, num_hiddens = 784, 10, 256 
-W1 = nd.random.normal(scale=0.01, shape=(num_inputs, num_hiddens))
+w1 = nd.random.normal(scale=0.01, shape=(num_inputs, num_hiddens))
 b1 = nd.zeros(num_hiddens) 
-W2 = nd.random.normal(scale=0.01, shape=(num_hiddens, num_outputs)) 
+w2 = nd.random.normal(scale=0.01, shape=(num_hiddens, num_outputs)) 
 b2 = nd.zeros(num_outputs) 
-params = [W1, b1, W2, b2] 
+params = [w1, b1, w2, b2] 
 for param in params: 
 	param.attach_grad()
 
+def relu(x):
+	return nd.maximum(x, 0)
 
+def net(x):
+	x = x.reshape((-1, num_inputs))
+	h = relu(nd.dot(x, w1) + b1)
+	return nd.dot(h, w2) + b2
+	
 ```
 __simplified version__
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzAzNjcxNzIsMTc0MTYwNDgyMCwtMT
-k2ODkwOTYxMCwtMTE4NzIyMTczOCwxMDU5OTA3NjMsLTEzMDIx
-OTYwMDAsMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1LC
-05ODQ0NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1NTQsLTQ5
-NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYyNz
-M5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMywt
-MTA4NDI1NjkwN119
+eyJoaXN0b3J5IjpbMTQ2MzUxNDc2MiwxNzQxNjA0ODIwLC0xOT
+Y4OTA5NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMTMwMjE5
+NjAwMCwzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUsLT
+k4NDQ0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3
+MjY3NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mz
+k5NiwtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0x
+MDg0MjU2OTA3XX0=
 -->
