@@ -423,14 +423,21 @@ from mxnet.gluon import nn
 
 net = nn.Sequential() 
 net.add(nn.Dense(256, activation='relu'),
-        nn.Dense(10)) net.initialize(init.Normal(sigma=0.01))
+        nn.Dense(10))
+net.initialize(init.Normal(sigma=0.01))
+
+batch_size, num_epochs = 256, 10 
+train_iter, test_iter = d2l.load_data_fashion_mnist(batch_size) 
+loss = gluon.loss.SoftmaxCrossEntropyLoss() 
+trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': 0.5}) 
+train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjkzMTgzNiwxNzQxNjA0ODIwLC0xOT
-Y4OTA5NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMTMwMjE5
-NjAwMCwzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUsLT
-k4NDQ0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3
-MjY3NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mz
-k5NiwtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC0x
-MDg0MjU2OTA3XX0=
+eyJoaXN0b3J5IjpbLTY4ODA5MjM2LDE3NDE2MDQ4MjAsLTE5Nj
+g5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2
+MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0NjA3NSwtOT
+g0NDQ2NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcy
+Njc2NjIsLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOT
+k2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEw
+ODQyNTY5MDddfQ==
 -->
