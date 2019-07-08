@@ -333,7 +333,7 @@ class Animator(object):
 		display.display(self.fig) 
 		display.clear_output(wait=True)
 ```
-Train 
+Train function, please note we will repeatedly use this function later for simplicity. 
 ```python
 def train(net, train_iter, test_iter, loss, num_epochs, updater): 
 	trains, test_accs = [], [] 
@@ -433,11 +433,11 @@ trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': 0.5})
 train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODA5MjM2LDE3NDE2MDQ4MjAsLTE5Nj
-g5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2
-MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0NjA3NSwtOT
-g0NDQ2NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcy
-Njc2NjIsLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOT
-k2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLTEw
-ODQyNTY5MDddfQ==
+eyJoaXN0b3J5IjpbLTE5MTczMTM4NDQsMTc0MTYwNDgyMCwtMT
+k2ODkwOTYxMCwtMTE4NzIyMTczOCwxMDU5OTA3NjMsLTEzMDIx
+OTYwMDAsMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1LC
+05ODQ0NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1NTQsLTQ5
+NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYyNz
+M5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMywt
+MTA4NDI1NjkwN119
 -->
