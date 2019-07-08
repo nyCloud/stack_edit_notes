@@ -412,12 +412,21 @@ def net(x):
 
 loss = gluon.loss.SoftmaxCrossEntropyLoss()
 num_epochs, lr = 10, 0.5 
-train(net, train_iter, test_iter, loss, num_epochs, lambda batch_size: d2l.sgd(params, lr, batch_size))
+train(net, train_iter, test_iter, loss, num_epochs, lambda batch_size: sgd(params, lr, batch_size))
 
 ```
 __simplified version__
+```python
+import d2l 
+from mxnet import gluon, init 
+from mxnet.gluon import nn
+
+net = nn.Sequential() 
+net.add(nn.Dense(256, activation='relu'),
+        nn.Dense(10)) net.initialize(init.Normal(sigma=0.01))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODI0MzQzMiwxNzQxNjA0ODIwLC0xOT
+eyJoaXN0b3J5IjpbMTQwNjkzMTgzNiwxNzQxNjA0ODIwLC0xOT
 Y4OTA5NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMTMwMjE5
 NjAwMCwzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUsLT
 k4NDQ0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3
