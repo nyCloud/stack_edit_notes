@@ -372,7 +372,6 @@ Common activation functions includes:
 
 - ReLU (Rectified Linear Unit)
 $$ReLU(x) = max(x, 0)$$
-
 Since ReLU is used so commonly, ND array support s the ReLu function as a basic native operator.
 ```python
 x = nd.arange(-8.0, 8.0, 0.1) x.attach_grad() 
@@ -388,8 +387,9 @@ $$ sigmoid(x) = \frac{1} {1+exp(-x)} $$
 $$ \frac{d\:sigmoid(x)}{dx} = sigmoid(x) (1-sigmoid(x)) $$
 
 - Tanh Function
+$$ tanh(x) = \frac {1-exp(-2x)}{1+exp(-2x)} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDYxMTcxMSwtMTk2ODkwOTYxMCwtMT
+eyJoaXN0b3J5IjpbMTQ2MjQ5NTAxNCwtMTk2ODkwOTYxMCwtMT
 E4NzIyMTczOCwxMDU5OTA3NjMsLTEzMDIxOTYwMDAsMzI1MDEz
 ODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1LC05ODQ0NDY0OTQsLT
 E3Njg0MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTky
