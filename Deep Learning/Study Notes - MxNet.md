@@ -113,7 +113,8 @@ print(x.grad, u.grad, y.grad)
 when executing inside autograd.record() mode, autograd.is_training() will return True, else False.
 
 ## 2. Deep Learning Computation
-(d2dl p185-p216)
+p185 ==> p216
+
 
 ## 3. Linear Neural Networks
 
@@ -433,13 +434,13 @@ trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': 0.5})
 train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 
-p141 ==>
+p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyOTAzMzQwLC0xOTE3MzEzODQ0LDE3ND
-E2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkw
-NzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LD
-EzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4NDAwMzcyLC0xMTEy
-OTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0NDc5MzIsMTM4OTMxMz
-YzOCwxMTI2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00
-NjYwMDUyMzNdfQ==
+eyJoaXN0b3J5IjpbLTQ1MjM5MDgxMSw1MzI5MDMzNDAsLTE5MT
+czMTM4NDQsMTc0MTYwNDgyMCwtMTk2ODkwOTYxMCwtMTE4NzIy
+MTczOCwxMDU5OTA3NjMsLTEzMDIxOTYwMDAsMzI1MDEzODg0LD
+EyMzM5NTcxOTQsMTM4NzQ2MDc1LC05ODQ0NDY0OTQsLTE3Njg0
+MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0Nz
+kzMiwxMzg5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NTc0Nywz
+NjIwNDc3MDFdfQ==
 -->
