@@ -119,21 +119,24 @@ As network complexity increases, we move from designing single to entire layers 
 
 Neural network designs like ResNet-152 have a fair degree of regularity. They consist of blocks of repeated (or at least similarly designed) layers; these blocks then form the basis of more complex network designs.
 
+__Customized Block__
+
 ```python
 from mxnet import nd
 from mxnet.gluon import nn
+
+
 class MLP(nn.Block):
 
-def __init__(self, **kwargs):
-	super(MLP, self).__init__(**kwargs)
-	self.hidden = nn.Dense(256, activation='relu')
-	self.output = nn.Dense(10)
-	
-def forward(self, x):
-	return self.output(self.hidden(x))
+	def __init__(self, **kwargs):
+		super(MLP, self).__init__(**kwargs)
+		self.hidden = nn.Dense(256, activation='relu')
+		self.output = nn.Dense(10)
+		
+	def forward(self, x):
+		return self.output(self.hidden(x))
 ```
 
-__Customized Block__
 
 
 ## 3. Linear Neural Networks
@@ -456,11 +459,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzEzOTUyNiwtNDUyMzkwODExLDUzMj
-kwMzM0MCwtMTkxNzMxMzg0NCwxNzQxNjA0ODIwLC0xOTY4OTA5
-NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMTMwMjE5NjAwMC
-wzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUsLTk4NDQ0
-NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3Nj
-YyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Niwt
-ODQzMDc1NzQ3XX0=
+eyJoaXN0b3J5IjpbLTEyNjMxMDE3OTIsLTQ1MjM5MDgxMSw1Mz
+I5MDMzNDAsLTE5MTczMTM4NDQsMTc0MTYwNDgyMCwtMTk2ODkw
+OTYxMCwtMTE4NzIyMTczOCwxMDU5OTA3NjMsLTEzMDIxOTYwMD
+AsMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1LC05ODQ0
+NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2Nz
+Y2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5OTYs
+LTg0MzA3NTc0N119
 -->
