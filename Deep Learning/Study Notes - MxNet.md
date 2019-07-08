@@ -290,12 +290,12 @@ def train_epoch(net, train_iter, loss, updater):
 	if isinstance(updater, gluon.Trainer): 
 		updater = updater.step 
 	
-	for X, y in train_iter:
+	for x, y in train_iter:
 		with autograd.record(): 
-			y_hat = net(X) 
+			y_hat = net(x) 
 			l = loss(y_hat, y) 
 		l.backward() 
-		updater(X.shape[0]) 
+		updater(x.shape[0]) 
 		metric.add(l.sum().asscalar(), accuracy(y_hat, y), y.size)
 		
 	return metric[0]/metric[2], metric[1]/metric[2]
@@ -341,7 +341,7 @@ def train(net, train_iter, test_iter, loss, num_epochs, updater):
 						legend=['train loss', 'train acc', 'test acc']) 
 	
 	for epoch in range(num_epochs): 
-		train_metrics = train_epoch_ch3(net, train_iter, loss, updater) 
+		train_metrics = train_epoch(net, train_iter, loss, updater) 
 		test_acc = evaluate_accuracy(net, test_iter) 
 		animator.add(epoch+1, train_metrics+(test_acc,))
 ```
@@ -413,12 +413,11 @@ def net(x):
 loss = gluon.loss.SoftmaxCrossEntropyLoss()
 num_epochs, lr = 10, 0.5 
 train(net, train_iter, test_iter, loss, num_epochs, lambda batch_size: d2l.sgd(params, lr, batch_size))
-# Training
 
 ```
 __simplified version__
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDMzNDI0MCwxNzQxNjA0ODIwLC0xOT
+eyJoaXN0b3J5IjpbMTU4ODI0MzQzMiwxNzQxNjA0ODIwLC0xOT
 Y4OTA5NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMTMwMjE5
 NjAwMCwzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUsLT
 k4NDQ0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3
