@@ -146,7 +146,12 @@ net.initialize()
 net(x)
 ```
 
-
+__Concat Blocks__
+Sequential Blocks
+```python
+net =nn.Sequential()
+net.add(blk)
+```
 
 
 ## 3. Linear Neural Networks
@@ -469,11 +474,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAwMzQwLDY5NzYzMzYzMCwtNDUyMz
-kwODExLDUzMjkwMzM0MCwtMTkxNzMxMzg0NCwxNzQxNjA0ODIw
-LC0xOTY4OTA5NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMT
-MwMjE5NjAwMCwzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYw
-NzUsLTk4NDQ0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NC
-wtNDk3MjY3NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEy
-NjI3Mzk5Nl19
+eyJoaXN0b3J5IjpbMTc2Mzk3MzQ2OSwtMTM3MDAzNDAsNjk3Nj
+MzNjMwLC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzODQ0
+LDE3NDE2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMT
+A1OTkwNzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMzOTU3
+MTk0LDEzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4NDAwMzcyLC
+0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0NDc5MzIsMTM4
+OTMxMzYzOF19
 -->
