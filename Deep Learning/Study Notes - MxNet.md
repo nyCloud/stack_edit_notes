@@ -371,15 +371,19 @@ In order to introduce no-linearity into our deep model, we usually add a none-li
 Common activation functions includes:
 - ReLU (Rectified Linear Unit)
 $$ReLU(x) = max(x, 0)$$
+Since ReLU is used so commonly, ND array support s the ReLu function as a basic native operator.
+```python
+x = nd.arange(-8.0, 8.0, 0.1) x.attach_grad() with autograd.record(): y = x.relu()
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjAzOTAwNSwxMDU5OTA3NjMsLTEzMD
-IxOTYwMDAsMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1
-LC05ODQ0NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1NTQsLT
-Q5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYy
-NzM5OTYsLTg0MzA3NTc0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMy
-wtMTA4NDI1NjkwNywtNzIwMDk5OTgsMTkxNDE3NTY3NCwtMjYw
-NTI1OTcyXX0=
+eyJoaXN0b3J5IjpbOTc3NjQ0OTM5LDEwNTk5MDc2MywtMTMwMj
+E5NjAwMCwzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUs
+LTk4NDQ0NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtND
+k3MjY3NjYyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3
+Mzk5NiwtODQzMDc1NzQ3LDM2MjA0NzcwMSwtNDY2MDA1MjMzLC
+0xMDg0MjU2OTA3LC03MjAwOTk5OCwxOTE0MTc1Njc0LC0yNjA1
+MjU5NzJdfQ==
 -->
