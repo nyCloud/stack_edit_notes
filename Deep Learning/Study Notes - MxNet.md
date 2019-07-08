@@ -369,11 +369,13 @@ __Activation Functions__
 In order to introduce no-linearity into our deep model, we usually add a none-linear activation function onto layers.
 
 Common activation functions includes:
-- Rectified Linear Unit
+- ReLU (Rectified Linear Unit)
 $$ReLU(x) = max(x, 0)$$
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTU1MTM3MCwxMDU5OTA3NjMsLTEzMD
+eyJoaXN0b3J5IjpbMTkyMjAzOTAwNSwxMDU5OTA3NjMsLTEzMD
 IxOTYwMDAsMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1
 LC05ODQ0NDY0OTQsLTE3Njg0MDAzNzIsLTExMTI5MjI1NTQsLT
 Q5NzI2NzY2MiwtMTkyMjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYy
