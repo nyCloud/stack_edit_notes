@@ -150,7 +150,12 @@ __Concat Blocks__
 Sequential Blocks
 ```python
 net =nn.Sequential()
-net.add(blk)
+net.add(blk_0)
+net.add(blk_1)
+net.add(blk_2)
+...
+net.initialize()
+net(x)
 ```
 
 
@@ -474,7 +479,7 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Mzk3MzQ2OSwtMTM3MDAzNDAsNjk3Nj
+eyJoaXN0b3J5IjpbMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3Nj
 MzNjMwLC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzODQ0
 LDE3NDE2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMT
 A1OTkwNzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMzOTU3
