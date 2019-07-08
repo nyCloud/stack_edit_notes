@@ -114,9 +114,26 @@ when executing inside autograd.record() mode, autograd.is_training() will return
 
 ## 2. Deep Learning Computation
 ### 2.1. Block
+
 As network complexity increases, we move from designing single to entire layers of neurons.
 
 Neural network designs like ResNet-152 have a fair degree of regularity. They consist of blocks of repeated (or at least similarly designed) layers; these blocks then form the basis of more complex network designs.
+
+```python
+from mxnet import nd
+from mxnet.gluon import nn
+class MLP(nn.Block):
+
+def __init__(self, **kwargs):
+	super(MLP, self).__init__(**kwargs)
+	self.hidden = nn.Dense(256, activation='relu')
+	self.output = nn.Dense(10)
+	
+def forward(self, x):
+	return self.output(self.hidden(x))
+```
+
+__Customized Block__
 
 
 ## 3. Linear Neural Networks
@@ -439,11 +456,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0Nzc5MzQyLC00NTIzOTA4MTEsNTMyOT
-AzMzQwLC0xOTE3MzEzODQ0LDE3NDE2MDQ4MjAsLTE5Njg5MDk2
-MTAsLTExODcyMjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2MDAwLD
-MyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0NjA3NSwtOTg0NDQ2
-NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2Nj
-IsLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04
-NDMwNzU3NDddfQ==
+eyJoaXN0b3J5IjpbLTQ0MzEzOTUyNiwtNDUyMzkwODExLDUzMj
+kwMzM0MCwtMTkxNzMxMzg0NCwxNzQxNjA0ODIwLC0xOTY4OTA5
+NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMTMwMjE5NjAwMC
+wzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUsLTk4NDQ0
+NjQ5NCwtMTc2ODQwMDM3MiwtMTExMjkyMjU1NCwtNDk3MjY3Nj
+YyLC0xOTIyNDQ3OTMyLDEzODkzMTM2MzgsMTEyNjI3Mzk5Niwt
+ODQzMDc1NzQ3XX0=
 -->
