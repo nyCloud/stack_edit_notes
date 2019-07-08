@@ -372,6 +372,7 @@ Common activation functions includes:
 
 - ReLU (Rectified Linear Unit)
 $$ReLU(x) = max(x, 0)$$
+
 Since ReLU is used so commonly, ND array support s the ReLu function as a basic native operator.
 ```python
 x = nd.arange(-8.0, 8.0, 0.1) x.attach_grad() 
@@ -379,17 +380,17 @@ with autograd.record():
 	y = x.relu()
 ```
 
--pReLU (Parameterized ReLU)
-$$pReLU(x) = max(0, x) + \alpha  
+- pReLU (Parameterized ReLU)
+$$pReLU(x) = max(0, x) + \alpha\: min(0, x) $$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjg1Njg0MTgsMTA1OTkwNzYzLC0xMz
-AyMTk2MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0NjA3
-NSwtOTg0NDQ2NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC
-00OTcyNjc2NjIsLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMTI2
-MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUyMz
-MsLTEwODQyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2
-MDUyNTk3Ml19
+eyJoaXN0b3J5IjpbNjUwMjY0MzMsMTA1OTkwNzYzLC0xMzAyMT
+k2MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0NjA3NSwt
+OTg0NDQ2NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC00OT
+cyNjc2NjIsLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMTI2Mjcz
+OTk2LC04NDMwNzU3NDcsMzYyMDQ3NzAxLC00NjYwMDUyMzMsLT
+EwODQyNTY5MDcsLTcyMDA5OTk4LDE5MTQxNzU2NzQsLTI2MDUy
+NTk3Ml19
 -->
