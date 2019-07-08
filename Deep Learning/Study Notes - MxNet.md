@@ -385,15 +385,15 @@ $$pReLU(x) = max(0, x) + \alpha\: min(0, x) $$
 
 - Sigmoid Function
 $$ sigmoid(x) = \frac{1} {1+exp(-x)} $$
-$$ \frac{d\:sigmoid(x)}{dx} = \frac{1} {1+exp(-x)} $$
+$$ \frac{d\:sigmoid(x)}{dx} = sigmoid(x) (1-sigmoid(x)) $$
 
 - Tanh Function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMT
-A1OTkwNzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMzOTU3
-MTk0LDEzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4NDAwMzcyLC
-0xMTEyOTIyNTU0LC00OTcyNjc2NjIsLTE5MjI0NDc5MzIsMTM4
-OTMxMzYzOCwxMTI2MjczOTk2LC04NDMwNzU3NDcsMzYyMDQ3Nz
-AxLC00NjYwMDUyMzMsLTEwODQyNTY5MDcsLTcyMDA5OTk4LDE5
-MTQxNzU2NzRdfQ==
+eyJoaXN0b3J5IjpbMTcxMDYxMTcxMSwtMTk2ODkwOTYxMCwtMT
+E4NzIyMTczOCwxMDU5OTA3NjMsLTEzMDIxOTYwMDAsMzI1MDEz
+ODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1LC05ODQ0NDY0OTQsLT
+E3Njg0MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTky
+MjQ0NzkzMiwxMzg5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NT
+c0NywzNjIwNDc3MDEsLTQ2NjAwNTIzMywtMTA4NDI1NjkwNywt
+NzIwMDk5OThdfQ==
 -->
