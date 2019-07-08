@@ -113,7 +113,10 @@ print(x.grad, u.grad, y.grad)
 when executing inside autograd.record() mode, autograd.is_training() will return True, else False.
 
 ## 2. Deep Learning Computation
-p185 ==> p216
+### 2.1. Block
+As network complexity increases, we move from designing single to entire layers of neurons.
+
+Neural network designs like ResNet-152 have a fair degree of regularity. They consist of blocks of repeated (or at least similarly designed) layers; these blocks then form the basis of more complex network designs.
 
 
 ## 3. Linear Neural Networks
@@ -436,11 +439,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjM5MDgxMSw1MzI5MDMzNDAsLTE5MT
-czMTM4NDQsMTc0MTYwNDgyMCwtMTk2ODkwOTYxMCwtMTE4NzIy
-MTczOCwxMDU5OTA3NjMsLTEzMDIxOTYwMDAsMzI1MDEzODg0LD
-EyMzM5NTcxOTQsMTM4NzQ2MDc1LC05ODQ0NDY0OTQsLTE3Njg0
-MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTkyMjQ0Nz
-kzMiwxMzg5MzEzNjM4LDExMjYyNzM5OTYsLTg0MzA3NTc0Nywz
-NjIwNDc3MDFdfQ==
+eyJoaXN0b3J5IjpbNzc0Nzc5MzQyLC00NTIzOTA4MTEsNTMyOT
+AzMzQwLC0xOTE3MzEzODQ0LDE3NDE2MDQ4MjAsLTE5Njg5MDk2
+MTAsLTExODcyMjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2MDAwLD
+MyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0NjA3NSwtOTg0NDQ2
+NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcyNjc2Nj
+IsLTE5MjI0NDc5MzIsMTM4OTMxMzYzOCwxMTI2MjczOTk2LC04
+NDMwNzU3NDddfQ==
 -->
