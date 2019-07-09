@@ -173,10 +173,17 @@ print(net[0].collect_params())
 print(net.collect_params())
 ```
 
-__ Params Init__
+__Params Init__
 ```python
+variables.
+# force_reinit ensures that the variables are initialized again, regardless of
+# whether they were already initialized previously
+net.initialize(init=init.Normal(sigma=0.01), force_reinit=True)
 
+# All init to 1
+net.initialize(init=init.Constant(1), force_reinit=True)
 ```
+If you want 
 
 ## 3. Linear Neural Networks
 
@@ -498,7 +505,7 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg5NDc3NTk0LC0xOTQ4NjY1OTEyLC0xOT
+eyJoaXN0b3J5IjpbMzQxMDAwMDc0LC0xOTQ4NjY1OTEyLC0xOT
 Q0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNzk4NjE5LDE4NzE3MjEx
 MDcsLTEzNzAwMzQwLDY5NzYzMzYzMCwtNDUyMzkwODExLDUzMj
 kwMzM0MCwtMTkxNzMxMzg0NCwxNzQxNjA0ODIwLC0xOTY4OTA5
