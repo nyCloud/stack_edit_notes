@@ -113,6 +113,7 @@ print(x.grad, u.grad, y.grad)
 when executing inside autograd.record() mode, autograd.is_training() will return True, else False.
 
 ## 2. Deep Learning Computation
+
 ### 2.1. Block
 
 As network complexity increases, we move from designing single to entire layers of neurons.
@@ -484,11 +485,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDc5ODYxOSwxODcxNzIxMTA3LC0xMz
-cwMDM0MCw2OTc2MzM2MzAsLTQ1MjM5MDgxMSw1MzI5MDMzNDAs
-LTE5MTczMTM4NDQsMTc0MTYwNDgyMCwtMTk2ODkwOTYxMCwtMT
-E4NzIyMTczOCwxMDU5OTA3NjMsLTEzMDIxOTYwMDAsMzI1MDEz
-ODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1LC05ODQ0NDY0OTQsLT
-E3Njg0MDAzNzIsLTExMTI5MjI1NTQsLTQ5NzI2NzY2MiwtMTky
-MjQ0NzkzMl19
+eyJoaXN0b3J5IjpbODgwMzcwMDM5LC01MTA3OTg2MTksMTg3MT
+cyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMwLC00NTIzOTA4MTEs
+NTMyOTAzMzQwLC0xOTE3MzEzODQ0LDE3NDE2MDQ4MjAsLTE5Nj
+g5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2
+MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0NjA3NSwtOT
+g0NDQ2NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcy
+Njc2NjJdfQ==
 -->
