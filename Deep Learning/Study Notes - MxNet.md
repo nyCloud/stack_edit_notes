@@ -225,6 +225,17 @@ print(net[1].weight.data()[0] == net[3].weight.data()[0])
 ```
 
 ### 2.2. Custom Layers
+__Layer without Parameters__
+```python
+from mxnet import gluon, nd
+from mxnet.gluon import nn
+
+class CenteredLayer(nn.Block)：
+	def __init__(self, **kwargs):
+		super(CenteredLayer, self).__init__(**kwargs)
+
+	def forward(self, x):
+		return x - x.mean
 
 
 ## 3. Linear Neural Networks
@@ -547,11 +558,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIxNTc3OTQsMTMwNzk4NjU4MSwtND
-U1NjAwMTA3LDEzMDE2ODc3MDcsLTE5NDg2NjU5MTIsLTE5NDQ2
-MzEwODUsODgwMzcwMDM5LC01MTA3OTg2MTksMTg3MTcyMTEwNy
-wtMTM3MDAzNDAsNjk3NjMzNjMwLC00NTIzOTA4MTEsNTMyOTAz
-MzQwLC0xOTE3MzEzODQ0LDE3NDE2MDQ4MjAsLTE5Njg5MDk2MT
-AsLTExODcyMjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2MDAwLDMy
-NTAxMzg4NF19
+eyJoaXN0b3J5IjpbLTE0Mjg2MTA2MjMsLTE0NzIxNTc3OTQsMT
+MwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMDE2ODc3MDcsLTE5NDg2
+NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcwMDM5LC01MTA3OTg2MT
+ksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMwLC00NTIz
+OTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzODQ0LDE3NDE2MDQ4Mj
+AsLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkwNzYzLC0x
+MzAyMTk2MDAwXX0=
 -->
