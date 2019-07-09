@@ -239,7 +239,13 @@ class CenteredLayer(nn.Block)：
 ```
 
 __Layer with Parameters__
-
+```python
+class ReluDense(nn.Block):
+	def __init__(self, units, in_units, **kwargs):
+		super(ReluDense, self).__init__(*kwargs)
+		self.weight = self.params.get('weight', shape=(in_units, units))
+		self.bias = self.params.get('bia)
+```
 
 ## 3. Linear Neural Networks
 
@@ -561,11 +567,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM0MTkzNTgsLTE0Mjg2MTA2MjMsLTE0Nz
-IxNTc3OTQsMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMDE2ODc3
-MDcsLTE5NDg2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcwMDM5LC
-01MTA3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3NjMz
-NjMwLC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzODQ0LD
-E3NDE2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMTA1
-OTkwNzYzXX0=
+eyJoaXN0b3J5IjpbMjA4NDU5MjI1MiwtMTQyODYxMDYyMywtMT
+Q3MjE1Nzc5NCwxMzA3OTg2NTgxLC00NTU2MDAxMDcsMTMwMTY4
+NzcwNywtMTk0ODY2NTkxMiwtMTk0NDYzMTA4NSw4ODAzNzAwMz
+ksLTUxMDc5ODYxOSwxODcxNzIxMTA3LC0xMzcwMDM0MCw2OTc2
+MzM2MzAsLTQ1MjM5MDgxMSw1MzI5MDMzNDAsLTE5MTczMTM4ND
+QsMTc0MTYwNDgyMCwtMTk2ODkwOTYxMCwtMTE4NzIyMTczOCwx
+MDU5OTA3NjNdfQ==
 -->
