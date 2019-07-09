@@ -173,6 +173,10 @@ print(net[0].collect_params())
 print(net.collect_params())
 ```
 
+__ Params Init__
+```python
+
+```
 
 ## 3. Linear Neural Networks
 
@@ -494,11 +498,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDg2NjU5MTIsLTE5NDQ2MzEwODUsOD
-gwMzcwMDM5LC01MTA3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAz
-NDAsNjk3NjMzNjMwLC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOT
-E3MzEzODQ0LDE3NDE2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcy
-MjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NC
-wxMjMzOTU3MTk0LDEzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4
-NDAwMzcyXX0=
+eyJoaXN0b3J5IjpbNDg5NDc3NTk0LC0xOTQ4NjY1OTEyLC0xOT
+Q0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNzk4NjE5LDE4NzE3MjEx
+MDcsLTEzNzAwMzQwLDY5NzYzMzYzMCwtNDUyMzkwODExLDUzMj
+kwMzM0MCwtMTkxNzMxMzg0NCwxNzQxNjA0ODIwLC0xOTY4OTA5
+NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMTMwMjE5NjAwMC
+wzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUsLTk4NDQ0
+NjQ5NF19
 -->
