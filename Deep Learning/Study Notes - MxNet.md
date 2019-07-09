@@ -112,6 +112,7 @@ print(x.grad, u.grad, y.grad)
 
 when executing inside autograd.record() mode, autograd.is_training() will return True, else False.
 
+
 ## 2. Deep Learning Computation
 
 ### 2.1. Block
@@ -222,7 +223,9 @@ net[1].weight.data()[:]=nd.random.uniform(0,10,net[1].weight.data().shape)
 print(net[1].weight.data()[0] == net[2].weight.data()[0])
 print(net[1].weight.data()[0] == net[3].weight.data()[0])
 ```
-p199
+
+### 2.2. Custom Layers
+
 
 ## 3. Linear Neural Networks
 
@@ -544,11 +547,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMD
-E2ODc3MDcsLTE5NDg2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcw
-MDM5LC01MTA3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNj
-k3NjMzNjMwLC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEz
-ODQ0LDE3NDE2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3Mz
-gsMTA1OTkwNzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMz
-OTU3MTk0XX0=
+eyJoaXN0b3J5IjpbLTE0NzIxNTc3OTQsMTMwNzk4NjU4MSwtND
+U1NjAwMTA3LDEzMDE2ODc3MDcsLTE5NDg2NjU5MTIsLTE5NDQ2
+MzEwODUsODgwMzcwMDM5LC01MTA3OTg2MTksMTg3MTcyMTEwNy
+wtMTM3MDAzNDAsNjk3NjMzNjMwLC00NTIzOTA4MTEsNTMyOTAz
+MzQwLC0xOTE3MzEzODQ0LDE3NDE2MDQ4MjAsLTE5Njg5MDk2MT
+AsLTExODcyMjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2MDAwLDMy
+NTAxMzg4NF19
 -->
