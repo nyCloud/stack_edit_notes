@@ -191,7 +191,7 @@ net[0].weight.initialize(init=init.Xavier(), force_reinit=True)
 
 __Custom Init__
 
-
+p198
 ## 3. Linear Neural Networks
 
 ### 3.1. Linear Regression
@@ -512,11 +512,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTY4NzcwNywtMTk0ODY2NTkxMiwtMT
-k0NDYzMTA4NSw4ODAzNzAwMzksLTUxMDc5ODYxOSwxODcxNzIx
-MTA3LC0xMzcwMDM0MCw2OTc2MzM2MzAsLTQ1MjM5MDgxMSw1Mz
-I5MDMzNDAsLTE5MTczMTM4NDQsMTc0MTYwNDgyMCwtMTk2ODkw
-OTYxMCwtMTE4NzIyMTczOCwxMDU5OTA3NjMsLTEzMDIxOTYwMD
-AsMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1LC05ODQ0
-NDY0OTRdfQ==
+eyJoaXN0b3J5IjpbLTEyODAxNjQ3NDEsMTMwMTY4NzcwNywtMT
+k0ODY2NTkxMiwtMTk0NDYzMTA4NSw4ODAzNzAwMzksLTUxMDc5
+ODYxOSwxODcxNzIxMTA3LC0xMzcwMDM0MCw2OTc2MzM2MzAsLT
+Q1MjM5MDgxMSw1MzI5MDMzNDAsLTE5MTczMTM4NDQsMTc0MTYw
+NDgyMCwtMTk2ODkwOTYxMCwtMTE4NzIyMTczOCwxMDU5OTA3Nj
+MsLTEzMDIxOTYwMDAsMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4
+NzQ2MDc1XX0=
 -->
