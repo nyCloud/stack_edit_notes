@@ -165,6 +165,13 @@ self.rand_weight = self.params.get_constant(
 'rand_weight', nd.random.uniform(shape=(20, 20)))
 ```
 
+__Get All Params__
+```python
+# parameters only for the first layer
+print(net[0].collect_params())
+# parameters of the entire network
+print(net.collect_params())
+```
 
 
 ## 3. Linear Neural Networks
@@ -487,11 +494,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQ2MzEwODUsODgwMzcwMDM5LC01MT
-A3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMw
-LC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzODQ0LDE3ND
-E2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkw
-NzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LD
-EzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4NDAwMzcyLC0xMTEy
-OTIyNTU0XX0=
+eyJoaXN0b3J5IjpbLTE5NDg2NjU5MTIsLTE5NDQ2MzEwODUsOD
+gwMzcwMDM5LC01MTA3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAz
+NDAsNjk3NjMzNjMwLC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOT
+E3MzEzODQ0LDE3NDE2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcy
+MjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NC
+wxMjMzOTU3MTk0LDEzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4
+NDAwMzcyXX0=
 -->
