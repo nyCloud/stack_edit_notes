@@ -244,7 +244,11 @@ class ReluDense(nn.Block):
 	def __init__(self, units, in_units, **kwargs):
 		super(ReluDense, self).__init__(*kwargs)
 		self.weight = self.params.get('weight', shape=(in_units, units))
-		self.bias = self.params.get('bia)
+		self.bias = self.params.get('bias', shape=(units,))
+
+	def forward(self, x):
+		linear = nd.dot(x, self.weight.data()) + self.bias.data() 
+		return nd.relu(linear)
 ```
 
 ## 3. Linear Neural Networks
@@ -567,11 +571,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDU5MjI1MiwtMTQyODYxMDYyMywtMT
-Q3MjE1Nzc5NCwxMzA3OTg2NTgxLC00NTU2MDAxMDcsMTMwMTY4
-NzcwNywtMTk0ODY2NTkxMiwtMTk0NDYzMTA4NSw4ODAzNzAwMz
-ksLTUxMDc5ODYxOSwxODcxNzIxMTA3LC0xMzcwMDM0MCw2OTc2
-MzM2MzAsLTQ1MjM5MDgxMSw1MzI5MDMzNDAsLTE5MTczMTM4ND
-QsMTc0MTYwNDgyMCwtMTk2ODkwOTYxMCwtMTE4NzIyMTczOCwx
-MDU5OTA3NjNdfQ==
+eyJoaXN0b3J5IjpbLTE3NjIzNTI5NTMsLTE0Mjg2MTA2MjMsLT
+E0NzIxNTc3OTQsMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMDE2
+ODc3MDcsLTE5NDg2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcwMD
+M5LC01MTA3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3
+NjMzNjMwLC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzOD
+Q0LDE3NDE2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3Mzgs
+MTA1OTkwNzYzXX0=
 -->
