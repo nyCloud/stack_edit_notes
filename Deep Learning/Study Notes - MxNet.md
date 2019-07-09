@@ -183,7 +183,14 @@ net.initialize(init=init.Normal(sigma=0.01), force_reinit=True)
 # All init to 1
 net.initialize(init=init.Constant(1), force_reinit=True)
 ```
-If you want 
+If you want different subblock has different initialize functions.
+```python
+net[1].initialize(init=init.Constant(42), force_reinit=True)
+net[0].weight.initialize(init=init.Xavier(), force_reinit=True)
+```
+
+__Custom Init__
+
 
 ## 3. Linear Neural Networks
 
@@ -505,11 +512,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMDAwMDc0LC0xOTQ4NjY1OTEyLC0xOT
-Q0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNzk4NjE5LDE4NzE3MjEx
-MDcsLTEzNzAwMzQwLDY5NzYzMzYzMCwtNDUyMzkwODExLDUzMj
-kwMzM0MCwtMTkxNzMxMzg0NCwxNzQxNjA0ODIwLC0xOTY4OTA5
-NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2MywtMTMwMjE5NjAwMC
-wzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3NDYwNzUsLTk4NDQ0
-NjQ5NF19
+eyJoaXN0b3J5IjpbMTMwMTY4NzcwNywtMTk0ODY2NTkxMiwtMT
+k0NDYzMTA4NSw4ODAzNzAwMzksLTUxMDc5ODYxOSwxODcxNzIx
+MTA3LC0xMzcwMDM0MCw2OTc2MzM2MzAsLTQ1MjM5MDgxMSw1Mz
+I5MDMzNDAsLTE5MTczMTM4NDQsMTc0MTYwNDgyMCwtMTk2ODkw
+OTYxMCwtMTE4NzIyMTczOCwxMDU5OTA3NjMsLTEzMDIxOTYwMD
+AsMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4NzQ2MDc1LC05ODQ0
+NDY0OTRdfQ==
 -->
