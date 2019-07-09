@@ -190,7 +190,15 @@ net[0].weight.initialize(init=init.Xavier(), force_reinit=True)
 ```
 
 __Custom Init__
-
+```python
+class MyInit(init.Initializer):
+	def _init_weight(self, name, data):
+		print('Init', name, data.shape)
+		data[:] = nd.random.uniform(low=-10, high=10, shape=data.shape)
+		data *= data.abs() >= 5
+net.initialize(MyInit(), force_reinit=True)
+net[0].weight.data()[0]
+```
 p198
 ## 3. Linear Neural Networks
 
@@ -512,11 +520,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAxNjQ3NDEsMTMwMTY4NzcwNywtMT
-k0ODY2NTkxMiwtMTk0NDYzMTA4NSw4ODAzNzAwMzksLTUxMDc5
-ODYxOSwxODcxNzIxMTA3LC0xMzcwMDM0MCw2OTc2MzM2MzAsLT
-Q1MjM5MDgxMSw1MzI5MDMzNDAsLTE5MTczMTM4NDQsMTc0MTYw
-NDgyMCwtMTk2ODkwOTYxMCwtMTE4NzIyMTczOCwxMDU5OTA3Nj
-MsLTEzMDIxOTYwMDAsMzI1MDEzODg0LDEyMzM5NTcxOTQsMTM4
-NzQ2MDc1XX0=
+eyJoaXN0b3J5IjpbLTc1MjI2MzY3LDEzMDE2ODc3MDcsLTE5ND
+g2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcwMDM5LC01MTA3OTg2
+MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMwLC00NT
+IzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzODQ0LDE3NDE2MDQ4
+MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkwNzYzLC
+0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0
+NjA3NV19
 -->
