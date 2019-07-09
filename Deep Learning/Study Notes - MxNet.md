@@ -200,8 +200,30 @@ net.initialize(init=MyInit(), force_reinit=True)
 net[0].weight.data()[0]
 ```
 
+__ Tied Params__
+```python
+net = nn.Sequential()
 
+shared = nn.Dense(8, activation='relu')
+net.add(nn.Dense(8, activation='relu'), 
+        shared,
+        shared,
+        nn.Dense(8, activation='relu', params=shared.params),
+        nn.Dense(10))
+net.initialize()
+x = nd.random.uniform(shape=(2, 20))
+net(x)
+
+print(net[1].weight.data()[0] == net[2].weight.data()[0])
+print(net[1].weight.data()[0] == net[3].weight.data()[0])
+
+net[1].weight.data()[:]=nd.random.uniform(0,10,net[1].weight.data().shape)
+
+print(net[1].weight.data()[0] == net[2].weight.data()[0])
+print(net[1].weight.data()[0] == net[3].weight.data()[0])
+```
 p199
+
 ## 3. Linear Neural Networks
 
 ### 3.1. Linear Regression
@@ -522,11 +544,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTYwMDEwNywxMzAxNjg3NzA3LC0xOT
-Q4NjY1OTEyLC0xOTQ0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNzk4
-NjE5LDE4NzE3MjExMDcsLTEzNzAwMzQwLDY5NzYzMzYzMCwtND
-UyMzkwODExLDUzMjkwMzM0MCwtMTkxNzMxMzg0NCwxNzQxNjA0
-ODIwLC0xOTY4OTA5NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2My
-wtMTMwMjE5NjAwMCwzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3
-NDYwNzVdfQ==
+eyJoaXN0b3J5IjpbMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMD
+E2ODc3MDcsLTE5NDg2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcw
+MDM5LC01MTA3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNj
+k3NjMzNjMwLC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEz
+ODQ0LDE3NDE2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3Mz
+gsMTA1OTkwNzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMz
+OTU3MTk0XX0=
 -->
