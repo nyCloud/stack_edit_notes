@@ -165,6 +165,8 @@ self.rand_weight = self.params.get_constant(
 'rand_weight', nd.random.uniform(shape=(20, 20)))
 ```
 
+
+
 ## 3. Linear Neural Networks
 
 ### 3.1. Linear Regression
@@ -485,11 +487,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwMzcwMDM5LC01MTA3OTg2MTksMTg3MT
-cyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMwLC00NTIzOTA4MTEs
-NTMyOTAzMzQwLC0xOTE3MzEzODQ0LDE3NDE2MDQ4MjAsLTE5Nj
-g5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkwNzYzLC0xMzAyMTk2
-MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0NjA3NSwtOT
-g0NDQ2NDk0LC0xNzY4NDAwMzcyLC0xMTEyOTIyNTU0LC00OTcy
-Njc2NjJdfQ==
+eyJoaXN0b3J5IjpbLTE5NDQ2MzEwODUsODgwMzcwMDM5LC01MT
+A3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMw
+LC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzODQ0LDE3ND
+E2MDQ4MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkw
+NzYzLC0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LD
+EzODc0NjA3NSwtOTg0NDQ2NDk0LC0xNzY4NDAwMzcyLC0xMTEy
+OTIyNTU0XX0=
 -->
