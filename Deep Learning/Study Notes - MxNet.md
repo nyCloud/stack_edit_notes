@@ -196,10 +196,12 @@ class MyInit(init.Initializer):
 		print('Init', name, data.shape)
 		data[:] = nd.random.uniform(low=-10, high=10, shape=data.shape)
 		data *= data.abs() >= 5
-net.initialize(MyInit(), force_reinit=True)
+net.initialize(init=MyInit(), force_reinit=True)
 net[0].weight.data()[0]
 ```
-p198
+
+
+p199
 ## 3. Linear Neural Networks
 
 ### 3.1. Linear Regression
@@ -520,11 +522,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjI2MzY3LDEzMDE2ODc3MDcsLTE5ND
-g2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcwMDM5LC01MTA3OTg2
-MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMwLC00NT
-IzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzODQ0LDE3NDE2MDQ4
-MjAsLTE5Njg5MDk2MTAsLTExODcyMjE3MzgsMTA1OTkwNzYzLC
-0xMzAyMTk2MDAwLDMyNTAxMzg4NCwxMjMzOTU3MTk0LDEzODc0
-NjA3NV19
+eyJoaXN0b3J5IjpbLTQ1NTYwMDEwNywxMzAxNjg3NzA3LC0xOT
+Q4NjY1OTEyLC0xOTQ0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNzk4
+NjE5LDE4NzE3MjExMDcsLTEzNzAwMzQwLDY5NzYzMzYzMCwtND
+UyMzkwODExLDUzMjkwMzM0MCwtMTkxNzMxMzg0NCwxNzQxNjA0
+ODIwLC0xOTY4OTA5NjEwLC0xMTg3MjIxNzM4LDEwNTk5MDc2My
+wtMTMwMjE5NjAwMCwzMjUwMTM4ODQsMTIzMzk1NzE5NCwxMzg3
+NDYwNzVdfQ==
 -->
