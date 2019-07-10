@@ -252,7 +252,25 @@ class ReluDense(nn.Block):
 ```
 
 ### 2.3. File I/O
-p206
+An example to save network params
+```python
+class MLP(nn.Block): 
+	def __init__(self, **kwargs): 
+		super(MLP, self).__init__(**kwargs) 
+		self.hidden = nn.Dense(256, activation='relu') 
+		self.output = nn.Dense(10) 
+
+	def forward(self, x): 
+		return self.output(self.hidden(x)) 
+
+net = MLP() 
+net.initialize() 
+x = nd.random.uniform(shape=(2, 20)) 
+y = net(x)
+
+# Save params
+
+```
 
 ## 3. Linear Neural Networks
 
@@ -574,11 +592,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTgxMTE4NiwtMTk3MjE4MDM2LC0xNz
-YyMzUyOTUzLC0xNDI4NjEwNjIzLC0xNDcyMTU3Nzk0LDEzMDc5
-ODY1ODEsLTQ1NTYwMDEwNywxMzAxNjg3NzA3LC0xOTQ4NjY1OT
-EyLC0xOTQ0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNzk4NjE5LDE4
-NzE3MjExMDcsLTEzNzAwMzQwLDY5NzYzMzYzMCwtNDUyMzkwOD
-ExLDUzMjkwMzM0MCwtMTkxNzMxMzg0NCwxNzQxNjA0ODIwLC0x
-OTY4OTA5NjEwXX0=
+eyJoaXN0b3J5IjpbLTIyMTgxMjEyNiwxNTI1ODExMTg2LC0xOT
+cyMTgwMzYsLTE3NjIzNTI5NTMsLTE0Mjg2MTA2MjMsLTE0NzIx
+NTc3OTQsMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMDE2ODc3MD
+csLTE5NDg2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcwMDM5LC01
+MTA3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3NjMzNj
+MwLC00NTIzOTA4MTEsNTMyOTAzMzQwLC0xOTE3MzEzODQ0LDE3
+NDE2MDQ4MjBdfQ==
 -->
