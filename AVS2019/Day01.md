@@ -6,10 +6,10 @@
 Raw training
 
 ### Enabling Tech - A Peek Under the Hood
-- Apitv
-- 
+__Apitv__
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTE3NjQxMiwtMTU0NzkyNjI4MCwxNj
+eyJoaXN0b3J5IjpbLTY1MDA5NzIyMCwtMTU0NzkyNjI4MCwxNj
 g2NzAzMzU5LC0xMjg5MjUxMjc5LC03ODg2ODUzNjNdfQ==
 -->
