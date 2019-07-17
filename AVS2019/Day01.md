@@ -12,8 +12,11 @@ Miles
 __Velodyne__
 mini av / flying / automated train car
 
+__Cepton__
+mmt lidar
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2MTQwMDczLC0xMzExNDAxMDk0LC02NT
-AwOTcyMjAsLTE1NDc5MjYyODAsMTY4NjcwMzM1OSwtMTI4OTI1
-MTI3OSwtNzg4Njg1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE0NDA4NTQ4MiwyMjYxNDAwNzMsLTEzMT
+E0MDEwOTQsLTY1MDA5NzIyMCwtMTU0NzkyNjI4MCwxNjg2NzAz
+MzU5LC0xMjg5MjUxMjc5LC03ODg2ODUzNjNdfQ==
 -->
