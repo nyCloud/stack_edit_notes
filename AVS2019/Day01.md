@@ -19,10 +19,13 @@ solid state: no moving part?
 __Sensible__
 Fusion
 Automation System
+in bad weather condition 
+
+__Innoviz__
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjgxMjg3NCwtMjAyOTc0NjAyMCw4MD
-Y0MjE0MTEsMjI2MTQwMDczLC0xMzExNDAxMDk0LC02NTAwOTcy
-MjAsLTE1NDc5MjYyODAsMTY4NjcwMzM1OSwtMTI4OTI1MTI3OS
-wtNzg4Njg1MzYzXX0=
+eyJoaXN0b3J5IjpbMTc5NzQ4Mzk3MCwxMzYyODEyODc0LC0yMD
+I5NzQ2MDIwLDgwNjQyMTQxMSwyMjYxNDAwNzMsLTEzMTE0MDEw
+OTQsLTY1MDA5NzIyMCwtMTU0NzkyNjI4MCwxNjg2NzAzMzU5LC
+0xMjg5MjUxMjc5LC03ODg2ODUzNjNdfQ==
 -->
