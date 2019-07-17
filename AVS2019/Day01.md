@@ -38,13 +38,13 @@ AV
  
 Matrix Completion
 
-Q: what 
+Q: what if whole segmentation is empty? You know most of the road segments could be empty in real world.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTM0NDI3MSwtMzMxMTM3OTMwLDE3OT
-c0ODM5NzAsMTM2MjgxMjg3NCwtMjAyOTc0NjAyMCw4MDY0MjE0
-MTEsMjI2MTQwMDczLC0xMzExNDAxMDk0LC02NTAwOTcyMjAsLT
-E1NDc5MjYyODAsMTY4NjcwMzM1OSwtMTI4OTI1MTI3OSwtNzg4
-Njg1MzYzXX0=
+eyJoaXN0b3J5IjpbLTIwNzE1OTg4MTYsLTMzMTEzNzkzMCwxNz
+k3NDgzOTcwLDEzNjI4MTI4NzQsLTIwMjk3NDYwMjAsODA2NDIx
+NDExLDIyNjE0MDA3MywtMTMxMTQwMTA5NCwtNjUwMDk3MjIwLC
+0xNTQ3OTI2MjgwLDE2ODY3MDMzNTksLTEyODkyNTEyNzksLTc4
+ODY4NTM2M119
 -->
