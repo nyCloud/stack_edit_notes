@@ -17,10 +17,11 @@ mmt lidar
 solid state: no moving part? 
 
 __Sensible__
-
+Fusion
+Automation System
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjExODQ0Miw4MDY0MjE0MTEsMjI2MT
-QwMDczLC0xMzExNDAxMDk0LC02NTAwOTcyMjAsLTE1NDc5MjYy
-ODAsMTY4NjcwMzM1OSwtMTI4OTI1MTI3OSwtNzg4Njg1MzYzXX
-0=
+eyJoaXN0b3J5IjpbLTIwMjk3NDYwMjAsODA2NDIxNDExLDIyNj
+E0MDA3MywtMTMxMTQwMTA5NCwtNjUwMDk3MjIwLC0xNTQ3OTI2
+MjgwLDE2ODY3MDMzNTksLTEyODkyNTEyNzksLTc4ODY4NTM2M1
+19
 -->
