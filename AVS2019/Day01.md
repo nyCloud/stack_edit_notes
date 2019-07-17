@@ -14,9 +14,9 @@ mini av / flying / automated train car
 
 __Cepton__
 mmt lidar
-
+solid state: no moving part?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA4NTQ4MiwyMjYxNDAwNzMsLTEzMT
+eyJoaXN0b3J5IjpbMTEwNjEwNjIwNywyMjYxNDAwNzMsLTEzMT
 E0MDEwOTQsLTY1MDA5NzIyMCwtMTU0NzkyNjI4MCwxNjg2NzAz
 MzU5LC0xMjg5MjUxMjc5LC03ODg2ODUzNjNdfQ==
 -->
