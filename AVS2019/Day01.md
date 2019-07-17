@@ -23,17 +23,22 @@ in bad weather condition
 
 __Innoviz__
 
-### ?
+### Traffic Sensing
 AV sensors -> Traffic Sensing -> Data Center
 Soft update
 Traffic State Estimation
 	- Probe Vehicle
-	- UAV, drones
-	- AV
+	- UAVs, drones
+	- AVs
 
+Traffic State
+AV
+ - Camera
+ - 
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg0NDg0MTAsMTc5NzQ4Mzk3MCwxMz
+eyJoaXN0b3J5IjpbLTEzNjIyMjIxOTQsMTc5NzQ4Mzk3MCwxMz
 YyODEyODc0LC0yMDI5NzQ2MDIwLDgwNjQyMTQxMSwyMjYxNDAw
 NzMsLTEzMTE0MDEwOTQsLTY1MDA5NzIyMCwtMTU0NzkyNjI4MC
 wxNjg2NzAzMzU5LC0xMjg5MjUxMjc5LC03ODg2ODUzNjNdfQ==
