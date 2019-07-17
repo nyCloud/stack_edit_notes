@@ -23,9 +23,13 @@ in bad weather condition
 
 __Innoviz__
 
+### ?
+AV sensors -> Traffic Sensing -> Data Center
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzQ4Mzk3MCwxMzYyODEyODc0LC0yMD
-I5NzQ2MDIwLDgwNjQyMTQxMSwyMjYxNDAwNzMsLTEzMTE0MDEw
-OTQsLTY1MDA5NzIyMCwtMTU0NzkyNjI4MCwxNjg2NzAzMzU5LC
-0xMjg5MjUxMjc5LC03ODg2ODUzNjNdfQ==
+eyJoaXN0b3J5IjpbMTQwNDI4NDM0NywxNzk3NDgzOTcwLDEzNj
+I4MTI4NzQsLTIwMjk3NDYwMjAsODA2NDIxNDExLDIyNjE0MDA3
+MywtMTMxMTQwMTA5NCwtNjUwMDk3MjIwLC0xNTQ3OTI2MjgwLD
+E2ODY3MDMzNTksLTEyODkyNTEyNzksLTc4ODY4NTM2M119
 -->
