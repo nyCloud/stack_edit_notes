@@ -25,11 +25,17 @@ __Innoviz__
 
 ### ?
 AV sensors -> Traffic Sensing -> Data Center
+Soft update
+Traffic State Estimation
+	- Probe Vehicle
+	- UAV, drones
+	- AV
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDI4NDM0NywxNzk3NDgzOTcwLDEzNj
-I4MTI4NzQsLTIwMjk3NDYwMjAsODA2NDIxNDExLDIyNjE0MDA3
-MywtMTMxMTQwMTA5NCwtNjUwMDk3MjIwLC0xNTQ3OTI2MjgwLD
-E2ODY3MDMzNTksLTEyODkyNTEyNzksLTc4ODY4NTM2M119
+eyJoaXN0b3J5IjpbLTE1OTg0NDg0MTAsMTc5NzQ4Mzk3MCwxMz
+YyODEyODc0LC0yMDI5NzQ2MDIwLDgwNjQyMTQxMSwyMjYxNDAw
+NzMsLTEzMTE0MDEwOTQsLTY1MDA5NzIyMCwtMTU0NzkyNjI4MC
+wxNjg2NzAzMzU5LC0xMjg5MjUxMjc5LC03ODg2ODUzNjNdfQ==
+
 -->
