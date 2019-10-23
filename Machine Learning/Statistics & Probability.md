@@ -16,8 +16,11 @@ $$ P(A) = \sum_i P(AB_i) = \sum_iP(B_i)P(A|B_i)$$
 
 ### Bayes Equation
 $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i)}$$
+
+## 2. Random Variable & Distribution
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTIzNDYyOTQsLTE2NjM1NzE5OTQsMj
-Q3MzgyNjU3LC00NjAxOTkwNDIsMTc3MDU5MzA1LC0xMzM1MzAw
-OTg0XX0=
+eyJoaXN0b3J5IjpbMzI3OTUyODc1LC0xNDEyMzQ2Mjk0LC0xNj
+YzNTcxOTk0LDI0NzM4MjY1NywtNDYwMTk5MDQyLDE3NzA1OTMw
+NSwtMTMzNTMwMDk4NF19
 -->
