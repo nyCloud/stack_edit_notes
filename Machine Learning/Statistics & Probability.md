@@ -15,8 +15,9 @@ Then we have
 $$ P(A) = \sum_i P(AB_i) = \sum_iP(B_i)P(A|B_i)$$
 
 ### Bayes Equation
-$$ P(A|B) = \frac {P(B)P(B|A)} {\sum_i P()} $$
+$$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM1NzE5OTQsMjQ3MzgyNjU3LC00Nj
-AxOTkwNDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX0=
+eyJoaXN0b3J5IjpbLTk0NDQ5ODA4NiwtMTY2MzU3MTk5NCwyND
+czODI2NTcsLTQ2MDE5OTA0MiwxNzcwNTkzMDUsLTEzMzUzMDA5
+ODRdfQ==
 -->
