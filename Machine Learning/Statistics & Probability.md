@@ -10,8 +10,10 @@ $$ P(A|B) = \frac{P(AB)}{P(B)}$$
 
 ### Law of Total Probability
 Given a event A and a group of events B_i, if their probabilities are subject to:
-$$	\sum_i P(B_i) = 1 \\ \forall B_iB_j=\empty s.t. i \n $$ 
+$$	\sum_i P(B_i) = 1 \\ \forall B_iB_j=\empty \;\;s.t.\;\; i \ne j $$ 
+Then we have 
+$$ P(A) = \sum_$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTcyMTAyMDIsMjQ3MzgyNjU3LC00Nj
-AxOTkwNDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX0=
+eyJoaXN0b3J5IjpbMjAyNTI3MjAyMSwyNDczODI2NTcsLTQ2MD
+E5OTA0MiwxNzcwNTkzMDUsLTEzMzUzMDA5ODRdfQ==
 -->
