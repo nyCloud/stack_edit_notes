@@ -22,8 +22,8 @@ where $$\phi=\theta a \;\;and\;\;|a|=1$$
 ### From rotation matrix to vector
 $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 then solve eigen of function
-$$ Rn=n$$
+$$ Rn=n\;\;\;(eigenval=1)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDI4Mzg3NSwtOTc2MzQ0ODQwLDg1OT
+eyJoaXN0b3J5IjpbMTc5NjA1NjU3NCwtOTc2MzQ0ODQwLDg1OT
 Y3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
