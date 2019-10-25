@@ -5,7 +5,7 @@
 ## 1. Lie Algebra
 It is not hard to know that:
 $$ \dot R(t)R(t)^T=\hat\phi(t)$$
-If Thus:
+If assume phi is a constant value near t, we'll have:
 $$\dot R(t) = \hat\phi R(t) = \begin{bmatrix}  
 0 & -\phi_3 & \phi_2 \\  
 \phi_3 & 0 & -\phi_1 \\
@@ -17,6 +17,6 @@ After expanding the equation through Taylor series:
 $$R(t)=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
 where $$\phi=\theta a \;\;and\;\;|a|=1$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Mjk2Njk3NCw4NTk2NzI0NzEsLTE3Nj
+eyJoaXN0b3J5IjpbLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Nj
 g4MjU3MjVdfQ==
 -->
