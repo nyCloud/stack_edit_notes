@@ -4,7 +4,7 @@
 
 ## 1. Lie Algebra
 It is not hard to know that:
-$$ $$
+$$ \dot R(t)R(t)^T=\hat\phi(t)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDQ2MDUwOF19
+eyJoaXN0b3J5IjpbODY2OTgwOTExXX0=
 -->
