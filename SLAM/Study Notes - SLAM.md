@@ -5,6 +5,8 @@
 ## 1. Lie Algebra
 It is not hard to know that:
 $$ \dot R(t)R(t)^T=\hat\phi(t)$$
+Thus:
+$$\dot R(t) = \$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2OTgwOTExXX0=
+eyJoaXN0b3J5IjpbLTE1OTYwMTEzMzhdfQ==
 -->
