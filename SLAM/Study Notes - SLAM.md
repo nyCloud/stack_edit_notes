@@ -12,7 +12,7 @@ $$\dot R(t) = \hat\phi(t)R(t) = \begin{bmatrix}
 -\phi_2 & \phi_1 & 0 
 \end{bmatrix}R(t)$$
 Solving the equation we will get:
-$$R(t) = exp(\hat\phi(t)t)$$
+$$R(t) = exp(t\cdot\hat\phi(t))$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDM0NSwtMTc2ODgyNTcyNV19
+eyJoaXN0b3J5IjpbODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
 -->
