@@ -15,7 +15,8 @@ Solving the equation we will get:
 $$R(t) = exp(t\cdot\hat\phi(t))$$
 After expanding the equation through Taylor series:
 $$R(t)=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
+where $$\phi=\theta a \;\;and\;\;|a|=1$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjEzNTQwLDg1OTY3MjQ3MSwtMTc2OD
-gyNTcyNV19
+eyJoaXN0b3J5IjpbMTgzNTcwNzQxNiw4NTk2NzI0NzEsLTE3Nj
+g4MjU3MjVdfQ==
 -->
