@@ -14,8 +14,8 @@ $$\dot R(t) = \hat\phi(t)R(t) = \begin{bmatrix}
 Solving the equation we will get:
 $$R(t) = exp(t\cdot\hat\phi(t))$$
 After expanding the equation through Taylor series:
-$$R(t)=cos(\theta I) + $$
+$$R(t)=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTM5NTU3MSw4NTk2NzI0NzEsLTE3Nj
-g4MjU3MjVdfQ==
+eyJoaXN0b3J5IjpbMjA5NjEzNTQwLDg1OTY3MjQ3MSwtMTc2OD
+gyNTcyNV19
 -->
