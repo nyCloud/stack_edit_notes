@@ -11,6 +11,8 @@ $$\dot R(t) = \hat\phi(t)R(t) = \begin{bmatrix}
 \phi_3 & 0 & -\phi_1 \\
 -\phi_2 & \phi_1 & 0 
 \end{bmatrix}R(t)$$
+Solving the equation we will get:
+$$R(t) = exp(\hat\phi(t)t)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg4MjU3MjVdfQ==
+eyJoaXN0b3J5IjpbLTgxMDM0NSwtMTc2ODgyNTcyNV19
 -->
