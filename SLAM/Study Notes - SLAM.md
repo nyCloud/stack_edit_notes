@@ -6,7 +6,11 @@
 It is not hard to know that:
 $$ \dot R(t)R(t)^T=\hat\phi(t)$$
 Thus:
-$$\dot R(t) = \hat\phi(t)R(t) = $$
+$$\dot R(t) = \hat\phi(t)R(t) = \begin{bmatrix}  
+0 & -\phi_3 & \phi_2 \\  
+\phi_3 & 0 & -\phi_1 \\
+-\phi_2 & \phi_1 & 0 
+\end{bmatrix}R(t)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzkzMjEzNzFdfQ==
+eyJoaXN0b3J5IjpbLTE3Njg4MjU3MjVdfQ==
 -->
