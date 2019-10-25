@@ -20,8 +20,10 @@ $$R(t)=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
 where $$\phi=\theta a \;\;and\;\;|a|=1$$
 
 ### From rotation matrix to vector
-$$ \theta = arccos(\frac{}{}) $$
+$$ \theta = arccos(\frac{tr(R)-1}{2}) $$
+then solve eigen of function
+$$ Rn=n$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzQ5NTQ4OCwtOTc2MzQ0ODQwLDg1OT
+eyJoaXN0b3J5IjpbMjExMDI4Mzg3NSwtOTc2MzQ0ODQwLDg1OT
 Y3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
