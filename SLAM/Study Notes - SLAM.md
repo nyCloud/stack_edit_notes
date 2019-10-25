@@ -11,12 +11,17 @@ $$\dot R(t) = \hat\phi R(t) = \begin{bmatrix}
 \phi_3 & 0 & -\phi_1 \\
 -\phi_2 & \phi_1 & 0 
 \end{bmatrix}R(t)$$
-Solving the equation we will get:
+
+### From rotation vector to matrix
+Solving the above equation we will get:
 $$R(t) = exp(t\cdot\hat\phi(t))$$
 After expanding the equation through Taylor series:
 $$R(t)=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
 where $$\phi=\theta a \;\;and\;\;|a|=1$$
+
+### From rotation matrix to vector
+$$ \theta = arccos(\frac{}{}) $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Nj
-g4MjU3MjVdfQ==
+eyJoaXN0b3J5IjpbMTg2NzQ5NTQ4OCwtOTc2MzQ0ODQwLDg1OT
+Y3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
