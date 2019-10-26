@@ -13,20 +13,21 @@ $$\dot R(t) = \hat\phi R(t) = \begin{bmatrix}
 -\phi_2 & \phi_1 & 0 
 \end{bmatrix}R(t)$$
 
-### From rotation vector to matrix (SO3 to so3)
+### From rotation vector to matrix (so3 to SO3)
 Solving the above equation we will get:
 $$R(t) = exp(t\cdot\hat\phi(t))$$
 After expanding the equation through Taylor series:
 $$R(t)=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
 where $$\phi=\theta a \;\;and\;\;|a|=1$$
 
-### From rotation matrix to vector
+### From rotation matrix to vector (SO3 to so3)
 $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
 
+### 1.2.SE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Mzg5OTcyNiwyMTIzMzI3NjE0LDE3OT
+eyJoaXN0b3J5IjpbLTMxNzg3OTQxMiwyMTIzMzI3NjE0LDE3OT
 YwNTY1NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3
 MjVdfQ==
 -->
