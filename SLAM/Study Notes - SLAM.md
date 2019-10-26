@@ -25,9 +25,10 @@ $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
 
-### 1.2.SE
+### 1.2. SE3 and se3
+$$se(3)={\x}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzg3OTQxMiwyMTIzMzI3NjE0LDE3OT
-YwNTY1NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3
-MjVdfQ==
+eyJoaXN0b3J5IjpbLTE0NTc5NDQyMzgsMjEyMzMyNzYxNCwxNz
+k2MDU2NTc0LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1
+NzI1XX0=
 -->
