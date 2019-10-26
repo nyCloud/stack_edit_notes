@@ -28,13 +28,13 @@ $$ Rn=n\;\;\;(eigenval=1)$$
 ### 1.2. SE3 and se3
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
-$$exp(x) = \sum_i$$
-$$$$
-$$$$
+$$exp(x) = \sum_i^\infty \frac {x^i}{i!}$$
+$$sin(x) = $$
+$$cos(x)= $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTU0NzI3NywtMjU1MTU4MTUzLDIxMj
+eyJoaXN0b3J5IjpbMTM3MzY1MTMzMywtMjU1MTU4MTUzLDIxMj
 MzMjc2MTQsMTc5NjA1NjU3NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3
 MSwtMTc2ODgyNTcyNV19
 -->
