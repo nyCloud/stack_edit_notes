@@ -29,13 +29,9 @@ $$ Rn=n\;\;\;(eigenval=1)$$
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
 
-```
-- Reminder
 
-
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU2MDE3NTYsMjEyMzMyNzYxNCwxNz
-k2MDU2NTc0LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1
-NzI1XX0=
+eyJoaXN0b3J5IjpbLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OT
+YwNTY1NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3
+MjVdfQ==
 -->
