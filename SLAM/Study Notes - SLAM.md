@@ -15,9 +15,9 @@ $$\dot R(t) = \hat\phi R(t) = \begin{bmatrix}
 
 ### From rotation vector to matrix (so3 to SO3)
 Solving the above equation we will get:
-$$R(t) = exp(t\cdot\hat\phi(t))$$
+$$R = exp(\hat\phi)$$
 After expanding the equation through Taylor series:
-$$R(t)=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
+$$R=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
 where $$\phi=\theta a \;\;and\;\;|a|=1$$
 
 ### From rotation matrix to vector (SO3 to so3)
@@ -35,7 +35,7 @@ $$cos(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i}}{(2i)!}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NDQxNTE3NSwtMjU1MTU4MTUzLDIxMj
-MzMjc2MTQsMTc5NjA1NjU3NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3
-MSwtMTc2ODgyNTcyNV19
+eyJoaXN0b3J5IjpbNzcwNjE5NzE2LDE0OTQ0MTUxNzUsLTI1NT
+E1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1NzQsLTk3NjM0NDg0
+MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ==
 -->
