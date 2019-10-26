@@ -26,9 +26,9 @@ then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
 
 ### 1.2. SE3 and se3
-$$se(3)={\x}$$
+$$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \theta\end{bmatrix} \}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc5NDQyMzgsMjEyMzMyNzYxNCwxNz
-k2MDU2NTc0LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1
-NzI1XX0=
+eyJoaXN0b3J5IjpbLTkzNjkyODQ1NSwyMTIzMzI3NjE0LDE3OT
+YwNTY1NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3
+MjVdfQ==
 -->
