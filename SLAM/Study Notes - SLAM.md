@@ -26,9 +26,16 @@ then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
 
 ### 1.2. SE3 and se3
-$$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\pi\end{bmatrix} \}$$
+$$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
+
+
+```
+- Reminder
+
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNjk0MjcyLDIxMjMzMjc2MTQsMTc5Nj
-A1NjU3NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcy
-NV19
+eyJoaXN0b3J5IjpbLTIxMTU2MDE3NTYsMjEyMzMyNzYxNCwxNz
+k2MDU2NTc0LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1
+NzI1XX0=
 -->
