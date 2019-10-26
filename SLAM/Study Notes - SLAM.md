@@ -29,12 +29,12 @@ $$ Rn=n\;\;\;(eigenval=1)$$
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
 $$exp(x) = \sum_i^\infty \frac {x^i}{i!}$$
-$$sin(x) = $$
-$$cos(x)= $$
+$$sin(x) = \sum_i^\infty \frac {(-1)^i x^{2n+1}}{(2n+1)!}$$
+$$cos(x) = \sum_i^\infty \frac{}{}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzY1MTMzMywtMjU1MTU4MTUzLDIxMj
+eyJoaXN0b3J5IjpbLTc3MDIyOTkxNywtMjU1MTU4MTUzLDIxMj
 MzMjc2MTQsMTc5NjA1NjU3NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3
 MSwtMTc2ODgyNTcyNV19
 -->
