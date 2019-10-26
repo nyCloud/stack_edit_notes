@@ -28,10 +28,13 @@ $$ Rn=n\;\;\;(eigenval=1)$$
 ### 1.2. SE3 and se3
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
+$$exp(x) = \sum_i$$
+$$$$
+$$$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OT
-YwNTY1NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3
-MjVdfQ==
+eyJoaXN0b3J5IjpbLTE1NTU0NzI3NywtMjU1MTU4MTUzLDIxMj
+MzMjc2MTQsMTc5NjA1NjU3NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3
+MSwtMTc2ODgyNTcyNV19
 -->
