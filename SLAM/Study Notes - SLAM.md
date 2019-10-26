@@ -3,6 +3,7 @@
 # SLAM
 
 ## 1. Lie Algebra
+### 1.1. SO3 and so3
 It is not hard to know that:
 $$ \dot R(t)R(t)^T=\hat\phi(t)$$
 If assume phi is a constant value near t, we'll have:
@@ -23,7 +24,8 @@ where $$\phi=\theta a \;\;and\;\;|a|=1$$
 $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjA1NjU3NCwtOTc2MzQ0ODQwLDg1OT
-Y3MjQ3MSwtMTc2ODgyNTcyNV19
+eyJoaXN0b3J5IjpbMjEyMzMyNzYxNCwxNzk2MDU2NTc0LC05Nz
+YzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
 -->
