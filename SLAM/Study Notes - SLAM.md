@@ -13,7 +13,7 @@ $$\dot R(t) = \hat\phi R(t) = \begin{bmatrix}
 -\phi_2 & \phi_1 & 0 
 \end{bmatrix}R(t)$$
 
-### From rotation vector to matrix
+### From rotation vector to matrix (SO3 to so3)
 Solving the above equation we will get:
 $$R(t) = exp(t\cdot\hat\phi(t))$$
 After expanding the equation through Taylor series:
@@ -26,6 +26,7 @@ then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzMyNzYxNCwxNzk2MDU2NTc0LC05Nz
-YzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
+eyJoaXN0b3J5IjpbMTc0Mzg5OTcyNiwyMTIzMzI3NjE0LDE3OT
+YwNTY1NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3
+MjVdfQ==
 -->
