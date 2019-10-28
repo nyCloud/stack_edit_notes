@@ -26,10 +26,8 @@ $$ Rn=n\;\;\;(eigenval=1)$$
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
 ### From vector to transformation matrix ($\xi$ to $T$)
-$$exp(\hat\xi) = 
-\begin{bmatrix} 
-
-\end{bmatrix}$$
+$$exp(\hat\xi) = \begin{bmatrix} R &J\rho \\ 0^T & 1 \end{bmatrix}$$
+$$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin})$$
 
 ### Appendix I: Some basics in math($T$ to $\xi$)
 
@@ -47,7 +45,7 @@ a_3 & 0 & -a_1 \\
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzExNDI2MSwzMzU5NDcyNTEsMTQ5ND
+eyJoaXN0b3J5IjpbMTYwNTYxNDc5MSwzMzU5NDcyNTEsMTQ5ND
 QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
 NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
