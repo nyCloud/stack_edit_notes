@@ -11,11 +11,7 @@
 It is not hard to know that:
 $$ \dot R(t)R(t)^T=\hat\phi(t)$$
 If assume phi is a constant value near t, we'll have:
-$$\dot R(t) = \hat\phi R(t) = \begin{bmatrix}  
-0 & -\phi_3 & \phi_2 \\  
-\phi_3 & 0 & -\phi_1 \\
--\phi_2 & \phi_1 & 0 
-\end{bmatrix}R(t)$$
+$$\dot R(t) = \hat\phi R(t) = R(t)$$
 
 ### From rotation vector to matrix (so3 to SO3)
 Solving the above equation we will get:
@@ -36,16 +32,22 @@ From above equations, it will not be hard to derive that:
 $$exp(\hat\xi) = $$
 
 ### Appendix I: Some basics in math
-As a reminder, we have Taylor expansion:
+
+Taylor expansion:
 $$exp(x) = \sum_{i=0}^\infty \frac {x^i}{i!}$$
 $$sin(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i+1}}{(2i+1)!}$$
 $$cos(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i}}{(2i)!}$$
 
-For a hat, we have:
+Skew symmetric matrix:
+$$\hat a = \begin{bmatrix}  
+0 & -a_3 & \a2 \\  
+a_3 & 0 & -\phi_1 \\
+-a_2 & a_1 & 0 
+\end{bmatrix}$$
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjYwNTAxMiwzMzU5NDcyNTEsMTQ5ND
+eyJoaXN0b3J5IjpbLTMxNjU1NzE2MiwzMzU5NDcyNTEsMTQ5ND
 QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
 NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
