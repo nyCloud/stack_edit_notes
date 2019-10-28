@@ -37,9 +37,7 @@ $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
 
-## 1.2
-
-## 1.3. SE3 and se3
+## 1.2. SE3 and se3
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
 ### From lie algebra to transformation matrix ($\xi$ to $T$)
@@ -57,11 +55,13 @@ $$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin\theta}{\theta}aa^T+\frac{1-cos
 and 
 $$\rho= J^{-1}  t$$
 
+## 1.3. Derivatives of Lie Algebra
+First thing first we'll have to define add operation before 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDIwNTk3OTIsMzM1OTQ3MjUxLDE0OT
-Q0MTUxNzUsLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1
-NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ
-==
+eyJoaXN0b3J5IjpbNjI0NjQwNzc1LDMzNTk0NzI1MSwxNDk0ND
+E1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MDU2NTc0
+LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
 -->
