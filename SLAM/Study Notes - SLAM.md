@@ -36,6 +36,7 @@ $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
 
+
 ### Appendix I: Some basics in math
 
 Taylor expansion:
@@ -52,7 +53,7 @@ a_3 & 0 & -a_1 \\
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDMzMzk1NSwzMzU5NDcyNTEsMTQ5ND
+eyJoaXN0b3J5IjpbLTQyMDEwOTcxMSwzMzU5NDcyNTEsMTQ5ND
 QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
 NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
