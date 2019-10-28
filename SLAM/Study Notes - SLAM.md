@@ -4,9 +4,6 @@
 
 ## 1. Lie Algebra
 
-
-
-
 ### 1.1. SO3 and so3
 It is not hard to know that:
 $$ \dot R(t)R(t)^T=\hat\phi(t)$$
@@ -40,14 +37,14 @@ $$cos(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i}}{(2i)!}$$
 
 Skew symmetric matrix:
 $$\hat a = \begin{bmatrix}  
-0 & -a_3 & \a2 \\  
-a_3 & 0 & -\phi_1 \\
--a_2 & a_1 & 0 
+0 & -a_3 & a_2 \\  
+a_3 & 0 & -a_1 \\
+-a_2 & a_1 & 0 \\
 \end{bmatrix}$$
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjU1NzE2MiwzMzU5NDcyNTEsMTQ5ND
-QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
-NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
+eyJoaXN0b3J5IjpbNTgxMDEyMjU1LDMzNTk0NzI1MSwxNDk0ND
+E1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MDU2NTc0
+LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
 -->
