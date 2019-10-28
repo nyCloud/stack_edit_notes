@@ -25,10 +25,13 @@ $$ Rn=n\;\;\;(eigenval=1)$$
 ### 1.2. SE3 and se3
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
-### From vector to transformation matrix ($\begin{bmatrix} \rho \\ \phi\end{bmatrix}$to)
-$$exp(\hat\xi) = $$
+### From vector to transformation matrix ($\xi$ to $T$)
+$$exp(\hat\xi) = 
+\begin{bmatrix} 
 
-### Appendix I: Some basics in math
+\end{bmatrix}$$
+
+### Appendix I: Some basics in math($T$ to $\xi$)
 
 Taylor expansion:
 $$exp(x) = \sum_{i=0}^\infty \frac {x^i}{i!}$$
@@ -44,8 +47,7 @@ a_3 & 0 & -a_1 \\
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ0NjgwMzcsMzM1OTQ3MjUxLDE0OT
-Q0MTUxNzUsLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1
-NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ
-==
+eyJoaXN0b3J5IjpbLTkwNzExNDI2MSwzMzU5NDcyNTEsMTQ5ND
+QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
+NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
