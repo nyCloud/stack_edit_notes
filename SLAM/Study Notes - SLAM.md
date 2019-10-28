@@ -37,9 +37,9 @@ For a hat, we have:
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 From above equations, it will not be hard to derive that:
-
+$$exp(\hat\xi) = $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTMwNDQ3OCwzMzU5NDcyNTEsMTQ5ND
-QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
-NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
+eyJoaXN0b3J5IjpbNTQ0OTExNzk5LDMzNTk0NzI1MSwxNDk0ND
+E1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MDU2NTc0
+LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
 -->
