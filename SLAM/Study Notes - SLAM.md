@@ -4,6 +4,21 @@
 
 ## 1. Lie Algebra
 
+### Appendix I: Some basics in math
+
+Taylor expansion:
+$$exp(x) = \sum_{i=0}^\infty \frac {x^i}{i!}$$
+$$sin(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i+1}}{(2i+1)!}$$
+$$cos(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i}}{(2i)!}$$
+
+Skew symmetric matrix:
+$$\hat a = \begin{bmatrix}  
+0 & -a_3 & a_2 \\  
+a_3 & 0 & -a_1 \\
+-a_2 & a_1 & 0 \\
+\end{bmatrix}$$
+$$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
+
 ### 1.1. SO3 and so3
 It is not hard to know that:
 $$ \dot R(t)R(t)^T=\hat\phi(t)$$
@@ -38,25 +53,12 @@ $$ Rn=n\;\;\;(eigenval=1)$$
 After this we got:
 $$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin\theta}{\theta}aa^T+\frac{1-cos\theta}{\theta}\hat a)$$
 and 
-$$\rho=J^t})$$
+$$\rho= J^{-1}  t$$
 
-### Appendix I: Some basics in math
 
-Taylor expansion:
-$$exp(x) = \sum_{i=0}^\infty \frac {x^i}{i!}$$
-$$sin(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i+1}}{(2i+1)!}$$
-$$cos(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i}}{(2i)!}$$
-
-Skew symmetric matrix:
-$$\hat a = \begin{bmatrix}  
-0 & -a_3 & a_2 \\  
-a_3 & 0 & -a_1 \\
--a_2 & a_1 & 0 \\
-\end{bmatrix}$$
-$$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwMzQ2MzU5LDMzNTk0NzI1MSwxNDk0ND
-E1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MDU2NTc0
-LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
+eyJoaXN0b3J5IjpbLTk3NDk4NzYyMSwzMzU5NDcyNTEsMTQ5ND
+QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
+NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
