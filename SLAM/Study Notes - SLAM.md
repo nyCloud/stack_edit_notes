@@ -36,8 +36,9 @@ $$cos(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i}}{(2i)!}$$
 For a hat, we have:
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
+From above equations, it will not be hard to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1OTQ3MjUxLDE0OTQ0MTUxNzUsLTI1NT
-E1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1NzQsLTk3NjM0NDg0
-MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ==
+eyJoaXN0b3J5IjpbMTIwMzIyODQ2MiwzMzU5NDcyNTEsMTQ5ND
+QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
+NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
