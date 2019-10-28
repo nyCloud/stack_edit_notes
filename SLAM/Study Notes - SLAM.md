@@ -33,9 +33,12 @@ where $$\phi=\theta a \;\;and\;\;|a|=1$$
 
 ### From transformation matrix to lie algebra ($T$ to $\xi$)
 $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
-then solve eigen of function
+Then solve eigen of function;
 $$ Rn=n\;\;\;(eigenval=1)$$
-
+After this we got:
+$$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin\theta}{\theta}aa^T+\frac{1-cos\theta}{\theta}\hat a)$$
+and 
+$$\rho=J^t})$$
 
 ### Appendix I: Some basics in math
 
@@ -53,7 +56,7 @@ a_3 & 0 & -a_1 \\
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDEwOTcxMSwzMzU5NDcyNTEsMTQ5ND
-QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
-NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
+eyJoaXN0b3J5IjpbNTMwMzQ2MzU5LDMzNTk0NzI1MSwxNDk0ND
+E1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MDU2NTc0
+LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
 -->
