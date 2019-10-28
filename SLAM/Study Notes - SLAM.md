@@ -30,6 +30,7 @@ $$exp(\hat\xi) = \begin{bmatrix} R &J\rho \\ 0^T & 1 \end{bmatrix}$$
 $$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin\theta}{\theta}aa^T+\frac{1-cos\theta}{\theta}\hat a)$$
 $$R=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
 where $$\phi=\theta a \;\;and\;\;|a|=1$$
+
 ### Appendix I: Some basics in math($T$ to $\xi$)
 
 Taylor expansion:
@@ -46,8 +47,7 @@ a_3 & 0 & -a_1 \\
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgwMDkxNDMsMzM1OTQ3MjUxLDE0OT
-Q0MTUxNzUsLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1
-NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ
-==
+eyJoaXN0b3J5IjpbMjY1OTI0NDQzLDMzNTk0NzI1MSwxNDk0ND
+E1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MDU2NTc0
+LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
 -->
