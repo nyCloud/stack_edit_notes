@@ -10,14 +10,14 @@ $$ \dot R(t)R(t)^T=\hat\phi(t)$$
 If assume phi is a constant value near t, we'll have:
 $$\dot R(t) = \hat\phi R(t) = R(t)$$
 
-### From rotation vector to matrix ($\phi$ to R)
+### From rotation vector to matrix ($\phi$ to $R$)
 Solving the above equation we will get:
 $$R = exp(\hat\phi)$$
 After expanding the equation through Taylor series:
 $$R=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
 where $$\phi=\theta a \;\;and\;\;|a|=1$$
 
-### From rotation matrix to vector ($R$ to )
+### From rotation matrix to vector ($R$ to $\phi$)
 $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
@@ -25,7 +25,7 @@ $$ Rn=n\;\;\;(eigenval=1)$$
 ### 1.2. SE3 and se3
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
-### From lie algebra to transformation matrix (T->)
+### From vector to transformation matrix ($\begin{bmatrix} \rho \\ \phi\end{bmatrix}$to)
 $$exp(\hat\xi) = $$
 
 ### Appendix I: Some basics in math
@@ -44,7 +44,8 @@ a_3 & 0 & -a_1 \\
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0NzkwNjkzLDMzNTk0NzI1MSwxNDk0ND
-E1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MDU2NTc0
-LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
+eyJoaXN0b3J5IjpbLTE5OTQ0NjgwMzcsMzM1OTQ3MjUxLDE0OT
+Q0MTUxNzUsLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1
+NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ
+==
 -->
