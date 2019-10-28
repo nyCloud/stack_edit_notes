@@ -2,7 +2,7 @@
 
 # SLAM
 
-## 1. Lie Algebra
+# 1. Lie Algebra
 
 ### Appendix I: Some basics in math
 
@@ -19,7 +19,7 @@ a_3 & 0 & -a_1 \\
 \end{bmatrix}$$
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
-### 1.1. SO3 and so3
+## 1.1. SO3 and so3
 It is not hard to know that:
 $$ \dot R(t)R(t)^T=\hat\phi(t)$$
 If assume phi is a constant value near t, we'll have:
@@ -37,7 +37,9 @@ $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 then solve eigen of function
 $$ Rn=n\;\;\;(eigenval=1)$$
 
-### 1.2. SE3 and se3
+## 1.2
+
+## 1.3. SE3 and se3
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
 ### From lie algebra to transformation matrix ($\xi$ to $T$)
@@ -58,7 +60,8 @@ $$\rho= J^{-1}  t$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDk4NzYyMSwzMzU5NDcyNTEsMTQ5ND
-QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
-NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
+eyJoaXN0b3J5IjpbLTE2MDIwNTk3OTIsMzM1OTQ3MjUxLDE0OT
+Q0MTUxNzUsLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1
+NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ
+==
 -->
