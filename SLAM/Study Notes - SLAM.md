@@ -27,8 +27,9 @@ $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begi
 
 ### From vector to transformation matrix ($\xi$ to $T$)
 $$exp(\hat\xi) = \begin{bmatrix} R &J\rho \\ 0^T & 1 \end{bmatrix}$$
-$$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin})$$
-
+$$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin\theta}{\theta}aa^T+\frac{1-cos\theta}{\theta}\hat a)$$
+$$R=cos(\theta I) + (1-cos\theta)aa^T+sin\theta\hat a$$
+where $$\phi=\theta a \;\;and\;\;|a|=1$$
 ### Appendix I: Some basics in math($T$ to $\xi$)
 
 Taylor expansion:
@@ -45,7 +46,8 @@ a_3 & 0 & -a_1 \\
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTYxNDc5MSwzMzU5NDcyNTEsMTQ5ND
-QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
-NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
+eyJoaXN0b3J5IjpbLTIwMjgwMDkxNDMsMzM1OTQ3MjUxLDE0OT
+Q0MTUxNzUsLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1
+NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ
+==
 -->
