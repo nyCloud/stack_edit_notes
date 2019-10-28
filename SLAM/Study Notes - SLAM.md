@@ -3,6 +3,10 @@
 # SLAM
 
 ## 1. Lie Algebra
+
+
+
+
 ### 1.1. SO3 and so3
 It is not hard to know that:
 $$ \dot R(t)R(t)^T=\hat\phi(t)$$
@@ -28,6 +32,10 @@ $$ Rn=n\;\;\;(eigenval=1)$$
 ### 1.2. SE3 and se3
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
 
+From above equations, it will not be hard to derive that:
+$$exp(\hat\xi) = $$
+
+### Appendix I: Some basics in math
 As a reminder, we have Taylor expansion:
 $$exp(x) = \sum_{i=0}^\infty \frac {x^i}{i!}$$
 $$sin(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i+1}}{(2i+1)!}$$
@@ -36,10 +44,8 @@ $$cos(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i}}{(2i)!}$$
 For a hat, we have:
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
-From above equations, it will not be hard to derive that:
-$$exp(\hat\xi) = $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0OTExNzk5LDMzNTk0NzI1MSwxNDk0ND
-E1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MDU2NTc0
-LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
+eyJoaXN0b3J5IjpbMjEzNjYwNTAxMiwzMzU5NDcyNTEsMTQ5ND
+QxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2MTQsMTc5NjA1NjU3
+NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
