@@ -63,15 +63,11 @@ Derivative for SE3
 $$ \frac {\partial Tp} {\partial \Delta \xi} = \begin{bmatrix} I & -\hat{(Rp+t)} \\ 0^T & 0^T \end{bmatrix}_{4\times6}$$
 
 
-# 2. Non-linear Optimization
-## 2.1 Gauss-Newton Method
-$$H\Delta x=-J^T$$
 
-## 2.2 Levenberg-Marquadt Method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMDM4MzgwLDIyNDM1NzI3MiwyMjI2NT
-A1ODgsLTEzMzM5NzgwMDUsMzg5NzAwMzkzLDMzNTk0NzI1MSwx
-NDk0NDE1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MD
-U2NTc0LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1
-XX0=
+eyJoaXN0b3J5IjpbLTI5NzcyMDkzNSw1MDIwMzgzODAsMjI0Mz
+U3MjcyLDIyMjY1MDU4OCwtMTMzMzk3ODAwNSwzODk3MDAzOTMs
+MzM1OTQ3MjUxLDE0OTQ0MTUxNzUsLTI1NTE1ODE1MywyMTIzMz
+I3NjE0LDE3OTYwNTY1NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEs
+LTE3Njg4MjU3MjVdfQ==
 -->
