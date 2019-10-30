@@ -60,12 +60,12 @@ $$\rho= J^{-1}  t$$
 Derivative for SO3
 $$ \frac{\partial Rp}{\partial \Delta\phi} = -\hat{(Rp)}$$
 Derivative for SE3
-$$ \frac {\partial Tp} {\partial \Delta \xi} = \begin{bmatrix} I & -\hat{(Rp+t)} \\ 0^T & 0^T \end{bmatrix}$$
+$$ \frac {\partial Tp} {\partial \Delta \xi} = \begin{bmatrix} I & -\hat{(Rp+t)} \\ 0^T & 0^T \end{bmatrix}_{4\times6}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzkzMDI1NywtMTMzMzk3ODAwNSwzOD
-k3MDAzOTMsMzM1OTQ3MjUxLDE0OTQ0MTUxNzUsLTI1NTE1ODE1
-MywyMTIzMzI3NjE0LDE3OTYwNTY1NzQsLTk3NjM0NDg0MCw4NT
-k2NzI0NzEsLTE3Njg4MjU3MjVdfQ==
+eyJoaXN0b3J5IjpbMjIyNjUwNTg4LC0xMzMzOTc4MDA1LDM4OT
+cwMDM5MywzMzU5NDcyNTEsMTQ5NDQxNTE3NSwtMjU1MTU4MTUz
+LDIxMjMzMjc2MTQsMTc5NjA1NjU3NCwtOTc2MzQ0ODQwLDg1OT
+Y3MjQ3MSwtMTc2ODgyNTcyNV19
 -->
