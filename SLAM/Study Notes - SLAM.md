@@ -4,7 +4,7 @@
 
 # 1. Lie Algebra
 
-### Appendix I: Some basics in math
+## Appendix I: Some basics in math
 
 Taylor expansion:
 $$exp(x) = \sum_{i=0}^\infty \frac {x^i}{i!}$$
@@ -63,9 +63,13 @@ Derivative for SE3
 $$ \frac {\partial Tp} {\partial \Delta \xi} = \begin{bmatrix} I & -\hat{(Rp+t)} \\ 0^T & 0^T \end{bmatrix}_{4\times6}$$
 
 
+# 2. Non-linear Optimization
+## 2.1 Gauss-Newton Optimizat
+
+## 2.2 Levenberg-Marquadt Method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyNjUwNTg4LC0xMzMzOTc4MDA1LDM4OT
-cwMDM5MywzMzU5NDcyNTEsMTQ5NDQxNTE3NSwtMjU1MTU4MTUz
-LDIxMjMzMjc2MTQsMTc5NjA1NjU3NCwtOTc2MzQ0ODQwLDg1OT
-Y3MjQ3MSwtMTc2ODgyNTcyNV19
+eyJoaXN0b3J5IjpbMTM3ODQzNTg3OCwyMjI2NTA1ODgsLTEzMz
+M5NzgwMDUsMzg5NzAwMzkzLDMzNTk0NzI1MSwxNDk0NDE1MTc1
+LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MDU2NTc0LC05Nz
+YzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1XX0=
 -->
