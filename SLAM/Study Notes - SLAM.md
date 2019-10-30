@@ -12,7 +12,7 @@ $$sin(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i+1}}{(2i+1)!}$$
 $$cos(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i}}{(2i)!}$$
 
 Skew symmetric matrix:
-$$axb = \hat ab = - \hat b a 
+$$a \times b = \hat ab = - \hat b a 
 $$\hat a = \begin{bmatrix}  
 0 & -a_3 & a_2 \\  
 a_3 & 0 & -a_1 \\
@@ -58,15 +58,11 @@ $$\rho= J^{-1}  t$$
 
 ## 1.3. Derivatives of Lie Algebra
 
-### BCH Formula
-First thing first we'll have to define add operation before deriving derivatives. 
-
-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTc5MTcxMSwzODk3MDAzOTMsMzM1OT
-Q3MjUxLDE0OTQ0MTUxNzUsLTI1NTE1ODE1MywyMTIzMzI3NjE0
-LDE3OTYwNTY1NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Nj
-g4MjU3MjVdfQ==
+eyJoaXN0b3J5IjpbLTEzMzM5NzgwMDUsMzg5NzAwMzkzLDMzNT
+k0NzI1MSwxNDk0NDE1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYx
+NCwxNzk2MDU2NTc0LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNz
+Y4ODI1NzI1XX0=
 -->
