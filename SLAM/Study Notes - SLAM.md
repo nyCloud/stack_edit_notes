@@ -65,11 +65,13 @@ $$ \frac {\partial Tp} {\partial \Delta \xi} = \begin{bmatrix} I & -\hat{(Rp+t)}
 
 # 2. Non-linear Optimization
 ## 2.1 Gauss-Newton Method
+$$H\Delta x=-J^T$$
 
 ## 2.2 Levenberg-Marquadt Method
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0MzU3MjcyLDIyMjY1MDU4OCwtMTMzMz
-k3ODAwNSwzODk3MDAzOTMsMzM1OTQ3MjUxLDE0OTQ0MTUxNzUs
-LTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1NzQsLTk3Nj
-M0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ==
+eyJoaXN0b3J5IjpbNTAyMDM4MzgwLDIyNDM1NzI3MiwyMjI2NT
+A1ODgsLTEzMzM5NzgwMDUsMzg5NzAwMzkzLDMzNTk0NzI1MSwx
+NDk0NDE1MTc1LC0yNTUxNTgxNTMsMjEyMzMyNzYxNCwxNzk2MD
+U2NTc0LC05NzYzNDQ4NDAsODU5NjcyNDcxLC0xNzY4ODI1NzI1
+XX0=
 -->
