@@ -58,12 +58,13 @@ $$\rho= J^{-1}  t$$
 
 ## 1.3. Derivatives of Lie Algebra
 Derivative for SO3
-$$ \frac{\partial Rp}{\partial \phi} = -\hat{(Rp)}$$
+$$ \frac{\partial Rp}{\partial \Delta\phi} = -\hat{(Rp)}$$
 Derivative for SE3
+$$ \frac {\partial Tp} {\partial \Delta \xi}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Mjc0OTU5NCwtMTMzMzk3ODAwNSwzOD
+eyJoaXN0b3J5IjpbMjAyNzczMjAxNywtMTMzMzk3ODAwNSwzOD
 k3MDAzOTMsMzM1OTQ3MjUxLDE0OTQ0MTUxNzUsLTI1NTE1ODE1
 MywyMTIzMzI3NjE0LDE3OTYwNTY1NzQsLTk3NjM0NDg0MCw4NT
 k2NzI0NzEsLTE3Njg4MjU3MjVdfQ==
