@@ -18,7 +18,7 @@ $$ P(A) = \sum_i P(AB_i) = \sum_iP(B_i)P(A|B_i)$$
 $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i)}$$
 
 ## 2. Random Variable & Distribution
-### Discrete Random Distributions
+### 2.1 Discrete Random Distributions
 |Distribution| $P(n)$ | $E(f(x))$| Mean | Var | 
 -|-|-|-|-
 | Binomial | $$\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$$ | $$np$$ | $$np$$ | $$np(1-p)$$ 
@@ -29,17 +29,21 @@ $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i
 
 - Poisson: In the interval $[0, 1]$, given that in any interval $[t, t+\Delta t]$, the probablity a single event happen is $(\lambda\Delta t)$, then the total times the events happen follows Poisson distribution.
 
-### Continuous Random Distributions
+### 2.2 Continuous Random Distributions
 CDF (Cumulative Distribution Function): $F(x) = p(X<x)$
+
 PMF (Probability Mass Function): $f(x) = f'(x)$
 - $f(x)\ge0$
 - $\int_{-\infty}^{\infty}f(x)dx=1$
 - $P(a \le X \le b) = F(b) - F(a) = \int_a^bf(x)dx$
 
+|Distribution| $P(n)$ | $E(f(x))$| Mean | Var | 
+-|-|-|-|-
+| Gaussian | 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzMTcxMTY5LDEyNjI1Njg2MzAsLTE0NT
-M5OTk3NDQsMTI5ODEwMTkyNCwxMTU2Nzc1NzA2LDIwNjIyOTMw
-NjksMzI3OTUyODc1LC0xNDEyMzQ2Mjk0LC0xNjYzNTcxOTk0LD
-I0NzM4MjY1NywtNDYwMTk5MDQyLDE3NzA1OTMwNSwtMTMzNTMw
-MDk4NF19
+eyJoaXN0b3J5IjpbMTg1Nzk1NDY0NCwxMjYyNTY4NjMwLC0xND
+UzOTk5NzQ0LDEyOTgxMDE5MjQsMTE1Njc3NTcwNiwyMDYyMjkz
+MDY5LDMyNzk1Mjg3NSwtMTQxMjM0NjI5NCwtMTY2MzU3MTk5NC
+wyNDczODI2NTcsLTQ2MDE5OTA0MiwxNzcwNTkzMDUsLTEzMzUz
+MDA5ODRdfQ==
 -->
