@@ -37,13 +37,13 @@ PMF (Probability Mass Function): $f(x) = f'(x)$
 - $\int_{-\infty}^{\infty}f(x)dx=1$
 - $P(a \le X \le b) = F(b) - F(a) = \int_a^bf(x)dx$
 
-|Distribution| $P(n)$ | $E(f(x))$| Mean | Var | 
+|Distribution| PMF | $E(f(x))$| Mean | Var | 
 -|-|-|-|-
-| Gaussian | 
+| Gaussian | $$f(x) = \frac{1}{\sigma\sqrt{2\pi}}exp(-\frac{(x-\mu)^2}{})$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1Nzk1NDY0NCwxMjYyNTY4NjMwLC0xND
-UzOTk5NzQ0LDEyOTgxMDE5MjQsMTE1Njc3NTcwNiwyMDYyMjkz
-MDY5LDMyNzk1Mjg3NSwtMTQxMjM0NjI5NCwtMTY2MzU3MTk5NC
-wyNDczODI2NTcsLTQ2MDE5OTA0MiwxNzcwNTkzMDUsLTEzMzUz
-MDA5ODRdfQ==
+eyJoaXN0b3J5IjpbLTI3NjMyODE2LDE4NTc5NTQ2NDQsMTI2Mj
+U2ODYzMCwtMTQ1Mzk5OTc0NCwxMjk4MTAxOTI0LDExNTY3NzU3
+MDYsMjA2MjI5MzA2OSwzMjc5NTI4NzUsLTE0MTIzNDYyOTQsLT
+E2NjM1NzE5OTQsMjQ3MzgyNjU3LC00NjAxOTkwNDIsMTc3MDU5
+MzA1LC0xMzM1MzAwOTg0XX0=
 -->
