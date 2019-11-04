@@ -18,13 +18,13 @@ $$ P(A) = \sum_i P(AB_i) = \sum_iP(B_i)P(A|B_i)$$
 $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i)}$$
 
 ## 2. Random Variable & Distribution
-Discrete Random Distribution
-|        | ASCII | HTML | 
+Discrete Random Distributions
+|Name| ASCII | HTML | 
 ----------------- | ---------------------------- | ----------------
 | Single backticks | `'Isn't this fun?'` | 'Isn't this fun?' | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM3NjIwNzcsMzI3OTUyODc1LC0xND
-EyMzQ2Mjk0LC0xNjYzNTcxOTk0LDI0NzM4MjY1NywtNDYwMTk5
-MDQyLDE3NzA1OTMwNSwtMTMzNTMwMDk4NF19
+eyJoaXN0b3J5IjpbMjA2MjI5MzA2OSwzMjc5NTI4NzUsLTE0MT
+IzNDYyOTQsLTE2NjM1NzE5OTQsMjQ3MzgyNjU3LC00NjAxOTkw
+NDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX0=
 -->
