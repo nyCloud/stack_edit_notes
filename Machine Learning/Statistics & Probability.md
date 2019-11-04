@@ -25,10 +25,10 @@ Discrete Random Distributions
 | 
 
 - Binomial Distribution: Making n consecutive experiments and for each experiment $p(x=1)=p$
-- Poisson: In the interval $[0, 1]$, given that in any interval $$
+- Poisson: In the interval $[0, 1]$, given that in any interval $[t, t+\Delta t]$, the probablity a single event happen is $(\lambda\Delta t)$, then the total 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTE5MjA2NywtMTQ1Mzk5OTc0NCwxMj
-k4MTAxOTI0LDExNTY3NzU3MDYsMjA2MjI5MzA2OSwzMjc5NTI4
-NzUsLTE0MTIzNDYyOTQsLTE2NjM1NzE5OTQsMjQ3MzgyNjU3LC
-00NjAxOTkwNDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX0=
+eyJoaXN0b3J5IjpbLTEwMjQ3NzQ4NzgsLTE0NTM5OTk3NDQsMT
+I5ODEwMTkyNCwxMTU2Nzc1NzA2LDIwNjIyOTMwNjksMzI3OTUy
+ODc1LC0xNDEyMzQ2Mjk0LC0xNjYzNTcxOTk0LDI0NzM4MjY1Ny
+wtNDYwMTk5MDQyLDE3NzA1OTMwNSwtMTMzNTMwMDk4NF19
 -->
