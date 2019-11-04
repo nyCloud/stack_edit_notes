@@ -19,10 +19,10 @@ $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i
 
 ## 2. Random Variable & Distribution
 ### 2.1 Discrete Random Distributions
-|Distribution| $P(n)$ | $E(f(x))$| Mean | Var | 
+|Distribution| PMF | Mean | Var | 
 -|-|-|-|-
-| Binomial | $$\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$$ | $$np$$ | $$np$$ | $$np(1-p)$$ 
-| Poisson | $$\frac {\lambda^ke^{-\lambda}}{k!}$$ | $$\lambda$$ | $$\lambda$$ | $$\lambda$$
+| Binomial | $$\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$$ | $$np$$ | $$np(1-p)$$ 
+| Poisson | $$\frac {\lambda^ke^{-\lambda}}{k!}$$ | $$\lambda$$ | $$\lambda$$
 
 
 - Binomial Distribution: Making n consecutive experiments and for each experiment $p(x=1)=p$. The total times the event $x=1$ happen follows Binomial distribution.
@@ -39,9 +39,9 @@ PMF (Probability Mass Function): $f(x) = f'(x)$
 
 |Distribution| PMF | Mean | Var | 
 -|-|-|-|-
-| Gaussian | $$f(x) = \frac{1}{\sigma\sqrt{2\pi}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$$
+| Gaussian | $$f(x) = \frac{1}{\sigma\sqrt{2\pi}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$$ | $$\mu$$ | $$\sigma^2$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDA2Mjg3MCwxODU3OTU0NjQ0LDEyNj
+eyJoaXN0b3J5IjpbMTMzNDIwMDk1NywxODU3OTU0NjQ0LDEyNj
 I1Njg2MzAsLTE0NTM5OTk3NDQsMTI5ODEwMTkyNCwxMTU2Nzc1
 NzA2LDIwNjIyOTMwNjksMzI3OTUyODc1LC0xNDEyMzQ2Mjk0LC
 0xNjYzNTcxOTk0LDI0NzM4MjY1NywtNDYwMTk5MDQyLDE3NzA1
