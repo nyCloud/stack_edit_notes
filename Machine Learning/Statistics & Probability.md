@@ -21,11 +21,10 @@ $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i
 Discrete Random Distributions
 |Distribution| $p(n)$ | $E(f(x))$| Mean | Var | 
 -|-|-|-|-
-| Binomial| $\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$ | 'Isn't this fun?' | 
-
+| Binomial | $\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$ | $np$ | $np$ | $np(1-p)$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk1ODM0MzQsMjA2MjI5MzA2OSwzMj
-c5NTI4NzUsLTE0MTIzNDYyOTQsLTE2NjM1NzE5OTQsMjQ3Mzgy
-NjU3LC00NjAxOTkwNDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX
-0=
+eyJoaXN0b3J5IjpbMTE1Njc3NTcwNiwyMDYyMjkzMDY5LDMyNz
+k1Mjg3NSwtMTQxMjM0NjI5NCwtMTY2MzU3MTk5NCwyNDczODI2
+NTcsLTQ2MDE5OTA0MiwxNzcwNTkzMDUsLTEzMzUzMDA5ODRdfQ
+==
 -->
