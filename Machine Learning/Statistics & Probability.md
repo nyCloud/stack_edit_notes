@@ -21,10 +21,10 @@ $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i
 Discrete Random Distributions
 |Name| ASCII | HTML | 
 ----------------- | ---------------------------- | ----------------
-| Single backticks | `'Isn't this fun?'` | 'Isn't this fun?' | 
+| Single backticks | $a$ | 'Isn't this fun?' | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjI5MzA2OSwzMjc5NTI4NzUsLTE0MT
-IzNDYyOTQsLTE2NjM1NzE5OTQsMjQ3MzgyNjU3LC00NjAxOTkw
-NDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX0=
+eyJoaXN0b3J5IjpbNzY1MTU0MzgzLDIwNjIyOTMwNjksMzI3OT
+UyODc1LC0xNDEyMzQ2Mjk0LC0xNjYzNTcxOTk0LDI0NzM4MjY1
+NywtNDYwMTk5MDQyLDE3NzA1OTMwNSwtMTMzNTMwMDk4NF19
 -->
