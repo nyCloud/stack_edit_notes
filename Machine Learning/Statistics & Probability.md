@@ -18,9 +18,9 @@ $$ P(A) = \sum_i P(AB_i) = \sum_iP(B_i)P(A|B_i)$$
 $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i)}$$
 
 ## 2. Random Variable & Distribution
-
+| | ASCII | HTML |  ----------------- | ---------------------------- | ------------------  | Single backticks | `'Isn't this fun?'` | 'Isn't this fun?' |  | Quotes | `"Isn't this fun?"` | "Isn't this fun?" |  | Dashes | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3OTUyODc1LC0xNDEyMzQ2Mjk0LC0xNj
-YzNTcxOTk0LDI0NzM4MjY1NywtNDYwMTk5MDQyLDE3NzA1OTMw
-NSwtMTMzNTMwMDk4NF19
+eyJoaXN0b3J5IjpbNjA2NjM5MDQ4LDMyNzk1Mjg3NSwtMTQxMj
+M0NjI5NCwtMTY2MzU3MTk5NCwyNDczODI2NTcsLTQ2MDE5OTA0
+MiwxNzcwNTkzMDUsLTEzMzUzMDA5ODRdfQ==
 -->
