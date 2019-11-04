@@ -19,12 +19,13 @@ $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i
 
 ## 2. Random Variable & Distribution
 Discrete Random Distributions
-|Name| ASCII | HTML | 
+|Name| $p(n)$ | Mean | Var | 
 ----------------- | ---------------------------- | ----------------
-| Single backticks | $a$ | 'Isn't this fun?' | 
+| Binomial Dist | $a$ | 'Isn't this fun?' | 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1MTU0MzgzLDIwNjIyOTMwNjksMzI3OT
-UyODc1LC0xNDEyMzQ2Mjk0LC0xNjYzNTcxOTk0LDI0NzM4MjY1
-NywtNDYwMTk5MDQyLDE3NzA1OTMwNSwtMTMzNTMwMDk4NF19
+eyJoaXN0b3J5IjpbMTM3ODQyNDc5MiwyMDYyMjkzMDY5LDMyNz
+k1Mjg3NSwtMTQxMjM0NjI5NCwtMTY2MzU3MTk5NCwyNDczODI2
+NTcsLTQ2MDE5OTA0MiwxNzcwNTkzMDUsLTEzMzUzMDA5ODRdfQ
+==
 -->
