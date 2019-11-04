@@ -22,9 +22,10 @@ Discrete Random Distributions
 |Distribution| $p(n)$ | $E(f(x))$| Mean | Var | 
 -|-|-|-|-
 | Binomial | $\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$ | $np$ | $np$ | $np(1-p)$ 
+| 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Njc3NTcwNiwyMDYyMjkzMDY5LDMyNz
-k1Mjg3NSwtMTQxMjM0NjI5NCwtMTY2MzU3MTk5NCwyNDczODI2
-NTcsLTQ2MDE5OTA0MiwxNzcwNTkzMDUsLTEzMzUzMDA5ODRdfQ
-==
+eyJoaXN0b3J5IjpbMTI5ODEwMTkyNCwxMTU2Nzc1NzA2LDIwNj
+IyOTMwNjksMzI3OTUyODc1LC0xNDEyMzQ2Mjk0LC0xNjYzNTcx
+OTk0LDI0NzM4MjY1NywtNDYwMTk5MDQyLDE3NzA1OTMwNSwtMT
+MzNTMwMDk4NF19
 -->
