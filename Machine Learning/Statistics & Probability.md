@@ -19,15 +19,16 @@ $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i
 
 ## 2. Random Variable & Distribution
 Discrete Random Distributions
-|Distribution| $p(n)$ | $E(f(x))$| Mean | Var | 
+|Distribution| $P(n)$ | $E(f(x))$| Mean | Var | 
 -|-|-|-|-
 | Binomial | $\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$ | $np$ | $np$ | $np(1-p)$ 
 | 
 
-$$$$
+- Binomial Distribution: Making n consecutive experiments and for each experiment $p(x=1)=p$
+- Po
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTM5OTk3NDQsMTI5ODEwMTkyNCwxMT
-U2Nzc1NzA2LDIwNjIyOTMwNjksMzI3OTUyODc1LC0xNDEyMzQ2
-Mjk0LC0xNjYzNTcxOTk0LDI0NzM4MjY1NywtNDYwMTk5MDQyLD
-E3NzA1OTMwNSwtMTMzNTMwMDk4NF19
+eyJoaXN0b3J5IjpbMTk0OTUzODA4MSwtMTQ1Mzk5OTc0NCwxMj
+k4MTAxOTI0LDExNTY3NzU3MDYsMjA2MjI5MzA2OSwzMjc5NTI4
+NzUsLTE0MTIzNDYyOTQsLTE2NjM1NzE5OTQsMjQ3MzgyNjU3LC
+00NjAxOTkwNDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX0=
 -->
