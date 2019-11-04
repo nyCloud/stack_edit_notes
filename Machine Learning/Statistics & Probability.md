@@ -31,16 +31,15 @@ $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i
 
 ### Continuous Random Distributions
 CDF (Cumulative Distribution Function): $F(x) = p(X<x)$
-
 PMF (Probability Mass Function): $f(x) = f'(x)$
-
-- $$f(x)\ge0$$
-- $$\int_{-\infty}^{\infty}f(x)dx=1$$
+- $f(x)\ge0$
+- $\int_{-\infty}^{\infty}f(x)dx=1$
+- $P(a \le X \le b) = F(b) - F(a) = \int_a^bf(x)dx$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTUxNjkxODQsMTI2MjU2ODYzMCwtMT
-Q1Mzk5OTc0NCwxMjk4MTAxOTI0LDExNTY3NzU3MDYsMjA2MjI5
-MzA2OSwzMjc5NTI4NzUsLTE0MTIzNDYyOTQsLTE2NjM1NzE5OT
-QsMjQ3MzgyNjU3LC00NjAxOTkwNDIsMTc3MDU5MzA1LC0xMzM1
-MzAwOTg0XX0=
+eyJoaXN0b3J5IjpbODAzMTcxMTY5LDEyNjI1Njg2MzAsLTE0NT
+M5OTk3NDQsMTI5ODEwMTkyNCwxMTU2Nzc1NzA2LDIwNjIyOTMw
+NjksMzI3OTUyODc1LC0xNDEyMzQ2Mjk0LC0xNjYzNTcxOTk0LD
+I0NzM4MjY1NywtNDYwMTk5MDQyLDE3NzA1OTMwNSwtMTMzNTMw
+MDk4NF19
 -->
