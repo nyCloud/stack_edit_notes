@@ -40,10 +40,11 @@ PMF (Probability Mass Function): $f(x) = f'(x)$
 |Distribution| PMF | Mean | Var | 
 -|-|-|-|-
 | Gaussian | $$f(x) = \frac{1}{\sigma\sqrt{2\pi}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$$ | $$\mu$$ | $$\sigma^2$$
+|Std Gaussion | $$f(x) = \frac{1}{\sqrt{2\pi}}exp(-\frac{x^2}{2}) $$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDIwMDk1NywxODU3OTU0NjQ0LDEyNj
-I1Njg2MzAsLTE0NTM5OTk3NDQsMTI5ODEwMTkyNCwxMTU2Nzc1
-NzA2LDIwNjIyOTMwNjksMzI3OTUyODc1LC0xNDEyMzQ2Mjk0LC
-0xNjYzNTcxOTk0LDI0NzM4MjY1NywtNDYwMTk5MDQyLDE3NzA1
-OTMwNSwtMTMzNTMwMDk4NF19
+eyJoaXN0b3J5IjpbLTczMjE4MDM3OCwxMzM0MjAwOTU3LDE4NT
+c5NTQ2NDQsMTI2MjU2ODYzMCwtMTQ1Mzk5OTc0NCwxMjk4MTAx
+OTI0LDExNTY3NzU3MDYsMjA2MjI5MzA2OSwzMjc5NTI4NzUsLT
+E0MTIzNDYyOTQsLTE2NjM1NzE5OTQsMjQ3MzgyNjU3LC00NjAx
+OTkwNDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX0=
 -->
