@@ -12,12 +12,13 @@ $$sin(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i+1}}{(2i+1)!}$$
 $$cos(x) = \sum_{i=0}^\infty \frac {(-1)^i x^{2i}}{(2i)!}$$
 
 Skew symmetric matrix:
-$$a \times b = \hat ab = - \hat b a 
+$$a \times b = \hat ab = - \hat b a $$
 $$\hat a = \begin{bmatrix}  
 0 & -a_3 & a_2 \\  
 a_3 & 0 & -a_1 \\
 -a_2 & a_1 & 0 \\
 \end{bmatrix}$$
+
 $$\hat a\hat a = aa^T - I \;\; and \;\; \hat a\hat a\hat a=-\hat a \;\; given \;\; |a| = 1$$
 
 ## 1.1. SO3 and so3
@@ -65,9 +66,9 @@ $$ \frac {\partial Tp} {\partial \Delta \xi} = \begin{bmatrix} I & -\hat{(Rp+t)}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzcyMDkzNSw1MDIwMzgzODAsMjI0Mz
-U3MjcyLDIyMjY1MDU4OCwtMTMzMzk3ODAwNSwzODk3MDAzOTMs
-MzM1OTQ3MjUxLDE0OTQ0MTUxNzUsLTI1NTE1ODE1MywyMTIzMz
-I3NjE0LDE3OTYwNTY1NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEs
-LTE3Njg4MjU3MjVdfQ==
+eyJoaXN0b3J5IjpbLTE0MjIzMDAyNDUsLTI5NzcyMDkzNSw1MD
+IwMzgzODAsMjI0MzU3MjcyLDIyMjY1MDU4OCwtMTMzMzk3ODAw
+NSwzODk3MDAzOTMsMzM1OTQ3MjUxLDE0OTQ0MTUxNzUsLTI1NT
+E1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1NzQsLTk3NjM0NDg0
+MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ==
 -->
