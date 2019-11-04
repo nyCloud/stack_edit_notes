@@ -25,9 +25,9 @@ Discrete Random Distributions
 | 
 
 - Binomial Distribution: Making n consecutive experiments and for each experiment $p(x=1)=p$
-- Po
+- Poisson: In the interval $[0, 1]$, given that in any interval $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTUzODA4MSwtMTQ1Mzk5OTc0NCwxMj
+eyJoaXN0b3J5IjpbLTk1MTE5MjA2NywtMTQ1Mzk5OTc0NCwxMj
 k4MTAxOTI0LDExNTY3NzU3MDYsMjA2MjI5MzA2OSwzMjc5NTI4
 NzUsLTE0MTIzNDYyOTQsLTE2NjM1NzE5OTQsMjQ3MzgyNjU3LC
 00NjAxOTkwNDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX0=
