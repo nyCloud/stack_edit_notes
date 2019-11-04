@@ -34,11 +34,11 @@ CDF (Cumulative Distribution Function): $F(x) = p(X<x)$
 
 PMF (Probability Mass Function): $f(x) = f'(x)$
 
-- $f(x)\ge0$
-- $\int_{\inf}$ 
+- $$f(x)\ge0$$
+- $$\int_{-\infty}^{\infty}f(x)dx=1$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDEwMzAzNjksMTI2MjU2ODYzMCwtMT
+eyJoaXN0b3J5IjpbLTIwNTUxNjkxODQsMTI2MjU2ODYzMCwtMT
 Q1Mzk5OTc0NCwxMjk4MTAxOTI0LDExNTY3NzU3MDYsMjA2MjI5
 MzA2OSwzMjc5NTI4NzUsLTE0MTIzNDYyOTQsLTE2NjM1NzE5OT
 QsMjQ3MzgyNjU3LC00NjAxOTkwNDIsMTc3MDU5MzA1LC0xMzM1
