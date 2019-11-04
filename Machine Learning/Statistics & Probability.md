@@ -23,9 +23,11 @@ Discrete Random Distributions
 -|-|-|-|-
 | Binomial | $\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$ | $np$ | $np$ | $np(1-p)$ 
 | 
+
+$$$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODEwMTkyNCwxMTU2Nzc1NzA2LDIwNj
-IyOTMwNjksMzI3OTUyODc1LC0xNDEyMzQ2Mjk0LC0xNjYzNTcx
-OTk0LDI0NzM4MjY1NywtNDYwMTk5MDQyLDE3NzA1OTMwNSwtMT
-MzNTMwMDk4NF19
+eyJoaXN0b3J5IjpbLTE0NTM5OTk3NDQsMTI5ODEwMTkyNCwxMT
+U2Nzc1NzA2LDIwNjIyOTMwNjksMzI3OTUyODc1LC0xNDEyMzQ2
+Mjk0LC0xNjYzNTcxOTk0LDI0NzM4MjY1NywtNDYwMTk5MDQyLD
+E3NzA1OTMwNSwtMTMzNTMwMDk4NF19
 -->
