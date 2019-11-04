@@ -21,14 +21,14 @@ $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i
 Discrete Random Distributions
 |Distribution| $P(n)$ | $E(f(x))$| Mean | Var | 
 -|-|-|-|-
-| Binomial | $\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$ | $np$ | $np$ | $np(1-p)$ 
-| Poisson | $\frac {\lambda^ke^{-\lambda}}{k!}$ 
+| Binomial | $$\begin{pmatrix} n \\ k \end{pmatrix}p^k(1-p)^{n-k}$$ | $$np$$ | $$np$$ | $$np(1-p)$$ 
+| Poisson | $$\frac {\lambda^ke^{-\lambda}}{k!}$$ | $$\lambda$$ | $$\lambda$$ | $$\lambda$$
 
 
 - Binomial Distribution: Making n consecutive experiments and for each experiment $p(x=1)=p$. The total times the event $x=1$ happen follows Binomial distribution.
 - Poisson: In the interval $[0, 1]$, given that in any interval $[t, t+\Delta t]$, the probablity a single event happen is $(\lambda\Delta t)$, then the total times the events happen follows Poisson distribution.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTEzMzI2MiwtMTQ1Mzk5OTc0NCwxMj
+eyJoaXN0b3J5IjpbMTkzNTQzOTczNywtMTQ1Mzk5OTc0NCwxMj
 k4MTAxOTI0LDExNTY3NzU3MDYsMjA2MjI5MzA2OSwzMjc5NTI4
 NzUsLTE0MTIzNDYyOTQsLTE2NjM1NzE5OTQsMjQ3MzgyNjU3LC
 00NjAxOTkwNDIsMTc3MDU5MzA1LC0xMzM1MzAwOTg0XX0=
