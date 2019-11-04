@@ -30,10 +30,15 @@ $$ P(A|B) = \frac {P(A)P(B|A)} {P(B)} = \frac {P(A)P(B|A)} {\sum_i P(A_i)P(B|A_i
 - Poisson: In the interval $[0, 1]$, given that in any interval $[t, t+\Delta t]$, the probablity a single event happen is $(\lambda\Delta t)$, then the total times the events happen follows Poisson distribution.
 
 ### Continuous Random Distributions
-- CDF (Cumulative Distribution Function): $F(x) = p(X<x)$
-- probability density function
+CDF (Cumulative Distribution Function): $F(x) = p(X<x)$
+
+PMF (Probability Mass Function): $f(x) = f'(x)$
+
+- $f(x)\ge0$
+- $$ 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjQ4NDY0MSwxMjYyNTY4NjMwLC0xND
+eyJoaXN0b3J5IjpbLTI4Njg1NTcyNiwxMjYyNTY4NjMwLC0xND
 UzOTk5NzQ0LDEyOTgxMDE5MjQsMTE1Njc3NTcwNiwyMDYyMjkz
 MDY5LDMyNzk1Mjg3NSwtMTQxMjM0NjI5NCwtMTY2MzU3MTk5NC
 wyNDczODI2NTcsLTQ2MDE5OTA0MiwxNzcwNTkzMDUsLTEzMzUz
