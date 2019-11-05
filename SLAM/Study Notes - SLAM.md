@@ -53,7 +53,7 @@ $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 Then solve eigen of function;
 $$ Rn=n\;\;\;(eigenval=1)$$
 After this we got:
-$$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin\theta}{\theta}aa^T+\frac{1-cos\theta}{\theta}\hat a)$$
+$$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin\theta}{\theta})aa^T+\frac{1-cos\theta}{\theta}\hat a$$
 and 
 $$\rho= J^{-1}  t$$
 
@@ -66,9 +66,10 @@ $$ \frac {\partial Tp} {\partial \Delta \xi} = \begin{bmatrix} I & -\hat{(Rp+t)}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjIzMDAyNDUsLTI5NzcyMDkzNSw1MD
-IwMzgzODAsMjI0MzU3MjcyLDIyMjY1MDU4OCwtMTMzMzk3ODAw
-NSwzODk3MDAzOTMsMzM1OTQ3MjUxLDE0OTQ0MTUxNzUsLTI1NT
-E1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1NzQsLTk3NjM0NDg0
-MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ==
+eyJoaXN0b3J5IjpbLTExMjY1NDc0ODcsLTE0MjIzMDAyNDUsLT
+I5NzcyMDkzNSw1MDIwMzgzODAsMjI0MzU3MjcyLDIyMjY1MDU4
+OCwtMTMzMzk3ODAwNSwzODk3MDAzOTMsMzM1OTQ3MjUxLDE0OT
+Q0MTUxNzUsLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1
+NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ
+==
 -->
