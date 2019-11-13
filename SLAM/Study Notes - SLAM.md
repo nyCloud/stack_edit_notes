@@ -52,6 +52,7 @@ where $$\phi=\theta a \;\;and\;\;|a|=1$$
 $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
 Then solve eigen of function;
 $$ Rn=n\;\;\;(eigenval=1)$$
+In order to get rotation vector, there is 
 After this we got:
 $$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin\theta}{\theta})aa^T+\frac{1-cos\theta}{\theta}\hat a$$
 and 
@@ -66,10 +67,10 @@ $$ \frac {\partial Tp} {\partial \Delta \xi} = \begin{bmatrix} I & -\hat{(Rp+t)}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjY1NDc0ODcsLTE0MjIzMDAyNDUsLT
-I5NzcyMDkzNSw1MDIwMzgzODAsMjI0MzU3MjcyLDIyMjY1MDU4
-OCwtMTMzMzk3ODAwNSwzODk3MDAzOTMsMzM1OTQ3MjUxLDE0OT
-Q0MTUxNzUsLTI1NTE1ODE1MywyMTIzMzI3NjE0LDE3OTYwNTY1
-NzQsLTk3NjM0NDg0MCw4NTk2NzI0NzEsLTE3Njg4MjU3MjVdfQ
-==
+eyJoaXN0b3J5IjpbLTU3MTkzNzgzNCwtMTEyNjU0NzQ4NywtMT
+QyMjMwMDI0NSwtMjk3NzIwOTM1LDUwMjAzODM4MCwyMjQzNTcy
+NzIsMjIyNjUwNTg4LC0xMzMzOTc4MDA1LDM4OTcwMDM5MywzMz
+U5NDcyNTEsMTQ5NDQxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2
+MTQsMTc5NjA1NjU3NCwtOTc2MzQ0ODQwLDg1OTY3MjQ3MSwtMT
+c2ODgyNTcyNV19
 -->
