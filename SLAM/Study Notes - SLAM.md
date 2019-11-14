@@ -36,8 +36,8 @@ where $$\phi=\theta a \;\;and\;\;|a|=1$$
 
 ### From rotation matrix to vector ($R$ to $\phi$)
 $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
-then solve eigen of function
-$$ Rn=n\;\;\;(eigenval=1)$$
+
+-------------------###########
 
 ## 1.2. SE3 and se3
 $$se(3)=\{ \xi=\begin{bmatrix} \rho \\ \phi\end{bmatrix} \in R^6, \hat\xi= \begin{bmatrix} \hat\phi & \rho \\ 0^T & 0\end{bmatrix} \}$$
@@ -50,9 +50,9 @@ where $$\phi=\theta a \;\;and\;\;|a|=1$$
 
 ### From transformation matrix to lie algebra ($T$ to $\xi$)
 $$ \theta = arccos(\frac{tr(R)-1}{2}) $$
-Then solve eigen of function;
-$$ Rn=n\;\;\;(eigenval=1)$$
-In order to get rotation vector, there is 
+
+In order to get rotation vector, there is one better method then using eigen vector:
+
 After this we got:
 $$ J = \frac {sin \theta}{\theta}I + (1-\frac{sin\theta}{\theta})aa^T+\frac{1-cos\theta}{\theta}\hat a$$
 and 
@@ -67,7 +67,7 @@ $$ \frac {\partial Tp} {\partial \Delta \xi} = \begin{bmatrix} I & -\hat{(Rp+t)}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTkzNzgzNCwtMTEyNjU0NzQ4NywtMT
+eyJoaXN0b3J5IjpbMTE0ODcxNTM2MCwtMTEyNjU0NzQ4NywtMT
 QyMjMwMDI0NSwtMjk3NzIwOTM1LDUwMjAzODM4MCwyMjQzNTcy
 NzIsMjIyNjUwNTg4LC0xMzMzOTc4MDA1LDM4OTcwMDM5MywzMz
 U5NDcyNTEsMTQ5NDQxNTE3NSwtMjU1MTU4MTUzLDIxMjMzMjc2
