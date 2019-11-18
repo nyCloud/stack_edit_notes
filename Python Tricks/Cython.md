@@ -53,9 +53,16 @@ ctypedef is used to declare a type like `ctypedef int* IntPtr`
 
 ### 2.2 Cpp Types
 #### Vector
+```python
+from libcpp.vector cimport vector
 
+cdef vector[int] p
+p.reserve(pre_aloc_size)
+for i in range(10):
+	p.push_back(i)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMTQxNTcyLDE3ODMyMTgzODMsNjQ0Mz
-Y0MDMxLC0xNDI0ODEzMjAwLDM1NjM1OTYzNCwtMTcwNzQ5MDk0
-NywxOTIxNzEwMDM5XX0=
+eyJoaXN0b3J5IjpbMTE2MTc5OTIzNiwxNzgzMjE4MzgzLDY0ND
+M2NDAzMSwtMTQyNDgxMzIwMCwzNTYzNTk2MzQsLTE3MDc0OTA5
+NDcsMTkyMTcxMDAzOV19
 -->
