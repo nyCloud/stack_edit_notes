@@ -46,8 +46,8 @@ cdef struct Student:
 
 #### cdef & ctypedef
 cdef is used to declear a new variable like `cdef int a`
-ct
+ctypedef is used to declare a type like `ctypedef int* IntPtr`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTQ4NjA0MiwtMTQyNDgxMzIwMCwzNT
-YzNTk2MzQsLTE3MDc0OTA5NDcsMTkyMTcxMDAzOV19
+eyJoaXN0b3J5IjpbNjQ0MzY0MDMxLC0xNDI0ODEzMjAwLDM1Nj
+M1OTYzNCwtMTcwNzQ5MDk0NywxOTIxNzEwMDM5XX0=
 -->
