@@ -34,8 +34,12 @@ $ python setup.py build_ext
 `long double`: 80-bit floating point
 #### Array
 `type name[size]`:  An array with specific size
-#### Po
+#### Pointer
+`type *name`: a C pointer with given type
+#### Structure
+`struct name { declaration}: a C`structure
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzUwNTU5MzIsLTE0MjQ4MTMyMDAsMz
+eyJoaXN0b3J5IjpbLTE4ODUxOTEwOTUsLTE0MjQ4MTMyMDAsMz
 U2MzU5NjM0LC0xNzA3NDkwOTQ3LDE5MjE3MTAwMzldfQ==
 -->
