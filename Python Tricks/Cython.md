@@ -38,8 +38,12 @@ $ python setup.py build_ext
 `type *name`: a C pointer with given type
 #### Structure
 `struct name { declaration}: a C`structure
-
+```c
+cdef struct Student:
+	int age
+	char *name
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODUxOTEwOTUsLTE0MjQ4MTMyMDAsMz
-U2MzU5NjM0LC0xNzA3NDkwOTQ3LDE5MjE3MTAwMzldfQ==
+eyJoaXN0b3J5IjpbLTI5NDM2OTIyOSwtMTQyNDgxMzIwMCwzNT
+YzNTk2MzQsLTE3MDc0OTA5NDcsMTkyMTcxMDAzOV19
 -->
