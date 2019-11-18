@@ -23,19 +23,19 @@ $ python setup.py build_ext
 ## 2. Cython Syntax
 
 ### 2.1 Types
-
-`char` 8-bit signed integer
-`short`16-bit signed integer
-`int`32-bit signed integer
-`long`64-bit signed integer
-`long long`64-bit signed integer
-`float`32-bit floating point
-`double`64-bit floating point
-`long double`
-
-80-bit floating point
-
+#### Basic Types
+`char` : 8-bit signed integer
+`short`: 16-bit signed integer
+`int`: 32-bit signed integer
+`long`: 64-bit signed integer
+`long : long`64-bit signed integer
+`float`: 32-bit floating point
+`double`: 64-bit floating point
+`long double`: 80-bit floating point
+#### Array
+`type name[size]`:  An array with specific size
+#### Po
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYzNTQzNTgsLTE0MjQ4MTMyMDAsMz
+eyJoaXN0b3J5IjpbLTE0MzUwNTU5MzIsLTE0MjQ4MTMyMDAsMz
 U2MzU5NjM0LC0xNzA3NDkwOTQ3LDE5MjE3MTAwMzldfQ==
 -->
