@@ -43,7 +43,11 @@ cdef struct Student:
 	int age
 	char *name
 ```
+
+#### cdef & ctypedef
+cdef is used to declear a new variable like `cdef int a`
+ct
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NDM2OTIyOSwtMTQyNDgxMzIwMCwzNT
+eyJoaXN0b3J5IjpbMTk0OTQ4NjA0MiwtMTQyNDgxMzIwMCwzNT
 YzNTk2MzQsLTE3MDc0OTA5NDcsMTkyMTcxMDAzOV19
 -->
