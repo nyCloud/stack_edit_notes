@@ -25,7 +25,7 @@ $ python setup.py build_ext
 
 ## 2. Cython Syntax
 
-### 2.1 Types
+### 2.1 C Types
 #### Basic Types
 `char` : 8-bit signed integer
 `short`: 16-bit signed integer
@@ -50,8 +50,11 @@ cdef struct Student:
 #### cdef & ctypedef
 cdef is used to declear a new variable like `cdef int a`
 ctypedef is used to declare a type like `ctypedef int* IntPtr`
+
+### 2.2 Cpp Types
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTg1NTg3LDE3ODMyMTgzODMsNjQ0Mz
-Y0MDMxLC0xNDI0ODEzMjAwLDM1NjM1OTYzNCwtMTcwNzQ5MDk0
-NywxOTIxNzEwMDM5XX0=
+eyJoaXN0b3J5IjpbLTE2NDc4NzE0MjksMTc4MzIxODM4Myw2ND
+QzNjQwMzEsLTE0MjQ4MTMyMDAsMzU2MzU5NjM0LC0xNzA3NDkw
+OTQ3LDE5MjE3MTAwMzldfQ==
 -->
