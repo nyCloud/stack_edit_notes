@@ -13,6 +13,8 @@ from Cython.Build import cythonize
 setup(
     ext_modules = cythonize("helloworld.pyx", 
 					        annotate=False)
+    # More info at:
+    # https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html
 )
 ```
 
@@ -49,7 +51,7 @@ cdef struct Student:
 cdef is used to declear a new variable like `cdef int a`
 ctypedef is used to declare a type like `ctypedef int* IntPtr`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MzIxODM4Myw2NDQzNjQwMzEsLTE0Mj
-Q4MTMyMDAsMzU2MzU5NjM0LC0xNzA3NDkwOTQ3LDE5MjE3MTAw
-MzldfQ==
+eyJoaXN0b3J5IjpbMTQzNTg1NTg3LDE3ODMyMTgzODMsNjQ0Mz
+Y0MDMxLC0xNDI0ODEzMjAwLDM1NjM1OTYzNCwtMTcwNzQ5MDk0
+NywxOTIxNzEwMDM5XX0=
 -->
