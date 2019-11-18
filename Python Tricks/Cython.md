@@ -20,7 +20,9 @@ Then call
 $ python setup.py build_ext
 ```
 
+## 2. Cython 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc0OTA5NDcsMTkyMTcxMDAzOV19
+eyJoaXN0b3J5IjpbMzU2MzU5NjM0LC0xNzA3NDkwOTQ3LDE5Mj
+E3MTAwMzldfQ==
 -->
