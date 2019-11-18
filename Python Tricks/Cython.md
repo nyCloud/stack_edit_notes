@@ -20,9 +20,13 @@ Then call
 $ python setup.py build_ext
 ```
 
-## 2. Cython 
+## 2. Cython Grammar
+
+### 2.1 Types
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2MzU5NjM0LC0xNzA3NDkwOTQ3LDE5Mj
-E3MTAwMzldfQ==
+eyJoaXN0b3J5IjpbLTg4MTEyNTY1NiwzNTYzNTk2MzQsLTE3MD
+c0OTA5NDcsMTkyMTcxMDAzOV19
 -->
