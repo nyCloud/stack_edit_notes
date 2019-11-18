@@ -24,9 +24,18 @@ $ python setup.py build_ext
 
 ### 2.1 Types
 
+`char` 8-bit signed integer
+`short`16-bit signed integer
+`int`32-bit signed integer
+`long`64-bit signed integer
+`long long`64-bit signed integer
+`float`32-bit floating point
+`double`64-bit floating point
+`long double`
 
+80-bit floating point
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ4MTMyMDAsMzU2MzU5NjM0LC0xNz
-A3NDkwOTQ3LDE5MjE3MTAwMzldfQ==
+eyJoaXN0b3J5IjpbLTE1NzYzNTQzNTgsLTE0MjQ4MTMyMDAsMz
+U2MzU5NjM0LC0xNzA3NDkwOTQ3LDE5MjE3MTAwMzldfQ==
 -->
