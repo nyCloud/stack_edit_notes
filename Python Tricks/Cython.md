@@ -64,8 +64,9 @@ for i in range(10):
 
 ### 2.2 C Functions
 
+[source code](https://github.com/cython/cython/tree/master/Cython/Includes)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjA1OTk0NywxNzgzMjE4MzgzLDY0ND
-M2NDAzMSwtMTQyNDgxMzIwMCwzNTYzNTk2MzQsLTE3MDc0OTA5
-NDcsMTkyMTcxMDAzOV19
+eyJoaXN0b3J5IjpbNDY4ODE3OTEsMTc4MzIxODM4Myw2NDQzNj
+QwMzEsLTE0MjQ4MTMyMDAsMzU2MzU5NjM0LC0xNzA3NDkwOTQ3
+LDE5MjE3MTAwMzldfQ==
 -->
