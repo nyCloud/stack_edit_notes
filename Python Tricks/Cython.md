@@ -35,6 +35,7 @@ $ python setup.py build_ext
 `float`: 32-bit floating point
 `double`: 64-bit floating point
 `long double`: 80-bit floating point
+`bint`: int in C but boolean mapped to Python
 #### Array
 `type name[size]`:  An array with specific size
 #### Pointer
@@ -73,7 +74,7 @@ from libc.math cimport sin
 res = sin(x)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDMwNzk1Myw4MzQ2MTIxODUsMTc4Mz
-IxODM4Myw2NDQzNjQwMzEsLTE0MjQ4MTMyMDAsMzU2MzU5NjM0
-LC0xNzA3NDkwOTQ3LDE5MjE3MTAwMzldfQ==
+eyJoaXN0b3J5IjpbLTM2MDM5NzE4LDEzOTAzMDc5NTMsODM0Nj
+EyMTg1LDE3ODMyMTgzODMsNjQ0MzY0MDMxLC0xNDI0ODEzMjAw
+LDM1NjM1OTYzNCwtMTcwNzQ5MDk0NywxOTIxNzEwMDM5XX0=
 -->
