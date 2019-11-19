@@ -63,10 +63,15 @@ for i in range(10):
 ```
 
 ### 2.2 C Functions
+Here are built-in C & C++ libraries avaliable for Cython [source code](https://github.com/cython/cython/tree/master/Cython/Includes)
 
-[source code](https://github.com/cython/cython/tree/master/Cython/Includes)
+For example if you want to use sin function in /libc/math:
+```python
+from libc.math cimport sin
+res = sin(x)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4ODE3OTEsMTc4MzIxODM4Myw2NDQzNj
-QwMzEsLTE0MjQ4MTMyMDAsMzU2MzU5NjM0LC0xNzA3NDkwOTQ3
-LDE5MjE3MTAwMzldfQ==
+eyJoaXN0b3J5IjpbODM0NjEyMTg1LDE3ODMyMTgzODMsNjQ0Mz
+Y0MDMxLC0xNDI0ODEzMjAwLDM1NjM1OTYzNCwtMTcwNzQ5MDk0
+NywxOTIxNzEwMDM5XX0=
 -->
