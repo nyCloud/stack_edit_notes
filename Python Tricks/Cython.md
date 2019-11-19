@@ -60,6 +60,8 @@ cdef vector[int] p
 p.reserve(pre_aloc_size)
 for i in range(10):
 	p.push_back(i)
+while not p.empty():
+	print(p.pop_back())
 ```
 
 ### 2.2 C Functions
@@ -71,7 +73,7 @@ from libc.math cimport sin
 res = sin(x)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NjEyMTg1LDE3ODMyMTgzODMsNjQ0Mz
-Y0MDMxLC0xNDI0ODEzMjAwLDM1NjM1OTYzNCwtMTcwNzQ5MDk0
-NywxOTIxNzEwMDM5XX0=
+eyJoaXN0b3J5IjpbMTM5MDMwNzk1Myw4MzQ2MTIxODUsMTc4Mz
+IxODM4Myw2NDQzNjQwMzEsLTE0MjQ4MTMyMDAsMzU2MzU5NjM0
+LC0xNzA3NDkwOTQ3LDE5MjE3MTAwMzldfQ==
 -->
