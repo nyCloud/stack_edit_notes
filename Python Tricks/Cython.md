@@ -61,8 +61,11 @@ p.reserve(pre_aloc_size)
 for i in range(10):
 	p.push_back(i)
 ```
+
+### 2.2 C Functions
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTc5OTIzNiwxNzgzMjE4MzgzLDY0ND
+eyJoaXN0b3J5IjpbMTk3NjA1OTk0NywxNzgzMjE4MzgzLDY0ND
 M2NDAzMSwtMTQyNDgxMzIwMCwzNTYzNTk2MzQsLTE3MDc0OTA5
 NDcsMTkyMTcxMDAzOV19
 -->
