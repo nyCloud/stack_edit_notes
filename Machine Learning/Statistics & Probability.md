@@ -43,11 +43,12 @@ PMF (Probability Mass Function): $f(x) = f'(x)$
 |Std Gaussian | $$f(x) = \frac{1}{\sqrt{2\pi}}exp(-\frac{x^2}{2}) $$ | $$0$$ | $$1$$
 
 - Conversion to standard Gaussian:; If $X \sim N(\mu, \sigma^2)$, then $Y=(X-\mu)/\sigma \sim N(0,1)$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDA2MDYwMCwxNjQwOTQ4ODczLDEzMz
-QyMDA5NTcsMTg1Nzk1NDY0NCwxMjYyNTY4NjMwLC0xNDUzOTk5
-NzQ0LDEyOTgxMDE5MjQsMTE1Njc3NTcwNiwyMDYyMjkzMDY5LD
-MyNzk1Mjg3NSwtMTQxMjM0NjI5NCwtMTY2MzU3MTk5NCwyNDcz
-ODI2NTcsLTQ2MDE5OTA0MiwxNzcwNTkzMDUsLTEzMzUzMDA5OD
-RdfQ==
+eyJoaXN0b3J5IjpbMTUwMjg3NjI2MiwxNTEwMDYwNjAwLDE2ND
+A5NDg4NzMsMTMzNDIwMDk1NywxODU3OTU0NjQ0LDEyNjI1Njg2
+MzAsLTE0NTM5OTk3NDQsMTI5ODEwMTkyNCwxMTU2Nzc1NzA2LD
+IwNjIyOTMwNjksMzI3OTUyODc1LC0xNDEyMzQ2Mjk0LC0xNjYz
+NTcxOTk0LDI0NzM4MjY1NywtNDYwMTk5MDQyLDE3NzA1OTMwNS
+wtMTMzNTMwMDk4NF19
 -->
