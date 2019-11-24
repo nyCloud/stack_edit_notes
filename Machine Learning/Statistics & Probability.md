@@ -49,12 +49,13 @@ PMF (Probability Mass Function): $f(x) = f'(x)$
 $$ E[X] = \sum_i p(x_i)\cdot x_i$$
 - $E[X_1+X_2+...+X_n] = E[X_1]+ E[X_2]+...+E[X_n]$
 - When we can assume that $X_i$ are independent from each other, we have $E[X_1\cdot X_2 \cdot ... \cdot X_n] = E[X_1]\cdot E[X_2] \cdot ... \cdot[X_n]$ 
+- F
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDM3NDU0NiwxNDkwMzIxODM2LC02MD
-MyNjA3NTEsMzcyOTUwNTkzLC01NTM4OTc5MjEsMTIzMzEzMTMy
-NCwtMTEwNjMwNTI2MCwxOTU2MzczNTEsMTUxMDA2MDYwMCwxNj
-QwOTQ4ODczLDEzMzQyMDA5NTcsMTg1Nzk1NDY0NCwxMjYyNTY4
-NjMwLC0xNDUzOTk5NzQ0LDEyOTgxMDE5MjQsMTE1Njc3NTcwNi
-wyMDYyMjkzMDY5LDMyNzk1Mjg3NSwtMTQxMjM0NjI5NCwtMTY2
-MzU3MTk5NF19
+eyJoaXN0b3J5IjpbLTEzMTIxMDgxOTEsMTkzMDM3NDU0NiwxND
+kwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUwNTkzLC01NTM4OTc5
+MjEsMTIzMzEzMTMyNCwtMTEwNjMwNTI2MCwxOTU2MzczNTEsMT
+UxMDA2MDYwMCwxNjQwOTQ4ODczLDEzMzQyMDA5NTcsMTg1Nzk1
+NDY0NCwxMjYyNTY4NjMwLC0xNDUzOTk5NzQ0LDEyOTgxMDE5Mj
+QsMTE1Njc3NTcwNiwyMDYyMjkzMDY5LDMyNzk1Mjg3NSwtMTQx
+MjM0NjI5NF19
 -->
