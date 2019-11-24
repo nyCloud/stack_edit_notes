@@ -59,10 +59,14 @@ $$ Var(X) = E[X - E[X]]^2 = E(X^2) - (E[X])^2 $$
 - $Var(X_1+...+X_n) = Var(X_1) + ... + Var(X_n)$**(Independent $X_i$ Required)**
 
 #### 3.3 Covariance
-$$ Cov[X, Y] = E[(X-E[x])(Y-E[y])] $$
+
+$$ Cov[X, Y] = E[(X-E[X])(Y-E[Y])] $$
+
+- $Cov(aX+b, cY+d) = $ 
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDYwNzExOCwxMjEyNjE0Nzk4LDYxMz
+eyJoaXN0b3J5IjpbLTIyMDUxODYzMSwxMjEyNjE0Nzk4LDYxMz
 IxNDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMTkzMDM3NDU0
 NiwxNDkwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUwNTkzLC01NT
 M4OTc5MjEsMTIzMzEzMTMyNCwtMTEwNjMwNTI2MCwxOTU2Mzcz
