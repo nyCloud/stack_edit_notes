@@ -48,20 +48,21 @@ PMF (Probability Mass Function): $f(x) = f'(x)$
 #### 3.1 Expectation
 $$ E[X] = \sum_i p(x_i)\cdot x_i$$
 - $E[X_1+X_2+...+X_n] = E[X_1]+ E[X_2]+...+E[X_n]$
--  $E[X_1\cdot X_2 \cdot ... \cdot X_n] = E[X_1]\cdot E[X_2] \cdot ... \cdot[X_n]$ ( $X_i$ are all independent)
+-  $E[X_1\cdot X_2 \cdot ... \cdot X_n] = E[X_1]\cdot E[X_2] \cdot ... \cdot[X_n]$ **(Independent $X_i$ Required)**
 - $E[f(X)] = \sum_i f(x_i) \cdot p(x_i)$
 - $E[kX] = kE[x]$
 #### 3.2 Variance
 $$ Var(X) = E[X - E[X]]^2 = E(X^2) - (E[X])^2 $$
 - $Stddev(X) = \sqrt{Var(x)}$
-- $Var(X+k) = Var(x) \;\; Var(kX) = k^2 \cdot Var(x)$
-
+- $Var(X+k) = Var(x)$
+- $Var(kX) = k^2\cdot Var(x)$
+- $$**(Independent $X_i$ Required)**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzMjE0MDU5LC0xNzg1MDUwODIzLDcyNT
-U0NTU5NywxOTMwMzc0NTQ2LDE0OTAzMjE4MzYsLTYwMzI2MDc1
-MSwzNzI5NTA1OTMsLTU1Mzg5NzkyMSwxMjMzMTMxMzI0LC0xMT
-A2MzA1MjYwLDE5NTYzNzM1MSwxNTEwMDYwNjAwLDE2NDA5NDg4
-NzMsMTMzNDIwMDk1NywxODU3OTU0NjQ0LDEyNjI1Njg2MzAsLT
-E0NTM5OTk3NDQsMTI5ODEwMTkyNCwxMTU2Nzc1NzA2LDIwNjIy
-OTMwNjldfQ==
+eyJoaXN0b3J5IjpbLTE3NTc5NzcxOTksNjEzMjE0MDU5LC0xNz
+g1MDUwODIzLDcyNTU0NTU5NywxOTMwMzc0NTQ2LDE0OTAzMjE4
+MzYsLTYwMzI2MDc1MSwzNzI5NTA1OTMsLTU1Mzg5NzkyMSwxMj
+MzMTMxMzI0LC0xMTA2MzA1MjYwLDE5NTYzNzM1MSwxNTEwMDYw
+NjAwLDE2NDA5NDg4NzMsMTMzNDIwMDk1NywxODU3OTU0NjQ0LD
+EyNjI1Njg2MzAsLTE0NTM5OTk3NDQsMTI5ODEwMTkyNCwxMTU2
+Nzc1NzA2XX0=
 -->
