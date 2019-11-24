@@ -45,13 +45,14 @@ PMF (Probability Mass Function): $f(x) = f'(x)$
 - Conversion to standard Gaussian:; If $X \sim N(\mu, \sigma^2)$, then $Y=(X-\mu)/\sigma \sim N(0,1)$
  
 ### 3. Features of Random Variable
-####
+#### 3.1 Expectation
+$$ E[x] = \sum_i p(x_i)x_i$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTk5MDUyOSwtNTUzODk3OTIxLDEyMz
-MxMzEzMjQsLTExMDYzMDUyNjAsMTk1NjM3MzUxLDE1MTAwNjA2
-MDAsMTY0MDk0ODg3MywxMzM0MjAwOTU3LDE4NTc5NTQ2NDQsMT
-I2MjU2ODYzMCwtMTQ1Mzk5OTc0NCwxMjk4MTAxOTI0LDExNTY3
-NzU3MDYsMjA2MjI5MzA2OSwzMjc5NTI4NzUsLTE0MTIzNDYyOT
-QsLTE2NjM1NzE5OTQsMjQ3MzgyNjU3LC00NjAxOTkwNDIsMTc3
-MDU5MzA1XX0=
+eyJoaXN0b3J5IjpbMjY5Njk3NzM3LC01NTM4OTc5MjEsMTIzMz
+EzMTMyNCwtMTEwNjMwNTI2MCwxOTU2MzczNTEsMTUxMDA2MDYw
+MCwxNjQwOTQ4ODczLDEzMzQyMDA5NTcsMTg1Nzk1NDY0NCwxMj
+YyNTY4NjMwLC0xNDUzOTk5NzQ0LDEyOTgxMDE5MjQsMTE1Njc3
+NTcwNiwyMDYyMjkzMDY5LDMyNzk1Mjg3NSwtMTQxMjM0NjI5NC
+wtMTY2MzU3MTk5NCwyNDczODI2NTcsLTQ2MDE5OTA0MiwxNzcw
+NTkzMDVdfQ==
 -->
