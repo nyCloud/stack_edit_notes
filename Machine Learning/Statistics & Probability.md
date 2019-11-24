@@ -62,11 +62,12 @@ $$ Var(X) = E[X - E[X]]^2 = E(X^2) - (E[X])^2 $$
 
 $$ Cov[X, Y] = E[(X-E[X])(Y-E[Y])] $$
 
-- $Cov(aX+b, cY+d) = $ 
+- $Cov[aX+b, cY+d] = a\cdot c\cdot Cov[X, Y]$ 
+- $Cov[X, Y] = E[XY] - E[X]E[Y]$
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDUxODYzMSwxMjEyNjE0Nzk4LDYxMz
+eyJoaXN0b3J5IjpbMTkzMDY2NDQyMiwxMjEyNjE0Nzk4LDYxMz
 IxNDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMTkzMDM3NDU0
 NiwxNDkwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUwNTkzLC01NT
 M4OTc5MjEsMTIzMzEzMTMyNCwtMTEwNjMwNTI2MCwxOTU2Mzcz
