@@ -51,13 +51,16 @@ $$ E[X] = \sum_i p(x_i)\cdot x_i$$
 -  $E[X_1\cdot X_2 \cdot ... \cdot X_n] = E[X_1]\cdot E[X_2] \cdot ... \cdot[X_n]$ ( $X_i$ are all independent)
 - $E[f(X)] = \sum_i f(x_i) \cdot p(x_i)$
 - $E[kX] = kE[x]$
+#### 3.2 Variance
+$$ Var(X) = E[X - E[x]]^2 $$
+$$ Stddev(X) = \sqrt{Var(x)} $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Njc2NDgyMSw3MjU1NDU1OTcsMTkzMD
-M3NDU0NiwxNDkwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUwNTkz
-LC01NTM4OTc5MjEsMTIzMzEzMTMyNCwtMTEwNjMwNTI2MCwxOT
-U2MzczNTEsMTUxMDA2MDYwMCwxNjQwOTQ4ODczLDEzMzQyMDA5
-NTcsMTg1Nzk1NDY0NCwxMjYyNTY4NjMwLC0xNDUzOTk5NzQ0LD
-EyOTgxMDE5MjQsMTE1Njc3NTcwNiwyMDYyMjkzMDY5LDMyNzk1
-Mjg3NV19
+eyJoaXN0b3J5IjpbLTE3ODUwNTA4MjMsNzI1NTQ1NTk3LDE5Mz
+AzNzQ1NDYsMTQ5MDMyMTgzNiwtNjAzMjYwNzUxLDM3Mjk1MDU5
+MywtNTUzODk3OTIxLDEyMzMxMzEzMjQsLTExMDYzMDUyNjAsMT
+k1NjM3MzUxLDE1MTAwNjA2MDAsMTY0MDk0ODg3MywxMzM0MjAw
+OTU3LDE4NTc5NTQ2NDQsMTI2MjU2ODYzMCwtMTQ1Mzk5OTc0NC
+wxMjk4MTAxOTI0LDExNTY3NzU3MDYsMjA2MjI5MzA2OSwzMjc5
+NTI4NzVdfQ==
 -->
