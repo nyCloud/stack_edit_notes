@@ -73,13 +73,14 @@ $$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 
 - If X and Y are independent, then $Corr[X, Y] = 0$
 - $-1 \le Corr[X, Y] \le 1$, only when X and Y have strict linear relationship, equal condition stands.
-- When $Corr[X, Y] = 0$, we say there is no correlation between X and Y but it doesn't means X and Y are independent.
+- When $Corr[X, Y] = 0$, we say there is no correlation between X and Y but it doesn't means X and Y are independent. Correlation only describes linear relationship (There are many other different kinds of relationships).
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDIxOTQ4Nyw3Njk0OTAxMDgsLTEyOT
-M0OTA0NjcsMTE2NjExOTA5OCwxNDg1NTIyMjkzLDEyMTI2MTQ3
-OTgsNjEzMjE0MDU5LC0xNzg1MDUwODIzLDcyNTU0NTU5NywxOT
-MwMzc0NTQ2LDE0OTAzMjE4MzYsLTYwMzI2MDc1MSwzNzI5NTA1
-OTMsLTU1Mzg5NzkyMSwxMjMzMTMxMzI0LC0xMTA2MzA1MjYwLD
-E5NTYzNzM1MSwxNTEwMDYwNjAwLDE2NDA5NDg4NzMsMTMzNDIw
-MDk1N119
+eyJoaXN0b3J5IjpbLTE0MzgyMTE5MDUsNzY5NDkwMTA4LC0xMj
+kzNDkwNDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5MywxMjEyNjE0
+Nzk4LDYxMzIxNDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMT
+kzMDM3NDU0NiwxNDkwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUw
+NTkzLC01NTM4OTc5MjEsMTIzMzEzMTMyNCwtMTEwNjMwNTI2MC
+wxOTU2MzczNTEsMTUxMDA2MDYwMCwxNjQwOTQ4ODczLDEzMzQy
+MDA5NTddfQ==
 -->
