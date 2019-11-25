@@ -65,14 +65,14 @@ $$ Cov[X, Y] = E[(X-E[X])(Y-E[Y])] $$
 - $Cov[aX+b, cY+d] = a\cdot c\cdot Cov[X, Y]$ 
 - $Cov[X, Y] = E[XY] - E[X]E[Y]$
 - If X and Y are independent, $Cov[X, Y] = 0$
-- $(Cov[X, Y])^2 \le \sigma_1^2 \sigma_2^2$,  when equal condition stands, X
+- $(Cov[X, Y])^2 \le \sigma_1^2 \sigma_2^2$,  when equal condition stands, $Y = aX +b$ and $a = \sigma_2 / \sigma_1$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjExOTA5OCwxNDg1NTIyMjkzLDEyMT
-I2MTQ3OTgsNjEzMjE0MDU5LC0xNzg1MDUwODIzLDcyNTU0NTU5
-NywxOTMwMzc0NTQ2LDE0OTAzMjE4MzYsLTYwMzI2MDc1MSwzNz
-I5NTA1OTMsLTU1Mzg5NzkyMSwxMjMzMTMxMzI0LC0xMTA2MzA1
-MjYwLDE5NTYzNzM1MSwxNTEwMDYwNjAwLDE2NDA5NDg4NzMsMT
-MzNDIwMDk1NywxODU3OTU0NjQ0LDEyNjI1Njg2MzAsLTE0NTM5
-OTk3NDRdfQ==
+eyJoaXN0b3J5IjpbLTEyOTM0OTA0NjcsMTE2NjExOTA5OCwxND
+g1NTIyMjkzLDEyMTI2MTQ3OTgsNjEzMjE0MDU5LC0xNzg1MDUw
+ODIzLDcyNTU0NTU5NywxOTMwMzc0NTQ2LDE0OTAzMjE4MzYsLT
+YwMzI2MDc1MSwzNzI5NTA1OTMsLTU1Mzg5NzkyMSwxMjMzMTMx
+MzI0LC0xMTA2MzA1MjYwLDE5NTYzNzM1MSwxNTEwMDYwNjAwLD
+E2NDA5NDg4NzMsMTMzNDIwMDk1NywxODU3OTU0NjQ0LDEyNjI1
+Njg2MzBdfQ==
 -->
