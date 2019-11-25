@@ -74,9 +74,11 @@ $$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 - If X and Y are independent, then $Corr[X, Y] = 0$
 - $-1 \le Corr[X, Y] \le 1$, only when X and Y have strict linear relationship, equal condition stands.
 - When $Corr[X, Y] = 0$, we say there is no correlation between X and Y but it doesn't means X and Y are independent. Correlation only describes linear relationship (There are many other different kinds of relationships).
-- 
+
+p142
+#### 3.5 Law of L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgyMTE5MDUsNzY5NDkwMTA4LC0xMj
+eyJoaXN0b3J5IjpbLTEzNTUxMzE3NzgsNzY5NDkwMTA4LC0xMj
 kzNDkwNDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5MywxMjEyNjE0
 Nzk4LDYxMzIxNDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMT
 kzMDM3NDU0NiwxNDkwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUw
