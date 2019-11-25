@@ -67,13 +67,14 @@ $$ Cov[X, Y] = E[(X-E[X])(Y-E[Y])] $$
 - If X and Y are independent, $Cov[X, Y] = 0$
 - $(Cov[X, Y])^2 \le \sigma_1^2 \sigma_2^2$,  when equal condition stands, $Y = aX +b$ and $a = \sigma_2 / \sigma_1$
 
-
+#### 3.4 Correlation
+$$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM0Nzk1NDY3LC0xMjkzNDkwNDY3LDExNj
-YxMTkwOTgsMTQ4NTUyMjI5MywxMjEyNjE0Nzk4LDYxMzIxNDA1
-OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMTkzMDM3NDU0NiwxND
-kwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUwNTkzLC01NTM4OTc5
-MjEsMTIzMzEzMTMyNCwtMTEwNjMwNTI2MCwxOTU2MzczNTEsMT
-UxMDA2MDYwMCwxNjQwOTQ4ODczLDEzMzQyMDA5NTcsMTg1Nzk1
-NDY0NF19
+eyJoaXN0b3J5IjpbLTIwNzQ3ODM2MDgsLTEyOTM0OTA0NjcsMT
+E2NjExOTA5OCwxNDg1NTIyMjkzLDEyMTI2MTQ3OTgsNjEzMjE0
+MDU5LC0xNzg1MDUwODIzLDcyNTU0NTU5NywxOTMwMzc0NTQ2LD
+E0OTAzMjE4MzYsLTYwMzI2MDc1MSwzNzI5NTA1OTMsLTU1Mzg5
+NzkyMSwxMjMzMTMxMzI0LC0xMTA2MzA1MjYwLDE5NTYzNzM1MS
+wxNTEwMDYwNjAwLDE2NDA5NDg4NzMsMTMzNDIwMDk1NywxODU3
+OTU0NjQ0XX0=
 -->
