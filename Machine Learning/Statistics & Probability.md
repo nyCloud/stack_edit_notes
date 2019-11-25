@@ -75,14 +75,14 @@ $$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 - $-1 \le Corr[X, Y] \le 1$, only when X and Y have strict linear relationship, equal condition stands.
 - When $Corr[X, Y] = 0$, we say there is no correlation between X and Y but it doesn't means X and Y are independent. Correlation only describes linear relationship (There are many other different kinds of relationships).
 
+#### 3.5 Law of Large Numbers & Central Limit Theorems
 p142
-#### 3.5 Law of L
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTUxMzE3NzgsNzY5NDkwMTA4LC0xMj
-kzNDkwNDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5MywxMjEyNjE0
-Nzk4LDYxMzIxNDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMT
-kzMDM3NDU0NiwxNDkwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUw
-NTkzLC01NTM4OTc5MjEsMTIzMzEzMTMyNCwtMTEwNjMwNTI2MC
-wxOTU2MzczNTEsMTUxMDA2MDYwMCwxNjQwOTQ4ODczLDEzMzQy
-MDA5NTddfQ==
+eyJoaXN0b3J5IjpbOTg1MTI4MTQyLDc2OTQ5MDEwOCwtMTI5Mz
+Q5MDQ2NywxMTY2MTE5MDk4LDE0ODU1MjIyOTMsMTIxMjYxNDc5
+OCw2MTMyMTQwNTksLTE3ODUwNTA4MjMsNzI1NTQ1NTk3LDE5Mz
+AzNzQ1NDYsMTQ5MDMyMTgzNiwtNjAzMjYwNzUxLDM3Mjk1MDU5
+MywtNTUzODk3OTIxLDEyMzMxMzEzMjQsLTExMDYzMDUyNjAsMT
+k1NjM3MzUxLDE1MTAwNjA2MDAsMTY0MDk0ODg3MywxMzM0MjAw
+OTU3XX0=
 -->
