@@ -70,9 +70,11 @@ $$ Cov[X, Y] = E[(X-E[X])(Y-E[Y])] $$
 #### 3.4 Correlation
 $$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 (One way to understand correlation is that it is a normalized version of correlation)
-- 
+
+- If X and Y are independent, then $Corr[X, Y] = 0$
+- $-1 \le Corr[X, Y] \le 1$, only when X and Y have strict linear relation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDQ5NDE3LDc2OTQ5MDEwOCwtMTI5Mz
+eyJoaXN0b3J5IjpbNjkxNDkwMjM0LDc2OTQ5MDEwOCwtMTI5Mz
 Q5MDQ2NywxMTY2MTE5MDk4LDE0ODU1MjIyOTMsMTIxMjYxNDc5
 OCw2MTMyMTQwNTksLTE3ODUwNTA4MjMsNzI1NTQ1NTk3LDE5Mz
 AzNzQ1NDYsMTQ5MDMyMTgzNiwtNjAzMjYwNzUxLDM3Mjk1MDU5
