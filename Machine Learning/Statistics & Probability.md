@@ -77,7 +77,8 @@ $$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 
 #### 3.5 Law of Large Numbers 
 *Markov‘s’ Inequality*
-For none negative random variable Y, given any $\varepsilon>0$
+For none negative random variable Y, given any $\varepsilon>0$, we have: 
+$$P(Y \ge \varepsilon) \le \frac {E(Y)} {\varepsilon}$$
 
 *Chebyshev's Inequality*
 
@@ -86,11 +87,11 @@ For none negative random variable Y, given any $\varepsilon>0$
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwOTgxMjM5LDk4NTEyODE0Miw3Njk0OT
-AxMDgsLTEyOTM0OTA0NjcsMTE2NjExOTA5OCwxNDg1NTIyMjkz
-LDEyMTI2MTQ3OTgsNjEzMjE0MDU5LC0xNzg1MDUwODIzLDcyNT
-U0NTU5NywxOTMwMzc0NTQ2LDE0OTAzMjE4MzYsLTYwMzI2MDc1
-MSwzNzI5NTA1OTMsLTU1Mzg5NzkyMSwxMjMzMTMxMzI0LC0xMT
-A2MzA1MjYwLDE5NTYzNzM1MSwxNTEwMDYwNjAwLDE2NDA5NDg4
-NzNdfQ==
+eyJoaXN0b3J5IjpbLTE1NTQxNTgxMjUsOTg1MTI4MTQyLDc2OT
+Q5MDEwOCwtMTI5MzQ5MDQ2NywxMTY2MTE5MDk4LDE0ODU1MjIy
+OTMsMTIxMjYxNDc5OCw2MTMyMTQwNTksLTE3ODUwNTA4MjMsNz
+I1NTQ1NTk3LDE5MzAzNzQ1NDYsMTQ5MDMyMTgzNiwtNjAzMjYw
+NzUxLDM3Mjk1MDU5MywtNTUzODk3OTIxLDEyMzMxMzEzMjQsLT
+ExMDYzMDUyNjAsMTk1NjM3MzUxLDE1MTAwNjA2MDAsMTY0MDk0
+ODg3M119
 -->
