@@ -84,15 +84,16 @@ $$P(X \ge \varepsilon) \le \frac {E(X)} {\varepsilon}$$
 When Var(X) exists, we have:
 $$ p(|X-E[X]| \ge \varepsilon) \le \frac {Var(X)} {\varepsilon^2}$$
 
-
+*Variance of Mean*
+$$Var(\bar X) = $$
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM2NTM5MDgsLTIxMDAyOTExNjQsMT
-I5MzkxODAzNSwtMTU1NDE1ODEyNSw5ODUxMjgxNDIsNzY5NDkw
-MTA4LC0xMjkzNDkwNDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5My
-wxMjEyNjE0Nzk4LDYxMzIxNDA1OSwtMTc4NTA1MDgyMyw3MjU1
-NDU1OTcsMTkzMDM3NDU0NiwxNDkwMzIxODM2LC02MDMyNjA3NT
-EsMzcyOTUwNTkzLC01NTM4OTc5MjEsMTIzMzEzMTMyNCwtMTEw
-NjMwNTI2MF19
+eyJoaXN0b3J5IjpbMTUwMzg4NDYwOSwtMjEwMDI5MTE2NCwxMj
+kzOTE4MDM1LC0xNTU0MTU4MTI1LDk4NTEyODE0Miw3Njk0OTAx
+MDgsLTEyOTM0OTA0NjcsMTE2NjExOTA5OCwxNDg1NTIyMjkzLD
+EyMTI2MTQ3OTgsNjEzMjE0MDU5LC0xNzg1MDUwODIzLDcyNTU0
+NTU5NywxOTMwMzc0NTQ2LDE0OTAzMjE4MzYsLTYwMzI2MDc1MS
+wzNzI5NTA1OTMsLTU1Mzg5NzkyMSwxMjMzMTMxMzI0LC0xMTA2
+MzA1MjYwXX0=
 -->
