@@ -76,7 +76,8 @@ $$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 - When $Corr[X, Y] = 0$, we say there is no correlation between X and Y but it doesn't means X and Y are independent. Correlation only describes linear relationship (There are many other different kinds of relationships).
 
 #### 3.5 Law of Large Numbers 
-1.*Markov‘s’ Inequality*
+
+*Markov‘s’ Inequality*
 For none negative random variable X, given any $\varepsilon>0$, we have: 
 $$P(X \ge \varepsilon) \le \frac {E(X)} {\varepsilon}$$
 
@@ -89,11 +90,11 @@ $$Var[\bar X] = \frac {Var[X]} {n}$$
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5NzgxNDk4LC0yMTAwMjkxMTY0LDEyOT
-M5MTgwMzUsLTE1NTQxNTgxMjUsOTg1MTI4MTQyLDc2OTQ5MDEw
-OCwtMTI5MzQ5MDQ2NywxMTY2MTE5MDk4LDE0ODU1MjIyOTMsMT
-IxMjYxNDc5OCw2MTMyMTQwNTksLTE3ODUwNTA4MjMsNzI1NTQ1
-NTk3LDE5MzAzNzQ1NDYsMTQ5MDMyMTgzNiwtNjAzMjYwNzUxLD
-M3Mjk1MDU5MywtNTUzODk3OTIxLDEyMzMxMzEzMjQsLTExMDYz
-MDUyNjBdfQ==
+eyJoaXN0b3J5IjpbLTkzMzU3MTUzNywtMjEwMDI5MTE2NCwxMj
+kzOTE4MDM1LC0xNTU0MTU4MTI1LDk4NTEyODE0Miw3Njk0OTAx
+MDgsLTEyOTM0OTA0NjcsMTE2NjExOTA5OCwxNDg1NTIyMjkzLD
+EyMTI2MTQ3OTgsNjEzMjE0MDU5LC0xNzg1MDUwODIzLDcyNTU0
+NTU5NywxOTMwMzc0NTQ2LDE0OTAzMjE4MzYsLTYwMzI2MDc1MS
+wzNzI5NTA1OTMsLTU1Mzg5NzkyMSwxMjMzMTMxMzI0LC0xMTA2
+MzA1MjYwXX0=
 -->
