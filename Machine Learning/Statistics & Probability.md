@@ -82,17 +82,17 @@ $$P(X \ge \varepsilon) \le \frac {E(X)} {\varepsilon}$$
 
 *Chebyshev's Inequality*
 When Var(X) exists, we have:
-$$ p(|\bar X_n-a| \ge \varepsilon) \le \frac {Var(\bar X)} {\varepsilon^2}$$
+$$ p(|\bar X-a| \ge \varepsilon) \le \frac {Var(\bar X)} {\varepsilon^2}$$
 
 
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzkxODAzNSwtMTU1NDE1ODEyNSw5OD
-UxMjgxNDIsNzY5NDkwMTA4LC0xMjkzNDkwNDY3LDExNjYxMTkw
-OTgsMTQ4NTUyMjI5MywxMjEyNjE0Nzk4LDYxMzIxNDA1OSwtMT
-c4NTA1MDgyMyw3MjU1NDU1OTcsMTkzMDM3NDU0NiwxNDkwMzIx
-ODM2LC02MDMyNjA3NTEsMzcyOTUwNTkzLC01NTM4OTc5MjEsMT
-IzMzEzMTMyNCwtMTEwNjMwNTI2MCwxOTU2MzczNTEsMTUxMDA2
-MDYwMF19
+eyJoaXN0b3J5IjpbLTIxMDAyOTExNjQsMTI5MzkxODAzNSwtMT
+U1NDE1ODEyNSw5ODUxMjgxNDIsNzY5NDkwMTA4LC0xMjkzNDkw
+NDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5MywxMjEyNjE0Nzk4LD
+YxMzIxNDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMTkzMDM3
+NDU0NiwxNDkwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUwNTkzLC
+01NTM4OTc5MjEsMTIzMzEzMTMyNCwtMTEwNjMwNTI2MCwxOTU2
+MzczNTFdfQ==
 -->
