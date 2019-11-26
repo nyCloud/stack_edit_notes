@@ -82,13 +82,13 @@ $$P(X \ge \varepsilon) \le \frac {E(X)} {\varepsilon}$$
 
 *Chebyshev's Inequality*
 When Var(X) exists, we have:
-$$ p(|\bar X|)$$
+$$ p(|\bar X_n-a| \ge \varepsilon) \le \frac {Var(\bar X)} {\varepsilon^2}$$
 
 
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTcwNjY4MCwtMTU1NDE1ODEyNSw5OD
+eyJoaXN0b3J5IjpbMTI5MzkxODAzNSwtMTU1NDE1ODEyNSw5OD
 UxMjgxNDIsNzY5NDkwMTA4LC0xMjkzNDkwNDY3LDExNjYxMTkw
 OTgsMTQ4NTUyMjI5MywxMjEyNjE0Nzk4LDYxMzIxNDA1OSwtMT
 c4NTA1MDgyMyw3MjU1NDU1OTcsMTkzMDM3NDU0NiwxNDkwMzIx
