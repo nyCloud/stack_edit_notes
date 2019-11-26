@@ -76,15 +76,17 @@ $$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 - When $Corr[X, Y] = 0$, we say there is no correlation between X and Y but it doesn't means X and Y are independent. Correlation only describes linear relationship (There are many other different kinds of relationships).
 
 #### 3.5 Law of Large Numbers 
-Markov Inequality
-Chebyshev's Inequality
+*Markov‘s’ Inequality*
+For none negative random variable Y, given any $\eps$
+
+*Chebyshev's Inequality*
 
 
 
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDk2Njc0MSw5ODUxMjgxNDIsNzY5ND
+eyJoaXN0b3J5IjpbMTQ1MTE5MzI3Miw5ODUxMjgxNDIsNzY5ND
 kwMTA4LC0xMjkzNDkwNDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5
 MywxMjEyNjE0Nzk4LDYxMzIxNDA1OSwtMTc4NTA1MDgyMyw3Mj
 U1NDU1OTcsMTkzMDM3NDU0NiwxNDkwMzIxODM2LC02MDMyNjA3
