@@ -86,7 +86,8 @@ When Var(X) exists, given any $\varepsilon>0$, we have:
 $$ p(|X-E[X]| \ge \varepsilon) \le \frac {Var(X)} {\varepsilon^2}$$
 
 *Law of Large Number*
-Replace $X=(X - E[x])^2$
+Replace $X=(X - E[x])^2$ and $\varepsilon = \varepsilon^2$ in Markov's Inequality, then we have:
+$$$$
 
 *Variance of Mean*
 $$Var[\bar X] = \frac {Var[X]} {n}$$
@@ -94,11 +95,11 @@ $$Var[\bar X] = \frac {Var[X]} {n}$$
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NTI2MTI2LC05OTE1NjU0MzksLTkzMz
-U3MTUzNywtMjEwMDI5MTE2NCwxMjkzOTE4MDM1LC0xNTU0MTU4
-MTI1LDk4NTEyODE0Miw3Njk0OTAxMDgsLTEyOTM0OTA0NjcsMT
-E2NjExOTA5OCwxNDg1NTIyMjkzLDEyMTI2MTQ3OTgsNjEzMjE0
-MDU5LC0xNzg1MDUwODIzLDcyNTU0NTU5NywxOTMwMzc0NTQ2LD
-E0OTAzMjE4MzYsLTYwMzI2MDc1MSwzNzI5NTA1OTMsLTU1Mzg5
-NzkyMV19
+eyJoaXN0b3J5IjpbLTEyODE0OTExODEsLTk5MTU2NTQzOSwtOT
+MzNTcxNTM3LC0yMTAwMjkxMTY0LDEyOTM5MTgwMzUsLTE1NTQx
+NTgxMjUsOTg1MTI4MTQyLDc2OTQ5MDEwOCwtMTI5MzQ5MDQ2Ny
+wxMTY2MTE5MDk4LDE0ODU1MjIyOTMsMTIxMjYxNDc5OCw2MTMy
+MTQwNTksLTE3ODUwNTA4MjMsNzI1NTQ1NTk3LDE5MzAzNzQ1ND
+YsMTQ5MDMyMTgzNiwtNjAzMjYwNzUxLDM3Mjk1MDU5MywtNTUz
+ODk3OTIxXX0=
 -->
