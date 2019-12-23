@@ -85,17 +85,20 @@ $$P(X \ge \varepsilon) \le \frac {E(X)} {\varepsilon}$$
 When Var(X) exists, given any $\varepsilon>0$, we have:
 $$ p(|X-E[X]| \ge \varepsilon) \le \frac {Var(X)} {\varepsilon^2}$$
 
+*Law of Large Number*
+Replace $X=(X - E[x])^2$
+
 *Variance of Mean*
 $$Var[\bar X] = \frac {Var[X]} {n}$$
 
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTU2NTQzOSwtOTMzNTcxNTM3LC0yMT
-AwMjkxMTY0LDEyOTM5MTgwMzUsLTE1NTQxNTgxMjUsOTg1MTI4
-MTQyLDc2OTQ5MDEwOCwtMTI5MzQ5MDQ2NywxMTY2MTE5MDk4LD
-E0ODU1MjIyOTMsMTIxMjYxNDc5OCw2MTMyMTQwNTksLTE3ODUw
-NTA4MjMsNzI1NTQ1NTk3LDE5MzAzNzQ1NDYsMTQ5MDMyMTgzNi
-wtNjAzMjYwNzUxLDM3Mjk1MDU5MywtNTUzODk3OTIxLDEyMzMx
-MzEzMjRdfQ==
+eyJoaXN0b3J5IjpbNjY2NTI2MTI2LC05OTE1NjU0MzksLTkzMz
+U3MTUzNywtMjEwMDI5MTE2NCwxMjkzOTE4MDM1LC0xNTU0MTU4
+MTI1LDk4NTEyODE0Miw3Njk0OTAxMDgsLTEyOTM0OTA0NjcsMT
+E2NjExOTA5OCwxNDg1NTIyMjkzLDEyMTI2MTQ3OTgsNjEzMjE0
+MDU5LC0xNzg1MDUwODIzLDcyNTU0NTU5NywxOTMwMzc0NTQ2LD
+E0OTAzMjE4MzYsLTYwMzI2MDc1MSwzNzI5NTA1OTMsLTU1Mzg5
+NzkyMV19
 -->
