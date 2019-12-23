@@ -87,7 +87,7 @@ $$ p(|X-E[X]| \ge \varepsilon) \le \frac {Var(X)} {\varepsilon^2}$$
 (Replace $X=(X - E[x])^2$ and $\varepsilon = \varepsilon^2$ in Markov's Inequality, then we can easily prove it)
 
 #### *Law of Large Numbers*
-$$\lim_{x\to\infty}$$
+$$\lim_{x\to\infty}P(|\bar{X_n}-E[X]|)=0$$
 
 #### *Variance of Mean*
 $$Var[\bar X] = \frac {Var[X]} {n}$$
@@ -95,11 +95,11 @@ $$Var[\bar X] = \frac {Var[X]} {n}$$
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4MDIxMTQ1LC0xNjk5OTgzOTU5LDExMz
-g4MzExMzQsLTk5MTU2NTQzOSwtOTMzNTcxNTM3LC0yMTAwMjkx
-MTY0LDEyOTM5MTgwMzUsLTE1NTQxNTgxMjUsOTg1MTI4MTQyLD
-c2OTQ5MDEwOCwtMTI5MzQ5MDQ2NywxMTY2MTE5MDk4LDE0ODU1
-MjIyOTMsMTIxMjYxNDc5OCw2MTMyMTQwNTksLTE3ODUwNTA4Mj
-MsNzI1NTQ1NTk3LDE5MzAzNzQ1NDYsMTQ5MDMyMTgzNiwtNjAz
-MjYwNzUxXX0=
+eyJoaXN0b3J5IjpbMTk1NTUxMTczMSwtMTY5OTk4Mzk1OSwxMT
+M4ODMxMTM0LC05OTE1NjU0MzksLTkzMzU3MTUzNywtMjEwMDI5
+MTE2NCwxMjkzOTE4MDM1LC0xNTU0MTU4MTI1LDk4NTEyODE0Mi
+w3Njk0OTAxMDgsLTEyOTM0OTA0NjcsMTE2NjExOTA5OCwxNDg1
+NTIyMjkzLDEyMTI2MTQ3OTgsNjEzMjE0MDU5LC0xNzg1MDUwOD
+IzLDcyNTU0NTU5NywxOTMwMzc0NTQ2LDE0OTAzMjE4MzYsLTYw
+MzI2MDc1MV19
 -->
