@@ -77,17 +77,15 @@ $$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 
 #### 3.5 Law of Large Numbers 
 
-*Markov‘s’ Inequality*
+#### *Markov‘s’ Inequality*
 For none negative random variable X, given any $\varepsilon>0$, we have: 
 $$P(X \ge \varepsilon) \le \frac {E(X)} {\varepsilon}$$
 
-*Chebyshev's Inequality*
+####*Chebyshev's Inequality*
 When Var(X) exists, given any $\varepsilon>0$, we have:
 $$ p(|X-E[X]| \ge \varepsilon) \le \frac {Var(X)} {\varepsilon^2}$$
+(Replace $X=(X - E[x])^2$ and $\varepsilon = \varepsilon^2$ in Markov's Inequality, then we can easily prove it)
 
-*Law of Large Number*
-Replace $X=(X - E[x])^2$ and $\varepsilon = \varepsilon^2$ in Markov's Inequality, then we have:
-$$P(|X-E[x]| >\varepsilon ) \le \frac{}{}$$
 
 *Variance of Mean*
 $$Var[\bar X] = \frac {Var[X]} {n}$$
@@ -95,11 +93,11 @@ $$Var[\bar X] = \frac {Var[X]} {n}$$
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODgzMTEzNCwtOTkxNTY1NDM5LC05Mz
-M1NzE1MzcsLTIxMDAyOTExNjQsMTI5MzkxODAzNSwtMTU1NDE1
-ODEyNSw5ODUxMjgxNDIsNzY5NDkwMTA4LC0xMjkzNDkwNDY3LD
-ExNjYxMTkwOTgsMTQ4NTUyMjI5MywxMjEyNjE0Nzk4LDYxMzIx
-NDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMTkzMDM3NDU0Ni
-wxNDkwMzIxODM2LC02MDMyNjA3NTEsMzcyOTUwNTkzLC01NTM4
-OTc5MjFdfQ==
+eyJoaXN0b3J5IjpbLTIwMTEwNzMzMTEsMTEzODgzMTEzNCwtOT
+kxNTY1NDM5LC05MzM1NzE1MzcsLTIxMDAyOTExNjQsMTI5Mzkx
+ODAzNSwtMTU1NDE1ODEyNSw5ODUxMjgxNDIsNzY5NDkwMTA4LC
+0xMjkzNDkwNDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5MywxMjEy
+NjE0Nzk4LDYxMzIxNDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OT
+csMTkzMDM3NDU0NiwxNDkwMzIxODM2LC02MDMyNjA3NTEsMzcy
+OTUwNTkzXX0=
 -->
