@@ -81,19 +81,20 @@ $$ Corr[X, Y] = \frac {Cov[X, Y]} {\sigma_1 \sigma_2} $$
 For none negative random variable X, given any $\varepsilon>0$, we have: 
 $$P(X \ge \varepsilon) \le \frac {E(X)} {\varepsilon}$$
 
-####*Chebyshev's Inequality*
+#### *Chebyshev's Inequality*
 When Var(X) exists, given any $\varepsilon>0$, we have:
 $$ p(|X-E[X]| \ge \varepsilon) \le \frac {Var(X)} {\varepsilon^2}$$
 (Replace $X=(X - E[x])^2$ and $\varepsilon = \varepsilon^2$ in Markov's Inequality, then we can easily prove it)
 
+#### *Law of Large Numbers*
 
-*Variance of Mean*
+#### *Variance of Mean*
 $$Var[\bar X] = \frac {Var[X]} {n}$$
 
 #### 3.6 Central Limit Theorems
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTEwNzMzMTEsMTEzODgzMTEzNCwtOT
+eyJoaXN0b3J5IjpbLTE2OTk5ODM5NTksMTEzODgzMTEzNCwtOT
 kxNTY1NDM5LC05MzM1NzE1MzcsLTIxMDAyOTExNjQsMTI5Mzkx
 ODAzNSwtMTU1NDE1ODEyNSw5ODUxMjgxNDIsNzY5NDkwMTA4LC
 0xMjkzNDkwNDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5MywxMjEy
