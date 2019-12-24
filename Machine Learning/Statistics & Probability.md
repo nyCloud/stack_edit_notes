@@ -93,14 +93,16 @@ $$\lim_{x\to\infty}P(|\bar{X_n}-E[X]|)=0$$
 $$Var[\bar X] = \frac {Var[X]} {n}$$
 
 #### 3.6 Central Limit Theorems
-$$\lim_{x\to\infty}(\frac{1}{\sigma\sqrt n} \sum_i (X_i -a) \le x) = $$
+$$\lim_{x\to\infty}(\frac{1}{\sigma\sqrt n} \sum_i (X_i -a) \le x) = \Phi(x) $$
+Where $\Phi(x)$ is CDF of standard Gaussian distribution N(0, 1)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDY0NTU5MiwyMDI3ODc5MzkwLDE5NT
-U1MTE3MzEsLTE2OTk5ODM5NTksMTEzODgzMTEzNCwtOTkxNTY1
-NDM5LC05MzM1NzE1MzcsLTIxMDAyOTExNjQsMTI5MzkxODAzNS
-wtMTU1NDE1ODEyNSw5ODUxMjgxNDIsNzY5NDkwMTA4LC0xMjkz
-NDkwNDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5MywxMjEyNjE0Nz
-k4LDYxMzIxNDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMTkz
-MDM3NDU0Nl19
+eyJoaXN0b3J5IjpbMTE1NTAwMDI0MSwtMTYwNjQ1NTkyLDIwMj
+c4NzkzOTAsMTk1NTUxMTczMSwtMTY5OTk4Mzk1OSwxMTM4ODMx
+MTM0LC05OTE1NjU0MzksLTkzMzU3MTUzNywtMjEwMDI5MTE2NC
+wxMjkzOTE4MDM1LC0xNTU0MTU4MTI1LDk4NTEyODE0Miw3Njk0
+OTAxMDgsLTEyOTM0OTA0NjcsMTE2NjExOTA5OCwxNDg1NTIyMj
+kzLDEyMTI2MTQ3OTgsNjEzMjE0MDU5LC0xNzg1MDUwODIzLDcy
+NTU0NTU5N119
 -->
