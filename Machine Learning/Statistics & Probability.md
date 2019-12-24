@@ -93,14 +93,14 @@ $$\lim_{x\to\infty}P(|\bar{X_n}-E[X]|)=0$$
 $$Var[\bar X] = \frac {Var[X]} {n}$$
 
 #### 3.6 Central Limit Theorems
-$$\lim_{x\to\infty}(\frac{1}{\sqrt()})$$
+$$\lim_{x\to\infty}(\frac{1}{\sigma\sqrt n} \sum_i (X_i -a) \le x) = $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI5NjY5MjA2LDIwMjc4NzkzOTAsMTk1NT
-UxMTczMSwtMTY5OTk4Mzk1OSwxMTM4ODMxMTM0LC05OTE1NjU0
-MzksLTkzMzU3MTUzNywtMjEwMDI5MTE2NCwxMjkzOTE4MDM1LC
-0xNTU0MTU4MTI1LDk4NTEyODE0Miw3Njk0OTAxMDgsLTEyOTM0
-OTA0NjcsMTE2NjExOTA5OCwxNDg1NTIyMjkzLDEyMTI2MTQ3OT
-gsNjEzMjE0MDU5LC0xNzg1MDUwODIzLDcyNTU0NTU5NywxOTMw
-Mzc0NTQ2XX0=
+eyJoaXN0b3J5IjpbLTE2MDY0NTU5MiwyMDI3ODc5MzkwLDE5NT
+U1MTE3MzEsLTE2OTk5ODM5NTksMTEzODgzMTEzNCwtOTkxNTY1
+NDM5LC05MzM1NzE1MzcsLTIxMDAyOTExNjQsMTI5MzkxODAzNS
+wtMTU1NDE1ODEyNSw5ODUxMjgxNDIsNzY5NDkwMTA4LC0xMjkz
+NDkwNDY3LDExNjYxMTkwOTgsMTQ4NTUyMjI5MywxMjEyNjE0Nz
+k4LDYxMzIxNDA1OSwtMTc4NTA1MDgyMyw3MjU1NDU1OTcsMTkz
+MDM3NDU0Nl19
 -->
