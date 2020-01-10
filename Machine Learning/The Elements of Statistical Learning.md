@@ -8,6 +8,9 @@ Rewrite the equation in matrix form, we'll get:
 $$\hat y = X\hat\beta$$
 Least square solution for regression:
 $$\hat \beta=(X^TX)^{-1}X^Ty$$
+
+1。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTc3MTI5NywtMTYwODAxMzY5XX0=
+eyJoaXN0b3J5IjpbMTMzMTk2MzU2MiwtNjY1NzcxMjk3LC0xNj
+A4MDEzNjldfQ==
 -->
