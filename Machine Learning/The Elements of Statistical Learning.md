@@ -5,9 +5,9 @@
 ### 1.1 Least Squares Linear Regression
 $$\hat y= \beta_0 + \sum_{i=1}^{p} X_i\beta_i $$
 Rewrite the equation in matrix form, we'll get:
-$$\hat y = X\beta$$
+$$\hat y = X\hat\beta$$
 Least square solution for regression:
-$$\hat \beta=(X^TX)^$$
+$$\hat \beta=(X^TX)^{-1}X^Ty$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1ODUyMzQ3LC0xNjA4MDEzNjldfQ==
+eyJoaXN0b3J5IjpbLTY2NTc3MTI5NywtMTYwODAxMzY5XX0=
 -->
