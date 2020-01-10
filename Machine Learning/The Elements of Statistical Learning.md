@@ -11,8 +11,11 @@ $$\hat \beta=(X^TX)^{-1}X^Ty$$
 
 ### 1.2 Shrinkage Methods
 #### Ridge Regression
-$$\hat \beta^{ridge} = \argmin_\beta \{(y - X\beta)^2 + \lambda \beta^T\beta\}$$
+$$\hat \beta^{ridge} = \argmin_\beta \{(y - X\beta)^T(y - X\beta) + \lambda \beta^T\beta\}$$
+Solving the equation we will get:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDIwODM5NCwtNjY1NzcxMjk3LC0xNj
+eyJoaXN0b3J5IjpbMTg2OTE1MjU0MCwtNjY1NzcxMjk3LC0xNj
 A4MDEzNjldfQ==
 -->
