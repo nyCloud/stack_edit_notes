@@ -13,9 +13,9 @@ $$\hat \beta=(X^TX)^{-1}X^Ty$$
 #### Ridge Regression
 $$\hat \beta^{ridge} = \argmin_\beta \{(y - X\beta)^T(y - X\beta) + \lambda \beta^T\beta\}$$
 Solving the equation we will get:
-
+$$\hat \beta^{ridge} = (X^TX+\lambda I)^{-1}X^Ty$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTE1MjU0MCwtNjY1NzcxMjk3LC0xNj
+eyJoaXN0b3J5IjpbMTg1MTE5Nzc0MiwtNjY1NzcxMjk3LC0xNj
 A4MDEzNjldfQ==
 -->
