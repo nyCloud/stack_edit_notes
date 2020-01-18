@@ -14,8 +14,9 @@ $$\hat \beta=(X^TX)^{-1}X^Ty$$
 $$\hat \beta^{ridge} = \argmin_\beta \{(y - X\beta)^T(y - X\beta) + \lambda \beta^T\beta\}$$
 Solving the equation we will get:
 $$\hat \beta^{ridge} = (X^TX+\lambda I)^{-1}X^Ty$$
-
+In the case of orthogonal inputs, the ridge estimates are just a scaled version of the least squares estimates.
+$$\hat \beta^{rid}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MTE5Nzc0MiwtNjY1NzcxMjk3LC0xNj
-A4MDEzNjldfQ==
+eyJoaXN0b3J5IjpbLTExNTY0OTc4OTcsMTg1MTE5Nzc0MiwtNj
+Y1NzcxMjk3LC0xNjA4MDEzNjldfQ==
 -->
