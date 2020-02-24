@@ -605,14 +605,48 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 __Weight Decay__
 
 Weight decay (commonly called L2 regularization), might be the most widely-used technique for regularizing parametric machine learning models. Considering a linear function $f(x)=w^Tx$, it would be simple if its weight vector is small. We can measure this via $||w||^2$ . One way of keeping the weight vector small is to add its norm as a penalty term to the problem of minimizing the loss. Thus we replace our original objective, minimize the prediction error on the training labels, with new objective, minimize the sum of the prediction error and the penalty term. Now, if the weight vector becomes too large, our learning algorithm will find more profit in minimizing the norm $||w||^2$ versus minimizing the training error. That’s exactly what we want. 
+Following code shows the basic usage of weight decay in MxNet.
+
+```python
+def train_gluon(wd):
+net = nn.Sequential()
+net.add(nn.Dense(1))
+net.initialize(init.Normal(sigma=1))
+loss = gluon.loss.L2Loss()
+num_epochs, lr = 100, 0.003
+# The weight parameter has been decayed. Weight names generally end with
+# "weight".
+trainer_w = gluon.Trainer(net.collect_params('.*weight'), 'sgd',
+{'learning_rate': lr, 'wd': wd})
+# The bias parameter has not decayed. Bias names generally end with "bias"
+trainer_b = gluon.Trainer(net.collect_params('.*bias'), 'sgd',
+{'learning_rate': lr})
+animator = d2l.Animator(xlabel='epochs', ylabel='loss', yscale='log',
+xlim=[1, num_epochs], legend=['train', 'test'])
+for epoch in range(1, num_epochs+1):
+for X, y in train_iter:
+with autograd.record():
+l = loss(net(X), y)
+l.backward()
+# Call the step function on each of the two Trainer instances to
+# update the weight and bias separately
+trainer_w.step(batch_size)
+trainer_b.step(batch_size)
+if epoch % 5 == 0:
+animator.add(epoch+1, (d2l.evaluate_loss(net, train_iter, loss),
+d2l.evaluate_loss(net, test_iter, loss)))
+print('L2 norm of w:', net[0].weight.data().norm().asscalar())
+```
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDc3MzA5MCwyMjY0MjcyMjQsLTIwMD
-EwNjExMDUsLTEwODYwODEzNzcsMTUyNTgxMTE4NiwtMTk3MjE4
-MDM2LC0xNzYyMzUyOTUzLC0xNDI4NjEwNjIzLC0xNDcyMTU3Nz
-k0LDEzMDc5ODY1ODEsLTQ1NTYwMDEwNywxMzAxNjg3NzA3LC0x
-OTQ4NjY1OTEyLC0xOTQ0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNz
-k4NjE5LDE4NzE3MjExMDcsLTEzNzAwMzQwLDY5NzYzMzYzMCwt
-NDUyMzkwODExXX0=
+eyJoaXN0b3J5IjpbLTk4MTc3MjQzLDIyNjQyNzIyNCwtMjAwMT
+A2MTEwNSwtMTA4NjA4MTM3NywxNTI1ODExMTg2LC0xOTcyMTgw
+MzYsLTE3NjIzNTI5NTMsLTE0Mjg2MTA2MjMsLTE0NzIxNTc3OT
+QsMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMDE2ODc3MDcsLTE5
+NDg2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcwMDM5LC01MTA3OT
+g2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMwLC00
+NTIzOTA4MTFdfQ==
 -->
