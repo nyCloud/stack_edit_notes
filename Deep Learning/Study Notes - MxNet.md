@@ -529,7 +529,9 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 
 ## 4. Multi-Layer Perceptrons
-### 4.1 B
+
+### 4.1 Basic MLP
+
 __Activation Functions__
 In order to introduce no-linearity into our deep model, we usually add a none-linear activation function onto layers.
 
@@ -598,13 +600,15 @@ trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': 0.5})
 train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 
-p141 ==> p175
+#### 4.2 Model Selection, Underfitting and Overfitting
+The phenomena of fitting our training data more closely than we fit the underlying distribution is called **overfitting**, and the techniques used to combat overfitting are called **regularization**.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE5ODk2NSwtMjAwMTA2MTEwNSwtMT
-A4NjA4MTM3NywxNTI1ODExMTg2LC0xOTcyMTgwMzYsLTE3NjIz
-NTI5NTMsLTE0Mjg2MTA2MjMsLTE0NzIxNTc3OTQsMTMwNzk4Nj
-U4MSwtNDU1NjAwMTA3LDEzMDE2ODc3MDcsLTE5NDg2NjU5MTIs
-LTE5NDQ2MzEwODUsODgwMzcwMDM5LC01MTA3OTg2MTksMTg3MT
-cyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMwLC00NTIzOTA4MTEs
-NTMyOTAzMzQwXX0=
+eyJoaXN0b3J5IjpbMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMD
+g2MDgxMzc3LDE1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2MjM1
+Mjk1MywtMTQyODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NT
+gxLC00NTU2MDAxMDcsMTMwMTY4NzcwNywtMTk0ODY2NTkxMiwt
+MTk0NDYzMTA4NSw4ODAzNzAwMzksLTUxMDc5ODYxOSwxODcxNz
+IxMTA3LC0xMzcwMDM0MCw2OTc2MzM2MzAsLTQ1MjM5MDgxMSw1
+MzI5MDMzNDBdfQ==
 -->
