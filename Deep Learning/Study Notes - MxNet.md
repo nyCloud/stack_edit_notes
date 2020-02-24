@@ -529,6 +529,7 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 
 ## 4. Multi-Layer Perceptrons
+### 4.1 B
 __Activation Functions__
 In order to introduce no-linearity into our deep model, we usually add a none-linear activation function onto layers.
 
@@ -599,11 +600,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDEwNjExMDUsLTEwODYwODEzNzcsMT
-UyNTgxMTE4NiwtMTk3MjE4MDM2LC0xNzYyMzUyOTUzLC0xNDI4
-NjEwNjIzLC0xNDcyMTU3Nzk0LDEzMDc5ODY1ODEsLTQ1NTYwMD
-EwNywxMzAxNjg3NzA3LC0xOTQ4NjY1OTEyLC0xOTQ0NjMxMDg1
-LDg4MDM3MDAzOSwtNTEwNzk4NjE5LDE4NzE3MjExMDcsLTEzNz
-AwMzQwLDY5NzYzMzYzMCwtNDUyMzkwODExLDUzMjkwMzM0MCwt
-MTkxNzMxMzg0NF19
+eyJoaXN0b3J5IjpbLTEyNDE5ODk2NSwtMjAwMTA2MTEwNSwtMT
+A4NjA4MTM3NywxNTI1ODExMTg2LC0xOTcyMTgwMzYsLTE3NjIz
+NTI5NTMsLTE0Mjg2MTA2MjMsLTE0NzIxNTc3OTQsMTMwNzk4Nj
+U4MSwtNDU1NjAwMTA3LDEzMDE2ODc3MDcsLTE5NDg2NjU5MTIs
+LTE5NDQ2MzEwODUsODgwMzcwMDM5LC01MTA3OTg2MTksMTg3MT
+cyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMwLC00NTIzOTA4MTEs
+NTMyOTAzMzQwXX0=
 -->
