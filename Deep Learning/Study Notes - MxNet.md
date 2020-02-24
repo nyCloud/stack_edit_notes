@@ -601,14 +601,29 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 
 #### 4.2 Model Selection, Underfitting and Overfitting
-The phenomena of fitting our training data more closely than we fit the underlying distribution is called **overfitting**, and the techniques used to combat overfitting are called **regularization**.
 
+__Weight Decay__
+
+Weight decay (commonly called L2 regularization), might be the most widely-used technique for regularizing
+parametric machine learning models. The basic intuition behind weight decay is the notion that among all
+functions f , the function f = 0 is the simplest. Intuitively, we can then measure functions by their proximity
+to zero. But how precisely should we measure the distance between a function and zero? There is no single
+right answer. In fact, entire branches of mathematics, e.g. in functional analysis and the theory of Banach
+spaces are devoted to answering this issue.
+For our present purposes, a very simple interpretation will suffice: We will consider a linear function f (x) =
+w ⊤ x to be simple if its weight vector is small. We can measure this via ||w|| 2 . One way of keeping the weight
+vector small is to add its norm as a penalty term to the problem of minimizing the loss. Thus we replace
+our original objective, minimize the prediction error on the training labels, with new objective, minimize the
+sum of the prediction error and the penalty term. Now, if the weight vector becomes too large, our learning
+algorithm will find more profit in minimizing the norm ||w|| 2 versus minimizing the training error. That’s
+exactly what we want. To illustrate things in code, let’s revive our previous example from Section 5.1 for
+linear regression. There, our loss was given by
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMD
-g2MDgxMzc3LDE1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2MjM1
-Mjk1MywtMTQyODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NT
-gxLC00NTU2MDAxMDcsMTMwMTY4NzcwNywtMTk0ODY2NTkxMiwt
-MTk0NDYzMTA4NSw4ODAzNzAwMzksLTUxMDc5ODYxOSwxODcxNz
-IxMTA3LC0xMzcwMDM0MCw2OTc2MzM2MzAsLTQ1MjM5MDgxMSw1
-MzI5MDMzNDBdfQ==
+eyJoaXN0b3J5IjpbLTIzMTM2OTY0MiwyMjY0MjcyMjQsLTIwMD
+EwNjExMDUsLTEwODYwODEzNzcsMTUyNTgxMTE4NiwtMTk3MjE4
+MDM2LC0xNzYyMzUyOTUzLC0xNDI4NjEwNjIzLC0xNDcyMTU3Nz
+k0LDEzMDc5ODY1ODEsLTQ1NTYwMDEwNywxMzAxNjg3NzA3LC0x
+OTQ4NjY1OTEyLC0xOTQ0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNz
+k4NjE5LDE4NzE3MjExMDcsLTEzNzAwMzQwLDY5NzYzMzYzMCwt
+NDUyMzkwODExXX0=
 -->
