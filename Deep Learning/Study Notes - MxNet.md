@@ -609,44 +609,43 @@ Following code shows the basic usage of weight decay in MxNet.
 
 ```python
 def train_gluon(wd):
-net = nn.Sequential()
-net.add(nn.Dense(1))
-net.initialize(init.Normal(sigma=1))
-loss = gluon.loss.L2Loss()
-num_epochs, lr = 100, 0.003
-# The weight parameter has been decayed. Weight names generally end with
-# "weight".
-trainer_w = gluon.Trainer(net.collect_params('.*weight'), 'sgd',
-{'learning_rate': lr, 'wd': wd})
-# The bias parameter has not decayed. Bias names generally end with "bias"
-trainer_b = gluon.Trainer(net.collect_params('.*bias'), 'sgd',
-{'learning_rate': lr})
-animator = d2l.Animator(xlabel='epochs', ylabel='loss', yscale='log',
-xlim=[1, num_epochs], legend=['train', 'test'])
-for epoch in range(1, num_epochs+1):
-for X, y in train_iter:
-with autograd.record():
-l = loss(net(X), y)
-l.backward()
-# Call the step function on each of the two Trainer instances to
-# update the weight and bias separately
-trainer_w.step(batch_size)
-trainer_b.step(batch_size)
-if epoch % 5 == 0:
-animator.add(epoch+1, (d2l.evaluate_loss(net, train_iter, loss),
-d2l.evaluate_loss(net, test_iter, loss)))
-print('L2 norm of w:', net[0].weight.data().norm().asscalar())
+	net = nn.Sequential()
+	net.add(nn.Dense(1))
+	net.initialize(init.Normal(sigma=1))
+	
+	loss = gluon.loss.L2Loss()
+	num_epochs, lr = 100, 0.003
+	
+	# The weight parameter has been decayed. Weight names generally end with "weight".
+	trainer_w = gluon.Trainer(net.collect_params('.*weight'), 'sgd',
+                              {'learning_rate': lr, 'wd': wd})
+	# The bias parameter has not decayed. Bias names generally end with "bias"
+	trainer_b = gluon.Trainer(net.collect_params('.*bias'), 'sgd',
+                              {'learning_rate': lr})
+                              
+	animator = d2l.Animator(xlabel='epochs', ylabel='loss', yscale='log',
+	xlim=[1, num_epochs], legend=['train', 'test'])
+	for epoch in range(1, num_epochs+1):
+		for X, y in train_iter:
+			with autograd.record():
+				l = loss(net(X), y)
+				l.backward()
+				
+		# Call the step function on each of the two Trainer instances to
+		# update the weight and bias separately
+		trainer_w.step(batch_size)
+		trainer_b.step(batch_size)
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTc3MjQzLDIyNjQyNzIyNCwtMjAwMT
-A2MTEwNSwtMTA4NjA4MTM3NywxNTI1ODExMTg2LC0xOTcyMTgw
-MzYsLTE3NjIzNTI5NTMsLTE0Mjg2MTA2MjMsLTE0NzIxNTc3OT
-QsMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMDE2ODc3MDcsLTE5
-NDg2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcwMDM5LC01MTA3OT
-g2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAsNjk3NjMzNjMwLC00
-NTIzOTA4MTFdfQ==
+eyJoaXN0b3J5IjpbLTE0NjEwMTkxNDEsMjI2NDI3MjI0LC0yMD
+AxMDYxMTA1LC0xMDg2MDgxMzc3LDE1MjU4MTExODYsLTE5NzIx
+ODAzNiwtMTc2MjM1Mjk1MywtMTQyODYxMDYyMywtMTQ3MjE1Nz
+c5NCwxMzA3OTg2NTgxLC00NTU2MDAxMDcsMTMwMTY4NzcwNywt
+MTk0ODY2NTkxMiwtMTk0NDYzMTA4NSw4ODAzNzAwMzksLTUxMD
+c5ODYxOSwxODcxNzIxMTA3LC0xMzcwMDM0MCw2OTc2MzM2MzAs
+LTQ1MjM5MDgxMV19
 -->
