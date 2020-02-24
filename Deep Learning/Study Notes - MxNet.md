@@ -201,7 +201,7 @@ net.initialize(init=MyInit(), force_reinit=True)
 net[0].weight.data()[0]
 ```
 
-__ Tied Params__
+__Tied Params__
 ```python
 net = nn.Sequential()
 
@@ -599,11 +599,11 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 p141 ==> p175
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODYwODEzNzcsMTUyNTgxMTE4NiwtMT
-k3MjE4MDM2LC0xNzYyMzUyOTUzLC0xNDI4NjEwNjIzLC0xNDcy
-MTU3Nzk0LDEzMDc5ODY1ODEsLTQ1NTYwMDEwNywxMzAxNjg3Nz
-A3LC0xOTQ4NjY1OTEyLC0xOTQ0NjMxMDg1LDg4MDM3MDAzOSwt
-NTEwNzk4NjE5LDE4NzE3MjExMDcsLTEzNzAwMzQwLDY5NzYzMz
-YzMCwtNDUyMzkwODExLDUzMjkwMzM0MCwtMTkxNzMxMzg0NCwx
-NzQxNjA0ODIwXX0=
+eyJoaXN0b3J5IjpbLTIwMDEwNjExMDUsLTEwODYwODEzNzcsMT
+UyNTgxMTE4NiwtMTk3MjE4MDM2LC0xNzYyMzUyOTUzLC0xNDI4
+NjEwNjIzLC0xNDcyMTU3Nzk0LDEzMDc5ODY1ODEsLTQ1NTYwMD
+EwNywxMzAxNjg3NzA3LC0xOTQ4NjY1OTEyLC0xOTQ0NjMxMDg1
+LDg4MDM3MDAzOSwtNTEwNzk4NjE5LDE4NzE3MjExMDcsLTEzNz
+AwMzQwLDY5NzYzMzYzMCwtNDUyMzkwODExLDUzMjkwMzM0MCwt
+MTkxNzMxMzg0NF19
 -->
