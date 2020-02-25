@@ -650,12 +650,23 @@ $$ f(x)=\begin{cases}
              \end{cases}   $$
 
 By design, the expectation remains unchanged.
+
+Code Example
+```python
+net = nn.Sequential()
+net.add(nn.Dense(256, activation="relu"),
+		nn.Dropout(drop_prob1), #D
+		nn.Dense(256, activation="relu"),
+		nn.Dropout(drop_prob2),
+		nn.Dense(10))
+net.initialize(init.Normal(sigma=0.01))
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2ODAxMzc4LDEwMTM2NTE4ODksMTY3Mz
-kxNjgxNCwyMjY0MjcyMjQsLTIwMDEwNjExMDUsLTEwODYwODEz
-NzcsMTUyNTgxMTE4NiwtMTk3MjE4MDM2LC0xNzYyMzUyOTUzLC
-0xNDI4NjEwNjIzLC0xNDcyMTU3Nzk0LDEzMDc5ODY1ODEsLTQ1
-NTYwMDEwNywxMzAxNjg3NzA3LC0xOTQ4NjY1OTEyLC0xOTQ0Nj
-MxMDg1LDg4MDM3MDAzOSwtNTEwNzk4NjE5LDE4NzE3MjExMDcs
-LTEzNzAwMzQwXX0=
+eyJoaXN0b3J5IjpbLTE1MzM3NTk1ODIsODk2ODAxMzc4LDEwMT
+M2NTE4ODksMTY3MzkxNjgxNCwyMjY0MjcyMjQsLTIwMDEwNjEx
+MDUsLTEwODYwODEzNzcsMTUyNTgxMTE4NiwtMTk3MjE4MDM2LC
+0xNzYyMzUyOTUzLC0xNDI4NjEwNjIzLC0xNDcyMTU3Nzk0LDEz
+MDc5ODY1ODEsLTQ1NTYwMDEwNywxMzAxNjg3NzA3LC0xOTQ4Nj
+Y1OTEyLC0xOTQ0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNzk4NjE5
+LDE4NzE3MjExMDddfQ==
 -->
