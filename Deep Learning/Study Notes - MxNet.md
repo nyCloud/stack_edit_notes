@@ -600,7 +600,7 @@ trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': 0.5})
 train(net, train_iter, test_iter, loss, num_epochs, trainer)
 ```
 
-#### 4.2 Model Selection, Underfitting and Overfitting
+### 4.2 Model Selection, Underfitting and Overfitting
 
 __Weight Decay__
 
@@ -661,12 +661,14 @@ net.add(nn.Dense(256, activation="relu"),
 		nn.Dense(10))
 net.initialize(init.Normal(sigma=0.01))
 ```
+
+## 5. Convolutional Neural Networks
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjU2ODA5NjMsODk2ODAxMzc4LDEwMT
-M2NTE4ODksMTY3MzkxNjgxNCwyMjY0MjcyMjQsLTIwMDEwNjEx
-MDUsLTEwODYwODEzNzcsMTUyNTgxMTE4NiwtMTk3MjE4MDM2LC
-0xNzYyMzUyOTUzLC0xNDI4NjEwNjIzLC0xNDcyMTU3Nzk0LDEz
-MDc5ODY1ODEsLTQ1NTYwMDEwNywxMzAxNjg3NzA3LC0xOTQ4Nj
-Y1OTEyLC0xOTQ0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNzk4NjE5
-LDE4NzE3MjExMDddfQ==
+eyJoaXN0b3J5IjpbLTQ0NjcxNzc3OCwtMTA2NTY4MDk2Myw4OT
+Y4MDEzNzgsMTAxMzY1MTg4OSwxNjczOTE2ODE0LDIyNjQyNzIy
+NCwtMjAwMTA2MTEwNSwtMTA4NjA4MTM3NywxNTI1ODExMTg2LC
+0xOTcyMTgwMzYsLTE3NjIzNTI5NTMsLTE0Mjg2MTA2MjMsLTE0
+NzIxNTc3OTQsMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMDE2OD
+c3MDcsLTE5NDg2NjU5MTIsLTE5NDQ2MzEwODUsODgwMzcwMDM5
+LC01MTA3OTg2MTldfQ==
 -->
