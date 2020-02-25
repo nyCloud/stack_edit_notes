@@ -639,10 +639,7 @@ def train_gluon(wd):
 ```
 
 __Drop Out__
-In 2014, Srivastava et al.  proposed to inject noise into each layer of the network before calculating the subsequent layer during training. They realized that when training deep network with many layers, enforcing smoothness just on the input-output mapping misses out on what is happening internally in the network. 
-
-Throughout training, on each iteration, dropout regularization consists simply of zeroing out some fraction (typically 50%) of the nodes in each layer before calculating the subsequent
-layer. 
+In 2014, Srivastava et al.  proposed to inject noise into each layer of the network before calculating the subsequent layer during training. Throughout training, on each iteration, dropout regularization consists simply of zeroing out some fraction (typically 50%) of the nodes in each layer before calculating the subsequent layer. 
 
 The key challenge then is how to inject this noise without introducing undue statistical bias. In other words, we want to perturb the inputs to each layer during training in such a way that the expected value of the layer is equal to the value it would have taken had we not introduced any noise at all.
  
@@ -654,11 +651,11 @@ $$ f(x)=\begin{cases}
 
 By design, the expectation remains unchanged.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDAwNDQxOSwxMDEzNjUxODg5LDE2Nz
-M5MTY4MTQsMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2MDgx
-Mzc3LDE1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2MjM1Mjk1My
-wtMTQyODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NTgxLC00
-NTU2MDAxMDcsMTMwMTY4NzcwNywtMTk0ODY2NTkxMiwtMTk0ND
-YzMTA4NSw4ODAzNzAwMzksLTUxMDc5ODYxOSwxODcxNzIxMTA3
-LC0xMzcwMDM0MF19
+eyJoaXN0b3J5IjpbODk2ODAxMzc4LDEwMTM2NTE4ODksMTY3Mz
+kxNjgxNCwyMjY0MjcyMjQsLTIwMDEwNjExMDUsLTEwODYwODEz
+NzcsMTUyNTgxMTE4NiwtMTk3MjE4MDM2LC0xNzYyMzUyOTUzLC
+0xNDI4NjEwNjIzLC0xNDcyMTU3Nzk0LDEzMDc5ODY1ODEsLTQ1
+NTYwMDEwNywxMzAxNjg3NzA3LC0xOTQ4NjY1OTEyLC0xOTQ0Nj
+MxMDg1LDg4MDM3MDAzOSwtNTEwNzk4NjE5LDE4NzE3MjExMDcs
+LTEzNzAwMzQwXX0=
 -->
