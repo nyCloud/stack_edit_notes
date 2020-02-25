@@ -645,11 +645,10 @@ Throughout training, on each iteration, dropout regularization consists simply o
 layer. 
 
 The key challenge then is how to inject this noise without introducing undue statistical bias. In other words, we want to perturb the inputs to each layer during training in such a way that the expected value of the layer is equal to the value it would have taken had we not introduced any noise at all.
- In Bishop’s case, when we are adding Gaussian noise to a linear model, this is simple: At each training
-iteration, just add noise sampled from a distribution with mean zero ε ∼ N (0, σ 2 ) to the input x , yielding
-a perturbed point x ′ = x + ε. In expectation, E[x ′ ] = x.
-In the case of dropout regularization, one can debias each layer by normalizing by the fraction of nodes that
-were not dropped out. In other words, dropout with drop probability p is applied as follows:
+ 
+In the case of dropout regularization, one can debias each layer by normalizing by the fraction of nodes that were not dropped out. In other words, dropout with drop probability p is applied as follows:
+$$ f(x)=\left\{  \begin{aligned} x & = &  \cos(t) \\ y & = &  \sin(t) \\ z & = &  \frac xy \end{aligned}  \right. $$
+$$$$
 {
 0
 with probability p
@@ -663,11 +662,11 @@ a random variable h ′ with matching expectation. The name ‘dropout’ arises
 neurons ‘drop out’ of the computation for the purpose of computing the final result. During training, we
 replace intermediate activations with random variables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjM1MTY3MSwxMDEzNjUxODg5LDE2Nz
-M5MTY4MTQsMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2MDgx
-Mzc3LDE1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2MjM1Mjk1My
-wtMTQyODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NTgxLC00
-NTU2MDAxMDcsMTMwMTY4NzcwNywtMTk0ODY2NTkxMiwtMTk0ND
-YzMTA4NSw4ODAzNzAwMzksLTUxMDc5ODYxOSwxODcxNzIxMTA3
-LC0xMzcwMDM0MF19
+eyJoaXN0b3J5IjpbLTE0MTEzMTU0ODksMTAxMzY1MTg4OSwxNj
+czOTE2ODE0LDIyNjQyNzIyNCwtMjAwMTA2MTEwNSwtMTA4NjA4
+MTM3NywxNTI1ODExMTg2LC0xOTcyMTgwMzYsLTE3NjIzNTI5NT
+MsLTE0Mjg2MTA2MjMsLTE0NzIxNTc3OTQsMTMwNzk4NjU4MSwt
+NDU1NjAwMTA3LDEzMDE2ODc3MDcsLTE5NDg2NjU5MTIsLTE5ND
+Q2MzEwODUsODgwMzcwMDM5LC01MTA3OTg2MTksMTg3MTcyMTEw
+NywtMTM3MDAzNDBdfQ==
 -->
