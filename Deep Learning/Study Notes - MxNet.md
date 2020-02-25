@@ -649,7 +649,7 @@ The key challenge then is how to inject this noise without introducing undue sta
 In the case of dropout regularization, one can debias each layer by normalizing by the fraction of nodes that were not dropped out. In other words, dropout with drop probability p is applied as follows:
 $$ f(x)=\left\{  \begin{aligned} 
                           0 \;\;with\;probability\;p\\ 
-                          \f \\ 
+                          \frac{h}{1-p} \;\;otherwise \\ 
                           \end{aligned}  
      \right. $$
 $$$$
@@ -666,7 +666,7 @@ a random variable h ′ with matching expectation. The name ‘dropout’ arises
 neurons ‘drop out’ of the computation for the purpose of computing the final result. During training, we
 replace intermediate activations with random variables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA0NDcwMTAsMTAxMzY1MTg4OSwxNj
+eyJoaXN0b3J5IjpbLTEwNTM5MjU4NTgsMTAxMzY1MTg4OSwxNj
 czOTE2ODE0LDIyNjQyNzIyNCwtMjAwMTA2MTEwNSwtMTA4NjA4
 MTM3NywxNTI1ODExMTg2LC0xOTcyMTgwMzYsLTE3NjIzNTI5NT
 MsLTE0Mjg2MTA2MjMsLTE0NzIxNTc3OTQsMTMwNzk4NjU4MSwt
