@@ -655,14 +655,14 @@ Code Example
 ```python
 net = nn.Sequential()
 net.add(nn.Dense(256, activation="relu"),
-		nn.Dropout(drop_prob1), #D
+		nn.Dropout(drop_prob1), # Dropout layer
 		nn.Dense(256, activation="relu"),
-		nn.Dropout(drop_prob2),
+		nn.Dropout(drop_prob2), # Dropout layer
 		nn.Dense(10))
 net.initialize(init.Normal(sigma=0.01))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM3NTk1ODIsODk2ODAxMzc4LDEwMT
+eyJoaXN0b3J5IjpbLTEwNjU2ODA5NjMsODk2ODAxMzc4LDEwMT
 M2NTE4ODksMTY3MzkxNjgxNCwyMjY0MjcyMjQsLTIwMDEwNjEx
 MDUsLTEwODYwODEzNzcsMTUyNTgxMTE4NiwtMTk3MjE4MDM2LC
 0xNzYyMzUyOTUzLC0xNDI4NjEwNjIzLC0xNDcyMTU3Nzk0LDEz
