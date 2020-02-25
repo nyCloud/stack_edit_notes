@@ -647,30 +647,21 @@ layer.
 The key challenge then is how to inject this noise without introducing undue statistical bias. In other words, we want to perturb the inputs to each layer during training in such a way that the expected value of the layer is equal to the value it would have taken had we not introduced any noise at all.
  
 In the case of dropout regularization, one can debias each layer by normalizing by the fraction of nodes that were not dropped out. In other words, dropout with drop probability p is applied as follows:
-$$ f(x)=\left\{  \begin{cases} 
-                          0 & &{with\;probability\;p}\\ 
-                          \frac{h}{1-p} & &{otherwise}\\ 
-                          \end{cases}  
-     \right. $$
-$$$$
-{
-0
-with probability p
-h ′ =
-(6.6.1)
-h
-otherwise
-1−p
+$$ f(x)=\begin{cases} 
+             0 & \text{with probability p}\\ 
+             \frac{h}{1-p} & \text{otherwise}\\ 
+             \end{cases}   $$
+
 By design, the expectation remains unchanged, i.e., E[h ′ ] = h. Intermediate activations h are replaced by
 a random variable h ′ with matching expectation. The name ‘dropout’ arises from the notion that some
 neurons ‘drop out’ of the computation for the purpose of computing the final result. During training, we
 replace intermediate activations with random variables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ3MzM3NTYsMTAxMzY1MTg4OSwxNj
-czOTE2ODE0LDIyNjQyNzIyNCwtMjAwMTA2MTEwNSwtMTA4NjA4
-MTM3NywxNTI1ODExMTg2LC0xOTcyMTgwMzYsLTE3NjIzNTI5NT
-MsLTE0Mjg2MTA2MjMsLTE0NzIxNTc3OTQsMTMwNzk4NjU4MSwt
-NDU1NjAwMTA3LDEzMDE2ODc3MDcsLTE5NDg2NjU5MTIsLTE5ND
-Q2MzEwODUsODgwMzcwMDM5LC01MTA3OTg2MTksMTg3MTcyMTEw
-NywtMTM3MDAzNDBdfQ==
+eyJoaXN0b3J5IjpbMjA2NDU1MzUyNiwxMDEzNjUxODg5LDE2Nz
+M5MTY4MTQsMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2MDgx
+Mzc3LDE1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2MjM1Mjk1My
+wtMTQyODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NTgxLC00
+NTU2MDAxMDcsMTMwMTY4NzcwNywtMTk0ODY2NTkxMiwtMTk0ND
+YzMTA4NSw4ODAzNzAwMzksLTUxMDc5ODYxOSwxODcxNzIxMTA3
+LC0xMzcwMDM0MF19
 -->
