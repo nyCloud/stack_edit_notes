@@ -639,7 +639,7 @@ def train_gluon(wd):
 ```
 
 __Drop Out__
-In 2014, Srivastava et al.  proposed to inject noise into each layer of the network before calculating the subsequent layer during training. They realized that when training deep network with many layers, enforcing smoothness just on the input-output mapping misses out on what is happening internally in the network. Their proposed idea is called dropout, and it is now a standard technique that is widely used for training neural networks. 
+In 2014, Srivastava et al.  proposed to inject noise into each layer of the network before calculating the subsequent layer during training. They realized that when training deep network with many layers, enforcing smoothness just on the input-output mapping misses out on what is happening internally in the network. 
 
 Throughout training, on each iteration, dropout regularization consists simply of zeroing out some fraction (typically 50%) of the nodes in each layer before calculating the subsequent
 layer. 
@@ -652,12 +652,9 @@ $$ f(x)=\begin{cases}
              \frac{h}{1-p} & \text{otherwise}\\ 
              \end{cases}   $$
 
-By design, the expectation remains unchanged, i.e., E[h ′ ] = h. Intermediate activations h are replaced by
-a random variable h ′ with matching expectation. The name ‘dropout’ arises from the notion that some
-neurons ‘drop out’ of the computation for the purpose of computing the final result. During training, we
-replace intermediate activations with random variables
+By design, the expectation remains unchanged.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDU1MzUyNiwxMDEzNjUxODg5LDE2Nz
+eyJoaXN0b3J5IjpbLTY0MDAwNDQxOSwxMDEzNjUxODg5LDE2Nz
 M5MTY4MTQsMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2MDgx
 Mzc3LDE1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2MjM1Mjk1My
 wtMTQyODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NTgxLC00
