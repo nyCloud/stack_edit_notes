@@ -639,13 +639,35 @@ def train_gluon(wd):
 ```
 
 __Drop Out__
+In 2014, Srivastava et al.  proposed to inject noise into each layer of the network before calculating the subsequent layer during training. They realized that when training deep network with many layers, enforcing smoothness just on the input-output mapping misses out on what is happening internally in the network. Their proposed idea is called dropout, and it is now a standard technique that is widely used for training neural networks. 
 
+Throughout training, on each iteration, dropout regularization consists simply of zeroing out some fraction (typically 50%) of the nodes in each layer before calculating the subsequent
+layer. 
+
+The key challenge then is how to inject this noise without introducing undue statistical bias. In other words, we want to perturb the inputs to each layer during training in such a way that the expected value of the layer is equal to the value it would have taken had we not introduced any noise at all.
+ In Bishop’s case, when we are adding Gaussian noise to a linear model, this is simple: At each training
+iteration, just add noise sampled from a distribution with mean zero ε ∼ N (0, σ 2 ) to the input x , yielding
+a perturbed point x ′ = x + ε. In expectation, E[x ′ ] = x.
+In the case of dropout regularization, one can debias each layer by normalizing by the fraction of nodes that
+were not dropped out. In other words, dropout with drop probability p is applied as follows:
+{
+0
+with probability p
+h ′ =
+(6.6.1)
+h
+otherwise
+1−p
+By design, the expectation remains unchanged, i.e., E[h ′ ] = h. Intermediate activations h are replaced by
+a random variable h ′ with matching expectation. The name ‘dropout’ arises from the notion that some
+neurons ‘drop out’ of the computation for the purpose of computing the final result. During training, we
+replace intermediate activations with random variables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzY1MTg4OSwxNjczOTE2ODE0LDIyNj
-QyNzIyNCwtMjAwMTA2MTEwNSwtMTA4NjA4MTM3NywxNTI1ODEx
-MTg2LC0xOTcyMTgwMzYsLTE3NjIzNTI5NTMsLTE0Mjg2MTA2Mj
-MsLTE0NzIxNTc3OTQsMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEz
-MDE2ODc3MDcsLTE5NDg2NjU5MTIsLTE5NDQ2MzEwODUsODgwMz
-cwMDM5LC01MTA3OTg2MTksMTg3MTcyMTEwNywtMTM3MDAzNDAs
-Njk3NjMzNjMwXX0=
+eyJoaXN0b3J5IjpbMTA3NjM1MTY3MSwxMDEzNjUxODg5LDE2Nz
+M5MTY4MTQsMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2MDgx
+Mzc3LDE1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2MjM1Mjk1My
+wtMTQyODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NTgxLC00
+NTU2MDAxMDcsMTMwMTY4NzcwNywtMTk0ODY2NTkxMiwtMTk0ND
+YzMTA4NSw4ODAzNzAwMzksLTUxMDc5ODYxOSwxODcxNzIxMTA3
+LC0xMzcwMDM0MF19
 -->
