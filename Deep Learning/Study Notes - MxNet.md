@@ -605,7 +605,8 @@ train(net, train_iter, test_iter, loss, num_epochs, trainer)
 __Weight Decay__
 
 Weight decay (commonly called L2 regularization), might be the most widely-used technique for regularizing parametric machine learning models. Considering a linear function $f(x)=w^Tx$, it would be simple if its weight vector is small. We can measure this via $||w||^2$ . One way of keeping the weight vector small is to add its norm as a penalty term to the problem of minimizing the loss. Thus we replace our original objective, minimize the prediction error on the training labels, with new objective, minimize the sum of the prediction error and the penalty term. Now, if the weight vector becomes too large, our learning algorithm will find more profit in minimizing the norm $||w||^2$ versus minimizing the training error. That’s exactly what we want. 
-Following code shows the basic usage of weight decay in MxNet.
+
+Following code block shows the basic usage of weight decay in MxNet.
 
 ```python
 def train_gluon(wd):
@@ -640,11 +641,11 @@ def train_gluon(wd):
 p153
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzkxNjgxNCwyMjY0MjcyMjQsLTIwMD
-EwNjExMDUsLTEwODYwODEzNzcsMTUyNTgxMTE4NiwtMTk3MjE4
-MDM2LC0xNzYyMzUyOTUzLC0xNDI4NjEwNjIzLC0xNDcyMTU3Nz
-k0LDEzMDc5ODY1ODEsLTQ1NTYwMDEwNywxMzAxNjg3NzA3LC0x
-OTQ4NjY1OTEyLC0xOTQ0NjMxMDg1LDg4MDM3MDAzOSwtNTEwNz
-k4NjE5LDE4NzE3MjExMDcsLTEzNzAwMzQwLDY5NzYzMzYzMCwt
-NDUyMzkwODExXX0=
+eyJoaXN0b3J5IjpbLTE2OTUyMTM0NTcsMTY3MzkxNjgxNCwyMj
+Y0MjcyMjQsLTIwMDEwNjExMDUsLTEwODYwODEzNzcsMTUyNTgx
+MTE4NiwtMTk3MjE4MDM2LC0xNzYyMzUyOTUzLC0xNDI4NjEwNj
+IzLC0xNDcyMTU3Nzk0LDEzMDc5ODY1ODEsLTQ1NTYwMDEwNywx
+MzAxNjg3NzA3LC0xOTQ4NjY1OTEyLC0xOTQ0NjMxMDg1LDg4MD
+M3MDAzOSwtNTEwNzk4NjE5LDE4NzE3MjExMDcsLTEzNzAwMzQw
+LDY5NzYzMzYzMF19
 -->
