@@ -665,21 +665,21 @@ net.initialize(init.Normal(sigma=0.01))
 ## 5. Convolutional Neural Networks
 
 ```python
-# Construct a convolutional layer with 1 output channel
-
-# and a kernel array shape of (1, 2)
-conv2d = nn.Conv2D(1, kernel_size=(1, 2))
+# Construct a convolutional layer with 3 output channel
+# and a kernel array shape of (5, 5)
+conv2d = nn.Conv2D(3, kernel_size=(5, 5))
 
 # Add cov layer with padding
-conv2d = nn.Conv2D(1, kernel_size=(5, 5), padding=(2, 1))
+conv2d = nn.Conv2D(1, kernel_size=(5, 3), padding=(2, 1))
+
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU2ODEyMiwtNDQ2NzE3Nzc4LC0xMD
-Y1NjgwOTYzLDg5NjgwMTM3OCwxMDEzNjUxODg5LDE2NzM5MTY4
-MTQsMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2MDgxMzc3LD
-E1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2MjM1Mjk1MywtMTQy
-ODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NTgxLC00NTU2MD
-AxMDcsMTMwMTY4NzcwNywtMTk0ODY2NTkxMiwtMTk0NDYzMTA4
-NSw4ODAzNzAwMzldfQ==
+eyJoaXN0b3J5IjpbLTE3ODI1NDg0MTAsLTQ0NjcxNzc3OCwtMT
+A2NTY4MDk2Myw4OTY4MDEzNzgsMTAxMzY1MTg4OSwxNjczOTE2
+ODE0LDIyNjQyNzIyNCwtMjAwMTA2MTEwNSwtMTA4NjA4MTM3Ny
+wxNTI1ODExMTg2LC0xOTcyMTgwMzYsLTE3NjIzNTI5NTMsLTE0
+Mjg2MTA2MjMsLTE0NzIxNTc3OTQsMTMwNzk4NjU4MSwtNDU1Nj
+AwMTA3LDEzMDE2ODc3MDcsLTE5NDg2NjU5MTIsLTE5NDQ2MzEw
+ODUsODgwMzcwMDM5XX0=
 -->
