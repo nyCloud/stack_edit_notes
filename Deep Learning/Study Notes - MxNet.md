@@ -664,9 +664,13 @@ net.initialize(init.Normal(sigma=0.01))
 
 ## 5. Convolutional Neural Networks
 
+```python
+# Add cov layer with padding
+conv2d = nn.Conv2D(1, kernel_size=(5, 3), padding=(2, 1))
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDI2MDcxOTAsLTQ0NjcxNzc3OCwtMT
+eyJoaXN0b3J5IjpbLTE3MDY0OTQ0MjgsLTQ0NjcxNzc3OCwtMT
 A2NTY4MDk2Myw4OTY4MDEzNzgsMTAxMzY1MTg4OSwxNjczOTE2
 ODE0LDIyNjQyNzIyNCwtMjAwMTA2MTEwNSwtMTA4NjA4MTM3Ny
 wxNTI1ODExMTg2LC0xOTcyMTgwMzYsLTE3NjIzNTI5NTMsLTE0
