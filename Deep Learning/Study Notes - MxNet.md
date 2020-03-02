@@ -672,14 +672,17 @@ conv2d = nn.Conv2D(3, kernel_size=(5, 5))
 # Add cov layer with padding
 conv2d = nn.Conv2D(1, kernel_size=(5, 3), padding=(2, 1))
 
-# 
+# Use strides & padding
+conv2d = nn.Conv2D(1, kernel_size=3, padding=1, strides=2)
+conv2d = nn.Conv2D(1, kernel_size=(3, 5), padding=(0, 1), strides=(1, 2))
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDI5NTE5NjUsLTE3ODI1NDg0MTAsLT
-Q0NjcxNzc3OCwtMTA2NTY4MDk2Myw4OTY4MDEzNzgsMTAxMzY1
-MTg4OSwxNjczOTE2ODE0LDIyNjQyNzIyNCwtMjAwMTA2MTEwNS
-wtMTA4NjA4MTM3NywxNTI1ODExMTg2LC0xOTcyMTgwMzYsLTE3
-NjIzNTI5NTMsLTE0Mjg2MTA2MjMsLTE0NzIxNTc3OTQsMTMwNz
-k4NjU4MSwtNDU1NjAwMTA3LDEzMDE2ODc3MDcsLTE5NDg2NjU5
-MTIsLTE5NDQ2MzEwODVdfQ==
+eyJoaXN0b3J5IjpbMTA5NDY1NzgwMCwtMTc4MjU0ODQxMCwtND
+Q2NzE3Nzc4LC0xMDY1NjgwOTYzLDg5NjgwMTM3OCwxMDEzNjUx
+ODg5LDE2NzM5MTY4MTQsMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC
+0xMDg2MDgxMzc3LDE1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2
+MjM1Mjk1MywtMTQyODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OT
+g2NTgxLC00NTU2MDAxMDcsMTMwMTY4NzcwNywtMTk0ODY2NTkx
+MiwtMTk0NDYzMTA4NV19
 -->
