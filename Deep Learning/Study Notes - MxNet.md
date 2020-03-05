@@ -676,10 +676,11 @@ conv2d = nn.Conv2D(1, kernel_size=(5, 3), padding=(2, 1))
 conv2d = nn.Conv2D(1, kernel_size=3, padding=1, strides=2)
 conv2d = nn.Conv2D(1, kernel_size=(3, 5), padding=(0, 1), strides=(1, 2))
 
+# Adding pooling layer
 pool2d = nn.MaxPool2D((2, 3), padding=(1, 2), strides=(2, 3))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3Mjk5MTA5LDEwOTQ2NTc4MDAsLTE3OD
+eyJoaXN0b3J5IjpbMjMxNzQwMzUwLDEwOTQ2NTc4MDAsLTE3OD
 I1NDg0MTAsLTQ0NjcxNzc3OCwtMTA2NTY4MDk2Myw4OTY4MDEz
 NzgsMTAxMzY1MTg4OSwxNjczOTE2ODE0LDIyNjQyNzIyNCwtMj
 AwMTA2MTEwNSwtMTA4NjA4MTM3NywxNTI1ODExMTg2LC0xOTcy
