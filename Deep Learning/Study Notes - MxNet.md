@@ -684,13 +684,14 @@ __Image Size After Convolution__
 origin 
 $$n_h \times n_w$$
 after
-$$(n_h-k_h+p_h+s_h) /s_h \times (n_w-k_w+p_w+s_w)/s_w$$
+
+$$\left \lfloor{(n_h-k_h+p_h+s_h) /s_h}\right \rfloor \times \left \lfloor{(n_w-k_w+p_w+s_w)/s_w}\right \rfloor $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDI1MjYyMiwyMzE3NDAzNTAsMTA5ND
-Y1NzgwMCwtMTc4MjU0ODQxMCwtNDQ2NzE3Nzc4LC0xMDY1Njgw
-OTYzLDg5NjgwMTM3OCwxMDEzNjUxODg5LDE2NzM5MTY4MTQsMj
-I2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2MDgxMzc3LDE1MjU4
-MTExODYsLTE5NzIxODAzNiwtMTc2MjM1Mjk1MywtMTQyODYxMD
-YyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NTgxLC00NTU2MDAxMDcs
-MTMwMTY4NzcwN119
+eyJoaXN0b3J5IjpbLTE2Mzc2Mzk3NjgsMjAzMDI1MjYyMiwyMz
+E3NDAzNTAsMTA5NDY1NzgwMCwtMTc4MjU0ODQxMCwtNDQ2NzE3
+Nzc4LC0xMDY1NjgwOTYzLDg5NjgwMTM3OCwxMDEzNjUxODg5LD
+E2NzM5MTY4MTQsMjI2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2
+MDgxMzc3LDE1MjU4MTExODYsLTE5NzIxODAzNiwtMTc2MjM1Mj
+k1MywtMTQyODYxMDYyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NTgx
+LC00NTU2MDAxMDddfQ==
 -->
