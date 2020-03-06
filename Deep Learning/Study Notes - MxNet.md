@@ -679,12 +679,18 @@ conv2d = nn.Conv2D(1, kernel_size=(3, 5), padding=(0, 1), strides=(1, 2))
 # Adding pooling layer
 pool2d = nn.MaxPool2D((2, 3), padding=(1, 2), strides=(2, 3))
 ```
+
+__Image Size After Convolution__
+origin 
+$$n_h \times n_w$$
+after
+$$() \times $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNzQwMzUwLDEwOTQ2NTc4MDAsLTE3OD
-I1NDg0MTAsLTQ0NjcxNzc3OCwtMTA2NTY4MDk2Myw4OTY4MDEz
-NzgsMTAxMzY1MTg4OSwxNjczOTE2ODE0LDIyNjQyNzIyNCwtMj
-AwMTA2MTEwNSwtMTA4NjA4MTM3NywxNTI1ODExMTg2LC0xOTcy
-MTgwMzYsLTE3NjIzNTI5NTMsLTE0Mjg2MTA2MjMsLTE0NzIxNT
-c3OTQsMTMwNzk4NjU4MSwtNDU1NjAwMTA3LDEzMDE2ODc3MDcs
-LTE5NDg2NjU5MTJdfQ==
+eyJoaXN0b3J5IjpbLTQyMTM1OTgxNCwyMzE3NDAzNTAsMTA5ND
+Y1NzgwMCwtMTc4MjU0ODQxMCwtNDQ2NzE3Nzc4LC0xMDY1Njgw
+OTYzLDg5NjgwMTM3OCwxMDEzNjUxODg5LDE2NzM5MTY4MTQsMj
+I2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2MDgxMzc3LDE1MjU4
+MTExODYsLTE5NzIxODAzNiwtMTc2MjM1Mjk1MywtMTQyODYxMD
+YyMywtMTQ3MjE1Nzc5NCwxMzA3OTg2NTgxLC00NTU2MDAxMDcs
+MTMwMTY4NzcwN119
 -->
