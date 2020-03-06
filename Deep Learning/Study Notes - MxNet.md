@@ -684,9 +684,9 @@ __Image Size After Convolution__
 origin 
 $$n_h \times n_w$$
 after
-$$() \times $$
+$$(n_h-k_h+p_h+s_h) /s_h \times (n_w-k_w+p_w+s_w)/s_w$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTM1OTgxNCwyMzE3NDAzNTAsMTA5ND
+eyJoaXN0b3J5IjpbMjAzMDI1MjYyMiwyMzE3NDAzNTAsMTA5ND
 Y1NzgwMCwtMTc4MjU0ODQxMCwtNDQ2NzE3Nzc4LC0xMDY1Njgw
 OTYzLDg5NjgwMTM3OCwxMDEzNjUxODg5LDE2NzM5MTY4MTQsMj
 I2NDI3MjI0LC0yMDAxMDYxMTA1LC0xMDg2MDgxMzc3LDE1MjU4
