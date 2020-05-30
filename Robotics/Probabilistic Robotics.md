@@ -2,7 +2,7 @@
 
 # Probabilistic Robotics
 ## 1. Recursive State Estimation
-#### 1.1 Some Math
+#### 1.1 Math
 
 - Positive Definite & Positive Semi-definite
 *Positive Definite*: For an n x n matrix $A$, by given any non-zero vector $x$, $x^TAx>0$ stands, then $A$ is positive definite.
@@ -13,6 +13,6 @@
 *Multivariate Gaussian Distribution: $p(x) = \frac{1}{\sqrt{det(2\pi\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC0yMT
-MyNzY5M119
+eyJoaXN0b3J5IjpbLTg3MDU0NTA5MCwtNTA1NTgwMDY4LDE0Mj
+kwNDkzNzAsLTIxMzI3NjkzXX0=
 -->
