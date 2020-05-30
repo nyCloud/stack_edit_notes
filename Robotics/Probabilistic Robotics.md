@@ -9,8 +9,10 @@
 *Positive Semi-definite*: For an n x n matrix $A$, by given any vector $x$, $x^TAx \ge0$ stands, then $A$ is positive definite.
 
 - Gaussian Distribution
-
+*Normal Distribution
+$$p(x) = \frac {}{2\pi\sigma}$$
+*Multivariate Gaussian Distribution
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE4Nzc5MjQsMTQyOTA0OTM3MCwtMj
-EzMjc2OTNdfQ==
+eyJoaXN0b3J5IjpbMTgxNzczODExOSwxNDI5MDQ5MzcwLC0yMT
+MyNzY5M119
 -->
