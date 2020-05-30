@@ -10,9 +10,9 @@
 
 - Gaussian Distribution
 *Normal Distribution:  $p(x) = \frac {1}{\sqrt{2\pi\sigma}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$
-*Multivariate Gaussian Distribution: $p()$
+*Multivariate Gaussian Distribution: $p(x) = \frac{1}{\sqrt{det(2\pi\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODU1ODA5OSwxNDI5MDQ5MzcwLC0yMT
+eyJoaXN0b3J5IjpbLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC0yMT
 MyNzY5M119
 -->
