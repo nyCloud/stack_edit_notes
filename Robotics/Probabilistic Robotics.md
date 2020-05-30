@@ -6,10 +6,10 @@
 
 - Positive Definite & Positive Semi-definite
 *Positive Definite*: For an n x n matrix $A$, by given any non-zero vector $x$, $x^TAx>0$ stands, then $A$ is positive definite.
-*Positive Semi-definite*: For an n x n matrix $A$, by given any non-zero vector $x$, $x^TAx \ge0$ stands, then $A$ is positive definite.
+*Positive Semi-definite*: For an n x n matrix $A$, by given any vector $x$, $x^TAx \ge0$ stands, then $A$ is positive definite.
 
 - Gaussian Distribution
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDcwMjUwLDE0MjkwNDkzNzAsLTIxMz
-I3NjkzXX0=
+eyJoaXN0b3J5IjpbMTI1Njg0MjE1OCwxNDI5MDQ5MzcwLC0yMT
+MyNzY5M119
 -->
