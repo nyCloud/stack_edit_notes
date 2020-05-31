@@ -12,7 +12,9 @@
 *Normal Distribution:  $p(x) = \frac {1}{\sqrt{2\pi\sigma}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$
 *Multivariate Gaussian Distribution: $p(x) = \frac{1}{\sqrt{det(2\pi\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$
 
+#### 1.2 Bayes Filter
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE0MTgxOSwtNTA1NTgwMDY4LDE0Mj
-kwNDkzNzAsLTIxMzI3NjkzXX0=
+eyJoaXN0b3J5IjpbNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNT
+U4MDA2OCwxNDI5MDQ5MzcwLC0yMTMyNzY5M119
 -->
