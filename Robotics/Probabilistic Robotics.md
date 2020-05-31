@@ -13,11 +13,9 @@
 *Multivariate Gaussian Distribution: $p(x) = \frac{1}{\sqrt{det(2\pi\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$
 
 #### 1.2 Bayes Filter
-```python
-def bayes_filter(bel_old, )
-```
+Bayes_Filter()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDg0NzUyNiw1ODkwMTUxMjQsLTExNj
+eyJoaXN0b3J5IjpbMTI5Mjc5MzM0OCw1ODkwMTUxMjQsLTExNj
 E0MTgxOSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLTIxMzI3Njkz
 XX0=
 -->
