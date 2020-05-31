@@ -15,12 +15,11 @@
 #### 1.2 Bayes Filter
 Bayes_Filter(bel($x_{t-1}$), $u_t$, $z_t$):
 $\qquad$ for all $x_t$:
-$\qquad\qquad$
-
+$\qquad\qquad$$\bar{bel}(x_t)=\sum_{v}{p(x_t|u_t,x_{t-1})bel(x_{t-1})}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzA1OTc3OSw1ODkwMTUxMjQsLTExNj
+eyJoaXN0b3J5IjpbLTIyNDU4NzkwMiw1ODkwMTUxMjQsLTExNj
 E0MTgxOSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLTIxMzI3Njkz
 XX0=
 -->
