@@ -13,9 +13,10 @@
 *Multivariate Gaussian Distribution: $p(x) = \frac{1}{\sqrt{det(2\pi\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$
 
 #### 1.2 Bayes Filter
-Bayes_Filter()
+Bayes_Filter(bel($x_{t-1}$), $u_t$, $z_t$):
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Mjc5MzM0OCw1ODkwMTUxMjQsLTExNj
+eyJoaXN0b3J5IjpbLTQwMzkwOTU4NCw1ODkwMTUxMjQsLTExNj
 E0MTgxOSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLTIxMzI3Njkz
 XX0=
 -->
