@@ -16,12 +16,14 @@
 Bayes_Filter(bel($x_{t-1}$), $u_t$, $z_t$):
 $\qquad$ for all u in $x_t$:
 $\qquad\qquad$$\bar{bel}(x_t=u)=\sum_{v}{p(x_t|u_t,x_{t-1}=v)bel(x_{t-1}=v)}$
+$\qquad\qquad$$bel(x_t)=\eta p(z_t|x_t)\bar{bel}(x_t)}$
+$\qquad$ return $bel(x_t)$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTI0Mzg2NCw1ODkwMTUxMjQsLTExNj
+eyJoaXN0b3J5IjpbLTUzODUxODg0Myw1ODkwMTUxMjQsLTExNj
 E0MTgxOSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLTIxMzI3Njkz
 XX0=
 -->
