@@ -14,9 +14,13 @@
 
 #### 1.2 Bayes Filter
 Bayes_Filter(bel($x_{t-1}$), $u_t$, $z_t$):
+: for all $x_t$ do
+: ss
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzkwOTU4NCw1ODkwMTUxMjQsLTExNj
-E0MTgxOSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLTIxMzI3Njkz
-XX0=
+eyJoaXN0b3J5IjpbMTU5MTMzNzE4LDU4OTAxNTEyNCwtMTE2MT
+QxODE5LC01MDU1ODAwNjgsMTQyOTA0OTM3MCwtMjEzMjc2OTNd
+fQ==
 -->
