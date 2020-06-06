@@ -21,11 +21,14 @@ $\qquad\qquad$$\bar{bel}(x_t=u)=\sum_{v}{p(x_t|u_t,x_{t-1}=v)bel(x_{t-1}=v)}$
 $\qquad\qquad$$bel(x_t=u)=\eta p(z_t|x_t=u)\bar{bel}(x_t=u)$
 $\qquad$ return $bel(x_t)$
 
+## 2. Gaussian Filters
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzcxOTgwMiw1ODkwMTUxMjQsLTExNj
-E0MTgxOSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLTIxMzI3Njkz
-XX0=
+eyJoaXN0b3J5IjpbLTk1NDcxMDMxNCwtNDEzNzE5ODAyLDU4OT
+AxNTEyNCwtMTE2MTQxODE5LC01MDU1ODAwNjgsMTQyOTA0OTM3
+MCwtMjEzMjc2OTNdfQ==
 -->
