@@ -34,8 +34,13 @@ where $\delta_t$ is the random noise introduced from measurement, which subject 
 **Initial Belief**
 $$bel(x_0) \sim N(\mu_0, \Sigma_0)$$
 
+```latex
+a=x_
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTE3MjcxNywxMzE3ODk4NzEsLTk1ND
-cxMDMxNCwtNDEzNzE5ODAyLDU4OTAxNTEyNCwtMTE2MTQxODE5
-LC01MDU1ODAwNjgsMTQyOTA0OTM3MCwtMjEzMjc2OTNdfQ==
+eyJoaXN0b3J5IjpbMTg0NDU4NDE4NiwtNDM1MTcyNzE3LDEzMT
+c4OTg3MSwtOTU0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1MTI0
+LC0xMTYxNDE4MTksLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC0yMT
+MyNzY5M119
 -->
