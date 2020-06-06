@@ -25,14 +25,14 @@ $\qquad$ return $bel(x_t)$
 
 **State Transformation Function**
  $$x_t = A_tx_{t-1}+B_tu_t+\varepsilon_t$$
- where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t, and $\varepsilon_t$ is the random noise at time t, and we assume it subject to $N(0, R_t)$.
+ where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t, and $\varepsilon_t$ is the random noise at time t, and we assume it subject to distribution $N(0, R_t)$.
 
 **Measurement Function**
  $$z_t=C_tx_t+\delta_t$$
-
+where $\delta_t$ is the random noise introduced from measurement, which subject to normal distribution $N(0, )$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM5MjQ4MjcsMTMxNzg5ODcxLC05NT
-Q3MTAzMTQsLTQxMzcxOTgwMiw1ODkwMTUxMjQsLTExNjE0MTgx
-OSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLTIxMzI3NjkzXX0=
+eyJoaXN0b3J5IjpbLTc4MzM0ODgyNCwxMzE3ODk4NzEsLTk1ND
+cxMDMxNCwtNDEzNzE5ODAyLDU4OTAxNTEyNCwtMTE2MTQxODE5
+LC01MDU1ODAwNjgsMTQyOTA0OTM3MCwtMjEzMjc2OTNdfQ==
 -->
