@@ -9,9 +9,9 @@
 *Positive Semi-definite*: For an n x n matrix $A$, by given any vector $x$, $x^TAx \ge0$ stands, then $A$ is positive definite.
 
 - Gaussian Distribution
-*Normal Distribution: 
+*Normal Distribution*: 
 $$p(x) = \frac {1}{\sqrt{2\pi\sigma}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$$
-*Multivariate Gaussian Distribution: 
+*Multivariate Gaussian Distribution*: 
 $$p(x) = \frac{1}{\sqrt{det(2\pi\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$$
 
 #### 1.2 Bayes Filter
@@ -23,13 +23,13 @@ $\qquad$ return $bel(x_t)$
 
 ## 2. Gaussian Filters
 
-* State transformation function:
+**State transformation function**
  $$x_t = A_tx_{t-1}+B_tu_t+\varepsilon_t$$
-
+ where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Njk0MjE4NiwtOTU0NzEwMzE0LC00MT
+eyJoaXN0b3J5IjpbMjEwODU2MTk5NCwtOTU0NzEwMzE0LC00MT
 M3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2
 OCwxNDI5MDQ5MzcwLC0yMTMyNzY5M119
 -->
