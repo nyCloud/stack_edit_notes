@@ -23,12 +23,13 @@ $\qquad$ return $bel(x_t)$
 
 ## 2. Gaussian Filters
 
-State transformation function: $x_t = $
+* State transformation function:
+ $$x_t = A_tx_{t-1}+B_tu_t+\varepsilon_t$$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjYyMjQzNCwtOTU0NzEwMzE0LC00MT
+eyJoaXN0b3J5IjpbLTQ2Njk0MjE4NiwtOTU0NzEwMzE0LC00MT
 M3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2
 OCwxNDI5MDQ5MzcwLC0yMTMyNzY5M119
 -->
