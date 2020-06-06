@@ -39,13 +39,13 @@ $$bel(x_0) \sim N(\mu_0, \Sigma_0)$$
 $AlgorithmKalman_filter(\mu_{t-1}, \Sigma_{t-1},u_t, z_t):$
 $\qquad    \bar{\mu_t}= A_t\mu_{t-1}+B_tu_t$
 $\qquad    \bar{\Sigma_t} = A_t\Sigma_{t-1}A_t^T+R_t$
-$\qquad$
-$\qquad$
+$\qquad    K_t = \bar{\Sigma_t}C_t^T(C_t\bar\Sigma_tC_t^T+Q_t)^{-1}$
+$\qquad    \mu_t = \bar\mu_t + K_t$ 
 $\qquad$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTEzMDcyNDIsLTQzNTE3MjcxNywxMz
+eyJoaXN0b3J5IjpbLTExMDQ5NTEwNjIsLTQzNTE3MjcxNywxMz
 E3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5ODAyLDU4OTAxNTEy
 NCwtMTE2MTQxODE5LC01MDU1ODAwNjgsMTQyOTA0OTM3MCwtMj
 EzMjc2OTNdfQ==
