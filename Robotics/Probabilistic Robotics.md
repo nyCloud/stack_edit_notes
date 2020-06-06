@@ -29,10 +29,13 @@ $\qquad$ return $bel(x_t)$
 
 **Measurement Function**
  $$z_t=C_tx_t+\delta_t$$
-where $\delta_t$ is the random noise introduced from measurement, which subject to normal distribution $N(0, )$
+where $\delta_t$ is the random noise introduced from measurement, which subject to normal distribution $N(0, Q_t)$
+
+**Initial Belief**
+$$bel(x_0) \sim N(\mu_0, \Sigma_0)$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzM0ODgyNCwxMzE3ODk4NzEsLTk1ND
+eyJoaXN0b3J5IjpbLTQzNTE3MjcxNywxMzE3ODk4NzEsLTk1ND
 cxMDMxNCwtNDEzNzE5ODAyLDU4OTAxNTEyNCwtMTE2MTQxODE5
 LC01MDU1ODAwNjgsMTQyOTA0OTM3MCwtMjEzMjc2OTNdfQ==
 -->
