@@ -25,11 +25,13 @@ $\qquad$ return $bel(x_t)$
 
 **State transformation function**
  $$x_t = A_tx_{t-1}+B_tu_t+\varepsilon_t$$
- where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t,
+ where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t, and $\varepsilon_t$ is the random noise at time t, and we assume it subject to Gaussian distribution.
+
+ 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODU2MTk5NCwtOTU0NzEwMzE0LC00MT
-M3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2
-OCwxNDI5MDQ5MzcwLC0yMTMyNzY5M119
+eyJoaXN0b3J5IjpbMTMxNzg5ODcxLC05NTQ3MTAzMTQsLTQxMz
+cxOTgwMiw1ODkwMTUxMjQsLTExNjE0MTgxOSwtNTA1NTgwMDY4
+LDE0MjkwNDkzNzAsLTIxMzI3NjkzXX0=
 -->
