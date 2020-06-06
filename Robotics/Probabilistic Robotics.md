@@ -38,15 +38,15 @@ $$bel(x_0) \sim N(\mu_0, \Sigma_0)$$
 #### 2.2 Kalman Filter Algorithm
 $AlgorithmKalman_filter(\mu_{t-1}, \Sigma_{t-1},u_t, z_t):$
 $\qquad    \bar{\mu_t}= A_t\mu_{t-1}+B_tu_t$
-$\qquad$
+$\qquad    \bar{\Sigma_t} = A_t\Sigma_{t-1}A_t^T+R_t$
 $\qquad$
 $\qquad$
 $\qquad$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNDE1MTkwLC00MzUxNzI3MTcsMTMxNz
-g5ODcxLC05NTQ3MTAzMTQsLTQxMzcxOTgwMiw1ODkwMTUxMjQs
-LTExNjE0MTgxOSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLTIxMz
-I3NjkzXX0=
+eyJoaXN0b3J5IjpbLTE3OTEzMDcyNDIsLTQzNTE3MjcxNywxMz
+E3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5ODAyLDU4OTAxNTEy
+NCwtMTE2MTQxODE5LC01MDU1ODAwNjgsMTQyOTA0OTM3MCwtMj
+EzMjc2OTNdfQ==
 -->
