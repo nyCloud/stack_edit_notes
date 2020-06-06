@@ -37,7 +37,7 @@ $$bel(x_0) \sim N(\mu_0, \Sigma_0)$$
 
 #### 2.2 Kalman Filter Algorithm
 $AlgorithmKalman_filter(\mu_{t-1}, \Sigma_{t-1},u_t, z_t):$
-$\qquad    \bar{\mu_t}= A_t\mu_{t-1}+B_tu_t$
+$2\qquad    \bar{\mu_t}= A_t\mu_{t-1}+B_tu_t$
 $\qquad    \bar{\Sigma_t} = A_t\Sigma_{t-1}A_t^T+R_t$
 $\qquad    K_t = \bar{\Sigma_t}C_t^T(C_t\bar\Sigma_tC_t^T+Q_t)^{-1}$
 $\qquad    \mu_t = \bar\mu_t + K_t(z_t-C_t\bar\mu_t)$ 
@@ -45,8 +45,8 @@ $\qquad    \Sigma_t = (I-K_tC_t)\bar\Sigma_t$
 $\qquad    return\:\;\mu_t, \Sigma_t$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LDEzMT
-c4OTg3MSwtOTU0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1MTI0
-LC0xMTYxNDE4MTksLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC0yMT
-MyNzY5M119
+eyJoaXN0b3J5IjpbLTg4NjM0NzcxNiwtNTU0NDIwNDcwLC00Mz
+UxNzI3MTcsMTMxNzg5ODcxLC05NTQ3MTAzMTQsLTQxMzcxOTgw
+Miw1ODkwMTUxMjQsLTExNjE0MTgxOSwtNTA1NTgwMDY4LDE0Mj
+kwNDkzNzAsLTIxMzI3NjkzXX0=
 -->
