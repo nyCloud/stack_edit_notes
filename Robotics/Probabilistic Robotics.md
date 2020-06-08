@@ -16,8 +16,8 @@ $$p(x) = \frac{1}{\sqrt{det(2\pi\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-
 
 #### 1.2 Bayes Filter
 Bayes_Filter(bel($x_{t-1}$), $u_t$, $z_t$):
-$\qquad$ for all u in $x_t$:
-$\qquad\qquad$$\bar{bel}(x_t=u)=\sum_{v}{p(x_t|u_t,x_{t-1}=v)bel(x_{t-1}=v)}$
+$\qquad$ for all m in $x_t$:
+$\qquad\qquad$$\bar{bel}(x_t=m)=\sum_{v}{p(x_t|u_t,x_{t-1}=v)bel(x_{t-1}=)}$
 $\qquad\qquad$$bel(x_t=u)=\eta p(z_t|x_t=u)\bar{bel}(x_t=u)$
 $\qquad$ return $bel(x_t)$
 
@@ -45,8 +45,9 @@ $\qquad    \Sigma_t = (I-K_tC_t)\bar\Sigma_t$
 $\qquad    return\:\;\mu_t, \Sigma_t$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTU2NjU1MywtNTU0NDIwNDcwLC01NT
-Q0MjA0NzAsLTQzNTE3MjcxNywxMzE3ODk4NzEsLTk1NDcxMDMx
-NCwtNDEzNzE5ODAyLDU4OTAxNTEyNCwtMTE2MTQxODE5LC01MD
-U1ODAwNjgsMTQyOTA0OTM3MCwtMjEzMjc2OTNdfQ==
+eyJoaXN0b3J5IjpbMTUzMTEwODg2MSwtMjI5NTY2NTUzLC01NT
+Q0MjA0NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LDEzMTc4OTg3
+MSwtOTU0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1MTI0LC0xMT
+YxNDE4MTksLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC0yMTMyNzY5
+M119
 -->
