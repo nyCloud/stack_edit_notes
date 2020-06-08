@@ -58,11 +58,17 @@ Where $\delta_t$ is the random noise introduced from measurement, which subject 
 
 **Extended Kalman Filter Algorithm**
 
-$$
+$ExtendedKalmanFilter(\mu_{t-1}, \Sigma_{t-1},u_t, z_t):$
+$\qquad    \bar\mu_t = g(u_t, \mu_{t-1})$
+$\qquad    $
+$\qquad    $
+$\qquad    $
+$\qquad    $
+$\qquad    $
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDMzOTQ1Niw3NzgwNzcwMzEsMTI5Mj
+eyJoaXN0b3J5IjpbLTYyMzYzMjQ0Miw3NzgwNzcwMzEsMTI5Mj
 c4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3
 MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOTU0NzEwMzE0LC00MT
 M3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2
