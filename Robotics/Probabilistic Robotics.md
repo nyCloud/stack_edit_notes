@@ -50,16 +50,19 @@ $\qquad    return\:\;\mu_t, \Sigma_t$
 
 **State Transformation Function**
  $$x_t = g(u_t, x_{t-1})+\varepsilon_t$$
- Where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t, and $\varepsilon_t$ is the random noise at time t, and we assume it subject to distribution $N(0, R_t)$. We also denote that $g'(u_t, x_{t-1})$
+ Where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t, and $\varepsilon_t$ is the random noise at time t, and we assume it subject to distribution $N(0, R_t)$. We also denote that $G_t = g'(u_t, \mu_{t-1})$
 
 **Measurement Function**
  $$z_t=h(x_t)+\delta_t$$
-Where $\delta_t$ is the random noise introduced from measurement, which subject to normal distribution $N(0, Q_t)$. We also denote that
+Where $\delta_t$ is the random noise introduced from measurement, which subject to normal distribution $N(0, Q_t)$. We also denote that $H_t=h'(\bar\mu_t)$
 
+**Extended Kalman Filter Algorithm**
+
+$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzI3NDA1NSw3NzgwNzcwMzEsMTI5Mj
+eyJoaXN0b3J5IjpbMTMzNDMzOTQ1Niw3NzgwNzcwMzEsMTI5Mj
 c4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3
 MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOTU0NzEwMzE0LC00MT
 M3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2
