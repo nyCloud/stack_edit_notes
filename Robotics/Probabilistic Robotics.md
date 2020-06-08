@@ -48,9 +48,18 @@ $\qquad    return\:\;\mu_t, \Sigma_t$
 
 #### 2.2 Extended Kalman Filter
 
+**State Transformation Function**
+ $$x_t = g(u_t, x_{t-1})+\varepsilon_t$$
+ where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t, and $\varepsilon_t$ is the random noise at time t, and we assume it subject to distribution $N(0, R_t)$.
+
+**Measurement Function**
+ $$z_t=h(x_t)+\delta_t$$
+where $\delta_t$ is the random noise introduced from measurement, which subject to normal distribution $N(0, Q_t)$
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzQ2MDY4MCw3NzgwNzcwMzEsMTI5Mj
+eyJoaXN0b3J5IjpbMTMzMzIyMDgzOSw3NzgwNzcwMzEsMTI5Mj
 c4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3
 MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOTU0NzEwMzE0LC00MT
 M3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2
