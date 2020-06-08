@@ -23,7 +23,7 @@ $\qquad$ return $bel(x_t)$
 
 ## 2. Gaussian Filters
 
-#### 2.1 Basic Definitions
+#### 2.1 Kalman Filter
 **State Transformation Function**
  $$x_t = A_tx_{t-1}+B_tu_t+\varepsilon_t$$
  where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t, and $\varepsilon_t$ is the random noise at time t, and we assume it subject to distribution $N(0, R_t)$.
@@ -35,7 +35,8 @@ where $\delta_t$ is the random noise introduced from measurement, which subject 
 **Initial Belief**
 $$bel(x_0) \sim N(\mu_0, \Sigma_0)$$
 
-#### 2.2 Kalman Filter Algorithm
+**Kalman Filter Algorithm**
+
 $AlgorithmKalmanFilter(\mu_{t-1}, \Sigma_{t-1},u_t, z_t):$
 $\qquad    \bar{\mu_t}= A_t\mu_{t-1}+B_tu_t$
 $\qquad    \bar{\Sigma_t} = A_t\Sigma_{t-1}A_t^T+R_t$
@@ -44,10 +45,12 @@ $\qquad    \mu_t = \bar\mu_t + K_t(z_t-C_t\bar\mu_t)$
 $\qquad    \Sigma_t = (I-K_tC_t)\bar\Sigma_t$
 $\qquad    return\:\;\mu_t, \Sigma_t$
 
+#### 2.2
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Mjc4MzUyNywtMjI5NTY2NTUzLC01NT
-Q0MjA0NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LDEzMTc4OTg3
-MSwtOTU0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1MTI0LC0xMT
-YxNDE4MTksLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC0yMTMyNzY5
-M119
+eyJoaXN0b3J5IjpbNzc4MDc3MDMxLDEyOTI3ODM1MjcsLTIyOT
+U2NjU1MywtNTU0NDIwNDcwLC01NTQ0MjA0NzAsLTQzNTE3Mjcx
+NywxMzE3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5ODAyLDU4OT
+AxNTEyNCwtMTE2MTQxODE5LC01MDU1ODAwNjgsMTQyOTA0OTM3
+MCwtMjEzMjc2OTNdfQ==
 -->
