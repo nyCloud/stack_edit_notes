@@ -50,7 +50,7 @@ $\qquad    return\:\;\mu_t, \Sigma_t$
 
 **State Transformation Function**
  $$x_t = g(u_t, x_{t-1})+\varepsilon_t$$
- where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t, and $\varepsilon_t$ is the random noise at time t, and we assume it subject to distribution $N(0, R_t)$.
+ where $x_t$ and $x_{t-1}$ are state vectors, $u_t$ is the control vector at time t, and $\varepsilon_t$ is the random noise at time t, and we assume it subject to distribution $N(0, R_t)$. We also assume that $g'$
 
 **Measurement Function**
  $$z_t=h(x_t)+\delta_t$$
@@ -59,9 +59,9 @@ where $\delta_t$ is the random noise introduced from measurement, which subject 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzIyMDgzOSw3NzgwNzcwMzEsMTI5Mj
-c4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3
-MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOTU0NzEwMzE0LC00MT
-M3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2
-OCwxNDI5MDQ5MzcwLC0yMTMyNzY5M119
+eyJoaXN0b3J5IjpbMzc4OTc3MzE5LDc3ODA3NzAzMSwxMjkyNz
+gzNTI3LC0yMjk1NjY1NTMsLTU1NDQyMDQ3MCwtNTU0NDIwNDcw
+LC00MzUxNzI3MTcsMTMxNzg5ODcxLC05NTQ3MTAzMTQsLTQxMz
+cxOTgwMiw1ODkwMTUxMjQsLTExNjE0MTgxOSwtNTA1NTgwMDY4
+LDE0MjkwNDkzNzAsLTIxMzI3NjkzXX0=
 -->
