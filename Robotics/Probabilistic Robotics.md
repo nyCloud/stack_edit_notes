@@ -36,7 +36,7 @@ where $\delta_t$ is the random noise introduced from measurement, which subject 
 $$bel(x_0) \sim N(\mu_0, \Sigma_0)$$
 
 #### 2.2 Kalman Filter Algorithm
-$AlgorithmKalman_filter(\mu_{t-1}, \Sigma_{t-1},u_t, z_t):$
+$AlgorithmKalmanFilter(\mu_{t-1}, \Sigma_{t-1},u_t, z_t):$
 $\qquad    \bar{\mu_t}= A_t\mu_{t-1}+B_tu_t$
 $\qquad    \bar{\Sigma_t} = A_t\Sigma_{t-1}A_t^T+R_t$
 $\qquad    K_t = \bar{\Sigma_t}C_t^T(C_t\bar\Sigma_tC_t^T+Q_t)^{-1}$
@@ -45,8 +45,8 @@ $\qquad    \Sigma_t = (I-K_tC_t)\bar\Sigma_t$
 $\qquad    return\:\;\mu_t, \Sigma_t$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDQyMDQ3MCwtNTU0NDIwNDcwLC00Mz
-UxNzI3MTcsMTMxNzg5ODcxLC05NTQ3MTAzMTQsLTQxMzcxOTgw
-Miw1ODkwMTUxMjQsLTExNjE0MTgxOSwtNTA1NTgwMDY4LDE0Mj
-kwNDkzNzAsLTIxMzI3NjkzXX0=
+eyJoaXN0b3J5IjpbLTIyOTU2NjU1MywtNTU0NDIwNDcwLC01NT
+Q0MjA0NzAsLTQzNTE3MjcxNywxMzE3ODk4NzEsLTk1NDcxMDMx
+NCwtNDEzNzE5ODAyLDU4OTAxNTEyNCwtMTE2MTQxODE5LC01MD
+U1ODAwNjgsMTQyOTA0OTM3MCwtMjEzMjc2OTNdfQ==
 -->
