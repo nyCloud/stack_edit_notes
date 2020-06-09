@@ -74,7 +74,7 @@ Posterior occupy probability
 $$p(m_i|z_{1:t},x_{1:t}) = 1-\frac{1}{1+exp(l_{t,i})}$$
 
 
-**Occupancy Grid Mapping Algorithm**
+**Occupancy Grid Mapping Algorithm ()**
 
 $OccupancyGridMapping(l, z_t):$
 $\qquad    for\; all\;cell\;m_i\;in\;m:$
@@ -89,11 +89,11 @@ Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,z_t)=log\frac
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYwNDk2NjEsMTE3NDA4NDU0MSw1ND
-c3MDMxOTYsLTU4ODMwNDIyNCwtOTg5NTQwMzQ0LDc1ODQ3Njkw
-MCw0MjIyNjM0MDQsLTEyNDUxMzY1NCwtMTk1MzAxODYwOCw3Nz
-gwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0
-NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOT
-U0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4
-MTldfQ==
+eyJoaXN0b3J5IjpbLTY0NDIxNjgyLC0xMzQ2MDQ5NjYxLDExNz
+QwODQ1NDEsNTQ3NzAzMTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0
+NCw3NTg0NzY5MDAsNDIyMjYzNDA0LC0xMjQ1MTM2NTQsLTE5NT
+MwMTg2MDgsNzc4MDc3MDMxLDEyOTI3ODM1MjcsLTIyOTU2NjU1
+MywtNTU0NDIwNDcwLC01NTQ0MjA0NzAsLTQzNTE3MjcxNywxMz
+E3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5ODAyLDU4OTAxNTEy
+NF19
 -->
