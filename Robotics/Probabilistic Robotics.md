@@ -73,15 +73,15 @@ $$p(m|z_{1:t},x_{1:t})\;\;m={m_i}$$
 $OccupancyGridMapping(l, x_t, z_t):$
 $\qquad    for\; all\;cell\;m_i\;in\;m:$
 $\qquad \qquad   if\;m_i\;in\;observation\;field:$
-$\qquad \qquad \qquad    l_t$
-$\qquad \qquad   $
-$\qquad    $
+$\qquad \qquad \qquad    l_{t,i} = l_{t-1,i}+InverseSensorModel(m_i,x_t,z_t)-l_0$
+$\qquad \qquad else:$
+$\qquad \qquad \qquad l_$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Njk0OTA0LC0xMjQ1MTM2NTQsLTE5NT
-MwMTg2MDgsNzc4MDc3MDMxLDEyOTI3ODM1MjcsLTIyOTU2NjU1
-MywtNTU0NDIwNDcwLC01NTQ0MjA0NzAsLTQzNTE3MjcxNywxMz
-E3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5ODAyLDU4OTAxNTEy
-NCwtMTE2MTQxODE5LC01MDU1ODAwNjgsMTQyOTA0OTM3MCwtMj
-EzMjc2OTNdfQ==
+eyJoaXN0b3J5IjpbLTE0MzI2MTUxMjQsLTEyNDUxMzY1NCwtMT
+k1MzAxODYwOCw3NzgwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2
+NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LD
+EzMTc4OTg3MSwtOTU0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1
+MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC
+0yMTMyNzY5M119
 -->
