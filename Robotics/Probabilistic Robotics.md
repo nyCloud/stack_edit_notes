@@ -86,16 +86,16 @@ $\qquad \qquad else:$
 $\qquad \qquad \qquad l_{t,i}=l_{t-1,i}$
 $\qquad return\;l$
 
-Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,x_t,z_t)=log\frac{p(m_i|z_t)}{1-p(m_i|z_t)}$
+Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,z_t)=log\frac{p(m_i|z_t)}{1-p(m_i|z_t)}$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NzAzMTk2LC01ODgzMDQyMjQsLTk4OT
-U0MDM0NCw3NTg0NzY5MDAsNDIyMjYzNDA0LC0xMjQ1MTM2NTQs
-LTE5NTMwMTg2MDgsNzc4MDc3MDMxLDEyOTI3ODM1MjcsLTIyOT
-U2NjU1MywtNTU0NDIwNDcwLC01NTQ0MjA0NzAsLTQzNTE3Mjcx
-NywxMzE3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5ODAyLDU4OT
-AxNTEyNCwtMTE2MTQxODE5LC01MDU1ODAwNjgsMTQyOTA0OTM3
-MF19
+eyJoaXN0b3J5IjpbMTE3NDA4NDU0MSw1NDc3MDMxOTYsLTU4OD
+MwNDIyNCwtOTg5NTQwMzQ0LDc1ODQ3NjkwMCw0MjIyNjM0MDQs
+LTEyNDUxMzY1NCwtMTk1MzAxODYwOCw3NzgwNzcwMzEsMTI5Mj
+c4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3
+MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOTU0NzEwMzE0LC00MT
+M3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2
+OF19
 -->
