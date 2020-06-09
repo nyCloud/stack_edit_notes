@@ -72,8 +72,6 @@ $$p(m|z_{1:t},x_{1:t})\;\;m={m_i}$$
 $$l_{t,i}= log\frac{p(m_i|z_{1:t},x_{1:t})}{1-p(m_i|z_{1:t},x_{1:t})}$$
 Posterior occupy probability
 $$p(m_i|z_{1:t},x_{1:t}) = 1-\frac{1}{1+exp(l_{t,i})}$$
-To make the formulation easier, we can assume that the sensor observations are under global coordinate, which means we no longer care the location of our robot or vehicle. Then we have: 
-$$p(m_t|z_{1:t}) = \frac{p(m_{t-1}|z_{1:t-1})p(m_{t-1}|z_{1:t-1})}{}$$
 
 
 **Occupancy Grid Mapping Algorithm**
@@ -91,11 +89,11 @@ Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,z_t)=log\frac
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NDA4NDU0MSw1NDc3MDMxOTYsLTU4OD
-MwNDIyNCwtOTg5NTQwMzQ0LDc1ODQ3NjkwMCw0MjIyNjM0MDQs
-LTEyNDUxMzY1NCwtMTk1MzAxODYwOCw3NzgwNzcwMzEsMTI5Mj
-c4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3
-MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOTU0NzEwMzE0LC00MT
-M3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2
-OF19
+eyJoaXN0b3J5IjpbLTEzNDYwNDk2NjEsMTE3NDA4NDU0MSw1ND
+c3MDMxOTYsLTU4ODMwNDIyNCwtOTg5NTQwMzQ0LDc1ODQ3Njkw
+MCw0MjIyNjM0MDQsLTEyNDUxMzY1NCwtMTk1MzAxODYwOCw3Nz
+gwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0
+NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOT
+U0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4
+MTldfQ==
 -->
