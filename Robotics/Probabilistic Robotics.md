@@ -81,11 +81,11 @@ $\qquad \qquad else:$
 $\qquad \qquad \qquad l_{t,i}=l_{t-1,i}$
 $\qquad return\;l$
 
-Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,x_t,z_t)=log\frac{p}{}$
+Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,x_t,z_t)=log\frac{p(m_i|z_t,x_t)}{1-p(m_i|z_t,x_t)}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyNzM5ODQ2LDQyMjI2MzQwNCwtMTI0NT
+eyJoaXN0b3J5IjpbNzU4NDc2OTAwLDQyMjI2MzQwNCwtMTI0NT
 EzNjU0LC0xOTUzMDE4NjA4LDc3ODA3NzAzMSwxMjkyNzgzNTI3
 LC0yMjk1NjY1NTMsLTU1NDQyMDQ3MCwtNTU0NDIwNDcwLC00Mz
 UxNzI3MTcsMTMxNzg5ODcxLC05NTQ3MTAzMTQsLTQxMzcxOTgw
