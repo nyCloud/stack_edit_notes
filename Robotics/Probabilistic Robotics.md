@@ -69,8 +69,9 @@ $\qquad    return\;\;\mu_t, \Sigma_t$
 ## 9. Occupancy Grid Mapping
 **Formulation of Occupancy Grid**
 $$p(m|z_{1:t},x_{1:t})\;\;m={m_i}$$
-$$l_{t,i}= log\frac{}{}$$
-
+$$l_{t,i}= log\frac{p(m_i|z_{1:t},x_{1:t})}{1-p(m_i|z_{1:t},x_{1:t})}$$
+Posterior occupy probability
+$$p(m_i|z_{1:t},x_{1:t}) = 1-\frac{1}{1+exp(l_{t,i})}$$
 **Occupancy Grid Mapping Algorithm**
 $OccupancyGridMapping(l, x_t, z_t):$
 $\qquad    for\; all\;cell\;m_i\;in\;m:$
@@ -82,10 +83,10 @@ $\qquad return\;l$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDMwMDg2OSwtMTI0NTEzNjU0LC0xOT
-UzMDE4NjA4LDc3ODA3NzAzMSwxMjkyNzgzNTI3LC0yMjk1NjY1
-NTMsLTU1NDQyMDQ3MCwtNTU0NDIwNDcwLC00MzUxNzI3MTcsMT
-MxNzg5ODcxLC05NTQ3MTAzMTQsLTQxMzcxOTgwMiw1ODkwMTUx
-MjQsLTExNjE0MTgxOSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLT
-IxMzI3NjkzXX0=
+eyJoaXN0b3J5IjpbNDIyMjYzNDA0LC0xMjQ1MTM2NTQsLTE5NT
+MwMTg2MDgsNzc4MDc3MDMxLDEyOTI3ODM1MjcsLTIyOTU2NjU1
+MywtNTU0NDIwNDcwLC01NTQ0MjA0NzAsLTQzNTE3MjcxNywxMz
+E3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5ODAyLDU4OTAxNTEy
+NCwtMTE2MTQxODE5LC01MDU1ODAwNjgsMTQyOTA0OTM3MCwtMj
+EzMjc2OTNdfQ==
 -->
