@@ -66,10 +66,11 @@ $\qquad    \mu_t = \bar\mu_t + K_t(z_t-h(\bar\mu_t))$
 $\qquad    \Sigma_t=(I-K_tH_t)\bar\Sigma_t$
 $\qquad    return\;\;\mu_t, \Sigma_t$
 
-## 9.
+## 9. Occupancy Grids Mapping
+$$p(m|z_{1:t},x_{1:t})\;\;m={m_i}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTcxOTI5OSwtMTk1MzAxODYwOCw3Nz
+eyJoaXN0b3J5IjpbLTEyNDUxMzY1NCwtMTk1MzAxODYwOCw3Nz
 gwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0
 NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOT
 U0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4
