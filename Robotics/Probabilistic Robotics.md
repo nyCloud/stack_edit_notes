@@ -66,8 +66,10 @@ $\qquad    \mu_t = \bar\mu_t + K_t(z_t-h(\bar\mu_t))$
 $\qquad    \Sigma_t=(I-K_tH_t)\bar\Sigma_t$
 $\qquad    return\;\;\mu_t, \Sigma_t$
 
-## 9. Occupancy Grids Mapping
+## 9. Occupancy Grid Mapping
+**Formulation of Occupancy Grid**
 $$p(m|z_{1:t},x_{1:t})\;\;m={m_i}$$
+$$l_{t,i}= log\frac{}{}$$
 
 **Occupancy Grid Mapping Algorithm**
 $OccupancyGridMapping(l, x_t, z_t):$
@@ -75,13 +77,15 @@ $\qquad    for\; all\;cell\;m_i\;in\;m:$
 $\qquad \qquad   if\;m_i\;in\;observation\;field:$
 $\qquad \qquad \qquad    l_{t,i} = l_{t-1,i}+InverseSensorModel(m_i,x_t,z_t)-l_0$
 $\qquad \qquad else:$
-$\qquad \qquad \qquad l_$
+$\qquad \qquad \qquad l_{t,i}=l_{t-1,i}$
+$\qquad return\;l$
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzI2MTUxMjQsLTEyNDUxMzY1NCwtMT
-k1MzAxODYwOCw3NzgwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2
-NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LD
-EzMTc4OTg3MSwtOTU0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1
-MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC
-0yMTMyNzY5M119
+eyJoaXN0b3J5IjpbMTE4NDMwMDg2OSwtMTI0NTEzNjU0LC0xOT
+UzMDE4NjA4LDc3ODA3NzAzMSwxMjkyNzgzNTI3LC0yMjk1NjY1
+NTMsLTU1NDQyMDQ3MCwtNTU0NDIwNDcwLC00MzUxNzI3MTcsMT
+MxNzg5ODcxLC05NTQ3MTAzMTQsLTQxMzcxOTgwMiw1ODkwMTUx
+MjQsLTExNjE0MTgxOSwtNTA1NTgwMDY4LDE0MjkwNDkzNzAsLT
+IxMzI3NjkzXX0=
 -->
