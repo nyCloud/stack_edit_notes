@@ -81,12 +81,14 @@ $\qquad \qquad else:$
 $\qquad \qquad \qquad l_{t,i}=l_{t-1,i}$
 $\qquad return\;l$
 
+Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,x_t,z_t)=log\frac{p}{}$
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyMjYzNDA0LC0xMjQ1MTM2NTQsLTE5NT
-MwMTg2MDgsNzc4MDc3MDMxLDEyOTI3ODM1MjcsLTIyOTU2NjU1
-MywtNTU0NDIwNDcwLC01NTQ0MjA0NzAsLTQzNTE3MjcxNywxMz
-E3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5ODAyLDU4OTAxNTEy
-NCwtMTE2MTQxODE5LC01MDU1ODAwNjgsMTQyOTA0OTM3MCwtMj
-EzMjc2OTNdfQ==
+eyJoaXN0b3J5IjpbOTIyNzM5ODQ2LDQyMjI2MzQwNCwtMTI0NT
+EzNjU0LC0xOTUzMDE4NjA4LDc3ODA3NzAzMSwxMjkyNzgzNTI3
+LC0yMjk1NjY1NTMsLTU1NDQyMDQ3MCwtNTU0NDIwNDcwLC00Mz
+UxNzI3MTcsMTMxNzg5ODcxLC05NTQ3MTAzMTQsLTQxMzcxOTgw
+Miw1ODkwMTUxMjQsLTExNjE0MTgxOSwtNTA1NTgwMDY4LDE0Mj
+kwNDkzNzAsLTIxMzI3NjkzXX0=
 -->
