@@ -72,8 +72,8 @@ $$p(m|z_{1:t},x_{1:t})\;\;m={m_i}$$
 $$l_{t,i}= log\frac{p(m_i|z_{1:t},x_{1:t})}{1-p(m_i|z_{1:t},x_{1:t})}$$
 Posterior occupy probability
 $$p(m_i|z_{1:t},x_{1:t}) = 1-\frac{1}{1+exp(l_{t,i})}$$
-To calculate the 
-$$p(m_i|z_t) = \frac{p(z_t|m_i)p(m_i)}{p(z_t)}$$
+To calculate the posterior probability of $m_i$ being occupied
+$$p(m_i|x_{1:t}, z_{1:t}) = \frac{p(z_t|m_i)p(m_i)}{p(z_t)}$$
 
 
 **Occupancy Grid Mapping Algorithm**
@@ -91,7 +91,7 @@ Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,x_t,z_t)=log\
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTU5NzcwMSwtOTg5NTQwMzQ0LDc1OD
+eyJoaXN0b3J5IjpbLTc4MDIxNjk3OSwtOTg5NTQwMzQ0LDc1OD
 Q3NjkwMCw0MjIyNjM0MDQsLTEyNDUxMzY1NCwtMTk1MzAxODYw
 OCw3NzgwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2NTUzLC01NT
 Q0MjA0NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LDEzMTc4OTg3
