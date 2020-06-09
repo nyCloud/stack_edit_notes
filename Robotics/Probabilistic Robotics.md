@@ -69,10 +69,19 @@ $\qquad    return\;\;\mu_t, \Sigma_t$
 ## 9. Occupancy Grids Mapping
 $$p(m|z_{1:t},x_{1:t})\;\;m={m_i}$$
 
+**Occupancy Grid Mapping Algorithm**
+$OccupancyGridMapping(l, x_t, z_t):$
+$\qquad    for\; all\;$
+$\qquad    $
+$\qquad    $
+$\qquad    $
+$\qquad    $
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDUxMzY1NCwtMTk1MzAxODYwOCw3Nz
-gwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0
-NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOT
-U0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1MTI0LC0xMTYxNDE4
-MTksLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC0yMTMyNzY5M119
+eyJoaXN0b3J5IjpbLTExODQ1MDg2OTAsLTEyNDUxMzY1NCwtMT
+k1MzAxODYwOCw3NzgwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2
+NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LD
+EzMTc4OTg3MSwtOTU0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1
+MTI0LC0xMTYxNDE4MTksLTUwNTU4MDA2OCwxNDI5MDQ5MzcwLC
+0yMTMyNzY5M119
 -->
