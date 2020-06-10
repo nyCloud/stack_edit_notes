@@ -66,18 +66,20 @@ $\qquad    return\;\;\mu_t, \Sigma_t$
 
 ## 3 Non-parametric Filters
 ### 3.1 Discrete Bayes Filter
+Similar as forward steps of Hidden Markov Model,
+
 $DiscreteBayesFilter(p_k^{t-1},u_t,z_t):$
 $\qquad    for\;all\;k\;in\;p:$
 $\qquad \qquad    \bar p_k^t = \sum_i{p(X_t=x_k|u_t,X_t-1=x_i)p_i^{t-1}}$
-$\qquad \qquad    p_k^t = \eta p(z_t|X_t)$
-$\qquad    $
+$\qquad \qquad    p_k^t = \eta p(z_t|X_t=x_k)\bar p_k^t$
+$\qquad    return\;p_k^t$
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjU4MDEzNiwtMTcyMTU4MzgwNyw1NT
+eyJoaXN0b3J5IjpbMTYyNjU3NjA0MCwtMTcyMTU4MzgwNyw1NT
 Q0MzM4NjAsMTY1MTA0MDI5Nyw2MzM4Mjk2NDcsLTE1Nzc5NDY4
 MDcsLTEzNDYwNDk2NjEsMTE3NDA4NDU0MSw1NDc3MDMxOTYsLT
 U4ODMwNDIyNCwtOTg5NTQwMzQ0LDc1ODQ3NjkwMCw0MjIyNjM0
