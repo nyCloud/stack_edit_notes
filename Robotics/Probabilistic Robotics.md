@@ -75,13 +75,13 @@ $\qquad \qquad    p_k^t = \eta p(z_t|X_t=x_k)\bar p_k^t$
 $\qquad    return\;p_k^t$
 
 ### 3.2 Histogram Filter
-Apply discrete Bayes filter under continuous 
+Apply Discrete Bayes Filter under continuous space, we'll have Histogram Filter.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzk1MTg4MiwtMTcyMTU4MzgwNyw1NT
+eyJoaXN0b3J5IjpbLTU1NDczNzk5MywtMTcyMTU4MzgwNyw1NT
 Q0MzM4NjAsMTY1MTA0MDI5Nyw2MzM4Mjk2NDcsLTE1Nzc5NDY4
 MDcsLTEzNDYwNDk2NjEsMTE3NDA4NDU0MSw1NDc3MDMxOTYsLT
 U4ODMwNDIyNCwtOTg5NTQwMzQ0LDc1ODQ3NjkwMCw0MjIyNjM0
