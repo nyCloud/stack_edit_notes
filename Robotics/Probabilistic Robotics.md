@@ -74,18 +74,19 @@ $\qquad \qquad    \bar p_k^t = \sum_i{p(X_t=x_k|u_t,X_t-1=x_i)p_i^{t-1}}$
 $\qquad \qquad    p_k^t = \eta p(z_t|X_t=x_k)\bar p_k^t$
 $\qquad    return\;p_k^t$
 
-### 3.2 Histogram Filter
+**Histogram Filter**
 Apply Discrete Bayes Filter under continuous space, we'll have Histogram Filter.
 
+**Binary Bayes Filter**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDczNzk5MywtMTcyMTU4MzgwNyw1NT
-Q0MzM4NjAsMTY1MTA0MDI5Nyw2MzM4Mjk2NDcsLTE1Nzc5NDY4
-MDcsLTEzNDYwNDk2NjEsMTE3NDA4NDU0MSw1NDc3MDMxOTYsLT
-U4ODMwNDIyNCwtOTg5NTQwMzQ0LDc1ODQ3NjkwMCw0MjIyNjM0
-MDQsLTEyNDUxMzY1NCwtMTk1MzAxODYwOCw3NzgwNzcwMzEsMT
-I5Mjc4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0NzAsLTU1NDQy
-MDQ3MF19
+eyJoaXN0b3J5IjpbOTM0NTkyMjcwLC01NTQ3Mzc5OTMsLTE3Mj
+E1ODM4MDcsNTU0NDMzODYwLDE2NTEwNDAyOTcsNjMzODI5NjQ3
+LC0xNTc3OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwODQ1NDEsNT
+Q3NzAzMTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3NTg0NzY5
+MDAsNDIyMjYzNDA0LC0xMjQ1MTM2NTQsLTE5NTMwMTg2MDgsNz
+c4MDc3MDMxLDEyOTI3ODM1MjcsLTIyOTU2NjU1MywtNTU0NDIw
+NDcwXX0=
 -->
