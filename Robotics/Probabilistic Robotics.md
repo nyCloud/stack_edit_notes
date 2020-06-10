@@ -1,5 +1,3 @@
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-
 # Probabilistic Robotics
 ## 1. Recursive State Estimation
 ### 1.1 Math Basics
@@ -66,51 +64,18 @@ $\qquad    \mu_t = \bar\mu_t + K_t(z_t-h(\bar\mu_t))$
 $\qquad    \Sigma_t=(I-K_tH_t)\bar\Sigma_t$
 $\qquad    return\;\;\mu_t, \Sigma_t$
 
-### 2.3 Unscented 
+### 2.3 Unscented Kalman Filter (UKF)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 9. Occupancy Grid Mapping
-**Formulation of Occupancy Grid**
-$$p(m|z_{1:t})\;\;m={m_i}$$
-$$l_{t,i}= log\frac{p(m_i|z_{1:t})}{1-p(m_i|z_{1:t})}$$
-Posterior occupy probability
-$$p(m_i|z_{1:t}) = 1-\frac{1}{1+exp(l_{t,i})}$$
-
-**Occupancy Grid Mapping Algorithm (MLE Moving Average)**
-
-$OccupancyGridMapping(l, z_t):$
-$\qquad    for\; all\;cell\;m_i\;in\;m:$
-$\qquad \qquad   if\;m_i\;in\;observation\;field:$
-$\qquad \qquad \qquad    l_{t,i} = l_{t-1,i}+InverseSensorModel(m_i, z_t)-l_0$
-$\qquad \qquad else:$
-$\qquad \qquad \qquad l_{t,i}=l_{t-1,i}$
-$\qquad return\;l$
-
-Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,z_t)=log\frac{p(m_i|z_t)}{1-p(m_i|z_t)}$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTEzMjQ1MzAsNjMzODI5NjQ3LC0xNT
-c3OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwODQ1NDEsNTQ3NzAz
-MTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3NTg0NzY5MDAsND
-IyMjYzNDA0LC0xMjQ1MTM2NTQsLTE5NTMwMTg2MDgsNzc4MDc3
-MDMxLDEyOTI3ODM1MjcsLTIyOTU2NjU1MywtNTU0NDIwNDcwLC
-01NTQ0MjA0NzAsLTQzNTE3MjcxNywxMzE3ODk4NzEsLTk1NDcx
-MDMxNF19
+eyJoaXN0b3J5IjpbLTU2Nzk5NTIwNSw2MzM4Mjk2NDcsLTE1Nz
+c5NDY4MDcsLTEzNDYwNDk2NjEsMTE3NDA4NDU0MSw1NDc3MDMx
+OTYsLTU4ODMwNDIyNCwtOTg5NTQwMzQ0LDc1ODQ3NjkwMCw0Mj
+IyNjM0MDQsLTEyNDUxMzY1NCwtMTk1MzAxODYwOCw3NzgwNzcw
+MzEsMTI5Mjc4MzUyNywtMjI5NTY2NTUzLC01NTQ0MjA0NzAsLT
+U1NDQyMDQ3MCwtNDM1MTcyNzE3LDEzMTc4OTg3MSwtOTU0NzEw
+MzE0XX0=
 -->
