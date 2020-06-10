@@ -78,11 +78,14 @@ $\qquad    return\;p_k^t$
 Apply Discrete Bayes Filter under continuous space, we'll have Histogram Filter.
 
 **Binary Bayes Filter**
-
+Certain problems in robotics are best formulated as estimation problems with binary
+state that does not change over time. Problems of this type arise if a robot estimates
+a fixed binary quantity in the environment from a sequence of sensor measurements.
+Since the state is static, the belief is a function of the measurements:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NTkyMjcwLC01NTQ3Mzc5OTMsLTE3Mj
+eyJoaXN0b3J5IjpbNjMwMDcwMzc2LC01NTQ3Mzc5OTMsLTE3Mj
 E1ODM4MDcsNTU0NDMzODYwLDE2NTEwNDAyOTcsNjMzODI5NjQ3
 LC0xNTc3OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwODQ1NDEsNT
 Q3NzAzMTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3NTg0NzY5
