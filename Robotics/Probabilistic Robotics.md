@@ -68,11 +68,10 @@ $\qquad    return\;\;\mu_t, \Sigma_t$
 
 ## 9. Occupancy Grid Mapping
 **Formulation of Occupancy Grid**
-$$p(m|z_{1:t},x_{1:t})\;\;m={m_i}$$
-$$l_{t,i}= log\frac{p(m_i|z_{1:t},x_{1:t})}{1-p(m_i|z_{1:t},x_{1:t})}$$
+$$p(m|z_{1:t})\;\;m={m_i}$$
+$$l_{t,i}= log\frac{p(m_i|z_{1:t})}{1-p(m_i|z_{1:t})}$$
 Posterior occupy probability
-$$p(m_i|z_{1:t},x_{1:t}) = 1-\frac{1}{1+exp(l_{t,i})}$$
-
+$$p(m_i|z_{1:t}) = 1-\frac{1}{1+exp(l_{t,i})}$$
 
 **Occupancy Grid Mapping Algorithm (MLE Moving Average)**
 
@@ -89,11 +88,11 @@ Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,z_t)=log\frac
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzc5NDY4MDcsLTEzNDYwNDk2NjEsMT
-E3NDA4NDU0MSw1NDc3MDMxOTYsLTU4ODMwNDIyNCwtOTg5NTQw
-MzQ0LDc1ODQ3NjkwMCw0MjIyNjM0MDQsLTEyNDUxMzY1NCwtMT
-k1MzAxODYwOCw3NzgwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2
-NTUzLC01NTQ0MjA0NzAsLTU1NDQyMDQ3MCwtNDM1MTcyNzE3LD
-EzMTc4OTg3MSwtOTU0NzEwMzE0LC00MTM3MTk4MDIsNTg5MDE1
-MTI0XX0=
+eyJoaXN0b3J5IjpbNjMzODI5NjQ3LC0xNTc3OTQ2ODA3LC0xMz
+Q2MDQ5NjYxLDExNzQwODQ1NDEsNTQ3NzAzMTk2LC01ODgzMDQy
+MjQsLTk4OTU0MDM0NCw3NTg0NzY5MDAsNDIyMjYzNDA0LC0xMj
+Q1MTM2NTQsLTE5NTMwMTg2MDgsNzc4MDc3MDMxLDEyOTI3ODM1
+MjcsLTIyOTU2NjU1MywtNTU0NDIwNDcwLC01NTQ0MjA0NzAsLT
+QzNTE3MjcxNywxMzE3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5
+ODAyXX0=
 -->
