@@ -84,14 +84,16 @@ a fixed binary quantity in the environment from a sequence of sensor measurement
 Since the state is static, the belief is a function of the measurements:
 $$bel_t(x)=p(x|z_{1:t,u_1:t})=p(x|z_{1:t})$$
 
+
 $BinaryBayesFilter(l_{t-1},z_t):$
-$\qquad  l_t=l$
+$\qquad  l_t=l_{t-1}+log \frac{p(x|z_t)}{1-p(x|z_t)}-log \frac{p(x)}{1-p(x)}$
+$\qquad  return\;l_t$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4OTY2Mzk0LC01NTQ3Mzc5OTMsLTE3Mj
-E1ODM4MDcsNTU0NDMzODYwLDE2NTEwNDAyOTcsNjMzODI5NjQ3
-LC0xNTc3OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwODQ1NDEsNT
-Q3NzAzMTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3NTg0NzY5
-MDAsNDIyMjYzNDA0LC0xMjQ1MTM2NTQsLTE5NTMwMTg2MDgsNz
-c4MDc3MDMxLDEyOTI3ODM1MjcsLTIyOTU2NjU1MywtNTU0NDIw
-NDcwXX0=
+eyJoaXN0b3J5IjpbLTE2Mzc5MzI0NzcsLTU1NDczNzk5MywtMT
+cyMTU4MzgwNyw1NTQ0MzM4NjAsMTY1MTA0MDI5Nyw2MzM4Mjk2
+NDcsLTE1Nzc5NDY4MDcsLTEzNDYwNDk2NjEsMTE3NDA4NDU0MS
+w1NDc3MDMxOTYsLTU4ODMwNDIyNCwtOTg5NTQwMzQ0LDc1ODQ3
+NjkwMCw0MjIyNjM0MDQsLTEyNDUxMzY1NCwtMTk1MzAxODYwOC
+w3NzgwNzcwMzEsMTI5Mjc4MzUyNywtMjI5NTY2NTUzLC01NTQ0
+MjA0NzBdfQ==
 -->
