@@ -64,9 +64,7 @@ $\qquad    \mu_t = \bar\mu_t + K_t(z_t-h(\bar\mu_t))$
 $\qquad    \Sigma_t=(I-K_tH_t)\bar\Sigma_t$
 $\qquad    return\;\;\mu_t, \Sigma_t$
 
-### 2.3 Unscented Kalman Filter (UKF)
-
-### 2.4 Information Filter (IF)
+## 3 Non-parametric Filters
 
 
 
@@ -74,11 +72,11 @@ $\qquad    return\;\;\mu_t, \Sigma_t$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NDMzODYwLDE2NTEwNDAyOTcsNjMzOD
-I5NjQ3LC0xNTc3OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwODQ1
-NDEsNTQ3NzAzMTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3NT
-g0NzY5MDAsNDIyMjYzNDA0LC0xMjQ1MTM2NTQsLTE5NTMwMTg2
-MDgsNzc4MDc3MDMxLDEyOTI3ODM1MjcsLTIyOTU2NjU1MywtNT
-U0NDIwNDcwLC01NTQ0MjA0NzAsLTQzNTE3MjcxNywxMzE3ODk4
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTE3MjE1ODM4MDcsNTU0NDMzODYwLDE2NT
+EwNDAyOTcsNjMzODI5NjQ3LC0xNTc3OTQ2ODA3LC0xMzQ2MDQ5
+NjYxLDExNzQwODQ1NDEsNTQ3NzAzMTk2LC01ODgzMDQyMjQsLT
+k4OTU0MDM0NCw3NTg0NzY5MDAsNDIyMjYzNDA0LC0xMjQ1MTM2
+NTQsLTE5NTMwMTg2MDgsNzc4MDc3MDMxLDEyOTI3ODM1MjcsLT
+IyOTU2NjU1MywtNTU0NDIwNDcwLC01NTQ0MjA0NzAsLTQzNTE3
+MjcxN119
 -->
