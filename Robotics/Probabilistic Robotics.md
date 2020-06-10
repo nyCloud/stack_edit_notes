@@ -66,6 +66,7 @@ $\qquad    \mu_t = \bar\mu_t + K_t(z_t-h(\bar\mu_t))$
 $\qquad    \Sigma_t=(I-K_tH_t)\bar\Sigma_t$
 $\qquad    return\;\;\mu_t, \Sigma_t$
 
+
 ## 9. Occupancy Grid Mapping
 **Formulation of Occupancy Grid**
 $$p(m|z_{1:t})\;\;m={m_i}$$
@@ -88,11 +89,11 @@ Where $l_0=log\frac{p(m_i)}{1-p(m_i)}$ and $InverseSensorModel(m_i,z_t)=log\frac
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzODI5NjQ3LC0xNTc3OTQ2ODA3LC0xMz
-Q2MDQ5NjYxLDExNzQwODQ1NDEsNTQ3NzAzMTk2LC01ODgzMDQy
-MjQsLTk4OTU0MDM0NCw3NTg0NzY5MDAsNDIyMjYzNDA0LC0xMj
-Q1MTM2NTQsLTE5NTMwMTg2MDgsNzc4MDc3MDMxLDEyOTI3ODM1
-MjcsLTIyOTU2NjU1MywtNTU0NDIwNDcwLC01NTQ0MjA0NzAsLT
-QzNTE3MjcxNywxMzE3ODk4NzEsLTk1NDcxMDMxNCwtNDEzNzE5
-ODAyXX0=
+eyJoaXN0b3J5IjpbLTEzOTI0MDgyNTksNjMzODI5NjQ3LC0xNT
+c3OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwODQ1NDEsNTQ3NzAz
+MTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3NTg0NzY5MDAsND
+IyMjYzNDA0LC0xMjQ1MTM2NTQsLTE5NTMwMTg2MDgsNzc4MDc3
+MDMxLDEyOTI3ODM1MjcsLTIyOTU2NjU1MywtNTU0NDIwNDcwLC
+01NTQ0MjA0NzAsLTQzNTE3MjcxNywxMzE3ODk4NzEsLTk1NDcx
+MDMxNF19
 -->
