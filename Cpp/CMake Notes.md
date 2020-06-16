@@ -29,14 +29,14 @@ if(USE_MYMATH)
 endif()
 
 add_executable(Tutorial tutorial.cpp)
-target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
 target_include_directories(Tutorial PUBLIC "${PROJECT_BINARY_DIR}" ${EXTRA_INCLUDES})
+target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
 ```
 
 **target_link_libraries**
 
 **target_include_directories**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjI0MTE1MiwyMzU5MzQwMjgsMTQ1NT
-c2NDc1Nl19
+eyJoaXN0b3J5IjpbMTUyNTcyMDk2NiwtMTgyMjQxMTUyLDIzNT
+kzNDAyOCwxNDU1NzY0NzU2XX0=
 -->
