@@ -15,10 +15,11 @@ add_executable(Tutorial tutorial.cpp)
 ```
 
 ## 2. Adding a Library
+Too add a library, we can create a subdirectory containing  code for this library. 
 ```cpp
 
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODY3Mjk4MywxNDU1NzY0NzU2XX0=
+eyJoaXN0b3J5IjpbLTQ1MjY5MDAyMSwxNDU1NzY0NzU2XX0=
 -->
