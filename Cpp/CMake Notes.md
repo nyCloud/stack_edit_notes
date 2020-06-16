@@ -28,8 +28,10 @@ if(USE_MYMATH)
 	list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/MathFunctions")
 endif()
 
-
+add_executable(Tutorial tutorial.cpp)
+target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
+target_include_directories(Tutorial PUBLIC $)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUxOTEyMDQsMTQ1NTc2NDc1Nl19
+eyJoaXN0b3J5IjpbNzQxMjM2NDUzLDE0NTU3NjQ3NTZdfQ==
 -->
