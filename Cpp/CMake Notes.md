@@ -33,6 +33,7 @@ target_include_directories(Tutorial PUBLIC "${PROJECT_BINARY_DIR}" ${EXTRA_INCLU
 target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
 ```
 **target_include_directories**
+Add include directories to a target.
 ```cpp
 target_include_directories(<target>  [SYSTEM]  [BEFORE]
 						   <INTERFACE|PUBLIC|PRIVATE>  [items1...]
@@ -42,7 +43,7 @@ target_include_directories(<target>  [SYSTEM]  [BEFORE]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMzNzk4MjIsLTExOTc1MTU0MjAsMT
-UyNTcyMDk2NiwtMTgyMjQxMTUyLDIzNTkzNDAyOCwxNDU1NzY0
-NzU2XX0=
+eyJoaXN0b3J5IjpbMTAzMTQ2OTQwMywtMTg5MzM3OTgyMiwtMT
+E5NzUxNTQyMCwxNTI1NzIwOTY2LC0xODIyNDExNTIsMjM1OTM0
+MDI4LDE0NTU3NjQ3NTZdfQ==
 -->
