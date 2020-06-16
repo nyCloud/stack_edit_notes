@@ -24,7 +24,7 @@ To make use of the new library we will add an add_subdirectory() call in the top
 ```cpp
 if(USE_MYMATH)
 	add_subdirectory(MathFunctions)
-	list(APPEND EXTRA_LIBS MathFunctions)
+	list(APPEND EXTRA_LIBS MathFunctions) #
 	list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/MathFunctions")
 endif()
 
@@ -32,18 +32,22 @@ add_executable(Tutorial tutorial.cpp)
 target_include_directories(Tutorial PUBLIC "${PROJECT_BINARY_DIR}" ${EXTRA_INCLUDES})
 target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
 ```
+
 **target_include_directories**
-Add include directories to a target.
+Adding include directories to a target.
 ```cpp
 target_include_directories(<target>  [SYSTEM]  [BEFORE]
 						   <INTERFACE|PUBLIC|PRIVATE>  [items1...]
 						  [<INTERFACE|PUBLIC|PRIVATE>  [items2...]  ...])
 ```
 **target_link_libraries**
-
+Specify libraries or flags to use when linking a given target and/or its dependents.
+```cpp
+target_link_libraries(<target>  ...  <item>...  ...)
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTQ2OTQwMywtMTg5MzM3OTgyMiwtMT
-E5NzUxNTQyMCwxNTI1NzIwOTY2LC0xODIyNDExNTIsMjM1OTM0
-MDI4LDE0NTU3NjQ3NTZdfQ==
+eyJoaXN0b3J5IjpbOTY2ODQ3NDI0LC0xODkzMzc5ODIyLC0xMT
+k3NTE1NDIwLDE1MjU3MjA5NjYsLTE4MjI0MTE1MiwyMzU5MzQw
+MjgsMTQ1NTc2NDc1Nl19
 -->
