@@ -15,11 +15,11 @@ add_executable(Tutorial tutorial.cpp)
 ```
 
 ## 2. Adding a Library
-Too add a library, we can create a subdirectory containing  code for this library. 
+Too add a library, we can create a subdirectory containing the code for this library, say 'MathFunctions.h' and 'sqrt.cpp'. Then we will need to add a 'CMakeLists.txt' file under this subdirectory containing: 
 ```cpp
-
+add_library(MathFunctions mysqrt.cpp)
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjY5MDAyMSwxNDU1NzY0NzU2XX0=
+eyJoaXN0b3J5IjpbLTEyNTg4NTE4MzUsMTQ1NTc2NDc1Nl19
 -->
