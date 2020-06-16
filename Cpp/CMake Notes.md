@@ -24,7 +24,7 @@ To make use of the new library we will add an add_subdirectory() call in the top
 ```cpp
 if(USE_MYMATH)
 	add_subdirectory(MathFunctions)
-	list(APPEND EXTRA_LIBS MathFunctions) #
+	list(APPEND EXTRA_LIBS MathFunctions)
 	list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/MathFunctions")
 endif()
 
@@ -47,7 +47,7 @@ target_link_libraries(<target>  ...  <item>...  ...)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2ODQ3NDI0LC0xODkzMzc5ODIyLC0xMT
-k3NTE1NDIwLDE1MjU3MjA5NjYsLTE4MjI0MTE1MiwyMzU5MzQw
-MjgsMTQ1NTc2NDc1Nl19
+eyJoaXN0b3J5IjpbMTUxNTk5MTE2NSwtMTg5MzM3OTgyMiwtMT
+E5NzUxNTQyMCwxNTI1NzIwOTY2LC0xODIyNDExNTIsMjM1OTM0
+MDI4LDE0NTU3NjQ3NTZdfQ==
 -->
