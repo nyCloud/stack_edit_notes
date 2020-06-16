@@ -22,8 +22,14 @@ add_library(MathFunctions sqrt.cpp)
 
 To make use of the new library we will add an add_subdirectory() call in the top-level 'CMakeLists.txt':
 ```cpp
-if(US)
+if(USE_MYMATH)
+	add_subdirectory(MathFunctions)
+	list(APPEND EXTRA_LIBS MathFunctions)
+	list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/MathFunctions")
+endif()
+
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjcwNTA2ODUsMTQ1NTc2NDc1Nl19
+eyJoaXN0b3J5IjpbLTExOTUxOTEyMDQsMTQ1NTc2NDc1Nl19
 -->
