@@ -30,8 +30,8 @@ endif()
 
 add_executable(Tutorial tutorial.cpp)
 target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
-target_include_directories(Tutorial PUBLIC $)
+target_include_directories(Tutorial PUBLIC "${PROJECT_BINARY_DIR}" ${EXTRA_INCLUDES})
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxMjM2NDUzLDE0NTU3NjQ3NTZdfQ==
+eyJoaXN0b3J5IjpbMjM1OTM0MDI4LDE0NTU3NjQ3NTZdfQ==
 -->
