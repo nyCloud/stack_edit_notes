@@ -66,10 +66,19 @@ target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
 ```
 
 ## 4. Installing and Testing
-
+For install the library and the header file, we can simply add:
+```cpp
+install(TARGETS MathFunctions DESTINATION lib)
+install(FILES MathFunctions.h DESTINATION include)
+```
+and
+```cpp
+install(TARGETS Tutorial DESTINATION bin)
+install(FILES "${PROJECT}")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NTMxODY0LDIxMzQ4MTUxNTksOTk0NT
-c5MDE4LDE1MTU5OTExNjUsLTE4OTMzNzk4MjIsLTExOTc1MTU0
-MjAsMTUyNTcyMDk2NiwtMTgyMjQxMTUyLDIzNTkzNDAyOCwxND
-U1NzY0NzU2XX0=
+eyJoaXN0b3J5IjpbLTYxODAyMzQ1MCwyMTM0ODE1MTU5LDk5ND
+U3OTAxOCwxNTE1OTkxMTY1LC0xODkzMzc5ODIyLC0xMTk3NTE1
+NDIwLDE1MjU3MjA5NjYsLTE4MjI0MTE1MiwyMzU5MzQwMjgsMT
+Q1NTc2NDc1Nl19
 -->
