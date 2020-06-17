@@ -91,17 +91,17 @@ $\qquad  l_t=l_{t-1}+log \frac{p(x|z_t)}{1-p(x|z_t)}-log \frac{p(x)}{1-p(x)}$
 $\qquad  return\;l_t$
 
 ### 3.2 Particle Filter
-$BinaryBayesFilter(l_{t-1},z_t):$
-$\qquad  l_t=l_{t-1}+log \frac{p(x|z_t)}{1-p(x|z_t)}-log \frac{p(x)}{1-p(x)}$
-$\qquad  return\;l_t$
+$ParticleFilter(X_{t-1}, u_t, z_t):$
+$\qquad \bar X_t=X_t=\empty$
+$\qquad  $
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzUxNDM1MTgsMTQ2Njc4NDQ5NSwtMz
-ExMjY0ODc1LC0yMDIyMTU3ODIxLC0xMDQ0MTg0NDcsLTU1NDcz
-Nzk5MywtMTcyMTU4MzgwNyw1NTQ0MzM4NjAsMTY1MTA0MDI5Ny
-w2MzM4Mjk2NDcsLTE1Nzc5NDY4MDcsLTEzNDYwNDk2NjEsMTE3
-NDA4NDU0MSw1NDc3MDMxOTYsLTU4ODMwNDIyNCwtOTg5NTQwMz
-Q0LDc1ODQ3NjkwMCw0MjIyNjM0MDQsLTEyNDUxMzY1NCwtMTk1
-MzAxODYwOF19
+eyJoaXN0b3J5IjpbLTMzMjc0Mzc3NCwxNDY2Nzg0NDk1LC0zMT
+EyNjQ4NzUsLTIwMjIxNTc4MjEsLTEwNDQxODQ0NywtNTU0NzM3
+OTkzLC0xNzIxNTgzODA3LDU1NDQzMzg2MCwxNjUxMDQwMjk3LD
+YzMzgyOTY0NywtMTU3Nzk0NjgwNywtMTM0NjA0OTY2MSwxMTc0
+MDg0NTQxLDU0NzcwMzE5NiwtNTg4MzA0MjI0LC05ODk1NDAzND
+QsNzU4NDc2OTAwLDQyMjI2MzQwNCwtMTI0NTEzNjU0LC0xOTUz
+MDE4NjA4XX0=
 -->
