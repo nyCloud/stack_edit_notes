@@ -94,16 +94,16 @@ $\qquad  return\;l_t$
 $ParticleFilter(X_{t-1}, u_t, z_t):$
 $\qquad \bar X_t=X_t=\empty$
 $\qquad  for\;i\;in\;range(n):$
-$\qquad \qquad  x_t^i=sample(p(x_t|u_t,x_{t-1}^))$
-$\qquad  $
-$\qquad  $
+$\qquad \qquad  x_t^i=sample(p(x_t|u_t,x_{t-1}^i))$
+$\qquad \qquad  w_t^i=p(z_t|x_t^i)$
+$\qquad \qquad \bar X_t.add$
 $\qquad  $
 $\qquad  $
 $\qquad  $
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzMzg2NTMzLC0zMzI3NDM3NzQsMTQ2Nj
+eyJoaXN0b3J5IjpbOTc0OTQ1NzQ3LC0zMzI3NDM3NzQsMTQ2Nj
 c4NDQ5NSwtMzExMjY0ODc1LC0yMDIyMTU3ODIxLC0xMDQ0MTg0
 NDcsLTU1NDczNzk5MywtMTcyMTU4MzgwNyw1NTQ0MzM4NjAsMT
 Y1MTA0MDI5Nyw2MzM4Mjk2NDcsLTE1Nzc5NDY4MDcsLTEzNDYw
