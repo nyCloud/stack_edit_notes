@@ -26,7 +26,7 @@ To make use of the new library we will add an add_subdirectory() call in the top
 if(USE_MYMATH)
 	add_subdirectory(MathFunctions)
 	list(APPEND EXTRA_LIBS MathFunctions)
-	# There is  no need to add extra includes if target include directories is added in th
+	# There is  no need to add extra includes if target include directories is added in the library
 	# list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/MathFunctions")
 endif()
 
@@ -51,7 +51,8 @@ target_link_libraries(<target>  ...  <item>...  ...)
 ## 3. Adding Usage Requirements for Library
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNTU0MTM1LDk5NDU3OTAxOCwxNTE1OT
-kxMTY1LC0xODkzMzc5ODIyLC0xMTk3NTE1NDIwLDE1MjU3MjA5
-NjYsLTE4MjI0MTE1MiwyMzU5MzQwMjgsMTQ1NTc2NDc1Nl19
+eyJoaXN0b3J5IjpbMjEzNDgxNTE1OSw5OTQ1NzkwMTgsMTUxNT
+k5MTE2NSwtMTg5MzM3OTgyMiwtMTE5NzUxNTQyMCwxNTI1NzIw
+OTY2LC0xODIyNDExNTIsMjM1OTM0MDI4LDE0NTU3NjQ3NTZdfQ
+==
 -->
