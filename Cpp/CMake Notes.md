@@ -46,8 +46,10 @@ Specify libraries or flags to use when linking a given target and/or its depende
 target_link_libraries(<target>  ...  <item>...  ...)
 ```
 
+## 3. Adding Usage Requirements for Library
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTk5MTE2NSwtMTg5MzM3OTgyMiwtMT
-E5NzUxNTQyMCwxNTI1NzIwOTY2LC0xODIyNDExNTIsMjM1OTM0
-MDI4LDE0NTU3NjQ3NTZdfQ==
+eyJoaXN0b3J5IjpbOTk0NTc5MDE4LDE1MTU5OTExNjUsLTE4OT
+MzNzk4MjIsLTExOTc1MTU0MjAsMTUyNTcyMDk2NiwtMTgyMjQx
+MTUyLDIzNTkzNDAyOCwxNDU1NzY0NzU2XX0=
 -->
