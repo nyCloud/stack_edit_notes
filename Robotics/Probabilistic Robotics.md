@@ -98,16 +98,16 @@ $\qquad \qquad  x_t^i=sample(p(x_t|u_t,x_{t-1}^i))$
 $\qquad \qquad  w_t^i=p(z_t|x_t^i)$
 $\qquad \qquad \bar X_t.add((x_t^i, w_t^i))$
 $\qquad  for\;i\;in\;range(n):$
-$\qquad  \qquad$
-$\qquad  $
+$\qquad  \qquad X_t.add(draw\;x_t\;with\;prob\;w_t)$
+$\qquad  return\;X_t$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTczNTMzOCwtMzMyNzQzNzc0LDE0Nj
-Y3ODQ0OTUsLTMxMTI2NDg3NSwtMjAyMjE1NzgyMSwtMTA0NDE4
-NDQ3LC01NTQ3Mzc5OTMsLTE3MjE1ODM4MDcsNTU0NDMzODYwLD
-E2NTEwNDAyOTcsNjMzODI5NjQ3LC0xNTc3OTQ2ODA3LC0xMzQ2
-MDQ5NjYxLDExNzQwODQ1NDEsNTQ3NzAzMTk2LC01ODgzMDQyMj
-QsLTk4OTU0MDM0NCw3NTg0NzY5MDAsNDIyMjYzNDA0LC0xMjQ1
-MTM2NTRdfQ==
+eyJoaXN0b3J5IjpbLTExMjQ2Nzc3NDcsLTMzMjc0Mzc3NCwxND
+Y2Nzg0NDk1LC0zMTEyNjQ4NzUsLTIwMjIxNTc4MjEsLTEwNDQx
+ODQ0NywtNTU0NzM3OTkzLC0xNzIxNTgzODA3LDU1NDQzMzg2MC
+wxNjUxMDQwMjk3LDYzMzgyOTY0NywtMTU3Nzk0NjgwNywtMTM0
+NjA0OTY2MSwxMTc0MDg0NTQxLDU0NzcwMzE5NiwtNTg4MzA0Mj
+I0LC05ODk1NDAzNDQsNzU4NDc2OTAwLDQyMjI2MzQwNCwtMTI0
+NTEzNjU0XX0=
 -->
