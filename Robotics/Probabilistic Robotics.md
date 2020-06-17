@@ -93,15 +93,21 @@ $\qquad  return\;l_t$
 ### 3.2 Particle Filter
 $ParticleFilter(X_{t-1}, u_t, z_t):$
 $\qquad \bar X_t=X_t=\empty$
+$\qquad  for\;i\;in\;range(n):$
+$\qquad \qquad  x_t^i=sample(p(x_t|u_t,x_{t-1}^))$
+$\qquad  $
+$\qquad  $
+$\qquad  $
+$\qquad  $
 $\qquad  $
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjc0Mzc3NCwxNDY2Nzg0NDk1LC0zMT
-EyNjQ4NzUsLTIwMjIxNTc4MjEsLTEwNDQxODQ0NywtNTU0NzM3
-OTkzLC0xNzIxNTgzODA3LDU1NDQzMzg2MCwxNjUxMDQwMjk3LD
-YzMzgyOTY0NywtMTU3Nzk0NjgwNywtMTM0NjA0OTY2MSwxMTc0
-MDg0NTQxLDU0NzcwMzE5NiwtNTg4MzA0MjI0LC05ODk1NDAzND
-QsNzU4NDc2OTAwLDQyMjI2MzQwNCwtMTI0NTEzNjU0LC0xOTUz
-MDE4NjA4XX0=
+eyJoaXN0b3J5IjpbNjIzMzg2NTMzLC0zMzI3NDM3NzQsMTQ2Nj
+c4NDQ5NSwtMzExMjY0ODc1LC0yMDIyMTU3ODIxLC0xMDQ0MTg0
+NDcsLTU1NDczNzk5MywtMTcyMTU4MzgwNyw1NTQ0MzM4NjAsMT
+Y1MTA0MDI5Nyw2MzM4Mjk2NDcsLTE1Nzc5NDY4MDcsLTEzNDYw
+NDk2NjEsMTE3NDA4NDU0MSw1NDc3MDMxOTYsLTU4ODMwNDIyNC
+wtOTg5NTQwMzQ0LDc1ODQ3NjkwMCw0MjIyNjM0MDQsLTEyNDUx
+MzY1NF19
 -->
