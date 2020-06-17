@@ -96,18 +96,18 @@ $\qquad \bar X_t=X_t=\empty$
 $\qquad  for\;i\;in\;range(n):$
 $\qquad \qquad  x_t^i=sample(p(x_t|u_t,x_{t-1}^i))$
 $\qquad \qquad  w_t^i=p(z_t|x_t^i)$
-$\qquad \qquad \bar X_t.add$
-$\qquad  $
-$\qquad  $
+$\qquad \qquad \bar X_t.add((x_t^i, w_t^i))$
+$\qquad  for\;i\;in\;range(n):$
+$\qquad  \qquad$
 $\qquad  $
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0OTQ1NzQ3LC0zMzI3NDM3NzQsMTQ2Nj
-c4NDQ5NSwtMzExMjY0ODc1LC0yMDIyMTU3ODIxLC0xMDQ0MTg0
-NDcsLTU1NDczNzk5MywtMTcyMTU4MzgwNyw1NTQ0MzM4NjAsMT
-Y1MTA0MDI5Nyw2MzM4Mjk2NDcsLTE1Nzc5NDY4MDcsLTEzNDYw
-NDk2NjEsMTE3NDA4NDU0MSw1NDc3MDMxOTYsLTU4ODMwNDIyNC
-wtOTg5NTQwMzQ0LDc1ODQ3NjkwMCw0MjIyNjM0MDQsLTEyNDUx
-MzY1NF19
+eyJoaXN0b3J5IjpbLTg1OTczNTMzOCwtMzMyNzQzNzc0LDE0Nj
+Y3ODQ0OTUsLTMxMTI2NDg3NSwtMjAyMjE1NzgyMSwtMTA0NDE4
+NDQ3LC01NTQ3Mzc5OTMsLTE3MjE1ODM4MDcsNTU0NDMzODYwLD
+E2NTEwNDAyOTcsNjMzODI5NjQ3LC0xNTc3OTQ2ODA3LC0xMzQ2
+MDQ5NjYxLDExNzQwODQ1NDEsNTQ3NzAzMTk2LC01ODgzMDQyMj
+QsLTk4OTU0MDM0NCw3NTg0NzY5MDAsNDIyMjYzNDA0LC0xMjQ1
+MTM2NTRdfQ==
 -->
