@@ -18,7 +18,6 @@ add_executable(Tutorial tutorial.cpp)
 Too add a library, we can create a subdirectory containing the code for this library, say 'MathFunctions.h' and 'sqrt.cpp'. Then we will need to add a 'CMakeLists.txt' file under this subdirectory containing: 
 ```cpp
 add_library(MathFunctions sqrt.cpp)
-target_include_directories(MathFunctions INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
 ```
 
 To make use of the new library we will add an add_subdirectory() call in the top-level 'CMakeLists.txt':
@@ -26,13 +25,12 @@ To make use of the new library we will add an add_subdirectory() call in the top
 if(USE_MYMATH)
 	add_subdirectory(MathFunctions)
 	list(APPEND EXTRA_LIBS MathFunctions)
-	# There is  no need to add extra includes if target include directories is added in the library
-	# list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/MathFunctions")
+	list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/MathFunctions")
 endif()
 
 add_executable(Tutorial tutorial.cpp)
 target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
-# target_include_directories(Tutorial PUBLIC "${PROJECT_BINARY_DIR}" ${EXTRA_INCLUDES})
+target_include_directories(Tutorial PUBLIC "${PROJECT_BINARY_DIR}" ${EXTRA_INCLUDES})
 ```
 
 **target_include_directories**
@@ -50,9 +48,28 @@ target_link_libraries(<target>  ...  <item>...  ...)
 
 ## 3. Adding Usage Requirements for Library
 
+```cpp
+add_library(MathFunctions sqrt.cpp)
+target_include_directories(MathFunctions INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+```
+```cpp
+if(USE_MYMATH)
+	add_subdirectory(MathFunctions)
+	list(APPEND EXTRA_LIBS MathFunctions)
+	# There is  no need to add extra includes if target include directories is added in the library
+	# list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/MathFunctions")
+endif()
+
+add_executable(Tutorial tutorial.cpp)
+target_link_libraries(Tutorial PUBLIC ${EXTRA_LIBS})
+# target_include_directories(Tutorial PUBLIC "${PROJECT_BINARY_DIR}" ${EXTRA_INCLUDES})
+```
+
+## 4. Installing and Testing
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDgxNTE1OSw5OTQ1NzkwMTgsMTUxNT
-k5MTE2NSwtMTg5MzM3OTgyMiwtMTE5NzUxNTQyMCwxNTI1NzIw
-OTY2LC0xODIyNDExNTIsMjM1OTM0MDI4LDE0NTU3NjQ3NTZdfQ
-==
+eyJoaXN0b3J5IjpbNDE2NTMxODY0LDIxMzQ4MTUxNTksOTk0NT
+c5MDE4LDE1MTU5OTExNjUsLTE4OTMzNzk4MjIsLTExOTc1MTU0
+MjAsMTUyNTcyMDk2NiwtMTgyMjQxMTUyLDIzNTkzNDAyOCwxND
+U1NzY0NzU2XX0=
 -->
