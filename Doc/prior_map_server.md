@@ -42,9 +42,10 @@ def match_point_cloud(self, pts, cov_vec=None):
 	Match realtime radar point cloud input with radar prior map.
 	:pts: ndarray with shape (n, 3) or (n, 2) under ENU coordinate
 	:cov_vec: none or ndarray indicate covariance vectors
-	:return: ndarray 
+	:return: ndarray with shape (n, 2) indicate occupancy probablities 
 	"""
 ```
+
 
 ```python
 
@@ -55,5 +56,5 @@ def match_point_cloud(self, pts, cov_vec=None):
 ### Lidar Prior Map
 To be updated later ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxMjQzMTY1XX0=
+eyJoaXN0b3J5IjpbMTMxNDczNDM1M119
 -->
