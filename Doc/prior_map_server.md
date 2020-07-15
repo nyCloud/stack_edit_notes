@@ -19,13 +19,14 @@ For radar prior map users, you can import the corresponding prior map server as 
 from prior_map_server import RadarPriorMapServer
 
 # To create a server instance
-map_path = '/'
+map_path = '/path/to/map/folder'
 map_server = RadarPriorMapServer(map_path)
 ```
-Where `map_path` is the path to 
+As the 
+
 
 ### Lidar Prior Map
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzMDE0NTg2XX0=
+eyJoaXN0b3J5IjpbLTE4NTc5MjQ2NzJdfQ==
 -->
