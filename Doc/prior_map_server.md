@@ -31,10 +31,10 @@ map_server = RadarPriorMapServer(map_path)
 def update_vehicle_loc(self, vehicle_loc):
 	"""
 	Update vehicle location & cached submaps
-	vehicle_loc: ndarray with size (3,) or 
+	:vehicle_loc: ndarray with shape (3,) or (6,)
 	"""
 ```
-As the map is consisted of multiple sub-maps, you will need to let the server know your location before utilize the prior map. And 
+As the map is consisted of multiple sub-maps, you will need to let the server know your location before utilize the prior map. And `vehicle_loc` should be gpsimu valus of Novatel sensor ou
 
 ```python
 ```
@@ -44,5 +44,5 @@ As the map is consisted of multiple sub-maps, you will need to let the server kn
 ### Lidar Prior Map
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxNjkyMjA4XX0=
+eyJoaXN0b3J5IjpbLTIxMDA1MzY0MzJdfQ==
 -->
