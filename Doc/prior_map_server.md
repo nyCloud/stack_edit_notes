@@ -45,7 +45,7 @@ def match_point_cloud(self, pts, cov_vec=None):
 	:return: ndarray with shape (n, 2) indicate occupancy probablities 
 	"""
 ```
-Please remember all the input points and vectors should be under `ENU** coordinate. The param pts indicates radar point cloud, which cloud be of shape (n, 3) or (n, 2) as the last column could be omitted. 
+Please remember all the input points and vectors should be under **ENU** coordinate. The param `pts` indicates radar point cloud, which cloud be of shape (n, 3) or (n, 2) as the last column could be omitted. The param `cov_vec` indicates 
 
 
 ```python
@@ -57,5 +57,5 @@ Please remember all the input points and vectors should be under `ENU** coordina
 ### Lidar Prior Map
 To be updated later ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3ODI3NTExXX0=
+eyJoaXN0b3J5IjpbOTg2NTI2MTYwXX0=
 -->
