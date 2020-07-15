@@ -14,6 +14,9 @@ tspkg install prior_map_server
 ## Usage
 
 ### Radar Prior Map
+
+Radar prior map is in the form of 2D occupancy grid which each grid records the probability of that grid being occupied by a static object. 
+
 For radar prior map users, you can import the corresponding prior map server as following example.
 ```python3
 from prior_map_server import RadarPriorMapServer
@@ -28,5 +31,5 @@ As the
 ### Lidar Prior Map
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc5MjQ2NzJdfQ==
+eyJoaXN0b3J5IjpbNTUxNDQ1NjIwXX0=
 -->
