@@ -34,7 +34,7 @@ def update_vehicle_loc(self, vehicle_loc):
 	:vehicle_loc: ndarray with shape (3,) or (6,)
 	"""
 ```
-As the map is consisted of multiple sub-maps, you will need to let the server know your location before utilize the prior map. And `vehicle_loc` should be gpsimu valus of Novatel sensor ou
+As the map is consisted of multiple sub-maps, you will need to let the server know your location before utilize the prior map. And `vehicle_loc` could be the location of base point of imu0 under **ENU** coordinate or direct gpsimu valus of Novatel sensor output.
 
 ```python
 ```
@@ -44,5 +44,5 @@ As the map is consisted of multiple sub-maps, you will need to let the server kn
 ### Lidar Prior Map
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA1MzY0MzJdfQ==
+eyJoaXN0b3J5IjpbLTIxNDYwODMwMTldfQ==
 -->
