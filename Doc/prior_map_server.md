@@ -31,7 +31,7 @@ map_server = RadarPriorMapServer(map_path)
 def update_vehicle_loc(self, vehicle_loc):
 	"""
 	Update vehicle location & cached submaps
-	:vehicle_loc: ndarray with shape (3,) or (6,)
+	:param vehicle_loc: ndarray with shape (3,) or (6,)
 	"""
 ```
 As the map is consisted of multiple sub-maps, you will need to let the server know your location before utilize the prior map. And `vehicle_loc` could be the location of base point of imu0 under **ENU** coordinate or direct gpsimu valus of Novatel sensor output.
@@ -40,11 +40,12 @@ As the map is consisted of multiple sub-maps, you will need to let the server kn
 def match_point_cloud(self, pts, cov_vec=None):
 	"""
 	Match realtime radar point cloud input with radar prior map.
-	:pts: ndarray with shape (n, 3) or (n, 2) under ENU coordinate
-	:cov_vec: none or ndarray indicate covariance vectors
+	:param pts: ndarray with shape (n, 3) or (n, 2) under ENU coordinate
+	:param cov_vec: none or ndarray indicate covariance vectors
 	:return: ndarray with shape (n, 2) indicate occupancy probablities 
 	"""
 ```
+One 
 
 
 ```python
@@ -56,5 +57,5 @@ def match_point_cloud(self, pts, cov_vec=None):
 ### Lidar Prior Map
 To be updated later ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDczNDM1M119
+eyJoaXN0b3J5IjpbLTE4NDgzOTE0NDRdfQ==
 -->
