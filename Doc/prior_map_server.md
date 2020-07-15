@@ -47,8 +47,8 @@ def match_point_cloud(self, pts, cov_vec=None):
 	"""
 ```
 Please remember all the input points and vectors should be under **ENU** coordinate. The param `pts` indicates radar point cloud, which cloud be of shape (n, 3) or (n, 2) as the last column could be omitted. The param `cov_vec` indicates distribution range of each point. As we assume the distribution of each point is a 2D Gaussian, the covariance vectors can be represented as a ndarray with shape (n, 6) or (n, 4) as the last column clould also be omitted.
-The return values are represents as a ndarray with shape (n, 2), where the first column is the low
 
+The return values are represents as a ndarray with shape (n, 2), where the first column is the low layer occupancy probabilities while the second column represents the top layer.
 
 ```python
 def visualize_map(self):  
@@ -72,5 +72,5 @@ Function for visualize radar point cloud and corresponding low & high layer occu
 ### Lidar Prior Map
 To be updated later ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjgwNTM4MF19
+eyJoaXN0b3J5IjpbLTE0Mjc1ODI1MjVdfQ==
 -->
