@@ -18,18 +18,19 @@ tspkg install prior_map_server
 Radar prior map is in the form of 2D occupancy grid which each grid records the probability of that grid being occupied by a static object. 
 
 For radar prior map users, you can import the corresponding prior map server as following example.
-```python3
+```python
 from prior_map_server import RadarPriorMapServer
 
 # To create a server instance
 map_path = '/path/to/map/folder'
 map_server = RadarPriorMapServer(map_path)
 ```
-As the 
+
+As the map is consisted of multiple sub-maps, you will need to let the server know your location before utilize the prior map. And 
 
 
 ### Lidar Prior Map
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNDQ1NjIwXX0=
+eyJoaXN0b3J5IjpbMjg3ODQ1MzQ3XX0=
 -->
