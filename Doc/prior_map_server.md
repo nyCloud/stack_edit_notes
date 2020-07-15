@@ -27,6 +27,7 @@ map_server = RadarPriorMapServer(map_path)
 ```
 
 **Server APIs**
+
 ```python
 def update_vehicle_loc(self, vehicle_loc):
 	"""
@@ -47,15 +48,25 @@ def match_point_cloud(self, pts, cov_vec=None):
 ```
 Please remember all the input points and vectors should be under **ENU** coordinate. The param `pts` indicates radar point cloud, which cloud be of shape (n, 3) or (n, 2) as the last column could be omitted. The param `cov_vec` indicates 
 
-
 ```python
-
+def visualize_map(self):  
+    """  
+	Visualize nearby radar prior map
+	"""
 ```
-
+F
+```python
+def visualize(self, pts, probs):  
+    """  
+	Function to visualize the point cloud & probablities 
+	:param pts: radar point cloud 
+	:param probs: (n, 2) ndarray indicate low & high layer occupancy probablities 
+	 """
+```
 
 
 ### Lidar Prior Map
 To be updated later ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NTI2MTYwXX0=
+eyJoaXN0b3J5IjpbLTg4NDUyNjg4M119
 -->
