@@ -27,20 +27,22 @@ map_server = RadarPriorMapServer(map_path)
 ```
 
 **Server APIs**
-```
+```python
 def update_vehicle_loc(self, vehicle_loc):
 	"""
-	
+	Update vehicle location & cached submaps
+	vehicle_loc: ndarray with size (3,) or 
 	"""
 ```
+As the map is consisted of multiple sub-maps, you will need to let the server know your location before utilize the prior map. And 
 
 ```python
 ```
-As the map is consisted of multiple sub-maps, you will need to let the server know your location before utilize the prior map. And 
+
 
 
 ### Lidar Prior Map
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA3Njc0ODFdfQ==
+eyJoaXN0b3J5IjpbMjcxNjkyMjA4XX0=
 -->
