@@ -40,6 +40,9 @@ As the map is consisted of multiple sub-maps, you will need to let the server kn
 def match_point_cloud(self, pts, cov_vec=None):
 	"""
 	Match realtime radar point cloud input with radar prior map.
+	:pts: ndarray with shape (n, 3) or (n, 2) under ENU coordinate
+	:cov_vec: none or ndarray indicate covariance vectors
+	:return: ndarray 
 	"""
 ```
 
@@ -52,5 +55,5 @@ def match_point_cloud(self, pts, cov_vec=None):
 ### Lidar Prior Map
 To be updated later ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI2NTIzNzZdfQ==
+eyJoaXN0b3J5IjpbMjMxMjQzMTY1XX0=
 -->
