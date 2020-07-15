@@ -46,7 +46,7 @@ def match_point_cloud(self, pts, cov_vec=None):
 	:return: ndarray with shape (n, 2) indicate occupancy probablities 
 	"""
 ```
-Please remember all the input points and vectors should be under **ENU** coordinate. The param `pts` indicates radar point cloud, which cloud be of shape (n, 3) or (n, 2) as the last column could be omitted. The param `cov_vec` indicates 
+Please remember all the input points and vectors should be under **ENU** coordinate. The param `pts` indicates radar point cloud, which cloud be of shape (n, 3) or (n, 2) as the last column could be omitted. The param `cov_vec` indicates two directions of 
 
 ```python
 def visualize_map(self):  
@@ -54,7 +54,8 @@ def visualize_map(self):
 	Visualize nearby radar prior map
 	"""
 ```
-F
+Function for visualize nearbe radar prior map
+
 ```python
 def visualize(self, pts, probs):  
     """  
@@ -63,10 +64,11 @@ def visualize(self, pts, probs):
 	:param probs: (n, 2) ndarray indicate low & high layer occupancy probablities 
 	 """
 ```
+Function for visualize radar point cloud and corresponding low & high layer occupancy probablities.
 
 
 ### Lidar Prior Map
 To be updated later ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDUyNjg4M119
+eyJoaXN0b3J5IjpbLTc1NDE4Mzg4Nl19
 -->
