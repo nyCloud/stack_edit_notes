@@ -96,16 +96,25 @@ map_server = LidarPriorMapServer('path/to/lidar/prior/map')
 **Server APIs**
 ```python
 def update_vehicle_loc(self, vehicle_loc):  
+	"""
+	Update vehicle location & cached submaps
+	:param vehicle_loc: ndarray with shape (3,) or (6,)
+	"""
 ```
 Within your major loop, each time before utilize the lidar prior map, please remember to update your location.  And `vehicle_loc` could be the location of base point of imu0 under **ECEF** coordinate or direct gpsimu valus of Novatel sensor output.
 
 ```python
 def match_point_cloud(self, pts):  
+	"""
+	Match realtime lidar point cloud input with lidar prior map.
+	:param pts: ndarray with shape (n, 3) or (n, 2) under ENU coordinate
+	"""
 ```
+To 
 
 ```python
 def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODQ0NjY5MywtMTQyNzU4MjUyNV19
+eyJoaXN0b3J5IjpbNzU0NjUwNTM2LC0xNDI3NTgyNTI1XX0=
 -->
