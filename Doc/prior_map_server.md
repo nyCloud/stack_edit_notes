@@ -107,14 +107,15 @@ Within your major loop, each time before utilize the lidar prior map, please rem
 def match_point_cloud(self, pts):  
 	"""
 	Match realtime lidar point cloud input with lidar prior map.
-	:param pts: ndarray with shape (n, 3) or (n, 2) under ENU coordinate
+	:param pts: ndarray with shape (n, 3) under ECEF coordinate
 	"""
 ```
-To 
+To match lidar point cloud with the prior map, `match_point_cloud` is the function that would help. Please notice that the point cloud should be converted under **ECEF** coordinate. 
 
 ```python
 def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0NjUwNTM2LC0xNDI3NTgyNTI1XX0=
+eyJoaXN0b3J5IjpbMTkwMzM5Njg5OCwtMTQyNzU4MjUyNV19
 -->
