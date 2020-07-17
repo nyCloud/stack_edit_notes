@@ -93,9 +93,12 @@ from prior_map_server import LidarPriorMapServer
 map_server = LidarPriorMapServer('path/to/lidar/prior/map')
 ```
 
+**Server APIs**
 ```python
 def update_vehicle_loc(self, vehicle_loc):  
 ```
+Within your major loop, each time before utilize the lidar prior map, please remember to update your location.  And `vehicle_loc` could be the location of base point of imu0 under **ECEF** coordinate or direct gpsimu valus of Novatel sensor output.
+
 ```python
 def match_point_cloud(self, pts):  
 ```
@@ -104,5 +107,5 @@ def match_point_cloud(self, pts):
 def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDA1MjkwNywtMTQyNzU4MjUyNV19
+eyJoaXN0b3J5IjpbLTcwODQ0NjY5MywtMTQyNzU4MjUyNV19
 -->
