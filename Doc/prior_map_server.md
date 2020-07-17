@@ -1,19 +1,20 @@
+
 # prior-map-server
 
 ## 1. Introduction
 
 Prior map server provides basic APIs for both *Radar Prior Map* and *Lidar Prior Map*. 
 
-## 2.Getting Started
+## 2. Getting Started
 
 Prior map server can be easily installed using tapkg
 ```
 tspkg install prior_map_server
 ```
 
-## Usage
+## 3. Usage
 
-### Radar Prior Map
+### 3.1. Radar Prior Map
 
 Radar prior map is in the form of 2D occupancy grid which each grid records the probability of that grid being occupied by a static object. 
 
@@ -52,7 +53,7 @@ The return values are represents as a ndarray with shape (n, 2), where the first
 
 ```python
 def visualize_map(self):  
-    """  
+	"""  
 	Visualize nearby radar prior map
 	"""
 ```
@@ -60,17 +61,23 @@ Function for visualize nearbe radar prior map
 
 ```python
 def visualize(self, pts, probs):  
-    """  
+	"""  
 	Function to visualize the point cloud & probablities 
 	:param pts: radar point cloud 
 	:param probs: (n, 2) ndarray indicate low & high layer occupancy probablities 
-	 """
+	"""
 ```
 Function for visualize radar point cloud and corresponding low & high layer occupancy probablities.
 
 
-### Lidar Prior Map
-To be updated later ...
+### 3.2. Lidar Prior Map
+
+```python
+def update_vehicle_loc(self, vehicle_loc):  
+  
+def match_point_cloud(self, pts):  
+
+def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc1ODI1MjVdfQ==
+eyJoaXN0b3J5IjpbMTkyNzU5MzU5OCwtMTQyNzU4MjUyNV19
 -->
