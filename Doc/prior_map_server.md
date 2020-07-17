@@ -113,15 +113,20 @@ def match_point_cloud(self, pts):
 ```
 To match lidar point cloud with the prior map, `match_point_cloud` is the function that would help. Please notice that the point cloud should be converted under **ECEF** coordinate. 
 
-The return values indicates the matching results for each point, each line of the ndarray indicates the points'
+The return values indicates the matching results for each point, each line of the ndarray indicates the point's label, label probability and occupancy probability. If the point (grid) is not found within map, the result for the point would be (0, 0, 0).
 
 ```python
 def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
 	"""
 	A helper function for visualizing the resutls
-	::
+	:param pts:
+	:param info:
+	:param vis_range:
+	:praam down:
+	"""
 ```
 A helper function for visualizing the point cloud and matched info.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDA0OTc0MywtMTQyNzU4MjUyNV19
+eyJoaXN0b3J5IjpbLTE4NjA5MDQzNzQsLTE0Mjc1ODI1MjVdfQ
+==
 -->
