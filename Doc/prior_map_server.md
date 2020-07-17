@@ -72,11 +72,7 @@ Function for visualize radar point cloud and corresponding low & high layer occu
 
 ### 3.2. Lidar Prior Map
 
-Lidar prior map is in the form of 3D occupancy grid. Each grid is a 0.4m x 0.4m x 0.4m voxel by default, and contains a feature vector indicates 
-
-int32 label  
-double label_prob  
-double occ_prob
+Lidar prior map is in the form of 3D occupancy grid. Each grid is a 0.4m x 0.4m x 0.4m voxel by default, and contains a feature vector indicates the label, label probability and occupancy probability of the grid. At current stage the supported labels are shown as following:
 
 ```python
 map_label_dict = {  
@@ -91,7 +87,7 @@ map_label_dict = {
 }
 ```
 
-For getting start, you should create a lidar prior map server instance as following
+For getting started, you should create a lidar prior map server instance as following
 ```python
 from prior_map_server import LidarPriorMapServer
 map_server = LidarPriorMapServer('path/to/lidar/prior/map')
@@ -108,5 +104,5 @@ def match_point_cloud(self, pts):
 def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjAxODE3OCwtMTQyNzU4MjUyNV19
+eyJoaXN0b3J5IjpbLTQzNDA1MjkwNywtMTQyNzU4MjUyNV19
 -->
