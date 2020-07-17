@@ -119,14 +119,13 @@ The return values indicates the matching results for each point, each line of th
 def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
 	"""
 	A helper function for visualizing the resutls
-	:param pts:
-	:param info:
-	:param vis_range:
-	:praam down:
+	:param pts: point cloud
+	:param info: point cloud info
+	:param vis_range: visualize range
+	:praam downsample_n: downsample skip number
 	"""
 ```
 A helper function for visualizing the point cloud and matched info.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA5MDQzNzQsLTE0Mjc1ODI1MjVdfQ
-==
+eyJoaXN0b3J5IjpbOTAwMzA5NDIwLC0xNDI3NTgyNTI1XX0=
 -->
