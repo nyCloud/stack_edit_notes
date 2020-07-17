@@ -72,7 +72,22 @@ Function for visualize radar point cloud and corresponding low & high layer occu
 
 ### 3.2. Lidar Prior Map
 
-Lidar prior map is in the form of 3D occupancy grid which each gridm
+Lidar prior map is in the form of 3D occupancy grid which each grid, and each grid contains three valu
+int32 label = 4;  
+double label_prob = 5;  
+double occ_prob = 6;
+```python
+map_label_dict = {  
+	  'static': 0,  
+	  'vegetation': 1,  
+	  'curb': 2,  
+	  'fence': 3,  
+	  'wall': 4,  
+	  'pole': 5,  
+	  'traffic-sign': 6,  
+	  'traffic-cone': 7,  
+}
+```
 
 For getting start, you should create a lidar prior map server instance as following
 ```python
@@ -91,5 +106,5 @@ def match_point_cloud(self, pts):
 def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTAwODc1LC0xNDI3NTgyNTI1XX0=
+eyJoaXN0b3J5IjpbNzkzOTg2MzYzLC0xNDI3NTgyNTI1XX0=
 -->
