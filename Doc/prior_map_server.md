@@ -108,10 +108,12 @@ def match_point_cloud(self, pts):
 	"""
 	Match realtime lidar point cloud input with lidar prior map.
 	:param pts: ndarray with shape (n, 3) under ECEF coordinate
-	:return: ndarray with shape (n, 3) indicates 
+	:return: ndarray with shape (n, 3) each line indicates (label, label_prob, occ_prob)
 	"""
 ```
 To match lidar point cloud with the prior map, `match_point_cloud` is the function that would help. Please notice that the point cloud should be converted under **ECEF** coordinate. 
+
+The return values indicates the matching results for each point, each line of the ndarray indicates the points'
 
 ```python
 def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
@@ -121,6 +123,5 @@ def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
 ```
 A helper function for visualizing the point cloud and matched info.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY2NDk4MDIsLTE0Mjc1ODI1MjVdfQ
-==
+eyJoaXN0b3J5IjpbLTgyNDA0OTc0MywtMTQyNzU4MjUyNV19
 -->
