@@ -72,12 +72,22 @@ Function for visualize radar point cloud and corresponding low & high layer occu
 
 ### 3.2. Lidar Prior Map
 
+For getting start, you should create a lidar prior map server instance as following
+```python
+from prior_map_server import LidarPriorMapServer
+map_server = LidarPriorMapServer('path/to/lidar/prior/map')
+```
+
 ```python
 def update_vehicle_loc(self, vehicle_loc):  
-  
+```
+```python
 def match_point_cloud(self, pts):  
+```
 
+```python
 def visualize_point_cloud(pts, info, vis_range=80., downsample_n=2):
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzU5MzU5OCwtMTQyNzU4MjUyNV19
+eyJoaXN0b3J5IjpbLTI1NTUzMTMyNywtMTQyNzU4MjUyNV19
 -->
