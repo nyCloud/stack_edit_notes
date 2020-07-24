@@ -25,7 +25,7 @@ Bayes Filter is so important that so many probabilistic robotics algorithms are 
 - $u_t$: a description of initiative values that influence the state 
 - $z_t$: a measurement of the new state
 
-We change the world and then we measure the world. 
+We change the world and then we measure the world. To 
  
 
 
@@ -112,11 +112,11 @@ $\qquad  return\;X_t$
 # 3. Localization & Position Estimation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzA5NDczMCwtODA4ODQ2MDY4LC0xMT
-I0Njc3NzQ3LC0zMzI3NDM3NzQsMTQ2Njc4NDQ5NSwtMzExMjY0
-ODc1LC0yMDIyMTU3ODIxLC0xMDQ0MTg0NDcsLTU1NDczNzk5My
-wtMTcyMTU4MzgwNyw1NTQ0MzM4NjAsMTY1MTA0MDI5Nyw2MzM4
-Mjk2NDcsLTE1Nzc5NDY4MDcsLTEzNDYwNDk2NjEsMTE3NDA4ND
-U0MSw1NDc3MDMxOTYsLTU4ODMwNDIyNCwtOTg5NTQwMzQ0LDc1
-ODQ3NjkwMF19
+eyJoaXN0b3J5IjpbMTAwNDcwMTUxMSwxNjI3MDk0NzMwLC04MD
+g4NDYwNjgsLTExMjQ2Nzc3NDcsLTMzMjc0Mzc3NCwxNDY2Nzg0
+NDk1LC0zMTEyNjQ4NzUsLTIwMjIxNTc4MjEsLTEwNDQxODQ0Ny
+wtNTU0NzM3OTkzLC0xNzIxNTgzODA3LDU1NDQzMzg2MCwxNjUx
+MDQwMjk3LDYzMzgyOTY0NywtMTU3Nzk0NjgwNywtMTM0NjA0OT
+Y2MSwxMTc0MDg0NTQxLDU0NzcwMzE5NiwtNTg4MzA0MjI0LC05
+ODk1NDAzNDRdfQ==
 -->
