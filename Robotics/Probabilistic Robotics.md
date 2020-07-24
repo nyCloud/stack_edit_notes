@@ -22,7 +22,8 @@ $\qquad$ return $bel(x_t)$
 
 Bayes Filter is so important that so many probabilistic robotics algorithms are based on it. It provides a paradigm to describe the problem when we have:
 - $x_{t-1}$: a prior estimation of states
-- $u_t$: control 
+- $u_t$: a description of initiative values that influence the state 
+- $z_t$: a measurement
  
 
 
@@ -109,7 +110,7 @@ $\qquad  return\;X_t$
 # 3. Localization & Position Estimation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI5MzQwOTEsLTgwODg0NjA2OCwtMT
+eyJoaXN0b3J5IjpbLTEyODU2NjE4NDksLTgwODg0NjA2OCwtMT
 EyNDY3Nzc0NywtMzMyNzQzNzc0LDE0NjY3ODQ0OTUsLTMxMTI2
 NDg3NSwtMjAyMjE1NzgyMSwtMTA0NDE4NDQ3LC01NTQ3Mzc5OT
 MsLTE3MjE1ODM4MDcsNTU0NDMzODYwLDE2NTEwNDAyOTcsNjMz
