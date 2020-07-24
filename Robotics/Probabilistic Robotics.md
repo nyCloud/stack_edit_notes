@@ -20,9 +20,9 @@ $\qquad\qquad$$\bar{bel}(x_t=m)=\sum_{n}{p(x_t|u_t,x_{t-1}=n)bel(x_{t-1}=n)}$
 $\qquad\qquad$$bel(x_t=m)=\eta p(z_t|x_t=m)\bar{bel}(x_t=m)$
 $\qquad$ return $bel(x_t)$
 
-```diff
-!
-```
+Bayes Filter is so important that so many probabilistic robotics algorithms are based on it. It 
+ 
+
 
 ## 2. Gaussian Filters
 
@@ -107,11 +107,11 @@ $\qquad  return\;X_t$
 # 3. Localization & Position Estimation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk2ODQ0OTgsLTgwODg0NjA2OCwtMT
-EyNDY3Nzc0NywtMzMyNzQzNzc0LDE0NjY3ODQ0OTUsLTMxMTI2
-NDg3NSwtMjAyMjE1NzgyMSwtMTA0NDE4NDQ3LC01NTQ3Mzc5OT
-MsLTE3MjE1ODM4MDcsNTU0NDMzODYwLDE2NTEwNDAyOTcsNjMz
-ODI5NjQ3LC0xNTc3OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwOD
-Q1NDEsNTQ3NzAzMTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3
-NTg0NzY5MDBdfQ==
+eyJoaXN0b3J5IjpbOTgzMjUxMDM2LC04MDg4NDYwNjgsLTExMj
+Q2Nzc3NDcsLTMzMjc0Mzc3NCwxNDY2Nzg0NDk1LC0zMTEyNjQ4
+NzUsLTIwMjIxNTc4MjEsLTEwNDQxODQ0NywtNTU0NzM3OTkzLC
+0xNzIxNTgzODA3LDU1NDQzMzg2MCwxNjUxMDQwMjk3LDYzMzgy
+OTY0NywtMTU3Nzk0NjgwNywtMTM0NjA0OTY2MSwxMTc0MDg0NT
+QxLDU0NzcwMzE5NiwtNTg4MzA0MjI0LC05ODk1NDAzNDQsNzU4
+NDc2OTAwXX0=
 -->
