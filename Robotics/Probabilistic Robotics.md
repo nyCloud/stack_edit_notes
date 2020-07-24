@@ -23,7 +23,9 @@ $\qquad$ return $bel(x_t)$
 Bayes Filter is so important that so many probabilistic robotics algorithms are based on it. It provides a paradigm to describe the problem when we have:
 - $x_{t-1}$: a prior estimation of states
 - $u_t$: a description of initiative values that influence the state 
-- $z_t$: a measurement
+- $z_t$: a measurement of the new state
+
+We change the world and then we measure the world. 
  
 
 
@@ -110,11 +112,11 @@ $\qquad  return\;X_t$
 # 3. Localization & Position Estimation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU2NjE4NDksLTgwODg0NjA2OCwtMT
-EyNDY3Nzc0NywtMzMyNzQzNzc0LDE0NjY3ODQ0OTUsLTMxMTI2
-NDg3NSwtMjAyMjE1NzgyMSwtMTA0NDE4NDQ3LC01NTQ3Mzc5OT
-MsLTE3MjE1ODM4MDcsNTU0NDMzODYwLDE2NTEwNDAyOTcsNjMz
-ODI5NjQ3LC0xNTc3OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwOD
-Q1NDEsNTQ3NzAzMTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3
-NTg0NzY5MDBdfQ==
+eyJoaXN0b3J5IjpbMTYyNzA5NDczMCwtODA4ODQ2MDY4LC0xMT
+I0Njc3NzQ3LC0zMzI3NDM3NzQsMTQ2Njc4NDQ5NSwtMzExMjY0
+ODc1LC0yMDIyMTU3ODIxLC0xMDQ0MTg0NDcsLTU1NDczNzk5My
+wtMTcyMTU4MzgwNyw1NTQ0MzM4NjAsMTY1MTA0MDI5Nyw2MzM4
+Mjk2NDcsLTE1Nzc5NDY4MDcsLTEzNDYwNDk2NjEsMTE3NDA4ND
+U0MSw1NDc3MDMxOTYsLTU4ODMwNDIyNCwtOTg5NTQwMzQ0LDc1
+ODQ3NjkwMF19
 -->
