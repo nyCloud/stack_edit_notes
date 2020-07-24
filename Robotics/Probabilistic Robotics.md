@@ -17,7 +17,7 @@ $$p(x) = \frac{1}{\sqrt{det(2\pi\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-
 Bayes_Filter(bel($x_{t-1}$), $u_t$, $z_t$):
 $\qquad$ for all m in $x_t$:
 $\qquad\qquad$$\bar{bel}(x_t=i)=\sum_{j}{p(x_t=i|u_t,x_{t-1}=j)bel(x_{t-1}=j)}$
-$\qquad\qquad$$bel(x_t=i)=\eta p(z_t|x_t=m)\bar{bel}(x_t=m)$
+$\qquad\qquad$$bel(x_t=i)=\eta p(z_t|x_t=i)\bar{bel}(x_t=i)$
 $\qquad$ return $bel(x_t)$
 
 Bayes Filter is so important that so many probabilistic robotics algorithms are based on it. It provides a paradigm to describe the problem when we have:
@@ -113,7 +113,7 @@ $\qquad  return\;X_t$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDk3MTgxMSwxNzY5MzQ3NDExLC0xMT
+eyJoaXN0b3J5IjpbMTM2ODU3MjgzNSwxNzY5MzQ3NDExLC0xMT
 M2NTk4NTIyLC0zNzU3NDIwMTgsMTYyNzA5NDczMCwtODA4ODQ2
 MDY4LC0xMTI0Njc3NzQ3LC0zMzI3NDM3NzQsMTQ2Njc4NDQ5NS
 wtMzExMjY0ODc1LC0yMDIyMTU3ODIxLC0xMDQ0MTg0NDcsLTU1
