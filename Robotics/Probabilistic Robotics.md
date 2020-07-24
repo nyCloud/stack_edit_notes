@@ -26,8 +26,8 @@ Bayes Filter is so important that so many probabilistic robotics algorithms are 
 - $z_t$: a measurement of the new state
 
 We change the world and then we measure the world. Let's consider $u_t$ first, it is pretty straight to update our estimation of $x_t$:
-$\bar p(x_t=i)=\sum_j$
- 
+$$\bar p(x_t=i)=\sum_jp(x_t=i|x_{t-1}=j,y_t)p(x_{t-1}=j)$$
+We use $\bar p(x)$ because we 
 
 
 ## 2. Gaussian Filters
@@ -113,11 +113,11 @@ $\qquad  return\;X_t$
 # 3. Localization & Position Estimation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5ODQ1NiwxNjI3MDk0NzMwLC04MDg4ND
-YwNjgsLTExMjQ2Nzc3NDcsLTMzMjc0Mzc3NCwxNDY2Nzg0NDk1
-LC0zMTEyNjQ4NzUsLTIwMjIxNTc4MjEsLTEwNDQxODQ0NywtNT
-U0NzM3OTkzLC0xNzIxNTgzODA3LDU1NDQzMzg2MCwxNjUxMDQw
-Mjk3LDYzMzgyOTY0NywtMTU3Nzk0NjgwNywtMTM0NjA0OTY2MS
-wxMTc0MDg0NTQxLDU0NzcwMzE5NiwtNTg4MzA0MjI0LC05ODk1
-NDAzNDRdfQ==
+eyJoaXN0b3J5IjpbLTM3NTc0MjAxOCwxNjI3MDk0NzMwLC04MD
+g4NDYwNjgsLTExMjQ2Nzc3NDcsLTMzMjc0Mzc3NCwxNDY2Nzg0
+NDk1LC0zMTEyNjQ4NzUsLTIwMjIxNTc4MjEsLTEwNDQxODQ0Ny
+wtNTU0NzM3OTkzLC0xNzIxNTgzODA3LDU1NDQzMzg2MCwxNjUx
+MDQwMjk3LDYzMzgyOTY0NywtMTU3Nzk0NjgwNywtMTM0NjA0OT
+Y2MSwxMTc0MDg0NTQxLDU0NzcwMzE5NiwtNTg4MzA0MjI0LC05
+ODk1NDAzNDRdfQ==
 -->
