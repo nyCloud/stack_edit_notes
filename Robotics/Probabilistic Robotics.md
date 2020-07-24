@@ -13,13 +13,16 @@ $$p(x) = \frac {1}{\sqrt{2\pi\sigma}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$$
 $$p(x) = \frac{1}{\sqrt{det(2\pi\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$$
 
 #### 1.2 Bayes Filter
-$p(x_t|x_{t-1}, u, z) = p()$
 
 Bayes_Filter(bel($x_{t-1}$), $u_t$, $z_t$):
 $\qquad$ for all m in $x_t$:
 $\qquad\qquad$$\bar{bel}(x_t=m)=\sum_{n}{p(x_t|u_t,x_{t-1}=n)bel(x_{t-1}=n)}$
 $\qquad\qquad$$bel(x_t=m)=\eta p(z_t|x_t=m)\bar{bel}(x_t=m)$
 $\qquad$ return $bel(x_t)$
+
+```diff
+!
+```
 
 ## 2. Gaussian Filters
 
@@ -104,11 +107,11 @@ $\qquad  return\;X_t$
 # 3. Localization & Position Estimation
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODg0NjA2OCwtMTEyNDY3Nzc0NywtMz
-MyNzQzNzc0LDE0NjY3ODQ0OTUsLTMxMTI2NDg3NSwtMjAyMjE1
-NzgyMSwtMTA0NDE4NDQ3LC01NTQ3Mzc5OTMsLTE3MjE1ODM4MD
-csNTU0NDMzODYwLDE2NTEwNDAyOTcsNjMzODI5NjQ3LC0xNTc3
-OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwODQ1NDEsNTQ3NzAzMT
-k2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3NTg0NzY5MDAsNDIy
-MjYzNDA0XX0=
+eyJoaXN0b3J5IjpbLTE2MTk2ODQ0OTgsLTgwODg0NjA2OCwtMT
+EyNDY3Nzc0NywtMzMyNzQzNzc0LDE0NjY3ODQ0OTUsLTMxMTI2
+NDg3NSwtMjAyMjE1NzgyMSwtMTA0NDE4NDQ3LC01NTQ3Mzc5OT
+MsLTE3MjE1ODM4MDcsNTU0NDMzODYwLDE2NTEwNDAyOTcsNjMz
+ODI5NjQ3LC0xNTc3OTQ2ODA3LC0xMzQ2MDQ5NjYxLDExNzQwOD
+Q1NDEsNTQ3NzAzMTk2LC01ODgzMDQyMjQsLTk4OTU0MDM0NCw3
+NTg0NzY5MDBdfQ==
 -->
